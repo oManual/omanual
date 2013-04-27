@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com" targetNamespace="http://omanual.com">
+   <xs:element name="manifest">
+      <xs:complexType>
+         <xs:all minOccurs="0">
+            <xs:element ref="title"/>
+            <xs:element ref="description"/>
+            <xs:element ref="categories"/>
+            <xs:element ref="procedures"/>
+            <xs:element ref="documents"/>
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="description" type="xs:string"/>
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="category"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="procedures">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="procedure"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="procedure">
+      <xs:complexType>
+         <xs:all minOccurs="0">
+            <xs:element ref="title"/>
+            <xs:element ref="url"/>
+            <xs:element ref="path"/>
+            <xs:element ref="thumbnail"/>
+         </xs:all>
+         <xs:attribute name="id" use="required" type="xs:integer"/>
+         <xs:attribute name="subject" use="required"/>
+         <xs:attribute name="type" use="required" type="xs:string"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="path" type="xs:string"/>
+   <xs:element name="url" type="xs:anyURI"/>
+   <xs:element name="thumbnail" type="xs:anyURI"/>
+   <xs:element name="documents">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="document"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="document">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="type" use="required" type="xs:string"/>
+               <xs:attribute name="id" use="required" type="xs:integer"/>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="title" type="xs:string"/>
+   <xs:element name="category" type="xs:string"/>
+</xs:schema>

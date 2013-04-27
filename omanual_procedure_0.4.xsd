@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com/schema" targetNamespace="http://omanual.com/schema">
+
+   <xs:annotation>
+      <xs:documentation xml:lang="en">
+         A procedure is a structured collection of steps. Each must include
+         text and media. For consistency of display, we recommend each step
+         consist of either 1-3 images or one rich media object, as well as no
+         more than eight lines of text.
+      </xs:documentation>
+   </xs:annotation>
+
+   <xs:include schemaLocation="omanual_simplifiedhtml_0.4.xsd" />
+
+   <xs:element name="procedure">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               The root node of the oManual procedure.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element ref="title" />
+            <xs:element ref="summary" />
+            <xs:element ref="image" />
+            <xs:element ref="author" />
+            <xs:element ref="time_required" />
+            <xs:element ref="difficulty" />
+            <xs:element ref="categories" />
+            <xs:element ref="introduction" />
+            <xs:element ref="modified_date" />
+            <xs:element ref="created_date" />
+            <xs:element ref="tools" />
+            <xs:element ref="parts" />
+            <xs:element ref="flags" />
+            <xs:element ref="documents" />
+            <xs:element ref="prerequisites"/>
+            <xs:element ref="steps"/>
+            <xs:element ref="conclusion"/>
+         </xs:sequence>
+         <xs:attribute name="locale" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The language the procedure is written in.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="modified_date" type="xs:dateTime">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            Format (YYYY-MM-DDThh:mm:ss) - Date and time this procedure was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="created_date" type="xs:dateTime">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            Format (YYYY-MM-DDThh:mm:ss) - Date and Time when this procedure was first created.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="title">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Contains the title of the procedure.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="subject" use="optional" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        The subject of the procedure. ex: Bottom Bezel Bracket
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+               <xs:attribute name="type" use="optional" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        What the procedure explains in relation to the subject. ex: Installation
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="summary" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            A text field that contains less than or equal to 255 characters describing the procedure.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="author">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Contains the author of the procedure.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="id" use="optional" type="xs:integer">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        An id uniquely identifying the user, to be used to tie authors together across documents. (Can be a string or an integer)
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="time_required" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            A human readable description of how long the procedure takes. ex: 15 minutes
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="difficulty" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            Format (YYYY-MM-DDThh:mm:ss) - Date and Time when this procedure was first created.
+            A determination of the difficulty of the procedure for your target audience. Please choose from one of these five options:
+            <ul>
+               <li>Very easy</li>
+               <li>Easy</li>
+               <li>Moderate</li>
+               <li>Difficult</li>
+               <li>Very difficult</li>
+            </ul>
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A root container for the category tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element ref="category" minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="category" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            A single category the procedure belongs to. To specify multiple categories put multiple category tags in the categories tag. There is not a global list of documentation categories, but you&#39;ll want to be consistent within your own documentation.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="introduction">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               <a href="#simpleHTML">Simplified HTML</a> formatted text introducing the procedure. This could describe anything from how to set up for the procedure to an introduction of the procedures subject matter. There is no length limit, but we suggest limiting this to no more than 2-3 paragraphs. Optionally, you can include a media tag AFTER the html which can contain media relevant to introducing the procedure.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" ref="media" />
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+         <xs:attribute name="introduction_raw" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  An id uniquely identifying the user, to be used to tie authors together across documents. (Can be a string or an integer)
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tools">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the tool tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tool">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A required or suggested tool or implement. Use a name common to all of your procedures and specify variations using the type attribute.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="type" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The type of tool. Specifying type can be a useful way of consolidating tool names, for example an 8mm socket could be specified as name: socket, type: 8mm.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="quantity" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Integer quantity of tool required. If omitted, this is assumed to be 1.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to an image to go along with the tool.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="notes" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Information specific to using this tool for this procedure.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="url" use="optional" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A URL for an external reference describing the tool.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="sku" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The manufacturer SKU  / part number.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="parts">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the part tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded"  ref="part" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="part">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A part, material, or ingredient used in the procedure. Use a name common to all of your procedures and specify variations using the type attribute.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="notes" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Information specific to using this part for this procedure.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  URI of an image to go along with the part.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="url" use="optional" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A URL for a page describing the part.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="quantity" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  How many of this part are required.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="type" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The type of part. Specifying type can be a useful way of consolidating names, for example a 5Ω resistor could be specified as name: resistor, type: 5Ω.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="guid" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A global string identifier for the part.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flags">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the flag tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flag">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A flag or informational note about the procedure. The text field contains a full text notice of what this flag means to the user.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="id"  use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A unique string identifier for the flag.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="title" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A short title for the flag. ex: "In Progress"
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="image" use="optional" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  URI of an image to go along with the flag, no larger than 44x44.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="documents">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the document tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="document" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="document">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A document attached to the procedure. The text for this element should be the filename of the attached document.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="url" use="optional" type="xs:anyURI">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        Relative path, or HTTP url, to the location of the document.
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="prerequisites">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the prerequisite tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="prerequisite" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="prerequisite">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               The title of a prerequisite procedure. Prerequisite procedures should be written such that steps can be <em>inlined</em> directly into this procedure. You can see an example of this with the <a href="http://www.ifixit.com/Guide/Installing-MacBook-Core-2-Duo-RAM/512/1">prerequisite implementation on iFixit</a>.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="id" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  An id for the associated prerequisite procedure.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="locale" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The language the procedure prerequisite is written in.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="path" use="required" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The relative path to the prerequisite procedure XML file in the oManual package.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="steps">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the step tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="step" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="step">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               The step. Contains the line, object, and image elements.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:all>
+            <xs:element ref="lines" minOccurs="1" maxOccurs="8" />
+            <xs:element ref="media" minOccurs="0" maxOccurs="1" />
+         </xs:all>
+         <xs:attribute name="number" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The step number starting from 1.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="title" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The title of the step.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="lines">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the line tag. We recommend a step not have more than eight lines, and that each line not exceed 500 characters. It is best to think of each line as a discrete piece of information or instruction.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="8" ref="line" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="line">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A bullet line of text in the step or paragraph of instructions. Recommended not to exceed 500 characters.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:any minOccurs="0" />
+         </xs:sequence>
+         <xs:attribute name="bullet" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Which color or type of bullet to use. If you specify icon_note, icon_reminder, or icon_caution, the bullet color should default to black. Valid values are:
+                  <ul>
+                     <li>black</li>
+                     <li>red</li>
+                     <li>orange</li>
+                     <li>yellow</li>
+                     <li>green</li>
+                     <li>blue</li>
+                     <li>violet</li>
+                     <li>icon_note</li>
+                     <li>icon_reminder</li>
+                     <li>icon_caution</li>
+                  </ul>
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="level" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  How indented this line is. We recommend that the indentation level is no larger than 2.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="media">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the step media. Each step can have one of these: 1-3 images OR a video OR a remote oEmbed object.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:choice>
+               <xs:element maxOccurs="3" ref="image" />
+               <xs:element maxOccurs="1" ref="embed" />
+               <xs:element maxOccurs="1" ref="video" />
+            </xs:choice>
+         </xs:sequence>
+         <xs:attribute name="type" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The type of media. Valid values: image, video, embed.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="image">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Image to include with this step.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="orderby" use="optional" type="xs:positiveInteger">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The image order relative to the others.  Starts at 1.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="large" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 800x600.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="medium" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 592x444.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="standard" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 300x225.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 96x72.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="mini" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 56x42.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="embed">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Remote embed to include with this step. Each embed can include the same fields specified by the <a href="http://oembed.com/#section2" target="_blank" title="Open oEmbed spec in seperate window">oEmbed spec</a>.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="type" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="http://oembed.com/#section2" target="_blank">oembed spec</a> to learn more.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="cache_age" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The <i>suggested</i> cache lifetime for this resource, in seconds. Consumers may choose to use this value or not.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail_url" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A URL to a thumbnail image representing the resource. The thumbnail must respect any <code>maxwidth</code> and <code>maxheight</code> parameters. If this paramater is present, <code>thumbnail_width</code> and <code>thumbnail_height</code> must also be present.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail_height" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The height of the optional thumbnail. If this paramater is present, <code>thumbnail_url</code> and <code>thumbnail_width</code> must also be present.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail_width" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The width of the optional thumbnail. If this paramater is present, <code>thumbnail_url</code> and <code>thumbnail_height</code> must also be present.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="provider_url" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The url of the resource provider.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="provider_name" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The name of the resource provider.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="author_url" type="xs:anyURI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A URL for the author/owner of the resource.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="author_name" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The name of the author/owner of the resource.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="version" type="xs:decimal">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The oEmbed version number. This must be <code>1.0</code>.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="title" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  A text title, describing the resource.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="height" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The height of the embedded object.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="width" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The width of the embedded object.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="html" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The body of the embed object, could be IFrame embeded content or a block of html depending on the type.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="video">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Video to include with this step.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="unbounded" ref="encoding" />
+            <xs:element minOccurs="1" maxOccurs="1" ref="source" />
+            <xs:element minOccurs="1" maxOccurs="1" ref="poster" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="poster">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Default image for the video.  Usually a descriptive image that's shown before the video is loaded or played.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="ratio" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Ratio of the thumbnail image.  Possible values: ONE_ONE, FOUR_THREE, VARIABLE.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="guid" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Unique identifier for the video poster.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="large" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 800x600.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="medium" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 592x444.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="standard" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 300x225.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="thumbnail" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 96x72.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="mini" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Path to the image no larger than 56x42.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="source">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the part tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="duration_in_ms" use="optional" type="xs:long">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="audio_bitrate_in_kbps" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="audio_sample_rate" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="video_bitrate_in_kbps" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="total_bitrate_in_kbps" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="video_codec" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="audio_codec" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="frame_rate" use="optional" type="xs:decimal">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="format" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="channels" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="file_size_in_bytes" use="optional" type="xs:long">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="width" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="height" use="optional" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="encoding">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Describes the different possible encodings for the video.  Different web browsers, mobile devices and operating systems require different formats to play videos.  Because of this, there can be 1 to N number of encodings.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:attribute name="width" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Video Width
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="height" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Video Height
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="codecs" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Compression standard used by the video.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="format" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Type of file container that holds one or more codecs.  For example - MOV, OGG, AVI, MP4.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="mime" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Internet media type, usually video/{format}.  For example - video/ogg, video/mp4, video/webm
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="conclusion">
+      <xs:complexType mixed="true">
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               Simple HTML-formatted text for the conclusion.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+         <xs:attribute name="conclusion_raw" use="optional" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  Raw, unformatted text of the conclusion field.  Includes wiki markup text useful if writing applications that would like to augment the fields.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

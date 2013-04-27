@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com" targetNamespace="http://omanual.com">
+   <xs:element name="procedure">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="title"/>
+            <xs:element ref="summary"/>
+            <xs:element ref="image"/>
+            <xs:element ref="author"/>
+            <xs:element ref="time_required"/>
+            <xs:element ref="difficulty"/>
+            <xs:element ref="categories"/>
+            <xs:element ref="introduction"/>
+            <xs:element ref="introduction_rendered"/>
+            <xs:element ref="tools"/>
+            <xs:element ref="parts"/>
+            <xs:element ref="flags"/>
+            <xs:element ref="documents"/>
+            <xs:element ref="prerequisites"/>
+            <xs:element ref="steps"/>
+            <xs:element ref="conclusion"/>
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="title" type="xs:string"/>
+  <xs:element name="summary" type="xs:string" />
+   <xs:element name="author">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="id" use="required" type="xs:integer"/>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+  <xs:element name="time_required" type="xs:string" />
+   <xs:element name="difficulty" type="xs:string"/>
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="category"/>
+         </xs:all>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="category" type="xs:string"/>
+   <xs:element name="introduction" type="xs:string"/>
+   <xs:element name="introduction_rendered" type="xs:string"/>
+   <xs:element name="tools">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="tool">
+      <xs:complexType mixed="true">
+         <xs:attribute name="notes" use="required"/>
+         <xs:attribute name="thumbnail" use="required" type="xs:anyURI"/>
+         <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="parts">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded"  ref="part"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="part">
+      <xs:complexType mixed="true">
+         <xs:attribute name="notes" use="required"/>
+         <xs:attribute name="thumbnail" use="required" type="xs:anyURI"/>
+         <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      </xs:complexType>
+   </xs:element>
+  <xs:element name="flags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flag">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:string"/>
+      <xs:attribute name="title" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+   <xs:element name="documents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="document"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="url" use="required" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="prerequisites">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="prerequisite"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="prerequisite">
+      <xs:complexType mixed="true">
+         <xs:attribute name="id" use="required" type="xs:integer"/>
+         <xs:attribute name="locale" use="required" type="xs:string"/>
+         <xs:attribute name="path" use="required"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="steps">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="step"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="step">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="lines"/>
+            <xs:element ref="images"/>
+         </xs:all>
+         <xs:attribute name="number" use="required" type="xs:integer"/>
+         <xs:attribute name="title" use="required"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="lines">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="line"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="line">
+      <xs:complexType mixed="true">
+         <xs:attribute name="bullet" use="required" type="xs:string"/>
+         <xs:attribute name="level" use="required" type="xs:integer"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="images">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="image"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="conclusion" type="xs:string"/>
+   <xs:element name="image">
+      <xs:complexType mixed="true">
+         <xs:attribute name="orderby" type="xs:integer"/>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
