@@ -25,39 +25,16 @@
             <xs:element ref="procedures" />
             <xs:element ref="documents" />
          </xs:all>
-         <xs:attribute name="locale" use="required" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The language the manifest is written in.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="locale" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="title" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Contains the title of the oManual package.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="title" type="xs:string" />
 
-   <xs:element name="description" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            A brief, simple HTML formatted description of the manual.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="description" type="xs:string" />
 
    <xs:element name="procedures">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               List of procedures within the oManual package.
-            </xs:documentation>
-         </xs:annotation>
          <xs:sequence>
             <xs:element maxOccurs="unbounded" ref="procedure" />
          </xs:sequence>
@@ -66,14 +43,6 @@
 
    <xs:element name="procedure">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               Individual procedure element. A short description of the
-               procedure that's contained within the oManual package. The
-               corresponding file in the package has the filename
-               procedure-{id}.xml.
-            </xs:documentation>
-         </xs:annotation>
          <xs:all minOccurs="0">
             <xs:element ref="procedure.title" />
             <xs:element ref="url" />
@@ -81,70 +50,21 @@
             <xs:element ref="thumbnail" />
             <xs:element ref="image_url" />
          </xs:all>
-         <xs:attribute name="id" use="required" type="xs:integer">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  An integer identifier for the procedure.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="subject" use="required" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The subcomponent the procedure will be operating on.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="type" use="required" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The type of procedure to perform. Suggested options:
-                  installation, maintenance, repair, disassembly, technique.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="id" use="required" type="xs:integer" />
+         <xs:attribute name="subject" use="required" type="xs:string" />
+         <xs:attribute name="type" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="procedure.title" type="xs:anyURI">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            The title of the procedure.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="procedure.title" type="xs:anyURI" />
 
-   <xs:element name="url" type="xs:anyURI">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            URL to the canonical online source for this procedure.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="url" type="xs:anyURI" />
 
-   <xs:element name="path" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Path to the procedure&#39;s XML file.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="path" type="xs:string" />
 
-   <xs:element name="image_url" type="xs:anyURI">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Path to the full size main procedure image.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="image_url" type="xs:anyURI" />
 
-   <xs:element name="thumbnail" type="xs:anyURI">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Path to the procedures thumbnail image.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="thumbnail" type="xs:anyURI" />
 
    <xs:element name="documents">
       <xs:complexType>
@@ -156,29 +76,10 @@
 
    <xs:element name="document">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A document included in the package. The text for this element
-               should be the absolute path to the document.
-            </xs:documentation>
-         </xs:annotation>
          <xs:simpleContent>
             <xs:extension base="xs:string">
-               <xs:attribute name="id" use="required" type="xs:integer">
-                  <xs:annotation>
-                     <xs:documentation xml:lang="en">
-                        Integer identifier for the document.
-                     </xs:documentation>
-                  </xs:annotation>
-               </xs:attribute>
-               <xs:attribute name="type" use="required" type="xs:string">
-                  <xs:annotation>
-                     <xs:documentation xml:lang="en">
-                        Type must be 'topic' if the file is an oManual topic.
-                        Otherwise, specify the MIME type of the file.
-                     </xs:documentation>
-                  </xs:annotation>
-               </xs:attribute>
+               <xs:attribute name="id" use="required" type="xs:integer" />
+               <xs:attribute name="type" use="required" type="xs:string" />
             </xs:extension>
          </xs:simpleContent>
       </xs:complexType>

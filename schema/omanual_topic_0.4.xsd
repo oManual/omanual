@@ -13,11 +13,6 @@
 
    <xs:element name="topic">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               The root node of the oManual topic.
-            </xs:documentation>
-         </xs:annotation>
          <xs:all>
             <xs:element ref="title" />
             <xs:element ref="topic_info" />
@@ -28,70 +23,24 @@
             <xs:element ref="solutions" />
             <xs:element ref="contents" />
          </xs:all>
-         <xs:attribute name="locale" use="required" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The language the topic is written in.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="locale" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="title" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Contains the title of the topic document (which may differ from the topic name).
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="title" type="xs:string" />
 
    <xs:element name="topic_info">
       <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               Text should contain the canonical name of the topic.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:attribute name="discontinued" use="optional" type="xs:integer">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Only relevant for devices. The UNIX epoch date that the device was discontinued. If the device is still available, leave the attribute empty.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="introduced" use="optional" type="xs:integer">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Only relevant for devices. The UNIX epoch date that the device was first sold.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="manufacturer" use="optional" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Only relevant for devices. The canonical name of the device's manufacturer.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="discontinued" use="optional" type="xs:integer" />
+         <xs:attribute name="introduced" use="optional" type="xs:integer" />
+         <xs:attribute name="manufacturer" use="optional" type="xs:string" />
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="image" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Path to an image of the topic, relative to this file.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="image" type="xs:string" />
 
    <xs:element name="description">
       <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A brief, simple HTML formatted description of the document.
-            </xs:documentation>
-         </xs:annotation>
          <xs:sequence>
             <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
@@ -100,11 +49,6 @@
 
    <xs:element name="flags">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A container for the flag tag.
-            </xs:documentation>
-         </xs:annotation>
          <xs:sequence>
             <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag" />
          </xs:sequence>
@@ -113,87 +57,31 @@
 
    <xs:element name="flag">
       <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A flag or informational note about the topic. The text field contains a full text notice of what this flag means to the user.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:attribute name="id" use="optional" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  A unique identifier for the flag.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="title" use="required" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  A short title for the flag. (ex: In Progress)
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="image" use="optional" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  URI of an image to go along with the flag, no larger than 44x44.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="id" use="optional" type="xs:string" />
+         <xs:attribute name="title" use="required" type="xs:string" />
+         <xs:attribute name="image" use="optional" type="xs:anyURI" />
       </xs:complexType>
    </xs:element>
 
    <xs:element name="categories">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A root container for the category tag.
-            </xs:documentation>
-         </xs:annotation>
          <xs:sequence>
             <xs:element minOccurs="0" maxOccurs="unbounded" ref="category" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="category" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            A single category the topic belongs to. To specify multiple categories put multiple category tags in the categories tag. There is not currently a global list of documentation categories.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
+   <xs:element name="category" type="xs:string" />
 
    <xs:element name="solutions">
       <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A reference to an external mailinglist, Q&amp;A site, message board - anywhere your audience can find additional troubleshooting information. For example, <a href="http://ifixit.com/Answers" title="iFixit Answers" target="_blank">iFixit Answers</a> and <a href="http://stackoverflow.com">Stack Overflow</a> are two examples of solution providers.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:attribute name="count" use="required" type="xs:integer">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Number of solutions available on this topic.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="url" use="required" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  URL to the topic-specifc solutions.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
+         <xs:attribute name="count" use="required" type="xs:integer" />
+         <xs:attribute name="url" use="required" type="xs:anyURI" />
       </xs:complexType>
    </xs:element>
 
    <xs:element name="contents">
       <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               HTML-formatted text of the document. This is not required, but is an opportunity to provide additional unstructured information about the topic.
-            </xs:documentation>
-         </xs:annotation>
          <xs:sequence>
             <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
