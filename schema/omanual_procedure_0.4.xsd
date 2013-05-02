@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com/schema" targetNamespace="http://omanual.com/schema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns="http://omanual.com/schema"
+   elementFormDefault="qualified" 
+   targetNamespace="http://omanual.com/schema">
 
    <xs:annotation>
       <xs:documentation xml:lang="en">
@@ -111,29 +114,22 @@
    <xs:element name="parts">
       <xs:complexType>
          <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded"  ref="part" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="part" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
 
    <xs:element name="part">
       <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+         </xs:sequence>
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />
          <xs:attribute name="quantity" use="optional" type="xs:string" />
          <xs:attribute name="type" use="optional" type="xs:string" />
          <xs:attribute name="url" use="optional" type="xs:anyURI" />
-
-         <xs:element ref="external_sources" />
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="external_sources">
-      <xs:complexType>
-         <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
-         </xs:sequence>
       </xs:complexType>
    </xs:element>
 
