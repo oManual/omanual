@@ -1,7 +1,7 @@
 
 <p>
   A procedure is a structured collection of steps. Each must include text and 
-media. For consistency of display, we recommend each step consist of either 1-3 
+media. For consistency of display, we recommend each step consist of 1-3 
 images or one rich media object, as well as no more than eight lines of text.
 </p>
 
@@ -96,7 +96,6 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#author">author</a></h4>
             <p class="desc">
-            Author of the procedure.
                Author of the procedure.  In the case of multiple authors, this would be the primary author or maintainer of the procedure.
             </p>
             <div>
@@ -141,7 +140,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req" id="introduction">
             <h4><a href="#introduction">introduction</a></h4>
             <p class="desc">
-            <a href="#simpleHTML">Simplified HTML</a> formatted text introducing the procedure. This could describe anything from how to set up for the procedure to an introduction of the procedures subject matter. There is no length limit, but we suggest limiting this to no more than 2-3 paragraphs. Optionally, you can include a media element <strong>AFTER</strong> the html which can contain media relevant to introducing the procedure.
+            <a href="#simpleHTML">Simplified HTML</a> formatted text introducing the procedure. This could describe anything from how to set up for the procedure to an introduction of the procedures subject matter. There is no length limit, but we suggest limiting this to no more than 2-3 paragraphs.
             </p>
             <div>
                <ul class="attr">
@@ -205,8 +204,8 @@ images or one rich media object, as well as no more than eight lines of text.
                         <ul class="attr">
                            <li class="attr-intro">Attributes:</li>
                            <li><strong>url</strong> <em>required</em> Relative location of the video, or a URL if the video is not stored locally</li>
-                           <li><strong>width</strong> <em>required</em> Video Width</li>
-                           <li><strong>height</strong> <em>required</em> Video Height</li>
+                           <li><strong>width</strong> <em>required</em> Video width.</li>
+                           <li><strong>height</strong> <em>required</em> Video height.</li>
                            <li><strong>codecs</strong> <em>required</em> Compression standard used by the video.</li>
                            <li><strong>format</strong> <em>required</em> Type of file container that holds one or more codecs.  For example - MOV, OGG, AVI, MP4.</li>
                            <li><strong>mime</strong> <em>required</em> Internet media type, usually video/{format}.  For example - video/ogg, video/mp4, video/webm</li>
@@ -236,7 +235,12 @@ images or one rich media object, as well as no more than eight lines of text.
                   <div class="tag" id="source">
                      <h4><a href="#source">source</a></h4>
                      <p class="desc">
-                     Detailed information about the original video source.  This is useful if you have encoded a video from a different codec and format and would like to store information about the original video or access additional information, such as frame_rate or audio_codec which would stay the same between different encodings.  This element is flexible, meaning it can include any attributes in addition to the ones described below.
+                     Detailed information about the original video source.
+                     This is useful if you have encoded a video from a different codec and format 
+                     and would like to store information about the original video or access 
+                     additional information, such as frame_rate or audio_codec which would stay the 
+                     same between different encodings.  This element is flexible, meaning it can 
+                     include any attributes in addition to the ones described below.
                      </p>
                      <div>
                         <ul class="attr">
@@ -313,7 +317,7 @@ images or one rich media object, as well as no more than eight lines of text.
                      <li><strong>notes</strong> <em>optional</em> Information specific to using this tool for this procedure.</li>
                      <li><strong>thumbnail</strong> <em>optional</em> Path to an image to go along with the tool.</li>
                      <li><strong>url</strong> <em>optional</em> A URL for an external reference describing the tool.</li>
-                     <li><strong>sku</strong> <em>optional</em> The manufacturer SKU  / part number.</li>
+                     <li><strong>sku</strong> <em>optional</em> The manufacturer SKU / part number.</li>
                   </ul>
                </div>
             </div>
@@ -363,12 +367,12 @@ images or one rich media object, as well as no more than eight lines of text.
                   <div class="tag">
                      <h4><a href="#external-sources">external_source</a></h4>
                      <p class="desc">
-                         External source used for sourcing and aquiring this part.  Could be an e-commerce site, brick and morter store, procedure or full oManual.
+                         External source used for sourcing and aquiring this part.  Could be an e-commerce site, brick and mortar store, procedure or full oManual.
                      </p>
                      <div>
                         <ul class="attr">
                            <li class="attr-intro">Attributes:</li>
-                           <li><strong>id</strong> <em>optional</em> String identifier for the part at the external resource.  If the external source is a procedure, the id would be the procedure name.</li>
+                           <li><strong>id</strong> <em>optional</em> String identifier for the part at the external source.  If the external source is a procedure, the id would be the procedure name.</li>
                            <li><strong>url</strong> <em>optional</em> Path to an external site that sells or distributes this part.  Alternatively, it could be a relative path to a different procedure that produces this part.</li>
                            <li><strong>notes</strong> <em>optional</em> Any important information about this source.  For example, if the source is notorious for slow shipping times or poor quality, this would be the place to note that.</li>
                         </ul>
@@ -582,12 +586,12 @@ images or one rich media object, as well as no more than eight lines of text.
                      <div>
                         <ul class="attr">
                            <li class="attr-intro">Attributes:</li>
-                           <li><strong>url</strong> <em>required</em> Relative location of the video, or a URL if the video is not stored locally</li>
-                           <li><strong>width</strong> <em>required</em> Video Width</li>
-                           <li><strong>height</strong> <em>required</em> Video Height</li>
+                           <li><strong>url</strong> <em>required</em> Relative location of the video, or a URL if the video is not stored locally.</li>
+                           <li><strong>width</strong> <em>required</em> Video width.</li>
+                           <li><strong>height</strong> <em>required</em> Video height.</li>
                            <li><strong>codecs</strong> <em>required</em> Compression standard used by the video.</li>
                            <li><strong>format</strong> <em>required</em> Type of file container that holds one or more codecs.  For example - MOV, OGG, AVI, MP4.</li>
-                           <li><strong>mime</strong> <em>required</em> Internet media type, usually video/{format}.  For example - video/ogg, video/mp4, video/webm</li>
+                           <li><strong>mime</strong> <em>required</em> Internet media type, usually video/{format}.  For example - video/ogg, video/mp4, video/webm./</li>
                         </ul>
                      </div>
                   </div>
@@ -679,5 +683,5 @@ images or one rich media object, as well as no more than eight lines of text.
          </div>
       </div>
    </div>
-</div>   
+</div>
 

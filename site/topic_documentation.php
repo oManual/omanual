@@ -131,7 +131,7 @@
                      <div class="tag" id="solutions">
                         <h4><a href="#categories-1">solutions</a></h4>
                         <p class="desc">
-                           A reference to an external mailinglist, Q&amp;A site, message board - anywhere your audience can find additional troubleshooting information. For example, <a href="http://ifixit.com/Answers" title="iFixit Answers" target="_blank">iFixit Answers</a> and <a href="http://stackoverflow.com">Stack Overflow</a> are two examples of solution providers.
+                           A reference to an external mailing list, Q&amp;A site, message board - anywhere your audience can find additional troubleshooting information. For example, <a href="http://ifixit.com/Answers" title="iFixit Answers" target="_blank">iFixit Answers</a> and <a href="http://stackoverflow.com">Stack Overflow</a> are two examples of solution providers.
                         </p>
                         <div>
                            <ul class="attr">
@@ -140,66 +140,6 @@
                               <li><strong>url</strong> <em>optional</em> URL to the topic-specific solutions.</li>
                            </ul>
                         </div>
-                     </div>
-
-                     <div class="tag req" id="parts">
-                        <h4><a href="#parts">parts</a></h4>
-                        <p class="desc">
-                        Overall parts list for the topic.
-                        </p>
-                        <div>
-                           <ul class="attr">
-                              <li class="attr-intro">Attributes:</li>
-                              <li><strong>url</strong> <em>optional</em> link to overall parts list.</li>
-                           </ul>
-                        </div>
-                     </div>
-
-                     <div class="subtag" id="part_category">
-                        <div class="tag">
-                           <h4><a href="#part">part_category</a></h4>
-                           <p class="desc">
-                           A part, material, or ingredient with the count and url to further information regarding the part.
-                           </p>
-                           <div>
-                              <ul class="attr">
-                                 <li class="attr-intro">Attributes:</li>
-                                 <li><strong>tag</strong> <em>optional</em> The tag, or name, of the part.</li>
-                                 <li><strong>count</strong> <em>optional</em> How many of this part are in included in the procedures of this guide.</li>
-                                 <li><strong>url</strong> <em>optional</em> link to more information of the part.</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-
-                     <div class="tag req" id="tools-1">
-                        <h4><a href="#tools-1">tools</a></h4>
-                        <p class="desc">
-                        </p>
-                        <div>
-                           <ul class="attr">
-                              <li class="attr-intro">Attributes: None</li>
-                           </ul>
-                        </div>
-                     </div>
-
-                     <div class="subtag" id="tool-1">
-                        <div class="tag">
-                           <h4><a href="#tool-1">tool</a></h4>
-                           <p class="desc">
-                           A tool used to work on this topic. Text is the common name for the tool.
-                           </p>
-                           <div>
-                              <ul class="attr">
-                                 <li class="attr-intro">Attributes:</li>
-                                 <li><strong>name</strong> - <em>optional</em> The canonical name of the tool.</li>
-                                 <li><strong class="req">url</strong> - <em>required</em> An URL to an online supplier&#39;s listing for this tool.</li>
-                                 <li><strong>thumbnail</strong> - <em>optional</em> URL for an image that represents the tool.</li>
-                              </ul>
-                           </div>
-                        </div>
-
                      </div>
 
                      <div class="tag" id="content">
