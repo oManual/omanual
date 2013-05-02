@@ -81,14 +81,14 @@ may be expanded in the future to enable additional types of documents.
       <p>The four endpoints listed below are all that is necessary to access your oManual data through a REST API. For an example API implementation, take a look at the <a href="https://www.ifixit.com/api/1.1/doc">iFixit API</a>.</p>
 
       <ul>
-         <li><a href="#guides"><span class="method">GET</span> /guides</a>
+         <li><a href="#procedures"><span class="method">GET</span> /procedures</a>
          <br />List all procedures</li>
-         <li><a href="#guide"><span class="method">GET</span> /guides/{guideid}</a>
-         <br />Returns detailed information and procedural steps from a specific guide.</li>
+         <li><a href="#procedure"><span class="method">GET</span> /procedures/{procedureid}</a>
+         <br />Returns detailed information and procedural steps from a specific procedure.</li>
          <li><a href="#category-list"><span class="method">GET</span> /categories</a>
          <br />Returns detailed category hierarchy which is the structured relationship between topics listed in the manifest.xml file.</li>
          <li><a href="#category"><span class="method">GET</span> /categories/{topicname}</a>
-         <br />Returns detailed topic information including topic specific media and guides.</li>
+         <br />Returns detailed topic information including topic specific media and the list of procedures.</li>
       </ul>
    </div>
 
@@ -138,14 +138,14 @@ may be expanded in the future to enable additional types of documents.
 
    <ul class="responses">
       <li>
-         <a name="guides"></a>
+         <a name="procedures"></a>
          <h3>
             GET /procedures
             <a href="https://ifixit.com/api/1.1/guides?limit=1000" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>
       <li>
-         <a name="guide"></a>
+         <a name="procedure"></a>
          <h3>
             GET /procedures/{procedureid}
             <a href="https://ifixit.com/api/1.1/guides/123" target="_blank" class="downloadbtn">Example </a>
