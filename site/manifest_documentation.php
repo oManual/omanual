@@ -121,7 +121,7 @@ may additionally reference its own media.
            <div class="tag" id="thumbnail">
               <h4><a href="#thumbnail">thumbnail </a></h4>
               <p class="desc">
-              URL to an online thumbnail image.
+              Path to the procedures thumbnail image.
               </p>
               <div>
                  <ul class="attr">
@@ -133,7 +133,7 @@ may additionally reference its own media.
            <div class="tag" id="image_url">
               <h4><a href="#image_url">image_url</a></h4>
               <p class="desc">
-              URL to the full size main procedure image.
+              Path to the full size main procedure image.
               </p>
               <div>
                  <ul class="attr">
