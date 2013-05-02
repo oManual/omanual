@@ -17,7 +17,6 @@
          <xs:all minOccurs="0">
             <xs:element ref="title" />
             <xs:element ref="description" />
-            <xs:element ref="categories" />
             <xs:element ref="procedures" />
             <xs:element ref="documents" />
          </xs:all>
@@ -31,31 +30,18 @@
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="description" type="xs:string">
+   <xs:element name="title" type="xs:string">
       <xs:annotation>
          <xs:documentation xml:lang="en">
-            A brief, simple HTML formatted description of the manual.
+            Contains the title of the oManual package.
          </xs:documentation>
       </xs:annotation>
    </xs:element>
 
-   <xs:element name="categories">
-      <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A root container for the category tag.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:sequence>
-            <xs:element maxOccurs="unbounded" minOccurs="0" ref="category" />
-         </xs:sequence>
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="category" type="xs:string">
+   <xs:element name="description" type="xs:string">
       <xs:annotation>
          <xs:documentation xml:lang="en">
-            A single category the oManual belongs to. To specify multiple categories put multiple category tags in the categories tag. There is not currently a global list of documentation categories.
+            A brief, simple HTML formatted description of the manual.
          </xs:documentation>
       </xs:annotation>
    </xs:element>
@@ -111,13 +97,6 @@
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="title" type="xs:string">
-      <xs:annotation>
-         <xs:documentation xml:lang="en">
-            Contains the title of the oManual package.
-         </xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:element name="url" type="xs:anyURI">
       <xs:annotation>
          <xs:documentation xml:lang="en">
