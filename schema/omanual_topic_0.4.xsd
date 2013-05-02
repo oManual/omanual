@@ -26,8 +26,6 @@
             <xs:element ref="flags" />
             <xs:element ref="categories" />
             <xs:element ref="solutions" />
-            <xs:element ref="parts" />
-            <xs:element ref="tools" />
             <xs:element ref="contents" />
          </xs:all>
          <xs:attribute name="locale" use="required" type="xs:string">
@@ -165,7 +163,6 @@
       </xs:annotation>
    </xs:element>
 
-
    <xs:element name="solutions">
       <xs:complexType>
          <xs:annotation>
@@ -184,101 +181,6 @@
             <xs:annotation>
                <xs:documentation xml:lang="en">
                   URL to the topic-specifc solutions.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="tools">
-      <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A container for the tool tag.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool" />
-         </xs:sequence>
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="tool">
-      <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A tool used to work on this topic. Text is the common name for the tool.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:attribute name="name" use="optional">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The canonical name of the tool.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  URL to the topic-specifc solutions.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="url" use="required" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  An URL to an online supplier's listing for this tool.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="parts">
-      <xs:complexType>
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               Overall parts list for the topic.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="part_category" />
-         </xs:sequence>
-         <xs:attribute name="url" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Link to the overall parts list for the topic.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-      </xs:complexType>
-   </xs:element>
-
-   <xs:element name="part_category">
-      <xs:complexType mixed="true">
-         <xs:annotation>
-            <xs:documentation xml:lang="en">
-               A part, material, or ingredient with the count and url to further information regarding the part.
-            </xs:documentation>
-         </xs:annotation>
-         <xs:attribute name="tag" type="xs:string">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  The tag, or name, of the part.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="url" type="xs:anyURI">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  Link to more information of the part.
-               </xs:documentation>
-            </xs:annotation>
-         </xs:attribute>
-         <xs:attribute name="count" type="xs:integer">
-            <xs:annotation>
-               <xs:documentation xml:lang="en">
-                  How many of this part are in included in the procedures of this guide.
                </xs:documentation>
             </xs:annotation>
          </xs:attribute>
