@@ -86,7 +86,6 @@
             <xs:element minOccurs="0" maxOccurs="1" ref="media" />
             <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
-         <xs:attribute name="introduction_raw" use="optional" type="xs:string" />
       </xs:complexType>
    </xs:element>
 
