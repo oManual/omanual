@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<manifest locale="en" xmlns="http://omanual.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omanual.com/openmanual_manifest_0.2.xsd">
+   <title>MacBook Core Duo Repair Manual</title>
+   <description><![CDATA[Model A1181 / 1.83 or 2.0 GHz Core Duo processor]]></description>
+   <categories>
+      <category>MacBook</category>
+   </categories>
+   <procedures>
+      <procedure id="287" subject="AirPort Card" type="installation">
+         <title>Installing MacBook Core Duo AirPort Card</title>
+         <path>Installing-AirPort-Card-287/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-AirPort-Card/287/1</url>
+         <thumbnail>http://www.ifixit.com/igi/jbM1fyNGJaqJQb4P.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="278" subject="Battery" type="installation">
+         <title>Installing MacBook Core Duo Battery</title>
+         <path>Installing-Battery-278/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Battery/278/1</url>
+         <thumbnail>http://www.ifixit.com/igi/WtxbFUNIbeP3tGDN.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="293" subject="Battery Connector" type="installation">
+         <title>Installing MacBook Core Duo Battery Connector</title>
+         <path>Installing-Battery-Connector-293/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Battery-Connector/293/1</url>
+         <thumbnail>http://www.ifixit.com/igi/JOEjZccBENAIVBTX.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="298" subject="Bluetooth Antenna" type="installation">
+         <title>Installing MacBook Core Duo Bluetooth Antenna</title>
+         <path>Installing-Bluetooth-Antenna-298/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Bluetooth-Antenna/298/1</url>
+         <thumbnail>http://www.ifixit.com/igi/qt3jRsGQoSYHWNCl.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="299" subject="Bluetooth Board" type="installation">
+         <title>Installing MacBook Core Duo Bluetooth Board</title>
+         <path>Installing-Bluetooth-Board-299/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Bluetooth-Board/299/1</url>
+         <thumbnail>http://www.ifixit.com/igi/vZHIELOnvV1IbJyD.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="300" subject="C-Channel" type="installation">
+         <title>Installing MacBook Core Duo C-Channel</title>
+         <path>Installing-C-Channel-300/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-C-Channel/300/1</url>
+         <thumbnail>http://www.ifixit.com/igi/k32ObwIFMPORgEYI.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="307" subject="Clutch Cover" type="installation">
+         <title>Installing MacBook Core Duo Clutch Cover</title>
+         <path>Installing-Clutch-Cover-307/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Clutch-Cover/307/1</url>
+         <thumbnail>http://www.ifixit.com/igi/tvCk5EG3lexLqFia.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="304" subject="Display" type="installation">
+         <title>Installing MacBook Core Duo Display</title>
+         <path>Installing-Display-304/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Display/304/1</url>
+         <thumbnail>http://www.ifixit.com/igi/BSUQPqO5BJeXRQdx.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="290" subject="Fan" type="installation">
+         <title>Installing MacBook Core Duo Fan</title>
+         <path>Installing-Fan-290/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Fan/290/1</url>
+         <thumbnail>http://www.ifixit.com/igi/ItMcnmTnLGgihRCn.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="306" subject="Front Bezel" type="installation">
+         <title>Installing MacBook Core Duo Front Bezel</title>
+         <path>Installing-Front-Bezel-306/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Front-Bezel/306/1</url>
+         <thumbnail>http://www.ifixit.com/igi/MMNMCMoL2VNdv2FH.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="281" subject="Hard Drive" type="installation">
+         <title>Installing MacBook Core Duo Hard Drive</title>
+         <path>Installing-Hard-Drive-281/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Hard-Drive/281/1</url>
+         <thumbnail>http://www.ifixit.com/igi/ujKeXbRbAuZYoQgB.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="291" subject="Hard Drive Connector" type="installation">
+         <title>Installing MacBook Core Duo Hard Drive Connector</title>
+         <path>Installing-Hard-Drive-Connector-291/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Hard-Drive-Connector/291/1</url>
+         <thumbnail>http://www.ifixit.com/igi/wEBOy2AKIeMJIYcP.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="282" subject="Hard Drive Replacement" type="installation">
+         <title>Installing MacBook Core Duo Hard Drive Replacement</title>
+         <path>Installing-Hard-Drive-Replacement-282/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Hard-Drive-Replacement/282/1</url>
+         <thumbnail>http://www.ifixit.com/igi/ZsdOULtZWpONmBOx.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="292" subject="Heat Sink" type="installation">
+         <title>Installing MacBook Core Duo Heat Sink</title>
+         <path>Installing-Heat-Sink-292/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Heat-Sink/292/1</url>
+         <thumbnail>http://www.ifixit.com/igi/nfycIIKDcvouyWXP.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="309" subject="Hinges" type="installation">
+         <title>Installing MacBook Core Duo Hinges</title>
+         <path>Installing-Hinges-309/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Hinges/309/1</url>
+         <thumbnail>http://www.ifixit.com/igi/E4X4PVCSY134VaOg.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="308" subject="Inverter" type="installation">
+         <title>Installing MacBook Core Duo Inverter</title>
+         <path>Installing-Inverter-308/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Inverter/308/1</url>
+         <thumbnail>http://www.ifixit.com/igi/EdJ5tnklAOoQtSRf.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="311" subject="LCD Panel" type="installation">
+         <title>Installing MacBook Core Duo LCD Panel</title>
+         <path>Installing-LCD-Panel-311/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-LCD-Panel/311/1</url>
+         <thumbnail>http://www.ifixit.com/igi/YmYNGUNxcfLJ2wbk.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="302" subject="Left Hinge Mount" type="installation">
+         <title>Installing MacBook Core Duo Left Hinge Mount</title>
+         <path>Installing-Left-Hinge-Mount-302/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Left-Hinge-Mount/302/1</url>
+         <thumbnail>http://www.ifixit.com/igi/wxvjjdR4jgvLeQGk.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="294" subject="Left I/O Frame" type="installation">
+         <title>Installing MacBook Core Duo Left I/O Frame</title>
+         <path>Installing-Left-IO-Frame-294/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Left-I-O-Frame/294/1</url>
+         <thumbnail>http://www.ifixit.com/igi/u2DQYMYQHw4HfbrG.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="289" subject="Left Speaker" type="installation">
+         <title>Installing MacBook Core Duo Left Speaker</title>
+         <path>Installing-Left-Speaker-289/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Left-Speaker/289/1</url>
+         <thumbnail>http://www.ifixit.com/igi/URYyLiuQkIJDdkQN.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="295" subject="Logic Board" type="installation">
+         <title>Installing MacBook Core Duo Logic Board</title>
+         <path>Installing-Logic-Board-295/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Logic-Board/295/1</url>
+         <thumbnail>http://www.ifixit.com/igi/PDrvQdoEmspX25Mo.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="296" subject="Logic Board Replacement" type="installation">
+         <title>Installing MacBook Core Duo Logic Board Replacement</title>
+         <path>Installing-Logic-Board-Replacement-296/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Logic-Board-Replacement/296/1</url>
+         <thumbnail>http://www.ifixit.com/igi/Md1oMNETIDCaGHWt.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="305" subject="Lower Case" type="installation">
+         <title>Installing MacBook Core Duo Lower Case</title>
+         <path>Installing-Lower-Case-305/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Lower-Case/305/1</url>
+         <thumbnail>http://www.ifixit.com/igi/KQmOZAHAHUuHr1wJ.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="288" subject="MagSafe Board" type="installation">
+         <title>Installing MacBook Core Duo MagSafe Board</title>
+         <path>Installing-MagSafe-Board-288/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-MagSafe-Board/288/1</url>
+         <thumbnail>http://www.ifixit.com/igi/2j5lyw2QRBXyjbNZ.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="279" subject="Memory Cover" type="installation">
+         <title>Installing MacBook Core Duo Memory Cover</title>
+         <path>Installing-Memory-Cover-279/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Memory-Cover/279/1</url>
+         <thumbnail>http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="284" subject="Optical Drive" type="installation">
+         <title>Installing MacBook Core Duo Optical Drive</title>
+         <path>Installing-Optical-Drive-284/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Optical-Drive/284/1</url>
+         <thumbnail>http://www.ifixit.com/igi/GHidR3TtmIJGLewD.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="285" subject="Optical Drive Cable" type="installation">
+         <title>Installing MacBook Core Duo Optical Drive Cable</title>
+         <path>Installing-Optical-Drive-Cable-285/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Optical-Drive-Cable/285/1</url>
+         <thumbnail>http://www.ifixit.com/igi/iGBjYROEpFH33guH.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="286" subject="Optical Drive Replacement" type="installation">
+         <title>Installing MacBook Core Duo Optical Drive Replacement</title>
+         <path>Installing-Optical-Drive-Replacement-286/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Optical-Drive-Replacement/286/1</url>
+         <thumbnail>http://www.ifixit.com/igi/3eL3suoYYyxG1Ti2.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="297" subject="PRAM Battery" type="installation">
+         <title>Installing MacBook Core Duo PRAM Battery</title>
+         <path>Installing-PRAM-Battery-297/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-PRAM-Battery/297/1</url>
+         <thumbnail>http://www.ifixit.com/igi/56OxCajLJEBpNVC6.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="280" subject="RAM" type="installation">
+         <title>Installing MacBook Core Duo RAM</title>
+         <path>Installing-RAM-280/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-RAM/280/1</url>
+         <thumbnail>http://www.ifixit.com/igi/IIQwHEBRtmtiwcLS.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="310" subject="Rear Bezel" type="installation">
+         <title>Installing MacBook Core Duo Rear Bezel</title>
+         <path>Installing-Rear-Bezel-310/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Rear-Bezel/310/1</url>
+         <thumbnail>http://www.ifixit.com/igi/5pYPJpTexJnF1AVE.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="303" subject="Right Hinge Mount" type="installation">
+         <title>Installing MacBook Core Duo Right Hinge Mount</title>
+         <path>Installing-Right-Hinge-Mount-303/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Right-Hinge-Mount/303/1</url>
+         <thumbnail>http://www.ifixit.com/igi/bXaSpLrTPmTcNLVO.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="301" subject="Right Speaker" type="installation">
+         <title>Installing MacBook Core Duo Right Speaker</title>
+         <path>Installing-Right-Speaker-301/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Right-Speaker/301/1</url>
+         <thumbnail>http://www.ifixit.com/igi/tAluk5YYF2LLVvjH.thumbnail</thumbnail>
+      </procedure>
+      <procedure id="283" subject="Upper Case" type="installation">
+         <title>Installing MacBook Core Duo Upper Case</title>
+         <path>Installing-Upper-Case-283/procedure.xml</path>
+         <url>http://www.ifixit.com/Guide/Repair/Installing-MacBook-Core-Duo-Upper-Case/283/1</url>
+         <thumbnail>http://www.ifixit.com/igi/4J4iJDcT4IdGTcjH.thumbnail</thumbnail>
+      </procedure>
+   </procedures>
+   <documents>
+      <document id="60" type="device">.xml</document>
+   </documents>
+</manifest>
+

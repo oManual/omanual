@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+   <!-- Allowed HTML elements -->
+   <xs:element name="p" type="blockType" />
+   <xs:element name="a" type="blockType" />
+   <xs:element name="strong" type="blockType" />
+   <xs:element name="em" type="blockType" />
+   <xs:element name="h1" type="blockType" />
+   <xs:element name="h2" type="blockType" />
+   <xs:element name="h3" type="blockType" />
+   <xs:element name="h4" type="blockType" />
+   <xs:element name="h5" type="blockType" />
+   <xs:element name="tt" type="blockType" />
+   <xs:element name="code" type="blockType" />
+   <xs:element name="br" type="xs:string" />
+   <xs:element name="ul" type="blockType" />
+   <xs:element name="li" type="blockType" />
+   <xs:element name="sub" type="blockType" />
+   <xs:element name="sup" type="blockType" />
+   <xs:element name="del" type="blockType" />
+   <xs:element name="ins" type="blockType" />
+   <xs:element name="div" type="blockType" />
+
+   <xs:complexType name="blockType" mixed="true">
+      <xs:sequence minOccurs='0' maxOccurs='unbounded'>
+         <xs:choice>
+            <xs:element ref="a" />
+            <xs:element ref="strong" />
+            <xs:element ref="em" />
+            <xs:element ref="code" />
+            <xs:element ref="br" />
+            <xs:element ref="ul" />
+            <xs:element ref="li" />
+            <xs:element ref="sub" />
+            <xs:element ref="sup" />
+            <xs:element ref="del" />
+            <xs:element ref="ins" />
+         </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" use="optional"/>
+      <xs:attribute name="class" use="optional"/>
+      <xs:attribute name="href" use="optional"/>
+      <xs:attribute name="style" use="optional"/>
+      <xs:attribute name="rel" use="optional"/>
+      <xs:attribute name="title" use="optional"/>
+   </xs:complexType>
+
+</xs:schema>

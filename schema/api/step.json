@@ -1,0 +1,39 @@
+{
+   "title": "",
+   "lines": [
+      {
+      "text_raw": "Press and hold the battery release button and slide the battery away from the Nokia logo",
+      "bullet": "red",
+      "level": 0,
+      "lineid": 100136,
+      "text_rendered": "Press and hold the battery release button and slide the battery away from the Nokia logo"
+   }
+   ],
+   "media": {
+      "type": "image",
+      "data": [
+         {
+         "id": 69368,
+         "mini": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.mini",
+         "thumbnail": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.thumbnail",
+         "standard": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.standard",
+         "medium": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.medium",
+         "large": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.large",
+         "original": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5"
+      },
+      {
+         "id": 69365,
+         "mini": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.mini",
+         "thumbnail": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.thumbnail",
+         "standard": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.standard",
+         "medium": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.medium",
+         "large": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.large",
+         "original": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV"
+      }
+      ]
+   },
+   "guideid": 3792,
+   "stepid": 17939,
+   "orderby": 1,
+   "revisionid": 69272
+}

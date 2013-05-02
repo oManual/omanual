@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<device locale="en" xmlns="http://omanual.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omanual.com/openmanual_device_0.2.xsd">
+   <title>MacBook Core Duo Repair Manual</title>
+   <device_info discontinued="" introduced="" manufacturer="">MacBook Core Duo</device_info>
+   <image>media/main.jpg</image>
+   <description><![CDATA[Model A1181 / 1.83 or 2.0 GHz Core Duo processor]]></description>
+   <flags />
+   <categories>
+      <category>MacBook</category>
+   </categories>
+   <solutions count="60" url="http://www.ifixit.com/Answers/Device/MacBook+Core+Duo" />
+   <parts>
+      <partCategory>
+         <tag>AC Adapters</tag>
+         <count>6</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-AC+Adapters</url>
+      </partCategory>
+      <partCategory>
+         <tag>Batteries</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Batteries</url>
+      </partCategory>
+      <partCategory>
+         <tag>Cables</tag>
+         <count>7</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Cables</url>
+      </partCategory>
+      <partCategory>
+         <tag>Case Components</tag>
+         <count>8</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Case+Components</url>
+      </partCategory>
+      <partCategory>
+         <tag>Display Adapters</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Display+Adapters</url>
+      </partCategory>
+      <partCategory>
+         <tag>Fans</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Fans</url>
+      </partCategory>
+      <partCategory>
+         <tag>Hard Drive Enclosures</tag>
+         <count>3</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Hard+Drive+Enclosures</url>
+      </partCategory>
+      <partCategory>
+         <tag>Hard Drives (SATA)</tag>
+         <count>12</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Hard+Drives+SATA+</url>
+      </partCategory>
+      <partCategory>
+         <tag>Heat Sinks</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Heat+Sinks</url>
+      </partCategory>
+      <partCategory>
+         <tag>Hinges</tag>
+         <count>3</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Hinges</url>
+      </partCategory>
+      <partCategory>
+         <tag>Inverters</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Inverters</url>
+      </partCategory>
+      <partCategory>
+         <tag>Keyboards</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Keyboards</url>
+      </partCategory>
+      <partCategory>
+         <tag>LCDs</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-LCDs</url>
+      </partCategory>
+      <partCategory>
+         <tag>Logic Boards</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Logic+Boards</url>
+      </partCategory>
+      <partCategory>
+         <tag>MagSafe Boards</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-MagSafe+Boards</url>
+      </partCategory>
+      <partCategory>
+         <tag>Optical Drives</tag>
+         <count>6</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Optical+Drives</url>
+      </partCategory>
+      <partCategory>
+         <tag>PRAM Batteries</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-PRAM+Batteries</url>
+      </partCategory>
+      <partCategory>
+         <tag>RAM</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-RAM</url>
+      </partCategory>
+      <partCategory>
+         <tag>Screws</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Screws</url>
+      </partCategory>
+      <partCategory>
+         <tag>Software</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Software</url>
+      </partCategory>
+      <partCategory>
+         <tag>SSDs</tag>
+         <count>2</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-SSDs</url>
+      </partCategory>
+      <partCategory>
+         <tag>Wireless</tag>
+         <count>1</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Wireless</url>
+      </partCategory>
+      <partCategory>
+         <tag>Wireless Cards</tag>
+         <count>3</count>
+         <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo#0-Wireless+Cards</url>
+      </partCategory>
+      <url>http://www.ifixit.com/Mac-Parts/MacBook-13%22-Core-Duo</url>
+   </parts>
+   <tools />
+   <contents><![CDATA[<h2 id="Section_Troubleshooting"><span class="editLink headerLink"><a href="#edit" rel="nofollow" id="edit_1" class="editSectionLink muted">Edit</a></span>Troubleshooting<a class="anchor" href="#Section_Troubleshooting" title="Link to this section"> ¶ </a></h2>
+
+<p>Track down a number of hardware problems using the <a href="/Wiki/MacBook_Troubleshooting">MacBook troubleshooting guide</a>.</p>
+
+<h2 id="Section_Upgrades"><span class="editLink headerLink"><a href="#edit" rel="nofollow" id="edit_2" class="editSectionLink muted">Edit</a></span>Upgrades<a class="anchor" href="#Section_Upgrades" title="Link to this section"> ¶ </a></h2>
+
+<p>You can cost-effectively upgrade a number of components in the MacBook Core Duo.</p>
+
+<ul><li><strong>Memory:</strong> MacBook Core Duos come with <a href="/Apple-Parts/PC2-5300-512-MB-RAM-Chip/IF111-026">512 MB</a> standard. If your MacBook is still running with only the stock RAM, upgrading will provide a dramatic performance boost. <a href="/Guide/Repair/Installing-MacBook-Core-Duo-RAM/280/1">Upgrading</a> to the maximum of 2 GB can be done very easily by installing two <a href="/Apple-Parts/PC2-5300-1-GB-RAM-Chip/IF111-000">1 GB</a> RAM chips .</li><li><strong>Hard Drive:</strong> 60 or 80 GB SATA hard drives came standard with the MacBook Core Duo. You can <a href="/Guide/Repair/Installing-MacBook-Core-Duo-Hard-Drive-Replacement/282/1">upgrade</a> all the way up to a <a href="/Apple-Parts/500-GB-5400-RPM-Western-Digital-SATA-Hard-Drive-New/IF107-060">500 GB hard drive</a>.</li><li><strong>Battery:</strong> Replacing the battery requires a coin or a flat-edge tool release the battery latch. The <a href="/MacBook-Parts/MacBook-Battery/IF186-009">battery</a> can be <a href="/Guide/Repair/Installing-MacBook-Core-Duo-Battery/278/1">replaced</a> in less than 30 seconds.</li><li><strong>Optical Drive:</strong> The standard optical drive shipped with MacBooks is either a Combo Drive or a 4x or 6x SuperDrive. The optical drive can easily be <a href="/Guide/Repair/Installing-MacBook-Core-Duo-Optical-Drive-Replacement/286/1">upgraded</a> to an <a href="/MacBook-Parts/MacBook-8x-SuperDrive-Used/IF186-045">8x SuperDrive</a>.</li><li><strong>AirPort:</strong> The MacBook Core Duo shipped with an 802.11g AirPort card, but the stock card can be <a href="/Guide/Repair/Installing-MacBook-Core-Duo-AirPort-Card/287/1">replaced</a> with an <a href="/MacBook-Parts/MacBook-802-11n-Airport-Extreme-Card/IF185-038">802.11n AirPort card</a>.</li></ul>
+
+<h2 id="Section_Identification_and_Background"><span class="editLink headerLink"><a href="#edit" rel="nofollow" id="edit_3" class="editSectionLink muted">Edit</a></span>Identification and Background<a class="anchor" href="#Section_Identification_and_Background" title="Link to this section"> ¶ </a></h2>
+
+<p>The MacBook Core Duo is the only MacBook with an Intel Core Duo processor (later MacBooks use Core 2 Duo processors). If your MacBook turns on, you can verify that you have a Core Duo MacBook by checking the processor information through &quot;About This Mac&quot; in the Apple menu.</p>
+
+<p>Use the <a href="/info/ID-your-Mac">laptop identification system</a> to help you identify your machine. MacBooks tend to look very similar, and it's important to know which machine you have before ordering any replacement parts.</p>
+
+<p>Apple shipped the MacBook in two colors: basic white, and optional (and more expensive) black. Two other precedents were also set by the MacBook Core Duo: Apple included a new built-in iSight web camera, and the laptops included <a href="http://en.wikipedia.org/wiki/MagSafe">MagSafe</a> power connectors.</p>
+
+<p>The MacBook Core Duo was replaced six months later by the <a href="/Device/MacBook_Core_2_Duo">MacBook Core 2 Duo</a>, which offered a better processor, improved AirPort, and a larger maximum RAM capacity.</p>
+
+<h2 id="Section_Additional_Information"><span class="editLink headerLink"><a href="#edit" rel="nofollow" id="edit_4" class="editSectionLink muted">Edit</a></span>Additional Information<a class="anchor" href="#Section_Additional_Information" title="Link to this section"> ¶ </a></h2>
+
+<ul><li><a href="/Wiki/Troubleshoot">iFixit: List of Troubleshooting Guides</a></li><li><a href="/Wiki/DIY_Laptop_Upgrades">iFixit: DIY Laptop Upgrades</a></li><li><a href="http://en.wikipedia.org/wiki/MacBook">Wikipedia: MacBook</a></li><li><a href="http://mactracker.dreamhosters.com/" rel="nofollow">Mactracker: Application with Apple Product Specs</a></li><li><a href="http://www.everymac.com/" rel="nofollow">EveryMac: Online Apple Product Specs</a></li></ul>]]></contents>
+</device>
+

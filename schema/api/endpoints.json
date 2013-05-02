@@ -1,0 +1,131 @@
+{
+   "version": "0.4",
+   "endpoints": {
+      "Content Hierarchy": {
+         "url": "/guides",
+         "description": "Create, edit, delete and list guides and guide steps",
+         "public": [ 
+            {
+               "method": "GET",
+               "endpoint": "/categories",
+               "short_description": "Retuns all categories",
+               "detailed_description": "Returns a flat list of the category names on the site.",
+               "query_parameters": {
+                  "offset": {
+                     "required": false,
+                     "type": "integer",
+                     "description": "The number of categories to skip from the beginning. Range: [0, infinity). Defaults to 0."
+                  },
+                  "limit": {
+                     "required": false,
+                     "type": "integer",
+                     "description": "The maximum number of categories to include in the response. Range: [1, 200]. Defaults to 20."
+                  }
+               },
+               "response": [
+                  {
+                  "code": "200 OK",
+                  "file": "categories.json",
+                  "body": []
+               }]
+            },
+            {
+               "method": "GET",
+               "endpoint": "/categories/{categoryname}",
+               "short_description": "Get a specific category.",
+               "detailed_description": "Returns a comprehensive list of attributes about a category, including the full text of the main category page and a list of all procedures. The category name must be URL encoded.",
+               "query_parameters": {
+                  "type": {
+                     "required": false,
+                     "type": "string",
+                     "description": "Possible values: JSON or XML."
+                  }
+               },
+               "response": [
+                  {
+                  "code": "200 OK",
+                  "file": "topic.json",
+                  "body": []
+               }]
+            }
+         ]
+      },
+      "Guides": 
+         {
+         "url": "/procedures",
+         "description": "List available procedures.",
+         "public": [
+            {
+            "method": "GET",
+            "endpoint": "/procedures",
+            "short_description": "Get a list of all procedures",
+            "detailed_description": "Returns a list of all procedures sorted by procedureid.",
+            "query_parameters": {
+               "guideids": {
+                  "required": false,
+                  "type": "array",
+                  "description": "Comma-delimited list of procedureids identifying the procedures to return."
+               },
+               "filter": {
+                  "required": false,
+                  "type": "enum",
+                  "values": ["installation", "repair", "disassembly", "teardown", "technique", "maintenance"],
+                  "description": "Return only guides of the specified type.  For example, to get all teardowns, you can query <code>/guides?filter=teardown&limit=10000</code>"
+               },
+               "order": {
+                  "required": false,
+                  "type": "enum",
+                  "values": ["ASC", "DESC"],
+                  "description": "Return the guides in ascending or descending alphabetical order."
+               },
+               "offset": {
+                  "required": false,
+                  "type": "integer",
+                  "description": "The number of procedures to skip from the beginning. Range: [0, infinity). Defaults to 0."
+               },
+               "limit": {
+                  "required": false,
+                  "type": "integer",
+                  "description": "The maximum number of procedures to include in the response. Range: [1, 200]. Defaults to 20."
+               }
+            },
+            "response": [ 
+               {
+               "code": "200 OK",
+               "file": "guide_list.json",
+               "body": []
+            }]
+         },
+         {
+            "method": "GET",
+            "endpoint": "/procedures/{procedureid}",
+            "short_description": "Get a procedure",
+            "detailed_description": "Returns a comprehensive list of attributes about a procedure.",
+            "query_parameters": {
+               "excludePrerequisiteSteps": {
+                  "required": false,
+                  "type": "boolean",
+                  "description": "If set, the response will not include steps from prerequisite procedures. By default prerequisite procedure steps are inlined with the current procedure's steps."
+               },
+               "unpatrolled": {
+                  "required": false,
+                  "type": "boolean",
+                  "description": "If set, the procedure will include unpatrolled edits if any exist.  Edits must be performed using this version of the procedure.  Defaults to false."
+               },
+               "type": {
+                  "required": false,
+                  "type": "string",
+                  "description": "Possible values: JSON or XML."
+               }
+            },
+            "response": [
+               {
+               "code": "200 OK",
+               "file": "guide.json",
+               "body": []
+            }
+            ]
+         }]
+      }
+   }
+}

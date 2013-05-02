@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com" targetNamespace="http://omanual.com">
+   <xs:element name="device">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="title"/>
+            <xs:element ref="device_info"/>
+            <xs:element ref="image"/>
+            <xs:element ref="description"/>
+            <xs:element ref="flags"/>
+            <xs:element ref="categories"/>
+            <xs:element ref="solutions"/>
+            <xs:element ref="parts"/>
+            <xs:element ref="tools"/>
+            <xs:element ref="contents"/>
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="title" type="xs:string"/>
+   <xs:element name="device_info">
+      <xs:complexType mixed="true">
+         <xs:attribute name="discontinued" />
+         <xs:attribute name="introduced"/>
+         <xs:attribute name="manufacturer" />
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="image" type="xs:string"/>
+   <xs:element name="description" type="xs:string"/>
+   <xs:element name="flags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flag">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:string"/>
+      <xs:attribute name="title" type="xs:string"/>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="category"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="category" type="xs:string"/>
+   <xs:element name="solutions">
+      <xs:complexType>
+         <xs:attribute name="count" use="required" type="xs:integer"/>
+         <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="parts">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="partCategory"/>
+            <xs:element ref="url"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="partCategory">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="tag"/>
+            <xs:element ref="count"/>
+            <xs:element ref="url"/>
+         </xs:all>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="tag" type="xs:string"/>
+   <xs:element name="count" type="xs:integer"/>
+   <xs:element name="tools">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tool">
+    <xs:complexType mixed="true">
+      <xs:attribute name="notes" />
+      <xs:attribute name="thumbnail"  type="xs:anyURI"/>
+      <xs:attribute name="url"  type="xs:anyURI"/>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="contents" type="xs:string"/>
+   <xs:element name="url" type="xs:anyURI"/>
+</xs:schema>

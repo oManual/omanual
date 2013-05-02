@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com" targetNamespace="http://omanual.com">
+
+   <xs:annotation>
+      <xs:documentation xml:lang="en">
+         The package manifest is an XML description of the oManual package contents.  
+         This includes the structured category hierarchy, list of procedures, and list 
+         of attached documents in the /media folder of the .omanual package.
+
+         Note: This is not a complete listing of package contents since each subfile
+         may additionally reference its own media.
+      </xs:documentation>
+   </xs:annotation>
+
+   <xs:element name="manifest">
+      <xs:complexType>
+         <xs:all minOccurs="0">
+            <xs:element ref="title" />
+            <xs:element ref="description" />
+            <xs:element ref="categories" />
+            <xs:element ref="procedures" />
+            <xs:element ref="documents" />
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The language the manifest is written in.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="description" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            A brief, simple HTML formatted description of the manual.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A root container for the category tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="category" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="category" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            A single category the oManual belongs to. To specify multiple categories put multiple category tags in the categories tag. There is not currently a global list of documentation categories.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="procedures">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               List of procedures that belong to this topic.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="procedure" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="procedure">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A procedure is a set of instructions to perform some task on the specified topic (eg iPhone 5 Screen Replacement).  The text body of this element is the title of the procedure.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:all minOccurs="0">
+            <xs:element ref="title" />
+            <xs:element ref="url" />
+            <xs:element ref="path" />
+            <xs:element ref="thumbnail" />
+            <xs:element ref="image_url" />
+         </xs:all>
+         <xs:attribute name="id" use="required" type="xs:integer">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  An integer identifier for the procedure.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="subject" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The subcomponent the procedure will be operating on.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attribute name="type" use="required" type="xs:string">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">
+                  The type of procedure to perform. Suggested options: installation, maintenance, repair, disassembly, technique.
+               </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="title" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            Contains the title of the oManual package.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="url" type="xs:anyURI">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            URL to the canonical online source for this procedure.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="path" type="xs:string">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            Path to the procedure&#39;s XML file.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="thumbnail" type="xs:anyURI">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            URL to an online thumbnail image.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="image_url" type="xs:anyURI">
+      <xs:annotation>
+         <xs:documentation xml:lang="en">
+            URL to the full size main procedure image.
+         </xs:documentation>
+      </xs:annotation>
+   </xs:element>
+
+   <xs:element name="documents">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A container for the document tag.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="document" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="document">
+      <xs:complexType>
+         <xs:annotation>
+            <xs:documentation xml:lang="en">
+               A document included in the package. The text for this element should be the absolute path to the document.
+            </xs:documentation>
+         </xs:annotation>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="type" use="required" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        Type must be 'topic' if the file is an oManual topic. Otherwise, specify the MIME type of the file.
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+               <xs:attribute name="id" use="required" type="xs:integer">
+                  <xs:annotation>
+                     <xs:documentation xml:lang="en">
+                        Integer identifier for the document.
+                     </xs:documentation>
+                  </xs:annotation>
+               </xs:attribute>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

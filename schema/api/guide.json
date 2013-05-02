@@ -1,0 +1,437 @@
+{
+    "topic": "Nokia 6310i",
+    "url": "http:\/\/www.ifixit.com\/Guide\/Installing+Nokia+6310i+Speaker\/4000\/1",
+    "guide": {
+        "author": {
+            "text": "Mustafa",
+            "userid": 261784
+        },
+        "categories": [
+            "Nokia 6310i"
+        ],
+        "conclusion_raw": "To reassemble your device, follow these instructions in reverse order.",
+        "conclusion_rendered": "<p>To reassemble your device, follow these instructions in reverse order.<\/p>",
+        "difficulty": "Moderate",
+        "documents": [ ],
+        "flags": [
+            {
+                "title": "User-Contributed Guide",
+                "flagid": "GUIDE_USER_CONTRIBUTED",
+                "text": "An awesome member of our community made this guide. It is not managed by iFixit staff."
+            }
+        ],
+        "guideid": 4000,
+        "image": {
+            "id": 73556,
+            "mini": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.mini",
+            "thumbnail": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.thumbnail",
+            "standard": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.standard",
+            "medium": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.medium",
+            "large": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.large",
+            "original": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk"
+        },
+        "introduction_raw": "",
+        "introduction_rendered": "<div class=\"tools\"><strong>Tools<\/strong><ul><li><a href=\"http:\/\/www.ifixit.com\/Tools\/Plastic-Opening-Tools\/IF145-000\">Plastic Opening Tools<\/a><\/li><li><a href=\"http:\/\/ifixit.com\/Tools\/T6-Torx-Screwdriver\/IF145-004\">T6 Torx Screwdriver<\/a><\/li><\/ul><\/div>",
+        "locale": "en",
+        "parts": [ 
+        
+        ],
+        "prereqs": [
+            {
+                "text": "Installing Nokia 6310i Battery",
+                "guideid": 3792,
+                "locale": "en"
+            },
+            {
+                "text": "Installing Nokia 6310i SIM card",
+                "guideid": 3989,
+                "locale": "en"
+            },
+            {
+                "text": "Installing Nokia 6310i Back Cover",
+                "guideid": 3993,
+                "locale": "en"
+            },
+            {
+                "text": "Installing Nokia 6310i Antenna",
+                "guideid": 3843,
+                "locale": "en"
+            },
+            {
+                "text": "Installing Nokia 6310i Motherboard",
+                "guideid": 3995,
+                "locale": "en"
+            }
+        ],
+        "steps": [
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Press and hold the battery release button and slide the battery away from the Nokia logo",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 100136,
+                        "text_rendered": "Press and hold the battery release button and slide the battery away from the Nokia logo"
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 69368,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/MNgCRrABnmpXhGE5"
+                        },
+                        {
+                            "id": 69365,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/NJktwCusJaMJIOwV"
+                        }
+                    ]
+                },
+                "guideid": 3792,
+                "stepid": 17939,
+                "orderby": 1,
+                "revisionid": 69272
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Slide the SIM card lock away from the SIM card.",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 100204,
+                        "text_rendered": "Slide the SIM card lock away from the SIM card."
+                    },
+                    {
+                        "text_raw": "The SIM card pops out. Remove the SIM card.",
+                        "bullet": "icon_note",
+                        "level": 0,
+                        "lineid": 100205,
+                        "text_rendered": "The SIM card pops out. Remove the SIM card."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 73570,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/G2KvEGTSEWL5KcR3"
+                        },
+                        {
+                            "id": 79857,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/JZDDU3hQpbfG6ZL6"
+                        },
+                        {
+                            "id": 79299,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/refJ2Tab3SjOpqAW"
+                        }
+                    ]
+                },
+                "guideid": 3989,
+                "stepid": 18796,
+                "orderby": 1,
+                "revisionid": 69316
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Unscrew and remove the four T6 Torx screws.",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 100209,
+                        "text_rendered": "Unscrew and remove the four T6 Torx screws."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 79303,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/ciKpDgoxCuXVXj2c"
+                        }
+                    ]
+                },
+                "guideid": 3993,
+                "stepid": 18816,
+                "orderby": 1,
+                "revisionid": 69319
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Insert a plastic opening tool between the faceplate and the black backplate. Gently pry them apart, working from the lower end to the upper side of the phone.",
+                        "bullet": "black",
+                        "level": 0,
+                        "lineid": 99556,
+                        "text_rendered": "Insert a plastic opening tool between the faceplate and the black backplate. Gently pry them apart, working from the lower end to the upper side of the phone."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 73485,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/N6wmj661NSSV6V4j"
+                        },
+                        {
+                            "id": 73486,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/kbxQN2VIJhbYAghq"
+                        },
+                        {
+                            "id": 73487,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/ReBOPVv25JIIdCHx"
+                        }
+                    ]
+                },
+                "guideid": 3993,
+                "stepid": 18819,
+                "orderby": 2,
+                "revisionid": 68971
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Use the plastic opening tool to separate the top part of the backplate.",
+                        "bullet": "black",
+                        "level": 0,
+                        "lineid": 99565,
+                        "text_rendered": "Use the plastic opening tool to separate the top part of the backplate."
+                    },
+                    {
+                        "text_raw": "The plastic clips at the top require slightly more force to separate.",
+                        "bullet": "icon_note",
+                        "level": 0,
+                        "lineid": 99566,
+                        "text_rendered": "The plastic clips at the top require slightly more force to separate."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 73488,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/OgCms2Ig2vpOlcp3"
+                        },
+                        {
+                            "id": 73489,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/1NiLkiaMwAEf4yOJ"
+                        },
+                        {
+                            "id": 79310,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/6seHPcJThOBcEINt"
+                        }
+                    ]
+                },
+                "guideid": 3993,
+                "stepid": 18820,
+                "orderby": 3,
+                "revisionid": 68977
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Remove the screw holding the antenna to the circuit board.",
+                        "bullet": "yellow",
+                        "level": 0,
+                        "lineid": 100212,
+                        "text_rendered": "Remove the screw holding the antenna to the circuit board."
+                    },
+                    {
+                        "text_raw": "Carefully lift off the antenna from the circuit board.",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 100213,
+                        "text_rendered": "Carefully lift off the antenna from the circuit board."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 80329,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/Bl5pvKaHAEaVQ6y6"
+                        },
+                        {
+                            "id": 80331,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/mdaJgVMiByeumAoY"
+                        }
+                    ]
+                },
+                "guideid": 3843,
+                "stepid": 18229,
+                "orderby": 1,
+                "revisionid": 69321
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Lift off the motherboard from the faceplate.",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 100208,
+                        "text_rendered": "Lift off the motherboard from the faceplate."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 79307,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/A2BVKCnLZ2CgnL4Z"
+                        }
+                    ]
+                },
+                "guideid": 3995,
+                "stepid": 18825,
+                "orderby": 1,
+                "revisionid": 69318
+            },
+            {
+                "title": "",
+                "lines": [
+                    {
+                        "text_raw": "Gently pop out the golden spring in the middle of the speaker. It should come out with little force.",
+                        "bullet": "red",
+                        "level": 0,
+                        "lineid": 99560,
+                        "text_rendered": "Gently pop out the golden spring in the middle of the speaker. It should come out with little force."
+                    }
+                ],
+                "media": {
+                    "type": "image",
+                    "data": [
+                        {
+                            "id": 79858,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/O2YIDmxV2cy4ojPO"
+                        },
+                        {
+                            "id": 79859,
+                            "mini": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI.mini",
+                            "thumbnail": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI.thumbnail",
+                            "standard": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI.standard",
+                            "medium": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI.medium",
+                            "large": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI.large",
+                            "original": "https:\/\/www.ifixit.com\/igi\/LmCVJHXaf456HxdI"
+                        }
+                    ]
+                },
+                "guideid": 4000,
+                "stepid": 18839,
+                "orderby": 1,
+                "revisionid": 68974
+            }
+        ],
+        "subject": "Speaker",
+        "summary": "This guide shows how to remove the speaker.",
+        "time_required": "10",
+        "title": "Installing Nokia 6310i Speaker",
+        "tools": [
+            {
+                "type": "",
+                "quantity": "1",
+                "text": "Plastic Opening Tools",
+                "notes": "",
+                "url": "http:\/\/www.ifixit.com\/Tools\/Plastic-Opening-Tools\/IF145-000",
+                "thumbnail": "http:\/\/www.ifixit.com\/cart-products\/kDMlRd6QFSgQpqCw.mini"
+            },
+            {
+                "type": "",
+                "quantity": "1",
+                "text": "T6 Torx Screwdriver",
+                "notes": "",
+                "url": "http:\/\/www.ifixit.com\/Tools\/T6-Torx-Screwdriver\/IF145-004",
+                "thumbnail": "http:\/\/www.ifixit.com\/cart-products\/4RMxCuCEVRRt3Bse.mini"
+            }
+        ],
+        "type": "installation",
+        "revisionid": 51574
+    },
+    "guideid": 4000,
+    "canEdit": true
+}

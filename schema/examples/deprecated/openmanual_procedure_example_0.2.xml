@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<procedure locale="en" xmlns="http://omanual.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://omanual.com/openmanual_0.2.xsd">
+   <title>Installing MacBook Core Duo Memory Cover</title>
+   <summary />
+   <image>media/main.jpg</image>
+   <author id="1">iRobot</author>
+   <time_required />
+   <difficulty>Easy</difficulty>
+   <categories>
+      <category>MacBook Core Duo</category>
+   </categories>
+   <introduction><![CDATA[<p>This keeps the RAM levers out of the way of the battery and secures the hard drive.</p>]]></introduction>
+   <introduction_rendered><![CDATA[<p>This keeps the RAM levers out of the way of the battery and secures the hard drive.</p><div class="parts"><strong>Relevant parts</strong><ul><li><a href="http://www.ifixit.com/MacBook-Parts/MacBook-Memory-Cover/IF186-013">MacBook Memory Cover</a></li></ul></div><div class="tools"><strong>Tools</strong><ul><li><a href="http://www.ifixit.com/Item/Coin">Coin</a></li><li><a href="http://www.ifixit.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</a></li></ul></div>]]></introduction_rendered>
+   <tools>
+      <tool notes="" thumbnail="" url="http://www.ifixit.com/Item/Coin">Coin</tool>
+      <tool notes="" thumbnail="http://cart-products.ifixit.net/cart-products/GGXkxBRrmZg6iRdE.mini" url="http://www.ifixit.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+   </tools>
+   <parts>
+      <part notes="" thumbnail="http://www.ifixit.com/static/images/guide/NoImage_56x42.jpg" url="http://www.ifixit.com/MacBook-Parts/MacBook-Memory-Cover/IF186-013">MacBook Memory Cover</part>
+   </parts>
+   <flags />
+   <documents />
+   <prerequisites>
+      <prerequisite id="278" locale="en" path="/Installing-Battery-278/procedure.xml">Installing MacBook Core Duo Battery</prerequisite>
+   </prerequisites>
+   <steps>
+      <step number="0" title="">
+         <lines>
+            <line bullet="red" level="0">Remove the three evenly-spaced Phillips screws from along the rear wall of the battery compartment.</line>
+            <line bullet="icon_reminder" level="0">The screws are captive to the metal memory cover.</line>
+         </lines>
+         <images>
+            <image orderby="1">media/step-1-image-1.jpg</image>
+         </images>
+      </step>
+      <step number="1" title="">
+         <lines>
+            <line bullet="red" level="0">Remove the three evenly-spaced Phillips screws from along the rear wall of the battery compartment.</line>
+            <line bullet="icon_reminder" level="0">The screws are captive to the metal memory cover.</line>
+         </lines>
+         <images>
+            <image orderby="1">media/step-1-image-1.jpg</image>
+         </images>
+      </step>
+   </steps>
+   <conclusion><![CDATA[<p>This keeps the RAM levers out of the way of the battery and secures the hard drive.</p>]]></conclusion>
+</procedure>
+

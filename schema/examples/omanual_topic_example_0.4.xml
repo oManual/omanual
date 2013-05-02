@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic locale="en" xmlns="http://omanual.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <title>iPhone 5 Repair Manual</title>
+   <topic_info discontinued="" introduced="" manufacturer="Apple">iPhone 5</topic_info>
+   <image>media/main.jpg</image>
+   <description>Announced September 12, 2012. Available as GSM or CDMA / 16, 32, or 64 GB / Black or White.</description>
+   <flags />
+   <categories>
+      <category>iPhone</category>
+   </categories>
+   <solutions count="81" url="http://www.ifixit.com/Answers/Device/iPhone+5" />
+   <parts url="http://www.ifixit.com">
+      <part_category>0</part_category>
+   </parts>
+   <tools>
+      <tool url="http://www.ifixit.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+      <tool url="http://www.ifixit.com/Tools/Small-Suction-Cup/IF145-019">Small Suction Cup</tool>
+      <tool url="http://www.ifixit.com/Tools/iPhone-5-Point-Pentalobe-Screwdriver/IF145-096">iPhone 5-Point Pentalobe Screwdriver</tool>
+      <tool url="http://www.ifixit.com/Tools/Plastic-Opening-Tools/IF145-000">Plastic Opening Tools</tool>
+      <tool url="http://www.ifixit.com/Tools/Spudger/IF145-002">Spudger</tool>
+      <tool url="http://www.ifixit.com/Tools/SIM-Card-Eject-Tool/IF145-091">SIM Card Eject Tool</tool>
+      <tool url="http://www.ifixit.com/Tools/Flathead-3-32-Inch-or-2-5-mm-Screwdriver/IF145-011">Flathead 3/32" or 2.5 mm Screwdriver</tool>
+      <tool url="http://www.ifixit.com/Tools/Tweezers/IF145-020">Tweezers</tool>
+      <tool url="http://www.ifixit.com/Tools/26-Bit-Driver-Kit/IF145-028">26 Bit Driver Kit</tool>
+   </tools>
+   <contents><h2 id="Section_Background_and_Identification">Background and Identification<a class="anchor" href="#Section_Background_and_Identification" title="Link to this section">&amp;nbsp;&amp;para;&amp;nbsp;</a></h2>
+
+<p>The iPhone 5 is Apple's 6th iteration of the iPhone. Announced on September 12, 2012 at an apple event at the Yerba Buena Theater in San Francisco, the iPhone 5 improves on the body styling of the iPhone 4 line by increasing the screen size and reducing the weight and thickness of the device. The update also saw the inclusion of LTE cellular wireless networking, and the introduction of a new dock connector, Lightning.</p>
+
+<h2 id="Section_Troubleshooting">Troubleshooting<a class="anchor" href="#Section_Troubleshooting" title="Link to this section">&amp;nbsp;&amp;para;&amp;nbsp;</a></h2>
+
+<p>Diagnose any issues you may be having with your iPhone 5 using our <a href="http://www.ifixit.com/Wiki/iPhone_5_Troubleshooting" rel="nofollow">iPhone 5 Troubleshooting Guide</a>.</p>
+
+<h2 id="Section_Specifications">Specifications<a class="anchor" href="#Section_Specifications" title="Link to this section">&amp;nbsp;&amp;para;&amp;nbsp;</a></h2>
+
+<p><strong>Announce date</strong>: September 12, 2012</p>
+
+<p><strong>Developer</strong>: <a href="http://www.apple.com" rel="nofollow">http://www.apple.com</a></p>
+
+<p><strong>Operating System</strong>: iOS 6</p>
+
+<p><strong>Display (Retina Display)</strong>:</p>
+
+<ul><li>4 in (102 mm)</li><li>Multitouch widescreen</li><li>1136 by 640 pixel resolution at 326 ppi</li><li>800:1 contrast ratio</li><li>LED backlit IPS TFT LCD</li><li>Fingerprint resistant oleophobic coating on front</li></ul>
+
+<p><strong>Camera</strong>: Contains both front and rear facing cameras.</p>
+
+<ul><li>Front Camera<ul><li>Portrait photos at 1.2 MP </li><li>VGA (720p) at 30fps</li><li>Support for FaceTime over cellular wireless</li></ul></li></ul>
+
+<ul><li>Rear Camera<ul><li>8 MP</li><li>HD Video (1080p) at 30fps</li><li>LED Flash</li><li>IR filter</li><li>5 element lens</li><li>Facial recognition / image stabilization </li><li>Panorama photo</li><li>Photo while recording video </li></ul></li></ul>
+
+<p><strong>Processor</strong>: Apple A6</p>
+
+<p><strong>RAM</strong>: 1 GB DDR2</p>
+
+<p><strong>Storage</strong>: 16, 32, 64 GB Flash Memory</p>
+
+<p><strong>Wireless Connectivity</strong>:</p>
+
+<ul><li>Integrated 802.11 a/b/g/n (Dual band 2.4 GHz and 5 GHz)</li><li>Bluetooth 4.0</li><li>GSM model A1428: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 4 and 17)</li><li>CDMA model A1429: CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5, 13, 25)</li><li>GSM model A1429: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5)</li><li>Digital Compass </li><li>GPS and GLONASS signal reception</li></ul>
+
+<p><strong>Dimensions</strong>: 4.87 × 2.31 × 0.30 in (123.8 × 58.6 × 7.6 mm)</p>
+
+<p><strong>Weight</strong>: 112 g (4.0 oz)</p>
+
+<h2 id="Section_Additional_Information">Additional Information<a class="anchor" href="#Section_Additional_Information" title="Link to this section">&amp;nbsp;&amp;para;&amp;nbsp;</a></h2>
+
+<ul><li><a href="http://en.wikipedia.org/wiki/IPhone_5">Wikipedia: iPhone 5</a></li><li><a href="http://www.apple.com/iphone/" rel="nofollow">Apple: iPhone Products</a></li></ul></contents>
+</topic>
+

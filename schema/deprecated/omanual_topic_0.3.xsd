@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   <xs:element name="topic">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="title" />
+            <xs:element ref="topic_info" />
+            <xs:element ref="image" />
+            <xs:element ref="description" />
+            <xs:element ref="flags" />
+            <xs:element ref="categories" />
+            <xs:element ref="solutions" />
+            <xs:element ref="parts" />
+            <xs:element ref="tools" />
+            <xs:element ref="procedures" />
+            <xs:element ref="contents" />
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="title" type="xs:string" />
+
+   <xs:element name="topic_info">
+      <xs:complexType mixed="true">
+         <xs:attribute name="discontinued" use="optional" type="xs:integer" />
+         <xs:attribute name="introduced" use="optional" type="xs:integer" />
+         <xs:attribute name="manufacturer" use="optional" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="image" type="xs:string" />
+
+   <xs:element name="description">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="flag">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" type="xs:string" />
+      <xs:attribute name="title" type="xs:string" />
+      <xs:attribute name="image" type="xs:anyURI" />
+    </xs:complexType>
+   </xs:element>
+
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="category" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="category" type="xs:string" />
+
+   <xs:element name="solutions">
+      <xs:complexType>
+         <xs:attribute name="count" use="required" type="xs:integer" />
+         <xs:attribute name="url" use="required" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tag"   type="xs:string" />
+   <xs:element name="count" type="xs:integer" />
+
+   <xs:element name="tools">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool" />
+      </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tool">
+      <xs:complexType mixed="true">
+        <xs:attribute name="notes" />
+        <xs:attribute name="thumbnail"  type="xs:anyURI" />
+        <xs:attribute name="url"        type="xs:anyURI" use="required" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="contents">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="url" type="xs:anyURI" />
+
+   <xs:element name="procedures">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="procedure" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="procedure">
+      <xs:complexType mixed="true">
+         <xs:all>
+            <xs:element name="subject"   type="xs:string" />
+            <xs:element name="title"     type="xs:string" />
+            <xs:element name="type"      type="xs:string" />
+         </xs:all>
+         <xs:attribute name="id"         type="xs:integer" />
+         <xs:attribute name="image_url"  type="xs:anyURI" />
+         <xs:attribute name="thumbnail"  type="xs:anyURI" />
+         <xs:attribute name="url"        type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <!-- TODO: Move into a separate XSD file shared in common with procedure.xsd -->
+   <!-- Allowed HTML elements -->
+   <xs:element name="p" type="blockType" />
+   <xs:element name="a" type="blockType" />
+   <xs:element name="strong" type="blockType" />
+   <xs:element name="em" type="blockType" />
+   <xs:element name="h1" type="blockType" />
+   <xs:element name="h2" type="blockType" />
+   <xs:element name="h3" type="blockType" />
+   <xs:element name="h4" type="blockType" />
+   <xs:element name="h5" type="blockType" />
+   <xs:element name="tt" type="blockType" />
+   <xs:element name="code" type="blockType" />
+   <xs:element name="br" type="xs:string" />
+   <xs:element name="ul" type="blockType" />
+   <xs:element name="li" type="blockType" />
+   <xs:element name="sub" type="blockType" />
+   <xs:element name="sup" type="blockType" />
+   <xs:element name="del" type="blockType" />
+   <xs:element name="ins" type="blockType" />
+   <xs:element name="div" type="blockType" />
+
+   <xs:complexType name="blockType" mixed="true">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+         <xs:choice>
+            <xs:element ref="a" />
+            <xs:element ref="p" />
+            <xs:element ref="div" />
+            <xs:element ref="h2" />
+            <xs:element ref="h3" />
+            <xs:element ref="h4" />
+            <xs:element ref="h5" />
+            <xs:element ref="strong" />
+            <xs:element ref="em" />
+            <xs:element ref="code" />
+            <xs:element ref="br" />
+            <xs:element ref="ul" />
+            <xs:element ref="li" />
+            <xs:element ref="sub" />
+            <xs:element ref="sup" />
+            <xs:element ref="del" />
+            <xs:element ref="ins" />
+            <xs:element ref="tt" />
+         </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" use="optional" />
+      <xs:attribute name="class" use="optional" />
+      <xs:attribute name="href" use="optional" />
+      <xs:attribute name="style" use="optional" />
+      <xs:attribute name="rel" use="optional" />
+      <xs:attribute name="title" use="optional" />
+      <xs:attribute name="target" use="optional" />
+   </xs:complexType>
+
+
+</xs:schema>

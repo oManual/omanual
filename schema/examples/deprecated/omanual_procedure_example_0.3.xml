@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure locale="en">
+   <title>Installing MacBook Core Duo Memory Cover</title>
+   <summary />
+   <image large="http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.large" medium="http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.medium" mini="http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.mini" standard="http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.standard" thumbnail="http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL.thumbnail">http://www.ifixit.com/igi/ZraQgGiO3EEWjrOL</image>
+   <author id="1">iRobot</author>
+   <time_required />
+   <difficulty>Easy</difficulty>
+   <categories>
+      <category>MacBook Core Duo</category>
+   </categories>
+   <introduction><p>This keeps the RAM levers out of the way of the battery and secures the hard drive.</p></introduction>
+   <tools>
+      <tool notes="" quantity="1" thumbnail="http://cart-products.ifixit.net/cart-products/CDpMNvBsmbEthegL.mini" type="" url="http://www.ifixit.com/Tools/Coin/IF145-095">Coin</tool>
+      <tool notes="" quantity="1" thumbnail="http://cart-products.ifixit.net/cart-products/ABoNLfTpiEQgrZ3b.mini" type="" url="http://www.ifixit.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips #00 Screwdriver</tool>
+   </tools>
+   <parts>
+      <part notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/MacBook-Parts/MacBook-Memory-Cover/IF186-013">MacBook Memory Cover</part>
+   </parts>
+   <flags />
+   <documents />
+   <prerequisites>
+      <prerequisite id="278" locale="en" path="/Installing-Battery-278/procedure.xml">Installing MacBook Core Duo Battery</prerequisite>
+   </prerequisites>
+   <steps>
+      <step number="0" title="">
+         <lines>
+            <line bullet="black" level="0">Use a coin to rotate the battery-locking screw 90 degrees clockwise.</line>
+         </lines>
+         <media type="image">
+            <image large="http://www.ifixit.com/igi/FCdeHSX4TaQkA41t.large" medium="http://www.ifixit.com/igi/FCdeHSX4TaQkA41t.medium" mini="http://www.ifixit.com/igi/FCdeHSX4TaQkA41t.mini" orderby="1" standard="http://www.ifixit.com/igi/FCdeHSX4TaQkA41t.standard" thumbnail="http://www.ifixit.com/igi/FCdeHSX4TaQkA41t.thumbnail">http://www.ifixit.com/igi/FCdeHSX4TaQkA41t</image>
+         </media>
+      </step>
+      <step number="1" title="">
+         <lines>
+            <line bullet="black" level="0">Lift the battery out of the computer.</line>
+         </lines>
+         <media type="image">
+            <image large="http://www.ifixit.com/igi/CSuDFdSO4VExEDnu.large" medium="http://www.ifixit.com/igi/CSuDFdSO4VExEDnu.medium" mini="http://www.ifixit.com/igi/CSuDFdSO4VExEDnu.mini" orderby="1" standard="http://www.ifixit.com/igi/CSuDFdSO4VExEDnu.standard" thumbnail="http://www.ifixit.com/igi/CSuDFdSO4VExEDnu.thumbnail">http://www.ifixit.com/igi/CSuDFdSO4VExEDnu</image>
+         </media>
+      </step>
+      <step number="2" title="">
+         <lines>
+            <line bullet="red" level="0">Remove the three evenly-spaced Phillips screws from along the rear wall of the battery compartment.</line>
+            <line bullet="icon_reminder" level="0">The screws are captive to the metal memory cover.</line>
+         </lines>
+         <media type="image">
+            <image large="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.large" medium="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.medium" mini="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.mini" orderby="1" standard="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.standard" thumbnail="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.thumbnail">http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW</image>
+         </media>
+      </step>
+      <step number="3" title="">
+         <lines>
+            <line bullet="red" level="0">Remove the three evenly-spaced Phillips screws from along the rear wall of the battery compartment.</line>
+            <line bullet="icon_reminder" level="0">The screws are captive to the metal memory cover.</line>
+         </lines>
+         <media type="image">
+            <image large="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.large" medium="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.medium" mini="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.mini" orderby="1" standard="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.standard" thumbnail="http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW.thumbnail">http://www.ifixit.com/igi/xHWwaHOpAmcZs4gW</image>
+         </media>
+      </step>
+   </steps>
+   <conclusion><p>To reassemble your device, follow these instructions in reverse order.</p></conclusion>
+</procedure>
+

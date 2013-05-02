@@ -1,0 +1,240 @@
+*  {
+   margin: 0;
+   padding: 0;
+}
+
+blockquote {
+   font-size: 0.8em;
+   padding: 1em;
+}
+
+strong {
+   color: black;
+}
+
+h1 {
+   font: bold 2.1em Georgia,"Times New Roman",serif;
+   padding: 20px 0 30px 20px;
+}
+
+h2 {
+   padding: 10px 0 10px 0;
+   font-size: 20px;
+}
+
+h3 {
+   font-weight: strong;
+}
+
+#slogan {
+   font-weight: normal;
+}
+
+h4 {
+   margin: 15px 0 5px 0;
+}
+
+h5 {
+   margin: 15px 0 5px 0;
+}
+
+a  {
+   border-color: #B85232;
+   text-decoration: none;
+   color: #555555;
+}
+
+dl {
+   margin-top: 12px;
+}
+
+dt {
+   font-size: 1.3em;
+}
+
+body  {
+   padding: 10px 0 0 0;
+   color:#333333;
+   font: 1em Verdana,sans-serif;
+   margin:0;
+   text-align: center;
+}
+
+#navbar  {
+   background: none repeat scroll 0 0 #FBFAF4;
+   border-top: 5px solid #333333;
+   height: 5em;
+   text-transform: uppercase;
+   color:#555555;
+   font: 1.2em Georgia,Times,serif;
+   float: right;
+}
+
+#navbar li {
+   padding: 5px 23px 0 0px;
+   list-style:none outside none;
+}
+
+#navbar a:hover {
+   background-color: #F4F2E4;
+}
+
+.footer a {
+   font-weight: bold;
+}
+
+a:hover {
+   border-bottom: 1px solid #9A8E51;
+   color: #000000;
+}
+
+h1 a:hover {
+   border: none;
+}
+
+#readmore a:hover {
+   background-color: #B5BCE3;
+}
+
+.intro {
+   background-color: #9AA3DB;
+   font-color: #000;
+   margin: 50px 0 20px 0;
+   padding: 20px 40px 20px 40px;
+}
+
+.container {
+   margin:0 auto;
+   padding:0;
+   position:relative;
+   text-align:left;
+   width:800px;
+}
+
+
+#readmore {
+   font-size: 1.2em;
+   padding: 10px 20px 0 0;
+   text-align: right;
+}
+
+#main {
+   width:750px;
+   height: 270px;
+   margin: 1em auto;
+}
+
+#main div {
+   padding: 0 20px 0 20px
+}
+
+.why {
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+pre {
+   margin: 20px;
+   white-space: pre-wrap;       /* css-3 */
+   white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#left-side {
+   float:left;
+   width:300px;
+
+}
+
+#right-side {
+   float:right;
+   width: 300px;
+}
+
+.footer  {
+   border-color:#666666;
+   border-style:solid;
+   border-width:1px;
+   color:#666666;
+   font-size:11px;
+   clear: both;
+   padding: 1em;
+   margin: 1em 0 1em 0;
+}
+
+.documentation .tag {
+   border: 1px #aaa solid;
+   padding: 7px;
+   margin: 5px 0;
+}
+
+.documentation .subtag {
+   padding: 0px 0px 0px 20px;
+   margin: 5px 0;
+}
+
+.documentation .tag h4 em {
+   font-size: 0.7em;
+}
+
+.documentation .tag em {
+   font-size: 0.8em;
+}
+
+.documentation h3 {
+   margin: 25px 0 5px 0;
+}
+
+.documentation li.attr-intro {
+   list-style: none;
+   margin-left: -30px;
+}
+
+.documentation .tag h4 {
+   margin-top: 0;
+}
+
+.documentation p.desc {
+   margin-top: 2px;
+   margin-bottom: 10px;
+}
+
+.documentation .docSummary {
+   margin-bottom: 20px;
+   font-style: italic;
+}
+
+.documentation .tag div {
+   padding-left: 10px;
+}
+
+.tagListing {
+   font-size: 0.8em;
+}
+
+.toc {
+   list-style-type: upper-roman;
+}
+
+.fileList {
+   border-style:solid;
+   border-width:1px;
+   width: 330px;
+   padding: 10px 0 10px 30px;
+   border-color: #aaa;
+}
+
+ul {
+   padding: 0 0 0 20px;
+   margin: 0 0 0 20px;
+}
+
+ol {
+   padding: 10px 0 0 60px;
+}
+
+p {
+   padding: 10px 0 0 10px;
+}
