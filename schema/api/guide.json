@@ -9,8 +9,7 @@
         "categories": [
             "Nokia 6310i"
         ],
-        "conclusion_raw": "To reassemble your device, follow these instructions in reverse order.",
-        "conclusion_rendered": "<p>To reassemble your device, follow these instructions in reverse order.<\/p>",
+        "conclusion": "<p>To reassemble your device, follow these instructions in reverse order.<\/p>",
         "difficulty": "Moderate",
         "documents": [ ],
         "flags": [
@@ -30,8 +29,7 @@
             "large": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk.large",
             "original": "https:\/\/www.ifixit.com\/igi\/FucWIkw2ZEBiIJHk"
         },
-        "introduction_raw": "",
-        "introduction_rendered": "<div class=\"tools\"><strong>Tools<\/strong><ul><li><a href=\"http:\/\/www.ifixit.com\/Tools\/Plastic-Opening-Tools\/IF145-000\">Plastic Opening Tools<\/a><\/li><li><a href=\"http:\/\/ifixit.com\/Tools\/T6-Torx-Screwdriver\/IF145-004\">T6 Torx Screwdriver<\/a><\/li><\/ul><\/div>",
+        "introduction": "",
         "locale": "en",
         "parts": [ 
         
@@ -68,11 +66,10 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Press and hold the battery release button and slide the battery away from the Nokia logo",
                         "bullet": "red",
                         "level": 0,
                         "lineid": 100136,
-                        "text_rendered": "Press and hold the battery release button and slide the battery away from the Nokia logo"
+                        "text": "Press and hold the battery release button and slide the battery away from the Nokia logo"
                     }
                 ],
                 "media": {
@@ -107,18 +104,16 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Slide the SIM card lock away from the SIM card.",
+                        "text": "Slide the SIM card lock away from the SIM card.",
                         "bullet": "red",
                         "level": 0,
-                        "lineid": 100204,
-                        "text_rendered": "Slide the SIM card lock away from the SIM card."
+                        "lineid": 100204
                     },
                     {
-                        "text_raw": "The SIM card pops out. Remove the SIM card.",
                         "bullet": "icon_note",
                         "level": 0,
                         "lineid": 100205,
-                        "text_rendered": "The SIM card pops out. Remove the SIM card."
+                        "text": "The SIM card pops out. Remove the SIM card."
                     }
                 ],
                 "media": {
@@ -162,11 +157,10 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Unscrew and remove the four T6 Torx screws.",
+                        "text": "Unscrew and remove the four T6 Torx screws.",
                         "bullet": "red",
                         "level": 0,
-                        "lineid": 100209,
-                        "text_rendered": "Unscrew and remove the four T6 Torx screws."
+                        "lineid": 100209
                     }
                 ],
                 "media": {
@@ -192,11 +186,10 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Insert a plastic opening tool between the faceplate and the black backplate. Gently pry them apart, working from the lower end to the upper side of the phone.",
+                        "text": "Insert a plastic opening tool between the faceplate and the black backplate. Gently pry them apart, working from the lower end to the upper side of the phone.",
                         "bullet": "black",
                         "level": 0,
-                        "lineid": 99556,
-                        "text_rendered": "Insert a plastic opening tool between the faceplate and the black backplate. Gently pry them apart, working from the lower end to the upper side of the phone."
+                        "lineid": 99556
                     }
                 ],
                 "media": {
@@ -240,18 +233,16 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Use the plastic opening tool to separate the top part of the backplate.",
+                        "text": "Use the plastic opening tool to separate the top part of the backplate.",
                         "bullet": "black",
                         "level": 0,
-                        "lineid": 99565,
-                        "text_rendered": "Use the plastic opening tool to separate the top part of the backplate."
+                        "lineid": 99565
                     },
                     {
-                        "text_raw": "The plastic clips at the top require slightly more force to separate.",
+                        "text": "The plastic clips at the top require slightly more force to separate.",
                         "bullet": "icon_note",
                         "level": 0,
-                        "lineid": 99566,
-                        "text_rendered": "The plastic clips at the top require slightly more force to separate."
+                        "lineid": 99566
                     }
                 ],
                 "media": {
@@ -295,18 +286,16 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Remove the screw holding the antenna to the circuit board.",
+                        "text": "Remove the screw holding the antenna to the circuit board.",
                         "bullet": "yellow",
                         "level": 0,
-                        "lineid": 100212,
-                        "text_rendered": "Remove the screw holding the antenna to the circuit board."
+                        "lineid": 100212
                     },
                     {
-                        "text_raw": "Carefully lift off the antenna from the circuit board.",
+                        "text": "Carefully lift off the antenna from the circuit board.",
                         "bullet": "red",
                         "level": 0,
-                        "lineid": 100213,
-                        "text_rendered": "Carefully lift off the antenna from the circuit board."
+                        "lineid": 100213
                     }
                 ],
                 "media": {
@@ -341,11 +330,10 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Lift off the motherboard from the faceplate.",
+                        "text": "Lift off the motherboard from the faceplate.",
                         "bullet": "red",
                         "level": 0,
-                        "lineid": 100208,
-                        "text_rendered": "Lift off the motherboard from the faceplate."
+                        "lineid": 100208
                     }
                 ],
                 "media": {
@@ -371,11 +359,10 @@
                 "title": "",
                 "lines": [
                     {
-                        "text_raw": "Gently pop out the golden spring in the middle of the speaker. It should come out with little force.",
+                        "text": "Gently pop out the golden spring in the middle of the speaker. It should come out with little force.",
                         "bullet": "red",
                         "level": 0,
-                        "lineid": 99560,
-                        "text_rendered": "Gently pop out the golden spring in the middle of the speaker. It should come out with little force."
+                        "lineid": 99560
                     }
                 ],
                 "media": {
