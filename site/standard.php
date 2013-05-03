@@ -2,7 +2,6 @@
 $thisPage = 'standard'; //Short name for page.
 $pageTitle = 'Proposed Standard'; //Used in the <title> area.
 $color = 'red'; //Color choices: red, blue, aqua, yellow.
-require_once 'Exec/essentials.php';
 ?>
 
 <?php require_once('header.php') ?>
@@ -104,7 +103,6 @@ may be expanded in the future to enable additional types of documents.
    <div class="codeview">
       <!-- BEGIN CODE -->
       <?php require_once('../schema/examples/manifest_ex.html') ?>
-      <?# pygmentize(file_get_contents(dirname(__FILE__) . '/schema/omanual_manifest_0.4.xsd', true), ['language' => 'xml', 'style' => 'friendly', 'linenos' => false]) ?>
       <!-- END CODE -->
    </div>
 
