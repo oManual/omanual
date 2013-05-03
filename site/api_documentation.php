@@ -47,7 +47,7 @@ endpoints.  API endpoints should be relative to a base server address (eg. <a hr
       </dl>
       <h5>Example Response</h5>
       <div class="endpointResponse">
-         <pre><code><?= pygmentize(file_get_contents(dirname(__FILE__) . "/../schema/api/" . $endpoint['response'][0]['file']), ['language' => 'json', 'linenos' => false]) ?></code></pre>
+         <pre><code><?= pygmentize(file_get_contents("api/" . $endpoint['response'][0]['file']), ['language' => 'json', 'linenos' => false]) ?></code></pre>
       </div>
    </div>
 <? endforeach ?>

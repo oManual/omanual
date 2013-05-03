@@ -101,7 +101,7 @@ function pygmentize($content, $params) {
 
 function getEndpoints() {
    $error = '';
-   $jsonString = file_get_contents(dirname(__FILE__) . "/../schema/api/endpoints.json");
+   $jsonString = file_get_contents("api/endpoints.json");
    $json = json_decode($jsonString, true); 
 
    switch (json_last_error()) {
