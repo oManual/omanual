@@ -57,7 +57,7 @@ over a web API using mobile-friendly JSON.
       Topic Documentation
       <a href="omanual_topic.xsd" class="downloadbtn">XML Schema Definition</a>
       <a href="omanual_topic_example.xml" class="downloadbtn">Example XML</a>
-      <a href="https://www.ifixit.com/api/1.1/categories/iPhone%205?pretty" class="downloadbtn">Example JSON</a>
+      <a href="https://www.ifixit.com/api/2.0/categories/iPhone%205?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
    <? include 'topic_documentation.php'; ?>
@@ -66,7 +66,7 @@ over a web API using mobile-friendly JSON.
       Procedure Documentation
       <a href="omanual_procedure.xsd" class="downloadbtn">XML Schema Definition</a>
       <a href="omanual_procedure_example.xml" class="downloadbtn">Example XML</a>
-      <a href="https://www.ifixit.com/api/1.1/guides/10525?pretty" class="downloadbtn">Example JSON</a>
+      <a href="https://www.ifixit.com/api/2.0/guides/10525?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
    <? include 'procedure_documentation.php'; ?>

@@ -77,7 +77,7 @@ may be expanded in the future to enable additional types of documents.
    <div class="endpoints">
       <h3>API Endpoints</h3>
 
-      <p>The four endpoints listed below are all that is necessary to access your oManual data through a REST API. For an example API implementation, take a look at the <a href="https://www.ifixit.com/api/1.1/doc">iFixit API</a>.</p>
+      <p>The four endpoints listed below are all that is necessary to access your oManual data through a REST API. For an example API implementation, take a look at the <a href="https://www.ifixit.com/api/2.0/doc">iFixit API</a>.</p>
 
       <ul>
          <li><a href="#procedures"><span class="method">GET</span> /procedures</a>
@@ -139,28 +139,28 @@ may be expanded in the future to enable additional types of documents.
          <a name="procedures"></a>
          <h3>
             GET /procedures
-            <a href="https://ifixit.com/api/1.1/guides?limit=1000" target="_blank" class="downloadbtn">Example </a>
+            <a href="https://ifixit.com/api/2.0/guides?limit=1000" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>
       <li>
          <a name="procedure"></a>
          <h3>
             GET /procedures/{procedureid}
-            <a href="https://ifixit.com/api/1.1/guides/123" target="_blank" class="downloadbtn">Example </a>
+            <a href="https://ifixit.com/api/2.0/guides/123" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>
       <li>
          <a name="category-list"></a>
          <h3>
             GET /categories
-            <a href="https://ifixit.com/api/1.1/categories" target="_blank" class="downloadbtn">Example</a>
+            <a href="https://ifixit.com/api/2.0/categories" target="_blank" class="downloadbtn">Example</a>
          </h3>
       </li>
       <li>
          <a name="category"></a>
          <h3>
             GET /categories/{categoryname}
-            <a href="https://ifixit.com/api/1.1/categories/iPhone%205%20Teardown" target="_blank" class="downloadbtn">Example </a>
+            <a href="https://ifixit.com/api/2.0/categories/iPhone%205%20Teardown" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>
    </ul>
