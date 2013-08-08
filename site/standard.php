@@ -14,9 +14,9 @@ $color = 'red'; //Color choices: red, blue, aqua, yellow.
 
       <div class="license">
 
-         <h3>Version <strong class="red">0.4</strong></h3>
+         <h3>Version <strong class="red">1.0</strong></h3>
 
-         <p>Currectly under review by the IEEE Standards Association. <br /><strong>IEEE P1874 - Standard for Documentation Schema for Repair of Electronic Devices.</strong></p>
+         <p>Approved by the IEEE Standards Association. <br /><strong>IEEE 1874 - Standard for Documentation Schema for Repair of Electronic Devices.</strong></p>
 
          <h3>License</h3>
 
