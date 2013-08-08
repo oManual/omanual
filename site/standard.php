@@ -26,8 +26,31 @@ $color = 'red'; //Color choices: red, blue, aqua, yellow.
 
          <ul>
             <li><a href="mailto:kyle.nospam@ifixit.com">Kyle Wiens</a>, iFixit + Dozuki</li>
-            <li><a href="https://plus.google.com/109228109284798290109/posts">Daniel Beardsley</a>, iFixit + Dozuki</li>
             <li><a href="https://plus.google.com/118122803738776668928/posts">Timothy Asp</a>, iFixit + Dozuki</li>
+            <li><a href="http://knowsgreen.com/site/">Mark Schaffer</a>, Schaffer Environmental</li>
+            <li><a href="https://plus.google.com/109228109284798290109/posts">Daniel Beardsley</a>, iFixit + Dozuki</li>
+         </ul>
+
+         <h3>IEEE Balloting Group</h3>
+
+         <ul>
+            <li>Huawei</li>
+            <li>ChongQing University</li>
+            <li>Coughlin Associates</li>
+            <li>Grant County Public Utility District</li>
+            <li>Office of Naval Research (ONR)</li>
+            <li>General Cable Technologies Corporation</li>
+            <li>Rockwell Automation</li>
+            <li>Southeastern Pennsylvania Transportation Authority</li>
+            <li>Schaffer Environmental</li>
+            <li>Lockheed Martin Corporation</li>
+            <li>Rohde &amp; Schwarz</li>
+            <li>Zenith</li>
+            <li>Open Source Ecology</li>
+            <li>Wi2Wi</li>
+            <li>iFixit</li>
+            <li>Dozuki</li>
+            <li>Huawei</li>
          </ul>
 
       </div>
