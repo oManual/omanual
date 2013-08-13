@@ -2,7 +2,7 @@
    <h4>ZIP compressed .omanual archive:</h4>
    <ul>
       <li><a href="#manifest">manifest.xml</a></li>
-      <li><a href="#topic">MacBook-Core-Duo.xml</a></li>
+      <li><a href="#category">MacBook-Core-Duo.xml</a></li>
       <li><span>procedure-a/</span>
          <ul>
             <li><a href="#procedure">procedure.xml</a></li>

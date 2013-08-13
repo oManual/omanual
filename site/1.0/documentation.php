@@ -27,7 +27,7 @@ over a web API using mobile-friendly JSON.
    <ul class="tblcontents">
       <li><a href="#data-specification">Data Specification</a>
          <ol>
-            <li><a href="#topic">Topic Documentation</a></li>
+            <li><a href="#category">category Documentation</a></li>
             <li><a href="#procedure">Procedure Documentation</a></li>
          </ol>
       </li>
@@ -53,14 +53,14 @@ over a web API using mobile-friendly JSON.
 
    <h2 id="data-specification">Data Specification</h2>
 
-   <h3 id="topic">
-      Topic Documentation
-      <a href="omanual_topic.xsd" class="downloadbtn">XML Schema Definition</a>
-      <a href="omanual_topic_example.xml" class="downloadbtn">Example XML</a>
+   <h3 id="category">
+      category Documentation
+      <a href="omanual_category.xsd" class="downloadbtn">XML Schema Definition</a>
+      <a href="omanual_category_example.xml" class="downloadbtn">Example XML</a>
       <a href="https://www.ifixit.com/api/2.0/categories/iPhone%205?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
-   <? include 'topic_documentation.php'; ?>
+   <? include 'category_documentation.php'; ?>
 
    <h3 id="procedure">
       Procedure Documentation

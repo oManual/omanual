@@ -165,7 +165,7 @@ may additionally reference its own media.
               <ul class="attr">
                  <li class="attr-intro">Attributes:</li>
                  <li><strong>id</strong> - <em>optional</em> Integer identifier for the document.</li>
-                 <li><strong class="req">type</strong> - <em>required</em> Type must be 'topic' if the file is an oManual topic. Otherwise, specify the MIME type of the file.</li>
+                 <li><strong class="req">type</strong> - <em>required</em> Type must be 'category' if the file is an oManual category. Otherwise, specify the MIME type of the file.</li>
               </ul>
            </div>
         </div>

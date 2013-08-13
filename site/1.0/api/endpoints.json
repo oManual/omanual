@@ -1,5 +1,5 @@
 {
-   "version": "0.4",
+   "version": "1.0",
    "endpoints": {
       "Content Hierarchy": {
          "url": "/guides",
@@ -44,7 +44,7 @@
                "response": [
                   {
                   "code": "200 OK",
-                  "file": "topic.json",
+                  "file": "category.json",
                   "body": []
                }]
             }

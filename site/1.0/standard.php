@@ -119,13 +119,13 @@ may be expanded in the future to enable additional types of documents.
    <a name="manifest"></a>
    <h3>
        Manifest: <span class="greytxt">XML Schema</span>
-       <a href="omanual_manifest.xsd" class="downloadbtn">Download XSD</a>
-       <a href="omanual_manifest_example.xml" class="downloadbtn">Download Example</a>
+       <a href="schema/omanual_manifest.xsd" class="downloadbtn">Download XSD</a>
+       <a href="schema/omanual_manifest_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('../schema/examples/manifest_ex.html') ?>
+      <?php require_once('schema/examples/manifest_ex.html') ?>
       <!-- END CODE -->
    </div>
 
@@ -138,7 +138,7 @@ may be expanded in the future to enable additional types of documents.
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/omanual_category_example.html') ?>
+      <?php require_once('schema/examples/category_ex.html') ?>
       <!-- END CODE -->
    </div>
 
@@ -151,7 +151,7 @@ may be expanded in the future to enable additional types of documents.
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('../schema/examples/procedure_ex.html') ?>
+      <?php require_once('schema/examples/procedure_ex.html') ?>
       <!-- END CODE -->
    </div>
 
