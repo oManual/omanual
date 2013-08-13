@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest locale="en" xmlns="http://omanual.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <title>iPhone 5 Repair Manual</title>
+   <description>Announced September 12, 2012. Available as GSM or CDMA / 16, 32, or 64 GB / Black or White.</description>
+   <categories>
+      <category>iPhone</category>
+   </categories>
+   <procedures>
+      <procedure id="10525" subject="iPhone 5 Teardown" type="teardown">
+         <title>iPhone 5 Teardown</title>
+         <url>http://www.ifixit.com/Teardown/iPhone+5+Teardown/10525/1</url>
+         <thumbnail>http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH</image_url>
+         <path>iPhone-5-Teardown-10525/procedure.xml</path>
+      </procedure>
+      <procedure id="10792" subject="Audio Control Cable" type="installation">
+         <title>Installing iPhone 5 Audio Control Cable</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Audio+Control+Cable/10792/1</url>
+         <thumbnail>http://www.ifixit.com/igi/w3pNDoOkcfSqGh5N.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/w3pNDoOkcfSqGh5N</image_url>
+         <path>Installing-iPhone-5-Audio-Control-Cable-10792/procedure.xml</path>
+      </procedure>
+      <procedure id="10587" subject="Battery" type="installation">
+         <title>Installing iPhone 5 Battery</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Battery/10587/1</url>
+         <thumbnail>http://www.ifixit.com/igi/aD3oxevif6k36Ahh.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/aD3oxevif6k36Ahh</image_url>
+         <path>Installing-iPhone-5-Battery-10587/procedure.xml</path>
+      </procedure>
+      <procedure id="10582" subject="Battery" type="repair">
+         <title>Replacing iPhone 5 Battery</title>
+         <url>http://www.ifixit.com/Guide/Replacing+iPhone+5+Battery/10582/1</url>
+         <thumbnail>http://www.ifixit.com/igi/db3Qr1SXQfHusiVI.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/db3Qr1SXQfHusiVI</image_url>
+         <path>Replacing-iPhone-5-Battery-10582/procedure.xml</path>
+      </procedure>
+      <procedure id="10906" subject="Display Assembly" type="installation">
+         <title>Installing iPhone 5 Display Assembly</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Display+Assembly/10906/1</url>
+         <thumbnail>http://www.ifixit.com/igi/LSsBLyOSac5dcBWE.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/LSsBLyOSac5dcBWE</image_url>
+         <path>Installing-iPhone-5-Display-Assembly-10906/procedure.xml</path>
+      </procedure>
+      <procedure id="10592" subject="Earpiece Speaker" type="installation">
+         <title>Installing Earpiece Speaker</title>
+         <url>http://www.ifixit.com/Guide/Installing+Earpiece+Speaker/10592/1</url>
+         <thumbnail>http://www.ifixit.com/igi/lp6uSoQWa6PpGWsi.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/lp6uSoQWa6PpGWsi</image_url>
+         <path>Installing-Earpiece-Speaker-10592/procedure.xml</path>
+      </procedure>
+      <procedure id="10898" subject="Front Panel Clips" type="installation">
+         <title>Installing iPhone 5 Front Panel Clips</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Front+Panel+Clips/10898/1</url>
+         <thumbnail>http://www.ifixit.com/igi/FuDopHtgu15QfAmU.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/FuDopHtgu15QfAmU</image_url>
+         <path>Installing-iPhone-5-Front-Panel-Clips-10898/procedure.xml</path>
+      </procedure>
+      <procedure id="10896" subject="Front-Facing Camera and Sensor Cable" type="installation">
+         <title>Installing iPhone 5 Front-Facing Camera and Sensor Cable</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Front-Facing+Camera+and+Sensor+Cable/10896/1</url>
+         <thumbnail>http://www.ifixit.com/igi/Z1XAjMLBZBpXAwKj.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/Z1XAjMLBZBpXAwKj</image_url>
+         <path>Installing-iPhone-5-Front-Facing-Camera-and-Sensor-Cable-10896/procedure.xml</path>
+      </procedure>
+      <procedure id="10594" subject="Home Button" type="installation">
+         <title>Installing iPhone 5 Home Button</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Home+Button/10594/1</url>
+         <thumbnail>http://www.ifixit.com/igi/Eb3XOhf6uDylmQJp.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/Eb3XOhf6uDylmQJp</image_url>
+         <path>Installing-iPhone-5-Home-Button-10594/procedure.xml</path>
+      </procedure>
+      <procedure id="10912" subject="Home Button Ribbon Cable" type="installation">
+         <title>Installing iPhone 5 Home Button Ribbon Cable</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Home+Button+Ribbon+Cable/10912/1</url>
+         <thumbnail>http://www.ifixit.com/igi/SvHpG4MDusRIkQt2.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/SvHpG4MDusRIkQt2</image_url>
+         <path>Installing-iPhone-5-Home-Button-Ribbon-Cable-10912/procedure.xml</path>
+      </procedure>
+      <procedure id="10909" subject="Interconnect Cables" type="installation">
+         <title>Installing iPhone 5 Interconnect Cables</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Interconnect+Cables/10909/1</url>
+         <thumbnail>http://www.ifixit.com/igi/5sw1uXR5WNaTvb15.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/5sw1uXR5WNaTvb15</image_url>
+         <path>Installing-iPhone-5-Interconnect-Cables-10909/procedure.xml</path>
+      </procedure>
+      <procedure id="10911" subject="LCD Shield Plate" type="installation">
+         <title>Installing iPhone 5 LCD Shield Plate</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+LCD+Shield+Plate/10911/1</url>
+         <thumbnail>http://www.ifixit.com/igi/xjWUES1oQSx3ZUPW.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/xjWUES1oQSx3ZUPW</image_url>
+         <path>Installing-iPhone-5-LCD-Shield-Plate-10911/procedure.xml</path>
+      </procedure>
+      <procedure id="10702" subject="Lightning Connector" type="installation">
+         <title>Installing iPhone 5 Lightning Connector</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Lightning+Connector/10702/1</url>
+         <thumbnail>http://www.ifixit.com/igi/fUEqMKTVkYpTCSlv.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/fUEqMKTVkYpTCSlv</image_url>
+         <path>Installing-iPhone-5-Lightning-Connector-10702/procedure.xml</path>
+      </procedure>
+      <procedure id="10700" subject="Logic Board" type="installation">
+         <title>Installing iPhone 5 Logic Board</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Logic+Board/10700/1</url>
+         <thumbnail>http://www.ifixit.com/igi/kSeTHfoPRTXmiSKU.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/kSeTHfoPRTXmiSKU</image_url>
+         <path>Installing-iPhone-5-Logic-Board-10700/procedure.xml</path>
+      </procedure>
+      <procedure id="10703" subject="Power Button" type="installation">
+         <title>Installing iPhone 5 Power Button</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Power+Button/10703/1</url>
+         <thumbnail>http://www.ifixit.com/igi/bxNlWpWxk12TXW2I.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/bxNlWpWxk12TXW2I</image_url>
+         <path>Installing-iPhone-5-Power-Button-10703/procedure.xml</path>
+      </procedure>
+      <procedure id="10899" subject="Rear Case" type="installation">
+         <title>Installing iPhone 5 Rear Case</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Rear+Case/10899/1</url>
+         <thumbnail>http://www.ifixit.com/igi/gyXoDcCGdBXQDfIC.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/gyXoDcCGdBXQDfIC</image_url>
+         <path>Installing-iPhone-5-Rear-Case-10899/procedure.xml</path>
+      </procedure>
+      <procedure id="10699" subject="Rear-Facing Camera" type="installation">
+         <title>Installing iPhone 5 Rear-Facing Camera</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Rear-Facing+Camera/10699/1</url>
+         <thumbnail>http://www.ifixit.com/igi/gduXMvnmOBFXUmMi.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/gduXMvnmOBFXUmMi</image_url>
+         <path>Installing-iPhone-5-Rear-Facing-Camera-10699/procedure.xml</path>
+      </procedure>
+      <procedure id="12257" subject="Screen Frame &amp; Display Replacement" type="repair">
+         <title>iPhone 5 Screen Frame &amp; Display Replacement</title>
+         <url>http://www.ifixit.com/Guide/iPhone+5+Screen+Frame+%26+Display+Replacement/12257/1</url>
+         <thumbnail>http://www.ifixit.com/igi/1WXiOsa5NELsBKA1.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/1WXiOsa5NELsBKA1</image_url>
+         <path>iPhone-5-Screen-Frame--Display-Replacement-12257/procedure.xml</path>
+      </procedure>
+      <procedure id="10756" subject="Screen Protector" type="installation">
+         <title>Installing iPhone 5 Screen Protector</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Screen+Protector/10756/1</url>
+         <thumbnail>http://www.ifixit.com/igi/wESSenAYWyouJBno.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/wESSenAYWyouJBno</image_url>
+         <path>Installing-iPhone-5-Screen-Protector-10756/procedure.xml</path>
+      </procedure>
+      <procedure id="10910" subject="SIM Card" type="installation">
+         <title>Installing iPhone 5 SIM Card</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+SIM+Card/10910/1</url>
+         <thumbnail>http://www.ifixit.com/igi/6apCHjSAqkJPEEQA.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/6apCHjSAqkJPEEQA</image_url>
+         <path>Installing-iPhone-5-SIM-Card-10910/procedure.xml</path>
+      </procedure>
+      <procedure id="10701" subject="Speaker Enclosure" type="installation">
+         <title>Installing iPhone 5 Speaker Enclosure</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Speaker+Enclosure/10701/1</url>
+         <thumbnail>http://www.ifixit.com/igi/arSyYRgyLMmVmTMP.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/arSyYRgyLMmVmTMP</image_url>
+         <path>Installing-iPhone-5-Speaker-Enclosure-10701/procedure.xml</path>
+      </procedure>
+      <procedure id="10633" subject="Vibrator" type="installation">
+         <title>Installing iPhone 5 Vibrator</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Vibrator/10633/1</url>
+         <thumbnail>http://www.ifixit.com/igi/k6SYtcUdhL4AXrVv.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/k6SYtcUdhL4AXrVv</image_url>
+         <path>Installing-iPhone-5-Vibrator-10633/procedure.xml</path>
+      </procedure>
+      <procedure id="10791" subject="Volume Controls" type="installation">
+         <title>Installing iPhone 5 Volume Controls</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Volume+Controls/10791/1</url>
+         <thumbnail>http://www.ifixit.com/igi/Z6tfd2dYqNKdgsPf.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/Z6tfd2dYqNKdgsPf</image_url>
+         <path>Installing-iPhone-5-Volume-Controls-10791/procedure.xml</path>
+      </procedure>
+      <procedure id="10897" subject="Wi-Fi Antenna" type="installation">
+         <title>Installing iPhone 5 Wi-Fi Antenna</title>
+         <url>http://www.ifixit.com/Guide/Installing+iPhone+5+Wi-Fi+Antenna/10897/1</url>
+         <thumbnail>http://www.ifixit.com/igi/LlHuNcWvBpMjEnEA.thumbnail</thumbnail>
+         <image_url>http://www.ifixit.com/igi/LlHuNcWvBpMjEnEA</image_url>
+         <path>Installing-iPhone-5-Wi-Fi-Antenna-10897/procedure.xml</path>
+      </procedure>
+   </procedures>
+   <documents>
+      <document id="12012" type="device">iPhone-5.xml</document>
+   </documents>
+</manifest>
+

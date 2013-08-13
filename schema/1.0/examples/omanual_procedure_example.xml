@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure locale="en" xmlns="http://omanual.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <title subject="" type="Teardown">iPhone 5 Teardown</title>
+   <summary>The iPhone 5 was torn down on September 21, 2012.</summary>
+   <image large="http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.large" medium="http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.medium" mini="http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.mini" standard="http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.standard" thumbnail="http://www.ifixit.com/igi/1nDsDmwjsuxhZSJH.thumbnail">media/main.jpg</image>
+   <author id="225368">Brett Hartt</author>
+   <time_required />
+   <difficulty>Moderate</difficulty>
+   <categories>
+      <category>iPhone 5</category>
+   </categories>
+   <introduction introduction_raw="Behold, the sixth generation of iPhone! We shall call it…iPhone 5! Buckle down for the iPhone 5 teardown: the biggest thing to happen to teardowns since teardowns.
+
+Follow us on [https://twitter.com/iFixit|Twitter] for all the latest teardown shenanigans, or go on that [http://www.facebook.com/iFixit|Facebook] thing to keep up with iFixit news.
+
+[video|http://www.youtube.com/watch?v=nlUQfXwvQLc]"><p>Behold, the sixth generation of iPhone! We shall call it…iPhone 5! Buckle down for the iPhone 5 teardown: the biggest thing to happen to teardowns since teardowns.</p>
+
+<p>Follow us on <a href="https://twitter.com/iFixit" rel="nofollow">Twitter</a> for all the latest teardown shenanigans, or go on that <a href="http://www.facebook.com/iFixit" rel="nofollow">Facebook</a> thing to keep up with iFixit news.</p>
+
+<div class="videoBox_center" style="width:592px;"></div></introduction>
+   <modified_date>2013-01-02T11:34:46-07:00</modified_date>
+   <created_date>2012-09-19T10:37:39-07:00</created_date>
+   <tools>
+      <tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Item/Flathead_3_32%22_or_2.5_mm_Screwdriver">Flathead 3/32&quot; or 2.5 mm Screwdriver</tool>
+      <tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Tools/Metal-Tweezers/IF145-020">Metal Tweezers</tool>
+      <tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Tools/Phillips-00-Screwdriver/IF145-006">Phillips 00 Screwdriver</tool>
+      <tool notes="" quantity="1" thumbnail="http://cart-products.ifixit.net/cart-products/cqeevYyePUxpcNEr.mini" type="" url="http://www.ifixit.com/Tools/Small-Suction-Cup/IF145-019">Small suction cup</tool>
+      <tool notes="" quantity="1" thumbnail="http://cart-products.ifixit.net/cart-products/whBKtCmrn6TIVby2.mini" type="" url="http://www.ifixit.com/Tools/Spudger/IF145-002">Spudger</tool>
+      <tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Tools/iPhone-4-5-Point-Pentalobe-Screwdriver/IF145-096">iPhone 4 5-Point Pentalobe Screwdriver</tool>
+   </tools>
+   <parts />
+   <flags>
+      <flag id="GUIDE_STARRED" title="Featured Guide">This guide has been found to be exceptionally cool by the iFixit staff.</flag>
+   </flags>
+   <documents />
+   <prerequisites />
+   <steps>
+      <step number="0" title="">
+         <lines>
+            <line bullet="black" level="0">The dawn of another day in the Land Down Under brings us what we&apos;ve all been waiting for: the new iPhone 5!</line>
+            <line bullet="black" level="0">A big thanks to &lt;a href=&quot;http://www.macfixit.com.au&quot; rel=&quot;nofollow&quot;&gt;MacFixit Australia&lt;/a&gt; for letting us use their digs in Melbourne for this teardown. They stock Mac and iPhone upgrades/accessories, and also carry our &lt;a href=&quot;/Tools/Pro-Tech-Toolkit/IF145-072?utm_source=ifixit_guide&amp;amp;utm_medium=wiki_text&amp;amp;utm_term=if145-072&amp;amp;utm_content=product_link&quot;&gt;iFixit toolkits&lt;/a&gt;.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-0-image-0.large.jpg" medium="media/step-0-image-0.medium.jpg" mini="media/step-0-image-0.mini.jpg" orderby="1" standard="media/step-0-image-0.standard.jpg" thumbnail="media/step-0-image-0.thumbnail.jpg">media/step-0-image-0.jpg</image>
+            <image large="media/step-0-image-1.large.jpg" medium="media/step-0-image-1.medium.jpg" mini="media/step-0-image-1.mini.jpg" orderby="2" standard="media/step-0-image-1.standard.jpg" thumbnail="media/step-0-image-1.thumbnail.jpg">media/step-0-image-1.jpg</image>
+            <image large="media/step-0-image-2.large.jpg" medium="media/step-0-image-2.medium.jpg" mini="media/step-0-image-2.mini.jpg" orderby="3" standard="media/step-0-image-2.standard.jpg" thumbnail="media/step-0-image-2.thumbnail.jpg">media/step-0-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="1" title="">
+         <lines>
+            <line bullet="black" level="0">The iPhone 5 is here, and it brought along the big guns.</line>
+            <line bullet="red" level="1">4&amp;quot; 1136x640 pixel (326 ppi) Retina display</line>
+            <line bullet="orange" level="1">Apple A6 system on a chip (SoC)</line>
+            <line bullet="yellow" level="1">8 megapixel iSight camera</line>
+            <line bullet="green" level="1">8-pin Lightning connector</line>
+            <line bullet="blue" level="1">4G LTE connectivity</line>
+            <line bullet="violet" level="1">iOS 6</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-1-image-0.large.jpg" medium="media/step-1-image-0.medium.jpg" mini="media/step-1-image-0.mini.jpg" orderby="1" standard="media/step-1-image-0.standard.jpg" thumbnail="media/step-1-image-0.thumbnail.jpg">media/step-1-image-0.jpg</image>
+            <image large="media/step-1-image-1.large.jpg" medium="media/step-1-image-1.medium.jpg" mini="media/step-1-image-1.mini.jpg" orderby="2" standard="media/step-1-image-1.standard.jpg" thumbnail="media/step-1-image-1.thumbnail.jpg">media/step-1-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="2" title="">
+         <lines>
+            <line bullet="black" level="0">There won&apos;t be any mistaking an iPhone 5 for an iPhone 4 or 4S. A lot has changed on the outside of the iPhone.</line>
+            <line bullet="black" level="0">The most obvious alteration to the bottom of the phone is the exchange of the large 30-pin dock connector for the diminutive Lightning connector.</line>
+            <line bullet="black" level="0">The headphone jack is now on the bottom of the iPhone, right next to the updated &lt;del&gt;speaker&lt;/del&gt; microphone grille—a series of holes rather than a mesh-covered slot.</line>
+            <line bullet="black" level="0">Other notable differences are the slate bezel, as opposed to the &lt;a href=&quot;/Teardown/iPhone+4S+Teardown/6610/1#s28302&quot;&gt;stainless steel&lt;/a&gt; that wrapped around the 4S, and the chamfered edges between the bezel and the front/rear cases.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-2-image-0.large.jpg" medium="media/step-2-image-0.medium.jpg" mini="media/step-2-image-0.mini.jpg" orderby="1" standard="media/step-2-image-0.standard.jpg" thumbnail="media/step-2-image-0.thumbnail.jpg">media/step-2-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="3" title="">
+         <lines>
+            <line bullet="black" level="0">Pesky pentalobes! Good thing our &lt;a href=&quot;/Tools/iPhone-5-Point-Pentalobe-Screwdriver/IF145-096?utm_source=ifixit_guide&amp;amp;utm_medium=wiki_text&amp;amp;utm_term=if145-096&amp;amp;utm_content=product_link&quot;&gt;5-Point Drivers&lt;/a&gt; still work on them.</line>
+            <line bullet="black" level="1">It&apos;s incredibly convenient that Apple used the same pentalobe screwhead that they&apos;ve been using for the past two years on the iPhone 4 and 4S. Unfortunately, the screw shafts are slightly different from the screws in our &lt;a href=&quot;/iPhone-Parts/iPhone-4-4S-Liberation-Kit/IF182-019?utm_source=ifixit_guide&amp;amp;utm_medium=wiki_text&amp;amp;utm_term=if182-019&amp;amp;utm_content=product_link&quot;&gt;iPhone Liberation Kit&lt;/a&gt;…for now.</line>
+            <line bullet="black" level="0">The unibody back case is reminiscent of the &lt;a href=&quot;/Teardown/iPhone+3GS+Teardown/817/1&quot;&gt;iPhone 3GS&lt;/a&gt;, while still retaining the square (though now chamfered) edges of the iPhone 4.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-3-image-0.large.jpg" medium="media/step-3-image-0.medium.jpg" mini="media/step-3-image-0.mini.jpg" orderby="1" standard="media/step-3-image-0.standard.jpg" thumbnail="media/step-3-image-0.thumbnail.jpg">media/step-3-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="4" title="">
+         <lines>
+            <line bullet="black" level="0">What&apos;s this? A suction cup? We haven&apos;t needed a suction cup to get into an iPhone since the &lt;a href=&quot;/Teardown/iPhone+3GS+Teardown/817/1#s4596&quot;&gt;3GS&lt;/a&gt;!</line>
+            <line bullet="black" level="0">Because the iPhone 5 is opened front-to-back, replacing a cracked screen is going to be easier than ever. &lt;em&gt;Thank you, Apple!&lt;/em&gt;</line>
+            <line bullet="black" level="1">Compare this to the iPhone 4S, where it took &lt;a href=&quot;/Guide/Installing+iPhone+4S+Display+Assembly/7277/5#s31002&quot;&gt;38 steps&lt;/a&gt; to isolate the display assembly, and this iPhone may be the most repairable iPhone we&apos;ve seen in a while.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-4-image-0.large.jpg" medium="media/step-4-image-0.medium.jpg" mini="media/step-4-image-0.mini.jpg" orderby="1" standard="media/step-4-image-0.standard.jpg" thumbnail="media/step-4-image-0.thumbnail.jpg">media/step-4-image-0.jpg</image>
+            <image large="media/step-4-image-1.large.jpg" medium="media/step-4-image-1.medium.jpg" mini="media/step-4-image-1.mini.jpg" orderby="2" standard="media/step-4-image-1.standard.jpg" thumbnail="media/step-4-image-1.thumbnail.jpg">media/step-4-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="5" title="">
+         <lines>
+            <line bullet="black" level="0">The display connector is held firmly to the logic board by a few simple Phillips screws.</line>
+            <line bullet="black" level="0">Our spudger makes quick work of prying up the display connector, and &lt;em&gt;poof!&lt;/em&gt; the display is free.</line>
+            <line bullet="black" level="0">We&apos;re having &lt;a href=&quot;/Teardown/iPhone+3GS+Teardown/817/1#s4597&quot;&gt;iPhone 3GS&lt;/a&gt; flashbacks with the easily accessible display assembly.</line>
+            <line bullet="black" level="0">&lt;em&gt;Screen crackers and screen fixers rejoice!&lt;/em&gt;</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-5-image-0.large.jpg" medium="media/step-5-image-0.medium.jpg" mini="media/step-5-image-0.mini.jpg" orderby="1" standard="media/step-5-image-0.standard.jpg" thumbnail="media/step-5-image-0.thumbnail.jpg">media/step-5-image-0.jpg</image>
+            <image large="media/step-5-image-1.large.jpg" medium="media/step-5-image-1.medium.jpg" mini="media/step-5-image-1.mini.jpg" orderby="2" standard="media/step-5-image-1.standard.jpg" thumbnail="media/step-5-image-1.thumbnail.jpg">media/step-5-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="6" title="">
+         <lines>
+            <line bullet="black" level="0">The iPhone 5 ditches its lid to show us all of the juicy bits inside.</line>
+            <line bullet="black" level="0">So, what can we see from here? A bigger battery? Antenna connections? A single speaker? Cameras? Vibrators? Home buttons?</line>
+            <line bullet="black" level="1">Never fear, our faithful iPhone delivers; we&apos;ll be sure to take a closer look at each of these components as we remove them.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-6-image-0.large.jpg" medium="media/step-6-image-0.medium.jpg" mini="media/step-6-image-0.mini.jpg" orderby="1" standard="media/step-6-image-0.standard.jpg" thumbnail="media/step-6-image-0.thumbnail.jpg">media/step-6-image-0.jpg</image>
+            <image large="media/step-6-image-1.large.jpg" medium="media/step-6-image-1.medium.jpg" mini="media/step-6-image-1.mini.jpg" orderby="2" standard="media/step-6-image-1.standard.jpg" thumbnail="media/step-6-image-1.thumbnail.jpg">media/step-6-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="7" title="">
+         <lines>
+            <line bullet="black" level="0">As always, we disconnect the battery first to prevent electrifying anything, including ourselves, as we dig deeper.</line>
+            <line bullet="black" level="0">Three Phillips #00 screws and a metal bracket hold the battery connector to the logic board.</line>
+            <line bullet="black" level="1">Hmm, this is beginning to feel &lt;a href=&quot;/Guide/Installing+iPhone+4S+Battery/7111/1#s30465&quot;&gt;very familiar&lt;/a&gt;.</line>
+            <line bullet="icon_note" level="0">In the 3GS, the display assembly was easy to take out, but the battery was a pain. In the 4 and 4S, the display assembly took 38 steps to remove, while the battery was a breeze. We like to think that Apple has started tailoring to our preferences in allowing us to remove both the display assembly &lt;strong&gt;and&lt;/strong&gt; the battery in only a couple of steps.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-7-image-0.large.jpg" medium="media/step-7-image-0.medium.jpg" mini="media/step-7-image-0.mini.jpg" orderby="1" standard="media/step-7-image-0.standard.jpg" thumbnail="media/step-7-image-0.thumbnail.jpg">media/step-7-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="8" title="">
+         <lines>
+            <line bullet="black" level="0">We use the flat end of a spudger to pry up the battery from some typical adhesive.</line>
+            <line bullet="black" level="0">For the iPhone 5, Apple has switched to a different battery chemistry, with a higher voltage and slightly larger capacity than the iPhone 4S. Let&apos;s see how the battery specs stack up.</line>
+            <line bullet="black" level="1">&lt;strong&gt;iPhone 5 Battery:&lt;/strong&gt; 3.8V - 5.45Wh - 1440mAh. Talk time: Up to 8 hours on 3G. Standby time: Up to 225 hours.</line>
+            <line bullet="black" level="1">&lt;strong&gt;iPhone 4S Battery:&lt;/strong&gt; 3.7V - 5.3Wh - 1432mAh. Talk time: Up to 8 hours on 3G. Standby time: Up to 200 hours.</line>
+            <line bullet="black" level="1">&lt;strong&gt;Samsung Galaxy S III Battery:&lt;/strong&gt; 3.8V - 7.98Wh - 2100mAh. Talk time: Up to 11 hours 40 minutes on 3G. Standby time: Up to 790 hours.</line>
+            <line bullet="black" level="0">On the back of the battery we notice &amp;quot;MFR Sony,&amp;quot; and &amp;quot;Cell made in Singapore.&amp;quot; A bit of &lt;a href=&quot;http://www.sony.net/SonyInfo/News/Press/200708/07-0814E/index.html&quot; rel=&quot;nofollow&quot;&gt;googling&lt;/a&gt; and it looks very likely that Sony is manufacturing this battery.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-8-image-0.large.jpg" medium="media/step-8-image-0.medium.jpg" mini="media/step-8-image-0.mini.jpg" orderby="1" standard="media/step-8-image-0.standard.jpg" thumbnail="media/step-8-image-0.thumbnail.jpg">media/step-8-image-0.jpg</image>
+            <image large="media/step-8-image-1.large.jpg" medium="media/step-8-image-1.medium.jpg" mini="media/step-8-image-1.mini.jpg" orderby="2" standard="media/step-8-image-1.standard.jpg" thumbnail="media/step-8-image-1.thumbnail.jpg">media/step-8-image-1.jpg</image>
+            <image large="media/step-8-image-2.large.jpg" medium="media/step-8-image-2.medium.jpg" mini="media/step-8-image-2.mini.jpg" orderby="3" standard="media/step-8-image-2.standard.jpg" thumbnail="media/step-8-image-2.thumbnail.jpg">media/step-8-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="9" title="">
+         <lines>
+            <line bullet="black" level="0">There are all kinds of metal-to-metal contacts inside the iPhone 5.</line>
+            <line bullet="black" level="1">Spring contacts make for easy repairs, but mandate careful attention to cleaning all the parts before reassembly. Finger oils can get in the way of these metal contacts and cause frustrating component failures.</line>
+            <line bullet="black" level="0">This contact connects the metal frame around the front-facing camera to the frame around the rear-facing camera. Maybe this frame is some kind of an antenna? Only time will tell.</line>
+            <line bullet="black" level="0">Speaking of antennas, a spudger easily pries one end of an antenna connector off of the logic board near the battery.</line>
+            <line bullet="black" level="1">In the iPhone 4S, this antenna location was reserved for the cellular antenna. We won&apos;t know for sure what this antenna&apos;s purpose is until we uncover more.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-9-image-0.large.jpg" medium="media/step-9-image-0.medium.jpg" mini="media/step-9-image-0.mini.jpg" orderby="1" standard="media/step-9-image-0.standard.jpg" thumbnail="media/step-9-image-0.thumbnail.jpg">media/step-9-image-0.jpg</image>
+            <image large="media/step-9-image-1.large.jpg" medium="media/step-9-image-1.medium.jpg" mini="media/step-9-image-1.mini.jpg" orderby="2" standard="media/step-9-image-1.standard.jpg" thumbnail="media/step-9-image-1.thumbnail.jpg">media/step-9-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="10" title="">
+         <lines>
+            <line bullet="black" level="0">Near the top of the case, we find a few antenna connectors firmly screwed to the inside of the case.</line>
+            <line bullet="black" level="0">Finally free of its constraints, we lift the logic board up out of the rear case.</line>
+            <line bullet="black" level="0">The logic board and 8 megapixel iSight camera come out together, leaving several components behind in the rear case—another win for modularity.</line>
+            <line bullet="black" level="1">&lt;a href=&quot;http://www.c1-partners.com/Portals/123651/images/google-1.jpg&quot; rel=&quot;nofollow&quot;&gt;+1&lt;/a&gt; for repairability.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-10-image-0.large.jpg" medium="media/step-10-image-0.medium.jpg" mini="media/step-10-image-0.mini.jpg" orderby="1" standard="media/step-10-image-0.standard.jpg" thumbnail="media/step-10-image-0.thumbnail.jpg">media/step-10-image-0.jpg</image>
+            <image large="media/step-10-image-1.large.jpg" medium="media/step-10-image-1.medium.jpg" mini="media/step-10-image-1.mini.jpg" orderby="2" standard="media/step-10-image-1.standard.jpg" thumbnail="media/step-10-image-1.thumbnail.jpg">media/step-10-image-1.jpg</image>
+            <image large="media/step-10-image-2.large.jpg" medium="media/step-10-image-2.medium.jpg" mini="media/step-10-image-2.mini.jpg" orderby="3" standard="media/step-10-image-2.standard.jpg" thumbnail="media/step-10-image-2.thumbnail.jpg">media/step-10-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="11" title="">
+         <lines>
+            <line bullet="black" level="0">&lt;em&gt;They&lt;/em&gt; said if us tech writers were good and we stayed late, we can have one beverage of choice when we finished the teardown.</line>
+            <line bullet="black" level="0">Then &lt;em&gt;they&lt;/em&gt; promptly took the beverages away…</line>
+            <line bullet="black" level="0">…&lt;em&gt;and put them in the fridge!!!&lt;/em&gt;</line>
+            <line bullet="black" level="0">We Я happy camperz.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-11-image-0.large.jpg" medium="media/step-11-image-0.medium.jpg" mini="media/step-11-image-0.mini.jpg" orderby="1" standard="media/step-11-image-0.standard.jpg" thumbnail="media/step-11-image-0.thumbnail.jpg">media/step-11-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="12" title="">
+         <lines>
+            <line bullet="black" level="0">Many of the components that came out with the logic board are held in place with screws and brackets.</line>
+            <line bullet="black" level="1">Apparently, Apple is very concerned with making sure that all the connectors are firmly seated and won&apos;t rattle loose over time. Good on you, Apple.</line>
+            <line bullet="icon_caution" level="0">Before we go any further: A mega thanks to &lt;strong&gt;&lt;a href=&quot;http://www.chipworks.com&quot; rel=&quot;nofollow&quot;&gt;Chipworks&lt;/a&gt;&lt;/strong&gt; for sticking around into the wee hours of the night and helping us identify the packages on the logic board. Their handiwork (along with ours!) can be seen below.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-12-image-0.large.jpg" medium="media/step-12-image-0.medium.jpg" mini="media/step-12-image-0.mini.jpg" orderby="1" standard="media/step-12-image-0.standard.jpg" thumbnail="media/step-12-image-0.thumbnail.jpg">media/step-12-image-0.jpg</image>
+            <image large="media/step-12-image-1.large.jpg" medium="media/step-12-image-1.medium.jpg" mini="media/step-12-image-1.mini.jpg" orderby="2" standard="media/step-12-image-1.standard.jpg" thumbnail="media/step-12-image-1.thumbnail.jpg">media/step-12-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="13" title="">
+         <lines>
+            <line bullet="black" level="0">The underside of the logic board is teeming with components.</line>
+            <line bullet="red" level="1">Skyworks 77352-15 GSM/GPRS/EDGE power amplifier module</line>
+            <line bullet="orange" level="1">SWUA 147 228 is an RF antenna switch module</line>
+            <line bullet="yellow" level="1">Triquint 666083-1229 WCDMA / HSUPA power amplifier / duplexer module for the UMTS band</line>
+            <line bullet="green" level="1">Avago AFEM-7813 dual-band LTE B1/B3 PA+FBAR duplexer module</line>
+            <line bullet="blue" level="1">Skyworks 77491-158 CDMA power amplifier module</line>
+            <line bullet="violet" level="1">Avago A5613 ACPM-5613 LTE band 13 power amplifier</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-13-image-0.large.jpg" medium="media/step-13-image-0.medium.jpg" mini="media/step-13-image-0.mini.jpg" orderby="1" standard="media/step-13-image-0.standard.jpg" thumbnail="media/step-13-image-0.thumbnail.jpg">media/step-13-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="14" title="">
+         <lines>
+            <line bullet="black" level="0">More chips on the underside of the logic board:</line>
+            <line bullet="red" level="1">Qualcomm PM8018 RF power management IC</line>
+            <line bullet="yellow" level="1">Hynix H2JTDG2MBR 128 Gb (16 GB) NAND flash</line>
+            <line bullet="orange" level="1">Apple 338S1131 dialog power management IC*</line>
+            <line bullet="green" level="1">Apple 338S1117 Cirrus Logic Class D Amplifiers. The die inside is a Cirrus Logic device (second image) but it does not look like the audio codec.</line>
+            <line bullet="blue" level="1">STMicroelectronics L3G4200D (AGD5/2235/G8SBI ) low-power three-axis gyroscope—same as seen in the iPhone 4S, iPad 2, and other leading smart phones</line>
+            <line bullet="violet" level="1">Murata 339S0171 Wi-Fi module</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-14-image-0.large.jpg" medium="media/step-14-image-0.medium.jpg" mini="media/step-14-image-0.mini.jpg" orderby="1" standard="media/step-14-image-0.standard.jpg" thumbnail="media/step-14-image-0.thumbnail.jpg">media/step-14-image-0.jpg</image>
+            <image large="media/step-14-image-1.large.jpg" medium="media/step-14-image-1.medium.jpg" mini="media/step-14-image-1.mini.jpg" orderby="2" standard="media/step-14-image-1.standard.jpg" thumbnail="media/step-14-image-1.thumbnail.jpg">media/step-14-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="15" title="">
+         <lines>
+            <line bullet="black" level="0">Now for the pièce de résistance: the A6 application processor.</line>
+            <line bullet="black" level="0">The A6 processor is the first Apple &lt;a href=&quot;http://en.wikipedia.org/wiki/System_on_a_chip&quot;&gt;System-on-Chip (SoC)&lt;/a&gt; to use a custom design, based off the ARMv7 instruction set.</line>
+            <line bullet="black" level="0">Because the A6 is not an &lt;a href=&quot;http://en.wikipedia.org/wiki/ARM_architecture&quot;&gt;ARM&lt;/a&gt;-specific CPU design, this gives Apple the ability to tailor the A6 towards their needs.</line>
+            <line bullet="red" level="0">According to Chipworks, the B8164B3PM silkscreen label denotes 1GB &lt;em&gt;Elpida&lt;/em&gt; LP DDR2 SDRAM.</line>
+            <line bullet="black" level="1">Contrarily, the &lt;a href=&quot;http://images.anandtech.com/doci/6279/iPhone5-299_575px.jpg&quot; rel=&quot;nofollow&quot;&gt;infographic&lt;/a&gt; presented during Apple&apos;s Keynote clearly showed &lt;em&gt;Samsung&lt;/em&gt; RAM (K3PE7E700F) in the A6.</line>
+            <line bullet="black" level="1">Not too long ago, Apple decided to &lt;a href=&quot;http://www.reuters.com/article/2012/09/07/us-apple-samsung-idUSBRE88601A20120907&quot; rel=&quot;nofollow&quot;&gt;reduce the number of RAM chip orders&lt;/a&gt; from Samsung. Time to invest in Elpida? Or is Samsung lurking in the next phone on the shelf? That&apos;s for you to decide.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-15-image-0.large.jpg" medium="media/step-15-image-0.medium.jpg" mini="media/step-15-image-0.mini.jpg" orderby="1" standard="media/step-15-image-0.standard.jpg" thumbnail="media/step-15-image-0.thumbnail.jpg">media/step-15-image-0.jpg</image>
+            <image large="media/step-15-image-1.large.jpg" medium="media/step-15-image-1.medium.jpg" mini="media/step-15-image-1.mini.jpg" orderby="2" standard="media/step-15-image-1.standard.jpg" thumbnail="media/step-15-image-1.thumbnail.jpg">media/step-15-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="16" title="">
+         <lines>
+            <line bullet="black" level="0">Did someone ask for a close-up of the Apple 338S1077 Cirrus audio codec?</line>
+            <line bullet="black" level="0">What exactly does an audio codec do? In short, it&apos;s a single device that acts as both a digital-to-analog and analog-to-digital converter to properly encode and decode audio in and out signals.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-16-image-0.large.jpg" medium="media/step-16-image-0.medium.jpg" mini="media/step-16-image-0.mini.jpg" orderby="1" standard="media/step-16-image-0.standard.jpg" thumbnail="media/step-16-image-0.thumbnail.jpg">media/step-16-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="17" title="">
+         <lines>
+            <line bullet="black" level="0">Chips on a board. Kinda like ants on a log.</line>
+            <line bullet="red" level="1">STMicroelectronics LIS331DLH (2233/DSH/GFGHA) ultra low-power, high performance, three-axis linear accelerometer</line>
+            <line bullet="orange" level="1">Texas Instruments 27C245I touch screen SoC</line>
+            <line bullet="yellow" level="1">Broadcom BCM5976 touchscreen controller</line>
+            <line bullet="icon_note" level="2">Rather than a single touchscreen controller, Apple went with a multi-chip solution to handle the larger screen size, à la iPad.</line>
+            <line bullet="green" level="1">Apple A6 application processor</line>
+            <line bullet="blue" level="1">Qualcomm MDM9615M LTE modem</line>
+            <line bullet="violet" level="1">Qualcomm RTR8600 Multi-band/mode RF transceiver, the same one found in the &lt;a href=&quot;http://www.techrepublic.com/photos/cracking-open-the-samsung-galaxy-s-iii-t-mobile/6370767?seq=43&quot; rel=&quot;nofollow&quot;&gt;Samsung Galaxy S III&lt;/a&gt;</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-17-image-0.large.jpg" medium="media/step-17-image-0.medium.jpg" mini="media/step-17-image-0.mini.jpg" orderby="1" standard="media/step-17-image-0.standard.jpg" thumbnail="media/step-17-image-0.thumbnail.jpg">media/step-17-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="18" title="">
+         <lines>
+            <line bullet="black" level="0">An iPhone with 4G connectivity? It&apos;s more likely than you think.</line>
+            <line bullet="black" level="0">We can now confirm that the Qualcomm MDM9615M is the 4G &lt;a href=&quot;http://en.wikipedia.org/wiki/LTE_(telecommunication)&quot;&gt;LTE&lt;/a&gt; modem powering this new feature.</line>
+            <line bullet="icon_note" level="1">After being teased for over a year by Android bullies, the iPhone faithful finally have 4G LTE on their side. What will they do with this newfound power? Only time will tell.</line>
+            <line bullet="black" level="0">The Qualcomm MDM9615M is a 28 nm LTE (&lt;a href=&quot;http://en.wikipedia.org/wiki/Duplex_(telecommunications)#Frequency-division_duplexing&quot;&gt;FDD&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Duplex_(telecommunications)#Time-division_duplexing&quot;&gt;TDD&lt;/a&gt;), HSPA+, EV-DO Rev B, &lt;a href=&quot;http://en.wikipedia.org/wiki/TD-SCDMA&quot;&gt;TD-SCDMA&lt;/a&gt; modem.</line>
+            <line bullet="black" level="0">The MDM9615 allows for &lt;a href=&quot;http://bit.ly/R45khF&quot; rel=&quot;nofollow&quot;&gt;multi-spectrums, multi-mode&lt;/a&gt; LTE support. It is responsible for transmitting simultaneous voice and data transfer on LTE (provided the carrier has the infrastructure to allow simultaneous voice and data transfer.)</line>
+            <line bullet="black" level="0">We also find the Qualcomm RTR8600  multi-band/mode RF transceiver. The RTR8600 is paired alongside the MDM9615 to support various bands, including 5 &lt;a href=&quot;http://en.wikipedia.org/wiki/Universal_Mobile_Telecommunications_System&quot;&gt;UMTS&lt;/a&gt; bands, and over 5 LTE  and 4 EDGE bands.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-18-image-0.large.jpg" medium="media/step-18-image-0.medium.jpg" mini="media/step-18-image-0.mini.jpg" orderby="1" standard="media/step-18-image-0.standard.jpg" thumbnail="media/step-18-image-0.thumbnail.jpg">media/step-18-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="19" title="">
+         <lines>
+            <line bullet="black" level="0">Here&apos;s a closer look at the Broadcom BCM5976 trackpad controller.</line>
+            <line bullet="black" level="0">Apple used this same chip in the MacBook Air to control the trackpad. Here, it&apos;s working together with the Texas Instruments touchscreen controller to take care of touch inputs on the Retina display.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-19-image-0.large.jpg" medium="media/step-19-image-0.medium.jpg" mini="media/step-19-image-0.mini.jpg" orderby="1" standard="media/step-19-image-0.standard.jpg" thumbnail="media/step-19-image-0.thumbnail.jpg">media/step-19-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="20" title="">
+         <lines>
+            <line bullet="black" level="0">After completely dissecting the logic board, we turn our attention back to the rear case.</line>
+            <line bullet="black" level="0">Not even a healthy heap of adhesive can stand up to our mighty spudger!</line>
+            <line bullet="black" level="0">The Lightning connector assembly, which includes the headphone jack, loudspeaker, and lower microphone, comes out next.</line>
+            <line bullet="black" level="0">It appears that the Wi-Fi antenna is also embedded into the assembly. The iPhone 5 now includes support for 2.4 GHz and 5 Ghz.</line>
+            <line bullet="black" level="1">Antennas are sized to be fractions of full wavelengths, so the 1.23&amp;quot; of a quarter 2.4 GHz wave is close enough to the 1.18&amp;quot; of a half 5 GHz wave that a single antenna can serve both frequencies.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-20-image-0.large.jpg" medium="media/step-20-image-0.medium.jpg" mini="media/step-20-image-0.mini.jpg" orderby="1" standard="media/step-20-image-0.standard.jpg" thumbnail="media/step-20-image-0.thumbnail.jpg">media/step-20-image-0.jpg</image>
+            <image large="media/step-20-image-1.large.jpg" medium="media/step-20-image-1.medium.jpg" mini="media/step-20-image-1.mini.jpg" orderby="2" standard="media/step-20-image-1.standard.jpg" thumbnail="media/step-20-image-1.thumbnail.jpg">media/step-20-image-1.jpg</image>
+            <image large="media/step-20-image-2.large.jpg" medium="media/step-20-image-2.medium.jpg" mini="media/step-20-image-2.mini.jpg" orderby="3" standard="media/step-20-image-2.standard.jpg" thumbnail="media/step-20-image-2.thumbnail.jpg">media/step-20-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="21" title="">
+         <lines>
+            <line bullet="black" level="0">The first of &lt;a href=&quot;http://cdn.slashgear.com/wp-content/uploads/2012/09/iPhone5_threemics-580x387.jpg&quot; rel=&quot;nofollow&quot;&gt;three microphones&lt;/a&gt; comes out of the iPhone 5 along with the Lightning connector assembly.</line>
+            <line bullet="black" level="0">It is safe to assume that the microphone located at the bottom front of the device is used for voice commands and voice calls.</line>
+            <line bullet="icon_note" level="0">The other two microphones remain in the device, for now, waiting towards the top of the phone.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-21-image-0.large.jpg" medium="media/step-21-image-0.medium.jpg" mini="media/step-21-image-0.mini.jpg" orderby="1" standard="media/step-21-image-0.standard.jpg" thumbnail="media/step-21-image-0.thumbnail.jpg">media/step-21-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="22" title="">
+         <lines>
+            <line bullet="black" level="0">The Lightning connector looks like it could be &lt;a href=&quot;http://blueocean.org/wp-content/uploads/fish-eating-fish_fromthevaryguydotcom.jpg&quot; rel=&quot;nofollow&quot;&gt;swallowed&lt;/a&gt; by the the 30-pin dock connector.</line>
+            <line bullet="black" level="0">Here we can clearly see the eight leads in the new Lightning connector.</line>
+            <line bullet="black" level="1">While there hasn&apos;t been any official word on the pin-out for the Lightning connector, we can confidently say that two of them will be used for power and ground. As for the other six, well, that&apos;s anyone&apos;s guess.</line>
+            <line bullet="black" level="1">&lt;strong&gt;Update:&lt;/strong&gt; We now know what the &lt;a href=&quot;http://en.wikipedia.org/wiki/Lightning_(connector)&quot;&gt;pin-out&lt;/a&gt; of the Lightning connector is.</line>
+            <line bullet="black" level="0">Apple claims that the Lightning connector is all digital. However, they also claim that the iPhone 5 supports analog audio-out and VGA video, indicating that there may be some kind of digital-to-analog conversion going on inside the cable.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-22-image-0.large.jpg" medium="media/step-22-image-0.medium.jpg" mini="media/step-22-image-0.mini.jpg" orderby="1" standard="media/step-22-image-0.standard.jpg" thumbnail="media/step-22-image-0.thumbnail.jpg">media/step-22-image-0.jpg</image>
+            <image large="media/step-22-image-1.large.jpg" medium="media/step-22-image-1.medium.jpg" mini="media/step-22-image-1.mini.jpg" orderby="2" standard="media/step-22-image-1.standard.jpg" thumbnail="media/step-22-image-1.thumbnail.jpg">media/step-22-image-1.jpg</image>
+            <image large="media/step-22-image-2.large.jpg" medium="media/step-22-image-2.medium.jpg" mini="media/step-22-image-2.mini.jpg" orderby="3" standard="media/step-22-image-2.standard.jpg" thumbnail="media/step-22-image-2.thumbnail.jpg">media/step-22-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="23" title="">
+         <lines>
+            <line bullet="black" level="0">Further investigation into the Lightning connector shows a neat array of pins and a clip to hold the cable in place.</line>
+            <line bullet="black" level="0">Each pin (shown in the third picture) is springy and gold plated on the end to ensure good conductivity between the Lightning cable and the socket.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-23-image-0.large.jpg" medium="media/step-23-image-0.medium.jpg" mini="media/step-23-image-0.mini.jpg" orderby="1" standard="media/step-23-image-0.standard.jpg" thumbnail="media/step-23-image-0.thumbnail.jpg">media/step-23-image-0.jpg</image>
+            <image large="media/step-23-image-1.large.jpg" medium="media/step-23-image-1.medium.jpg" mini="media/step-23-image-1.mini.jpg" orderby="2" standard="media/step-23-image-1.standard.jpg" thumbnail="media/step-23-image-1.thumbnail.jpg">media/step-23-image-1.jpg</image>
+            <image large="media/step-23-image-2.large.jpg" medium="media/step-23-image-2.medium.jpg" mini="media/step-23-image-2.mini.jpg" orderby="3" standard="media/step-23-image-2.standard.jpg" thumbnail="media/step-23-image-2.thumbnail.jpg">media/step-23-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="24" title="">
+         <lines>
+            <line bullet="black" level="0">Even with several components remaining, the back case is impressively light.</line>
+            <line bullet="black" level="0">Using a high tech, advanced precision scale, we conclude that the entire rear case of the iPhone 5 weighs only slightly more than just the glass rear panel of the 4S.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-24-image-0.large.jpg" medium="media/step-24-image-0.medium.jpg" mini="media/step-24-image-0.mini.jpg" orderby="1" standard="media/step-24-image-0.standard.jpg" thumbnail="media/step-24-image-0.thumbnail.jpg">media/step-24-image-0.jpg</image>
+            <image large="media/step-24-image-1.large.jpg" medium="media/step-24-image-1.medium.jpg" mini="media/step-24-image-1.mini.jpg" orderby="2" standard="media/step-24-image-1.standard.jpg" thumbnail="media/step-24-image-1.thumbnail.jpg">media/step-24-image-1.jpg</image>
+            <image large="media/step-24-image-2.large.jpg" medium="media/step-24-image-2.medium.jpg" mini="media/step-24-image-2.mini.jpg" orderby="3" standard="media/step-24-image-2.standard.jpg" thumbnail="media/step-24-image-2.thumbnail.jpg">media/step-24-image-2.jpg</image>
+         </media>
+      </step>
+      <step number="25" title="">
+         <lines>
+            <line bullet="black" level="0">Pressure contacts on the vibrator motor mean that replacing it doesn&apos;t require soldering or prying up small connectors.</line>
+            <line bullet="black" level="0">Unlike the &lt;a href=&quot;/Teardown/iPhone+4S+Teardown/6610/2#s28315&quot;&gt;iPhone 4S&lt;/a&gt;, which used a linear-oscillating vibrator, Apple has gone back to a rotational motor with a counterweight.</line>
+            <line bullet="icon_note" level="1">We praised Apple in the past for going with the quieter and less annoying linear oscillating vibrator, but now we&apos;re &lt;a href=&quot;http://gadgets.boingboing.net/assets_mt/2008/10/10/head-massager-kenzan-2-thumb-520x381.jpg&quot; rel=&quot;nofollow&quot;&gt;scratching our heads&lt;/a&gt; as to why they went back.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-25-image-0.large.jpg" medium="media/step-25-image-0.medium.jpg" mini="media/step-25-image-0.mini.jpg" orderby="1" standard="media/step-25-image-0.standard.jpg" thumbnail="media/step-25-image-0.thumbnail.jpg">media/step-25-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="26" title="">
+         <lines>
+            <line bullet="black" level="0">The ear speaker comes out easily with two screws and connects to the display assembly with spring contacts.</line>
+            <line bullet="black" level="0">The speaker in the iPhone 4S was adhered to the fragile power button ribbon cable and required &lt;a href=&quot;/Guide/Installing+iPhone+4S+Earpiece+Speaker/7320/5#s31054&quot;&gt;a lot of work&lt;/a&gt; to remove. Now it pops right off the display assembly—another hooray for repairability!</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-26-image-0.large.jpg" medium="media/step-26-image-0.medium.jpg" mini="media/step-26-image-0.mini.jpg" orderby="1" standard="media/step-26-image-0.standard.jpg" thumbnail="media/step-26-image-0.thumbnail.jpg">media/step-26-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="27" title="">
+         <lines>
+            <line bullet="black" level="0">Apple&apos;s newest iteration of its classic home button sports an integrated metal support bracket, which we hope will greatly strengthen the oft-used switch.</line>
+            <line bullet="black" level="0">Many iPhone 4 and 4S users have experienced the woes of a faulty home button, but haven&apos;t been brave enough to attempt the repair. This new design should not only increase longevity, but also make replacing the home button a lot less of a hassle.</line>
+            <line bullet="black" level="0">A side-by-side comparison of the iPhone 4S and iPhone 5 display assemblies.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-27-image-0.large.jpg" medium="media/step-27-image-0.medium.jpg" mini="media/step-27-image-0.mini.jpg" orderby="1" standard="media/step-27-image-0.standard.jpg" thumbnail="media/step-27-image-0.thumbnail.jpg">media/step-27-image-0.jpg</image>
+            <image large="media/step-27-image-1.large.jpg" medium="media/step-27-image-1.medium.jpg" mini="media/step-27-image-1.mini.jpg" orderby="2" standard="media/step-27-image-1.standard.jpg" thumbnail="media/step-27-image-1.thumbnail.jpg">media/step-27-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="28" title="">
+         <lines>
+            <line bullet="black" level="0">What first appeared to be part of the LCD assembly is easily removed after the turn of a few screws.</line>
+            <line bullet="black" level="0">This plate is likely used for shielding and heat dissipation. The spring contact near the screw suggests that the plate could also be used for grounding.</line>
+            <line bullet="black" level="0">We&apos;ve had some inquiries if this shield was made of &lt;a href=&quot;http://www.liquidmetal.com/faqs/&quot; rel=&quot;nofollow&quot;&gt;Liquidmetal&lt;/a&gt;. Sorry to disappoint, folks, but it doesn&apos;t seem to be that alloy. The plate has the same resistance of stainless steel and is slightly magnetic, just like stainless steel.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-28-image-0.large.jpg" medium="media/step-28-image-0.medium.jpg" mini="media/step-28-image-0.mini.jpg" orderby="1" standard="media/step-28-image-0.standard.jpg" thumbnail="media/step-28-image-0.thumbnail.jpg">media/step-28-image-0.jpg</image>
+         </media>
+      </step>
+      <step number="29" title="">
+         <lines>
+            <line bullet="black" level="0">Based on a user request, we looked into the concerns about &amp;quot;&lt;a href=&quot;http://forums.macrumors.com/showthread.php?t=1445522&quot; rel=&quot;nofollow&quot;&gt;Scuff Gate&lt;/a&gt;,&amp;quot; the fear that the black coating scuffs off too easily.</line>
+            <line bullet="black" level="0">We found that the side is pretty tough, but the chamfered edge can be susceptible to scuffing, making for a shiny streak on the side.</line>
+            <line bullet="black" level="0">Moral of this story: be careful, or get a case. Or be free like the wind and just don&apos;t care.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-29-image-0.large.jpg" medium="media/step-29-image-0.medium.jpg" mini="media/step-29-image-0.mini.jpg" orderby="1" standard="media/step-29-image-0.standard.jpg" thumbnail="media/step-29-image-0.thumbnail.jpg">media/step-29-image-0.jpg</image>
+            <image large="media/step-29-image-1.large.jpg" medium="media/step-29-image-1.medium.jpg" mini="media/step-29-image-1.mini.jpg" orderby="2" standard="media/step-29-image-1.standard.jpg" thumbnail="media/step-29-image-1.thumbnail.jpg">media/step-29-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="30" title="">
+         <lines>
+            <line bullet="black" level="0">One of the iPhone 5&apos;s biggest selling points was the updated 8 megapixel iSight camera.</line>
+            <line bullet="black" level="0">Although it&apos;s hard to see many differences between this camera and last year&apos;s model on the outside, Sony made some significant upgrades, including improved low light performance and 40% faster image capture. iPhone 5 camera is on the left.</line>
+            <line bullet="black" level="0">Will your pictures be &lt;a href=&quot;http://viewsmartphone.com/wp-content/uploads/2012/09/iphone_5_sample_camera_1.jpg&quot; rel=&quot;nofollow&quot;&gt;this good&lt;/a&gt;? That depends—will you take the time to snap photos of something besides &lt;a href=&quot;http://www.mcsweeneys.net/articles/an-open-letter-to-people-who-take-pictures-of-food-with-instagram&quot; rel=&quot;nofollow&quot;&gt;your dinner&lt;/a&gt;?</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-30-image-0.large.jpg" medium="media/step-30-image-0.medium.jpg" mini="media/step-30-image-0.mini.jpg" orderby="1" standard="media/step-30-image-0.standard.jpg" thumbnail="media/step-30-image-0.thumbnail.jpg">media/step-30-image-0.jpg</image>
+            <image large="media/step-30-image-1.large.jpg" medium="media/step-30-image-1.medium.jpg" mini="media/step-30-image-1.mini.jpg" orderby="2" standard="media/step-30-image-1.standard.jpg" thumbnail="media/step-30-image-1.thumbnail.jpg">media/step-30-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="31" title="">
+         <lines>
+            <line bullet="black" level="0">Apple was very proud of the fact that they are using a sapphire crystal in their new-and-improved camera.</line>
+            <line bullet="black" level="0">Since sapphire is such a &lt;a href=&quot;http://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness&quot;&gt;hard&lt;/a&gt; material, it would be sensible that the outermost element of the camera is made of sapphire.</line>
+            <line bullet="black" level="1">We tried scratching the clear cover with a pair of &lt;a href=&quot;/Tools/Tweezers/IF145-020?utm_source=ifixit_guide&amp;amp;utm_medium=wiki_text&amp;amp;utm_term=if145-020&amp;amp;utm_content=product_link&quot;&gt;steel tweezers&lt;/a&gt; and the lens remained scratch-free.</line>
+            <line bullet="black" level="1">While this doesn&apos;t confirm that the protective cover is made from sapphire crystal, it &lt;em&gt;does&lt;/em&gt; mean that it is quite hard and scratch resistant.</line>
+            <line bullet="black" level="0">After giving it some thought, we decided that a few passes with a pair of tweezers wasn&apos;t a sufficiently thorough scratch test for the camera lens coating.</line>
+            <line bullet="black" level="0">The rear case of the iPhone 5 doesn&apos;t hold up well to a &lt;a href=&quot;http://www.youtube.com/watch?v=OSFKVq36Hgc&quot; rel=&quot;nofollow&quot;&gt;barrage of sandpaper and keys&lt;/a&gt;, but the lens cover remains crystal clear. Wow.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-31-image-0.large.jpg" medium="media/step-31-image-0.medium.jpg" mini="media/step-31-image-0.mini.jpg" orderby="1" standard="media/step-31-image-0.standard.jpg" thumbnail="media/step-31-image-0.thumbnail.jpg">media/step-31-image-0.jpg</image>
+            <image large="media/step-31-image-1.large.jpg" medium="media/step-31-image-1.medium.jpg" mini="media/step-31-image-1.mini.jpg" orderby="2" standard="media/step-31-image-1.standard.jpg" thumbnail="media/step-31-image-1.thumbnail.jpg">media/step-31-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="32" title="">
+         <lines>
+            <line bullet="black" level="0">We have found them! Just as Apple promised, there are more microphones residing in the top of the device.</line>
+            <line bullet="black" level="0">First, we find the front facing top microphone, presumably for FaceTime and speakerphone capabilities.</line>
+            <line bullet="black" level="0">And on the back? It&apos;s &lt;a href=&quot;http://www.youtube.com/watch?v=MX0D4oZwCsA&amp;amp;t=0m25s&quot; rel=&quot;nofollow&quot;&gt;starting to look like a triple microphone!&lt;/a&gt; The rear-facing microphone partners up with the rear-facing camera for recording video, and is also used for canceling out background noise when on calls.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-32-image-0.large.jpg" medium="media/step-32-image-0.medium.jpg" mini="media/step-32-image-0.mini.jpg" orderby="1" standard="media/step-32-image-0.standard.jpg" thumbnail="media/step-32-image-0.thumbnail.jpg">media/step-32-image-0.jpg</image>
+            <image large="media/step-32-image-1.large.jpg" medium="media/step-32-image-1.medium.jpg" mini="media/step-32-image-1.mini.jpg" orderby="2" standard="media/step-32-image-1.standard.jpg" thumbnail="media/step-32-image-1.thumbnail.jpg">media/step-32-image-1.jpg</image>
+         </media>
+      </step>
+      <step number="33" title="">
+         <lines>
+            <line bullet="black" level="0">iPhone 5 Repairability: &lt;strong&gt;7 out of 10&lt;/strong&gt; (10 is easiest to repair)</line>
+            <line bullet="green" level="0">We&apos;re quite happy that the glass/display is the first thing that comes off the iPhone 5. The majority of iPhone repairs are due to a shattered front glass.</line>
+            <line bullet="green" level="0">The battery comes out with a bit of prying once the front panel is removed.</line>
+            <line bullet="red" level="0">The iPhone 5 still uses Pentalobe screws on the exterior, making it more difficult to open the device.</line>
+            <line bullet="red" level="0">The front glass, digitizer, and LCD are all one component, thereby increasing cost of repair.</line>
+            <line bullet="red" level="0">Lots of smaller components are soldered to one ribbon cable, increasing the cost of repairing just one component.</line>
+         </lines>
+         <media type="image">
+            <image large="media/step-33-image-0.large.jpg" medium="media/step-33-image-0.medium.jpg" mini="media/step-33-image-0.mini.jpg" orderby="1" standard="media/step-33-image-0.standard.jpg" thumbnail="media/step-33-image-0.thumbnail.jpg">media/step-33-image-0.jpg</image>
+            <image large="media/step-33-image-1.large.jpg" medium="media/step-33-image-1.medium.jpg" mini="media/step-33-image-1.mini.jpg" orderby="2" standard="media/step-33-image-1.standard.jpg" thumbnail="media/step-33-image-1.thumbnail.jpg">media/step-33-image-1.jpg</image>
+         </media>
+      </step>
+   </steps>
+   <conclusion conclusion_raw="To reassemble your device, follow these instructions in reverse order."><p>To reassemble your device, follow these instructions in reverse order.</p></conclusion>
+</procedure>
+

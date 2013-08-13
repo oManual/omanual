@@ -70,7 +70,7 @@ information between services while maintaining usability on mobile devices.
    <p>
 This specification describes the oManual data model, web services API, and 
 bundle file format (a collection of structured files containing a file manifest 
-XML format, a topic XML format and a procedure XML format). The specification 
+XML format, a category XML format and a procedure XML format). The specification 
 may be expanded in the future to enable additional types of documents.
    </p>
 
@@ -90,8 +90,8 @@ may be expanded in the future to enable additional types of documents.
       <ul>
          <li><a href="#manifest">Manifest</a> <em>Required</em>
          <br />Listing of oManual package contents. One per package.</li>
-         <li><a href="#topic">Topic</a> <em>Optional</em>
-         <br />Description of the topic for which the procedures describe manipulating. One per package.</li>
+         <li><a href="#category">Category</a> <em>Optional</em>
+         <br />Description of the category for which the procedures describe manipulating. One per package.</li>
          <li><a href="#procedure">Procedure</a> <em>Optional</em>
          <br />Structured list of step-by-step, procedural instructions with referenced media.</li>
       </ul>
@@ -108,9 +108,9 @@ may be expanded in the future to enable additional types of documents.
          <li><a href="#procedure"><span class="method">GET</span> /procedures/{procedureid}</a>
          <br />Returns detailed information and procedural steps from a specific procedure.</li>
          <li><a href="#category-list"><span class="method">GET</span> /categories</a>
-         <br />Returns detailed category hierarchy which is the structured relationship between topics listed in the manifest.xml file.</li>
-         <li><a href="#category"><span class="method">GET</span> /categories/{topicname}</a>
-         <br />Returns detailed topic information including topic specific media and the list of procedures.</li>
+         <br />Returns detailed category hierarchy which is the structured relationship between categories listed in the manifest.xml file.</li>
+         <li><a href="#category"><span class="method">GET</span> /categories/{categoryname}</a>
+         <br />Returns detailed category information including category specific media and the list of procedures.</li>
       </ul>
    </div>
 
@@ -129,16 +129,16 @@ may be expanded in the future to enable additional types of documents.
       <!-- END CODE -->
    </div>
 
-   <a name="topic"></a>
+   <a name="category"></a>
    <h3>
-       Topic: <span class="greytxt">XML Schema</span>
-       <a href="omanual_topic.xsd" class="downloadbtn">Download XSD</a>
-       <a href="omanual_topic_example.xml" class="downloadbtn">Download Example</a>
+       Category: <span class="greytxt">XML Schema</span>
+       <a href="schema/omanual_category.xsd" class="downloadbtn">Download XSD</a>
+       <a href="schema/omanual_category_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('../schema/examples/topic_ex.html') ?>
+      <?php require_once('schema/examples/omanual_category_example.html') ?>
       <!-- END CODE -->
    </div>
 

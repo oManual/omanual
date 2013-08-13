@@ -1,0 +1,3617 @@
+{
+    "Camera": {
+        "Canon Camera": {
+            "Canon AE-1": {
+
+            },
+            "Canon EOS 30": {
+
+            },
+            "Canon EOS 5D Mark II": {
+
+            },
+            "Canon EOS 7D": {
+
+            },
+            "Canon EOS A2": {
+
+            },
+            "Canon EOS Digital Rebel (300D)": {
+
+            },
+            "Canon EOS Rebel G": {
+
+            },
+            "Canon EOS Rebel T2i": {
+
+            },
+            "Canon EOS Rebel XS": {
+
+            },
+            "Canon PowerShot 1200": {
+
+            },
+            "Canon PowerShot A200": {
+
+            },
+            "Canon PowerShot A460": {
+
+            },
+            "Canon PowerShot A470": {
+
+            },
+            "Canon PowerShot A520": {
+
+            },
+            "Canon PowerShot A550": {
+
+            },
+            "Canon PowerShot A590 IS": {
+
+            },
+            "Canon PowerShot A610": {
+
+            },
+            "Canon Powershot A70": {
+
+            },
+            "Canon PowerShot A75": {
+
+            },
+            "Canon PowerShot A80": {
+
+            },
+            "Canon Powershot S200": {
+
+            },
+            "Canon PowerShot S230": {
+
+            },
+            "Canon Powershot S3 IS": {
+
+            },
+            "Canon PowerShot S400": {
+
+            },
+            "Canon PowerShot S410": {
+
+            },
+            "Canon PowerShot S50": {
+
+            },
+            "Canon PowerShot S500": {
+
+            },
+            "Canon PowerShot S80": {
+
+            },
+            "Canon PowerShot SD1000": {
+
+            },
+            "Canon PowerShot SD1100 IS": {
+
+            },
+            "Canon PowerShot SD200": {
+
+            },
+            "Canon PowerShot SD400": {
+
+            },
+            "Canon PowerShot SD450": {
+
+            },
+            "Canon Powershot SD550": {
+
+            },
+            "Canon PowerShot SD700": {
+
+            },
+            "Canon PowerShot SD750": {
+
+            },
+            "Canon Powershot SD790 IS": {
+
+            },
+            "Canon PowerShot SD800 IS": {
+
+            },
+            "Canon PowerShot SD850 IS": {
+
+            },
+            "Canon PowerShot SD870 IS": {
+
+            },
+            "Canon Powershot SD880": {
+
+            }
+        },
+        "Fujifilm Camera": {
+            "Fujifilm Endeavor 100ix": {
+
+            },
+            "Fujifilm FinePix 4700zoom": {
+
+            },
+            "Fujifilm FinePix A340": {
+
+            }
+        },
+        "Kodak Camera": {
+            "Kodak EasyShare C142": {
+
+            },
+            "Kodak Easyshare C183": {
+
+            },
+            "Kodak EasyShare C195": {
+
+            },
+            "Kodak EasyShare C713": {
+
+            },
+            "Kodak Easyshare C813": {
+
+            },
+            "Kodak EasyShare C913": {
+
+            },
+            "Kodak EasyShare CD82": {
+
+            },
+            "Kodak EasyShare LS743": {
+
+            },
+            "Kodak EasyShare Z1015 IS": {
+
+            },
+            "Kodak EasyShare Z1275": {
+
+            },
+            "Kodak S100 EF": {
+
+            }
+        },
+        "Nikon Camera": {
+            "Nikon Coolpix 3500": {
+
+            },
+            "Nikon Coolpix 4600": {
+
+            },
+            "Nikon Coolpix 7900": {
+
+            },
+            "Nikon Coolpix 995": {
+
+            },
+            "Nikon Coolpix E5700": {
+
+            },
+            "Nikon Coolpix L16": {
+
+            },
+            "Nikon Coolpix L18": {
+
+            },
+            "Nikon COOLPIX P2": {
+
+            },
+            "Nikon Coolpix P4": {
+
+            },
+            "Nikon Coolpix S1000pj": {
+
+            },
+            "Nikon Coolpix S210": {
+
+            },
+            "Nikon Coolpix S220": {
+
+            },
+            "Nikon Coolpix S51c": {
+
+            },
+            "Nikon CoolPix S600": {
+
+            },
+            "Nikon COOLPIX S610c": {
+
+            },
+            "Nikon D5100": {
+
+            },
+            "Nikon D70": {
+
+            },
+            "Nikon D80": {
+
+            },
+            "Nikon N2000 (F301)": {
+
+            },
+            "Nikon SB600 Speedlight": {
+
+            }
+        },
+        "Olympus Camera": {
+            "Olympus C-765": {
+
+            },
+            "Olympus D590": {
+
+            },
+            "Olympus FE-210": {
+
+            },
+            "Olympus Stylus 1010": {
+
+            },
+            "Olympus Stylus 300": {
+
+            },
+            "Olympus Stylus 410": {
+
+            },
+            "Olympus Stylus 725 SW": {
+
+            }
+        },
+        "Panasonic Camera": {
+            "Panasonic Lumix DMC-F7": {
+
+            },
+            "Panasonic Lumix DMC-FX01": {
+
+            },
+            "Panasonic Lumix DMC-FX07": {
+
+            },
+            "Panasonic Lumix DMC-TZ5": {
+
+            }
+        },
+        "Polaroid Camera": {
+            "Polaroid a520": {
+
+            },
+            "Polaroid i533": {
+
+            },
+            "Polaroid i835": {
+
+            },
+            "Polaroid One-Step 600": {
+
+            },
+            "Polaroid Sun 600 LMS": {
+
+            }
+        },
+        "Samsung Camera": {
+            "Samsung Digimax L83T": {
+
+            },
+            "Samsung L100": {
+
+            },
+            "Samsung PL20": {
+
+            },
+            "Samsung S630": {
+
+            },
+            "Samsung S860": {
+
+            }
+        },
+        "Sanyo Camera": {
+            "Sanyo S1414": {
+
+            },
+            "Sanyo VPC S1275": {
+
+            },
+            "Sanyo VPC-S1415": {
+
+            },
+            "Sanyo VPC-T700": {
+
+            },
+            "Sanyo VPC-T850": {
+
+            },
+            "Sanyo VPC-X1200": {
+
+            }
+        },
+        "Sony Camera": {
+            "Sony bloggie 3d player": {
+
+            },
+            "Sony Cyber-shot 5.1 mega pixel DSC-P100": {
+
+            },
+            "Sony Cyber-shot DSC W150": {
+
+            },
+            "Sony Cyber-shot DSC-H2": {
+
+            },
+            "Sony Cyber-shot DSC-P10": {
+
+            },
+            "Sony Cyber-shot DSC-P9": {
+
+            },
+            "Sony Cyber-shot DSC-S2100": {
+
+            },
+            "Sony Cyber-shot DSC-S650": {
+
+            },
+            "Sony Cyber-shot DSC-T1": {
+
+            },
+            "Sony Cyber-Shot DSC-W120": {
+
+            },
+            "Sony Cyber-shot DSC-W230": {
+
+            },
+            "Sony Cyber-shot DSC-W290": {
+
+            },
+            "Sony Cyber-shot DSC-W5": {
+
+            },
+            "Sony Cyber-shot DSC-W55": {
+
+            },
+            "Sony Cybershot DSC-P52": {
+
+            },
+            "Sony Cybershot DSC-T1": {
+
+            },
+            "Sony Handycam DCR-DVD103": {
+
+            }
+        },
+        "Casio Exilim EX-Z70": {
+
+        },
+        "Casio Exilim EX-Z850": {
+
+        },
+        "HP Photosmart 935 Digital Camera": {
+
+        },
+        "Leica Z2X": {
+
+        },
+        "Minolta X-370": {
+
+        },
+        "Yashica TL-Super": {
+
+        }
+    },
+    "Game Console": {
+        "Microsoft Game Console": {
+            "Microsoft Game Console Accessory": {
+                "Mad Catz Street Fighter IV FightPad": {
+
+                },
+                "Microsoft Kinect": {
+
+                },
+                "Turtle Beach Ear Force X11": {
+
+                },
+                "Xbox 360 Wireless Controller": {
+
+                }
+            },
+            "Microsoft TV Console": {
+                "Xbox": {
+
+                },
+                "Xbox 360": {
+
+                },
+                "Xbox 360 S": {
+
+                }
+            }
+        },
+        "Nintendo Game Console": {
+            "Nintendo Game Console Accessory": {
+                "Nintendo GameCube Controller": {
+
+                },
+                "Nintendo WaveBird Wireless Controller": {
+
+                }
+            },
+            "Nintendo Handheld Console": {
+                "Game Boy": {
+
+                },
+                "Game Boy Advance": {
+
+                },
+                "Game Boy Color": {
+
+                },
+                "Game Boy Micro": {
+
+                },
+                "Nintendo 3DS": {
+
+                },
+                "Nintendo DS": {
+
+                },
+                "Nintendo DS Lite": {
+
+                },
+                "Nintendo DSi": {
+
+                },
+                "Nintendo DSi XL": {
+
+                },
+                "Nintendo Game Boy Advance SP": {
+
+                }
+            },
+            "Nintendo TV Console": {
+                "Nintendo 64": {
+
+                },
+                "Nintendo Entertainment System": {
+
+                },
+                "Nintendo GameCube": {
+
+                },
+                "Nintendo Wii": {
+
+                },
+                "Nintendo Wii U": {
+
+                },
+                "Super Nintendo": {
+
+                }
+            }
+        },
+        "Retro Game Console": {
+            "Atari 2600": {
+
+            },
+            "Magnavox Odyssey 100": {
+
+            },
+            "Nintendo Family Computer (Famicom)": {
+
+            },
+            "Nintendo Virtual Boy": {
+
+            },
+            "RCA Studio II": {
+
+            },
+            "Vectrex": {
+
+            }
+        },
+        "Sega Game Console": {
+            "Sega CD": {
+
+            },
+            "Sega Dreamcast": {
+
+            },
+            "Sega Game Gear": {
+
+            },
+            "Sega Genesis": {
+
+            },
+            "Sega Saturn": {
+
+            }
+        },
+        "Sony Game Console": {
+            "Sony Accessories": {
+                "DualShock 3": {
+
+                },
+                "PlayStation Move": {
+
+                },
+                "Playstation Move Navigation Controller": {
+
+                }
+            },
+            "Sony Handheld Console": {
+                "PSP 3000": {
+                    "PSP 300x": {
+
+                    },
+                    "PSP 300xc": {
+
+                    }
+                },
+                "PlayStation Vita": {
+
+                },
+                "PSP 1000": {
+
+                },
+                "PSP 2000": {
+
+                },
+                "PSP E1000": {
+
+                },
+                "PSP Go": {
+
+                }
+            },
+            "Sony TV Console": {
+                "PlayStation": {
+
+                },
+                "PlayStation 2": {
+
+                },
+                "PlayStation 2 Slimline": {
+
+                },
+                "PlayStation 3": {
+
+                },
+                "PlayStation 3 Slim": {
+
+                },
+                "PlayStation 3 Super Slim": {
+
+                },
+                "Sony DVP-SR200P": {
+
+                }
+            }
+        }
+    },
+    "Home Stereo and Theater": {
+        "DVD Player": {
+            "Magnavox MWD200F": {
+
+            },
+            "Panasonic DVD-RV31 Player": {
+
+            },
+            "Philips DVP642": {
+
+            },
+            "Samsung DVD-P230": {
+
+            },
+            "Samsung P241": {
+
+            },
+            "Sony 7\" DVP-FX730 Portable DVD Player": {
+
+            },
+            "Toshiba SD-K740": {
+
+            }
+        },
+        "Hafler": {
+            "Hafler DH-200": {
+
+            },
+            "Hafler DH-220": {
+
+            }
+        },
+        "Home Audio Amplifier": {
+            "Cambridge Audio A3i": {
+
+            },
+            "Onkyo TX-800": {
+
+            }
+        },
+        "Home Audio Receiver": {
+            "Kenwood Eleven III Reciever": {
+
+            },
+            "Kenwood Receiver KR-V7070": {
+
+            }
+        },
+        "Set-Top Box": {
+            "Apple TV 1st Generation": {
+
+            },
+            "Apple TV 2nd Generation": {
+
+            },
+            "Apple TV 3rd Generation": {
+
+            },
+            "Boxee Box": {
+
+            },
+            "Logitech Revue": {
+
+            },
+            "Nexus Q": {
+
+            },
+            "TiVo Series 2 TCD540080": {
+
+            },
+            "Vizio Co-Star": {
+
+            }
+        },
+        "Television": {
+            "LG 17LX1R": {
+
+            },
+            "Mitsubishi WD57734": {
+
+            },
+            "Sanyo dp50747 Plasma TV": {
+
+            },
+            "Sharp Aquos LC13B2UA": {
+
+            }
+        },
+        "Boston Acoustics Micro90pv": {
+
+        },
+        "Meyer Sound MM-4 Ultra Compact Wide-Range Loudspeaker": {
+
+        },
+        "Panasonic SA-HT810V": {
+
+        },
+        "Panasonic SA-PM17": {
+
+        },
+        "TiVo Series 2 TCD24008A Digital Video Recorder": {
+
+        }
+    },
+    "Household": {
+        "Appliance": {
+            "Kitchen Appliance": {
+                "Blender": {
+                    "Blendtec Total Blender": {
+
+                    }
+                },
+                "Black and Decker Toast R Oven": {
+
+                },
+                "Breville BKC600XL": {
+
+                },
+                "GE Microwave Oven": {
+
+                },
+                "Keurig B70 Platinum": {
+
+                },
+                "Keurig B77": {
+
+                },
+                "Keurig Elite": {
+
+                },
+                "Keurig Platinum": {
+
+                },
+                "Microwave Oven": {
+
+                },
+                "Nostalgia Electrics RHP-310": {
+
+                },
+                "Rival 16131 Toaster": {
+
+                },
+                "Starbucks Barista": {
+
+                },
+                "Toaster": {
+
+                }
+            },
+            "Vacuum Cleaner": {
+                "Dyson DC14": {
+
+                },
+                "iRobot Roomba 4100": {
+
+                },
+                "iRobot Roomba 5xx Series": {
+
+                },
+                "Sanitaire SC684": {
+
+                }
+            },
+            "Water Dispenser": {
+                "GE Profile Tri Temperature Water dispenser": {
+
+                }
+            },
+            "Baby Lock Ellegante 2": {
+
+            },
+            "Black and Decker BL3000S": {
+
+            },
+            "Dishwasher": {
+
+            },
+            "Farberware FSTO100": {
+
+            },
+            "GD Midea FT30-3D": {
+
+            },
+            "Hairdryer": {
+
+            },
+            "Kenmore 110 Series Washing Machine": {
+
+            },
+            "Kenmore 90 Series Washing Machine": {
+
+            },
+            "Kenmore Elite HE3 Dryer": {
+
+            },
+            "Kenmore Elite HE3 Washer": {
+
+            },
+            "Quasar Microwave": {
+
+            },
+            "Revlon 473": {
+
+            },
+            "Seville Classics MSC10166": {
+
+            },
+            "Sewing Machine": {
+
+            },
+            "Vulcan Gas Stove": {
+
+            },
+            "Westpointe Dehumidifier MDC 45AE": {
+
+            }
+        },
+        "Clothing": {
+            "Jeans": {
+
+            },
+            "Shoe": {
+
+            }
+        },
+        "Electronics": {
+            "Calculator": {
+                "Hewlett Packard 48GX": {
+
+                },
+                "Texas Instruments TI-82": {
+
+                },
+                "Texas Instruments TI-83 Plus": {
+
+                },
+                "Texas Instruments TI-92": {
+
+                },
+                "TI-Nspire": {
+
+                }
+            },
+            "Camcorder": {
+                "Aiptek DZO-V58N": {
+
+                },
+                "Canon Optura 100MC": {
+
+                },
+                "Flip MinoHD": {
+
+                },
+                "Flip Ultra HD": {
+
+                },
+                "Flip Video": {
+
+                },
+                "GoPro HD Hero 2": {
+
+                },
+                "GoPro Hero3": {
+
+                },
+                "Jazz HDV178 Camcorder": {
+
+                },
+                "JVC GR-D290U": {
+
+                },
+                "Kodak Zi8": {
+
+                },
+                "Panasonic D-snap SV-AV50": {
+
+                },
+                "Panasonic PV-GS9": {
+
+                },
+                "RCA CC310": {
+
+                },
+                "RCA Small Wonders Camcorder CC176": {
+
+                },
+                "Sony CCD-TR81": {
+
+                },
+                "Sony Handycam CCD-TR5": {
+
+                }
+            },
+            "Car Audio": {
+                "Kenwood KDC-X789": {
+
+                },
+                "Sony CDX-L480X": {
+
+                }
+            },
+            "Miscellaneous Electronics": {
+                "GPS": {
+                    "Garmin eTrex Vista H": {
+
+                    },
+                    "Garmin GPS V": {
+
+                    },
+                    "Garmin Nuvi 1200": {
+
+                    },
+                    "Garmin Nuvi 200": {
+
+                    },
+                    "Garmin Nuvi 255W": {
+
+                    },
+                    "Garmin Nuvi 680": {
+
+                    },
+                    "Garmin StreetPilot c320": {
+
+                    },
+                    "Garmin StreetPilot c330": {
+
+                    },
+                    "Magellan RoadMate 1200": {
+
+                    },
+                    "TomTom Go 910": {
+
+                    },
+                    "TomTom ONE": {
+
+                    },
+                    "TomTom XL": {
+
+                    }
+                },
+                "PDA": {
+                    "BlackBerry R900M": {
+
+                    },
+                    "Casio Cassiopeia E-125": {
+
+                    },
+                    "Handspring Visor Deluxe PDA": {
+
+                    },
+                    "Handspring Visor Edge": {
+
+                    },
+                    "HP iPAQ H2200": {
+
+                    },
+                    "HP iPAQ h4155": {
+
+                    },
+                    "HP iPAQ HW6515": {
+
+                    },
+                    "IBM WorkPad c3": {
+
+                    },
+                    "Newton MessagePad 2000": {
+
+                    },
+                    "Palm IIIc": {
+
+                    },
+                    "Palm IIIx": {
+
+                    },
+                    "Palm IIIxe": {
+
+                    },
+                    "Palm m 100": {
+
+                    },
+                    "Palm m105": {
+
+                    },
+                    "Palm m500": {
+
+                    },
+                    "Palm Pilot Professional 3com": {
+
+                    },
+                    "Palm TX": {
+
+                    },
+                    "Palm V": {
+
+                    },
+                    "Palm Vx": {
+
+                    },
+                    "Palm Zire 31": {
+
+                    },
+                    "Palm Zire 72v1": {
+
+                    },
+                    "Sony Clie PEG-SL10": {
+
+                    },
+                    "Sony Clie PEG-TG50": {
+
+                    },
+                    "Tapwave T2907US Zodiac 2": {
+
+                    },
+                    "Tungsten E": {
+
+                    },
+                    "Tungsten T3": {
+
+                    }
+                },
+                "CASIO E-A400 Electronic Dictionary": {
+
+                },
+                "CB Radio": {
+
+                },
+                "Chumby One": {
+
+                },
+                "Eventide ModFactor": {
+
+                },
+                "Eventide TimeFactor": {
+
+                },
+                "Yamaha DM1000": {
+
+                }
+            },
+            "Midland X-tra Talk Radio LXT118": {
+
+            },
+            "Numark TT1600": {
+
+            },
+            "Plantronics CS50 Headset": {
+
+            },
+            "Sony M-430 Microcassette-Corder": {
+
+            },
+            "Speakers": {
+
+            },
+            "TRS-80 Color Computer": {
+
+            }
+        },
+        "Household Item": {
+            "Banana": {
+
+            },
+            "Ceramic Knife": {
+
+            },
+            "Compact Fluorescent Lightbulb": {
+
+            },
+            "Floor Lamp": {
+
+            },
+            "Fluorescent Light": {
+
+            },
+            "Incandescent Light": {
+
+            },
+            "LED Christmas Lights": {
+
+            },
+            "Mayan Hammock": {
+
+            },
+            "Orange": {
+
+            },
+            "Steel Knife": {
+
+            },
+            "Toilet": {
+
+            }
+        },
+        "Lawn and Garden": {
+            "Lawn Mower": {
+                "Craftsman Riding Mower": {
+
+                },
+                "Lawn Mower Craftsman ZTS 7500": {
+
+                },
+                "Self Propelled Mower - Troy Built 22\"": {
+
+                }
+            }
+        },
+        "Tool": {
+            "iOpener": {
+
+            },
+            "RIDGID R84015 X2": {
+
+            },
+            "Skil 88": {
+
+            },
+            "Toolmate 800W Jig Saw": {
+
+            }
+        }
+    },
+    "Mac": {
+        "Mac Desktops": {
+            "Classic Mac": {
+                "Apple IIc": {
+
+                },
+                "Apple Lisa": {
+
+                },
+                "Macintosh IIsi": {
+
+                }
+            },
+            "iMac": {
+                "iMac G3": {
+                    "iMac G3 EMC 1821": {
+
+                    },
+                    "iMac G3 Model M4984": {
+
+                    },
+                    "iMac G3 Model M5521": {
+
+                    }
+                },
+                "iMac G4": {
+                    "iMac G4 15\" 700 MHz EMC 1873": {
+
+                    },
+                    "iMac G4 17 800 MHz EMC 1936": {
+
+                    },
+                    "iMac G4 17\" 800MHz M8812LLA": {
+
+                    },
+                    "iMac G4 17\" Model M9168LLA": {
+
+                    }
+                },
+                "iMac G5": {
+                    "iMac G5 17\" Model A1058": {
+
+                    },
+                    "iMac G5 17\" Model A1144": {
+
+                    },
+                    "iMac G5 20\" Model A1076": {
+
+                    },
+                    "iMac G5 20\" Model A1145": {
+
+                    }
+                },
+                "iMac Intel": {
+                    "iMac Intel 17\"": {
+
+                    },
+                    "iMac Intel 20\" EMC 2105 and 2118": {
+
+                    },
+                    "iMac Intel 20\" EMC 2133 and 2210": {
+
+                    },
+                    "iMac Intel 20\" EMC 2266": {
+
+                    },
+                    "iMac Intel 21.5\" EMC 2308": {
+
+                    },
+                    "iMac Intel 21.5\" EMC 2389": {
+
+                    },
+                    "iMac Intel 21.5\" EMC 2428": {
+
+                    },
+                    "iMac Intel 21.5\" EMC 2544": {
+
+                    },
+                    "iMac Intel 24\" EMC 2111": {
+
+                    },
+                    "iMac Intel 24\" EMC 2134 and 2211": {
+
+                    },
+                    "iMac Intel 24\" EMC 2267": {
+
+                    },
+                    "iMac Intel 27\" EMC 2309 and 2374": {
+
+                    },
+                    "iMac Intel 27\" EMC 2390": {
+
+                    },
+                    "iMac Intel 27\" EMC 2429": {
+
+                    }
+                }
+            },
+            "Mac Mini": {
+                "dkfjalwefadfwefawfe": {
+
+                },
+                "Mac mini (PowerPC)": {
+
+                },
+                "Mac Mini Late 2012": {
+
+                },
+                "Mac Mini Mid 2010": {
+
+                },
+                "Mac Mini Mid 2011": {
+
+                },
+                "Mac Mini Model A1176": {
+
+                },
+                "Mac Mini Model A1283": {
+
+                }
+            },
+            "Power Mac": {
+                "Power Mac G4 Cube": {
+
+                },
+                "Power Mac G4 M5183": {
+
+                },
+                "Power Mac G4 MDD": {
+
+                },
+                "Power Mac G4 Quicksilver": {
+
+                },
+                "Power Mac G5": {
+
+                },
+                "Power Mac G5 Late 2005": {
+
+                },
+                "Power Macintosh 8600(250)": {
+
+                },
+                "Power Macintosh G3 Blue and White": {
+
+                }
+            },
+            "Apple XServe": {
+
+            },
+            "eMac": {
+
+            },
+            "Mac Pro": {
+
+            }
+        },
+        "Mac Laptops": {
+            "iBook": {
+                "iBook G3": {
+                    "iBook G3 12\"": {
+
+                    },
+                    "iBook G3 14\"": {
+
+                    },
+                    "iBook G3 Clamshell": {
+
+                    }
+                },
+                "iBook G4": {
+                    "iBook G4 12\" 1.33 GHz": {
+
+                    },
+                    "iBook G4 12\" 800 MHz-1.2 GHz": {
+
+                    },
+                    "iBook G4 14\" 1.42 GHz": {
+
+                    },
+                    "iBook G4 14\" 933 MHz-1.33 GHz": {
+
+                    }
+                }
+            },
+            "MacBook": {
+                "MacBook Core 2 Duo": {
+
+                },
+                "MacBook Core Duo": {
+
+                },
+                "MacBook Unibody Model A1278": {
+
+                },
+                "MacBook Unibody Model A1342": {
+
+                }
+            },
+            "MacBook Air": {
+                "MacBook Air 11\"": {
+                    "MacBook Air 11\" Late 2010": {
+
+                    },
+                    "MacBook Air 11\" Mid 2011": {
+
+                    },
+                    "MacBook Air 11\" Mid 2012": {
+
+                    }
+                },
+                "MacBook Air 13\"": {
+                    "MacBook Air 13\" Late 2010": {
+
+                    },
+                    "MacBook Air 13\" Mid 2011": {
+
+                    },
+                    "MacBook Air 13\" Mid 2012": {
+
+                    },
+                    "MacBook Air Models A1237 and A1304": {
+
+                    }
+                }
+            },
+            "MacBook Pro": {
+                "MacBook Pro 13\"": {
+                    "MacBook Pro 13\" Retina Display Late 2012": {
+
+                    },
+                    "MacBook Pro 13\" Unibody Early 2011": {
+
+                    },
+                    "MacBook Pro 13\" Unibody Late 2011": {
+
+                    },
+                    "MacBook Pro 13\" Unibody Mid 2009": {
+
+                    },
+                    "MacBook Pro 13\" Unibody Mid 2010": {
+
+                    },
+                    "MacBook Pro 13\" Unibody Mid 2012": {
+
+                    }
+                },
+                "MacBook Pro 15\"": {
+                    "MacBook Pro 15\" Core 2 Duo Model A1211": {
+
+                    },
+                    "MacBook Pro 15\" Core 2 Duo Models A1226 and A1260": {
+
+                    },
+                    "MacBook Pro 15\" Core Duo Model A1150": {
+
+                    },
+                    "MacBook Pro 15\" Retina Display Mid 2012": {
+
+                    },
+                    "MacBook Pro 15\" Unibody 2.53 GHz Mid 2009": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Early 2011": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Late 2008 and Early 2009": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Late 2011": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Mid 2009": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Mid 2010": {
+
+                    },
+                    "MacBook Pro 15\" Unibody Mid 2012": {
+
+                    }
+                },
+                "MacBook Pro 17\"": {
+                    "MacBook Pro 17\" Models A1151 A1212 A1229 and A1261": {
+
+                    },
+                    "MacBook Pro 17\" Unibody": {
+
+                    },
+                    "MacBook Pro 17\" Unibody Early 2011": {
+
+                    }
+                }
+            },
+            "PowerBook": {
+                "PowerBook 100 Series": {
+                    "Macintosh PowerBook 165c": {
+
+                    },
+                    "PowerBook 180c": {
+
+                    },
+                    "PowerBook 190": {
+
+                    }
+                },
+                "PowerBook 500 Series": {
+                    "Apple Powerbook 520": {
+
+                    }
+                },
+                "PowerBook 5300 Series": {
+                    "Apple Powerbook 5300": {
+
+                    },
+                    "Macintosh Powerbook 5300cs": {
+
+                    },
+                    "PowerBook 5300c": {
+
+                    }
+                },
+                "PowerBook Duo Series": {
+                    "PowerBook Duo 230": {
+
+                    }
+                },
+                "PowerBook G3 Series": {
+                    "Apple PowerBook G3 400": {
+
+                    },
+                    "PowerBook G3 Lombard": {
+
+                    },
+                    "PowerBook G3 Pismo": {
+
+                    },
+                    "PowerBook G3 Wallstreet": {
+
+                    }
+                },
+                "PowerBook G4 Aluminum Series": {
+                    "PowerBook G4 Aluminum 12\"": {
+                        "PowerBook G4 Aluminum 12\" 1-1.5 GHz": {
+
+                        },
+                        "PowerBook G4 Aluminum 12\" 867 MHz": {
+
+                        }
+                    },
+                    "PowerBook G4 Aluminum 15\"": {
+                        "PowerBook G4 Aluminum 15\" 1-1.5 GHz": {
+
+                        },
+                        "PowerBook G4 Aluminum 15\" 1.5-1.67 GHz": {
+
+                        },
+                        "PowerBook G4 Aluminum 15\" 1.67 GHz": {
+
+                        }
+                    },
+                    "PowerBook G4 Aluminum 17\"": {
+                        "PowerBook G4 Aluminum 17\" 1-1.67 GHz": {
+
+                        },
+                        "PowerBook G4 Aluminum 17\" 1.67 GHz (High-Res)": {
+
+                        }
+                    }
+                },
+                "PowerBook G4 Titanium Series": {
+                    "PowerBook G4 Titanium DVI": {
+
+                    },
+                    "PowerBook G4 Titanium Mercury": {
+
+                    },
+                    "PowerBook G4 Titanium Onyx": {
+
+                    }
+                },
+                "Macintosh PowerBook 1400 Series": {
+
+                },
+                "PowerBook 3400 M3553": {
+
+                }
+            }
+        },
+        "Twentieth Anniversary Mac": {
+
+        }
+    },
+    "Media Player": {
+        "CD Player": {
+            "Sony Walkman NW-E107": {
+
+            },
+            "Sony Walkman NWZ-E436F": {
+
+            },
+            "Tascam CD Player CD-01U": {
+
+            },
+            "Teac DC-D2831": {
+
+            }
+        },
+        "Media Player Accessory": {
+            "Apple Earphones with Remote and Mic": {
+
+            },
+            "Apple EarPods": {
+
+            },
+            "iDog MP3 toy": {
+
+            },
+            "iHome iH27B": {
+
+            },
+            "iPod In-Ear Headphones": {
+
+            },
+            "Nextplay NP109CR": {
+
+            },
+            "Panasonic RP-HTX7": {
+
+            },
+            "Sennheiser RS120": {
+
+            }
+        },
+        "MP3 Player": {
+            "iPod": {
+                "iPod Nano": {
+                    "iPod Nano 1st Generation": {
+
+                    },
+                    "iPod Nano 2nd Generation": {
+
+                    },
+                    "iPod Nano 3rd Generation": {
+
+                    },
+                    "iPod Nano 4th Generation": {
+
+                    },
+                    "iPod Nano 5th Generation": {
+
+                    },
+                    "iPod Nano 6th Generation": {
+
+                    },
+                    "iPod Nano 7th Generation": {
+
+                    }
+                },
+                "iPod Original": {
+                    "iPod 1st Generation": {
+
+                    },
+                    "iPod 2nd Generation": {
+
+                    },
+                    "iPod 3rd Generation": {
+
+                    },
+                    "iPod 4th Generation or Photo": {
+
+                    },
+                    "iPod 5th Generation (Video)": {
+
+                    },
+                    "iPod Classic": {
+
+                    }
+                },
+                "iPod Shuffle": {
+                    "iPod Shuffle 1st Generation": {
+
+                    },
+                    "iPod Shuffle 2nd Generation": {
+
+                    },
+                    "iPod Shuffle 3rd Generation": {
+
+                    },
+                    "iPod Shuffle 4th Generation": {
+
+                    }
+                },
+                "iPod Touch": {
+                    "iPod Touch 1st Generation": {
+
+                    },
+                    "iPod Touch 2nd Generation": {
+
+                    },
+                    "iPod Touch 3rd Generation": {
+
+                    },
+                    "iPod Touch 4th Generation": {
+
+                    },
+                    "iPod Touch 5th Generation": {
+
+                    }
+                },
+                "iPod Mini": {
+
+                }
+            },
+            "Zune": {
+                "Microsoft Zune 30 GB": {
+
+                },
+                "Microsoft Zune 80": {
+
+                },
+                "Microsoft Zune HD": {
+
+                },
+                "Zune Flash 2nd Generation": {
+
+                }
+            },
+            "Creative ZEN": {
+
+            },
+            "Dell DJ 2nd Generation": {
+
+            },
+            "Digital MP3 Player HDMP3 (128 MB)": {
+
+            },
+            "SAMSUNG YP-K3": {
+
+            },
+            "SanDisk Sansa C250": {
+
+            },
+            "Sansa Fuze": {
+
+            }
+        },
+        "Archos 605 WiFi": {
+
+        },
+        "Cirago M9030": {
+
+        },
+        "Creative NOMAD II Media Player": {
+
+        },
+        "Delphi XM2GO SA-10113": {
+
+        },
+        "Sansa e260R": {
+
+        },
+        "Sirius Stiletto 100": {
+
+        },
+        "Sony NW HD5": {
+
+        }
+    },
+    "Musical Instrument": {
+        "A Guitar": {
+
+        },
+        "Akai MPK25": {
+
+        },
+        "Casio CTK-501 Digital Keyboard": {
+
+        },
+        "Epiphone SG Guitar": {
+
+        },
+        "Fender Frontman 15r": {
+
+        },
+        "Ibanez 5 String Bass Model SR405QM": {
+
+        },
+        "Shure SM58": {
+
+        },
+        "Squier Strat Guitar": {
+
+        }
+    },
+    "PC": {
+        "Computer Hardware": {
+            "Display": {
+                "Acer AL1916": {
+
+                },
+                "Apple Cinema Display M8149": {
+
+                },
+                "Apple Cinema HD Display": {
+
+                },
+                "Apple LED Cinema Display": {
+
+                },
+                "Apple Studio Display M2454": {
+
+                },
+                "Apple Studio Display M7649": {
+
+                },
+                "Apple Thunderbolt Display": {
+
+                },
+                "LCD monitor": {
+
+                },
+                "Matrox TripleHead2Go": {
+
+                },
+                "Polaroid LCD-0700P": {
+
+                },
+                "Sceptre X9 Komodo VII": {
+
+                }
+            },
+            "Docking Station": {
+                "OLPC XO Dock": {
+
+                },
+                "Palm Touchstone Charger": {
+
+                }
+            },
+            "External Storage": {
+                "Apple Time Capsule": {
+
+                },
+                "Time Capsule": {
+
+                },
+                "Western Digital Essentials HD": {
+
+                },
+                "Western Digital My Passport External HD 500GB": {
+
+                }
+            },
+            "Keyboard": {
+                "Apple Keyboard": {
+
+                },
+                "Apple Keyboard MB110": {
+
+                },
+                "Apple Wireless Keyboard": {
+
+                },
+                "Yamaha YPG-225": {
+
+                }
+            },
+            "Motherboard": {
+                "XFX 680i LT SLI": {
+
+                }
+            },
+            "Mouse": {
+                "Apple Mighty Mouse": {
+
+                },
+                "Logitech v470": {
+
+                },
+                "Magic Mouse": {
+
+                },
+                "Magic Trackpad": {
+
+                },
+                "Microsoft Wireless Laser Mouse 6000": {
+
+                }
+            },
+            "Networking Hardware": {
+                "Router": {
+                    "Apple AirPort Extreme 802.11n (4th Generation)": {
+
+                    },
+                    "Linksys BEFSR41": {
+
+                    },
+                    "Linksys WAP 11": {
+
+                    },
+                    "Linksys WRT54GS v2": {
+
+                    },
+                    "NETGEAR WGT624 v3": {
+
+                    }
+                },
+                "56K modem": {
+
+                },
+                "Apple AirPort Express Base Station": {
+
+                },
+                "Apple AirPort Extreme Base Station Model A1034": {
+
+                },
+                "Linksys WAP54g": {
+
+                },
+                "Linksys WRT54G": {
+
+                },
+                "Netgear WGR614v9": {
+
+                }
+            },
+            "Optical Drive": {
+                "APS Tech 101629": {
+
+                }
+            },
+            "Printer": {
+                "Apple LaserWriter 16 600 PS": {
+
+                },
+                "Brother HL-5240 Laser Printer": {
+
+                },
+                "Brother MFC-240C All-In-One Printer": {
+
+                },
+                "Canon Bubblejet I80": {
+
+                },
+                "Canon Pixma MP480": {
+
+                },
+                "Dell Photo Printer 540": {
+
+                },
+                "Epson R2400 printer": {
+
+                },
+                "Epson Stylus Photo 1400": {
+
+                },
+                "Epson Stylus Photo 820": {
+
+                },
+                "HP Color LaserJet CP1215": {
+
+                },
+                "HP Deskjet 1055": {
+
+                },
+                "HP Deskjet 712c": {
+
+                },
+                "HP Deskjet 842C": {
+
+                },
+                "HP Deskjet F4480": {
+
+                },
+                "HP Officejet 4500 Wireless": {
+
+                },
+                "HP PhotoSmart 2575 All-in-One Printer": {
+
+                },
+                "HP Photosmart c3180": {
+
+                },
+                "HP Photosmart c4780": {
+
+                },
+                "HP Photosmart D110a": {
+
+                },
+                "HP Photosmart Plus": {
+
+                },
+                "HP Photosmart Premium": {
+
+                },
+                "HP Photosmart Premium Fax C309a": {
+
+                },
+                "HP PSC 2410 Photosmart All In One Printer": {
+
+                },
+                "Laser printer": {
+
+                },
+                "Lexmark Intuition S505": {
+
+                },
+                "Samsung ML2510": {
+
+                }
+            },
+            "Projector": {
+                "BlackBerry Presenter": {
+
+                },
+                "InFocus LP435Z": {
+
+                },
+                "WowWee Cinemin Swivel": {
+
+                }
+            },
+            "Scanner": {
+                "CanoScan LIDE 90": {
+
+                },
+                "Microtek ScanMaker 5900": {
+
+                }
+            },
+            "ATI Radeon X1900 XTX": {
+
+            },
+            "Computer Speakers": {
+
+            },
+            "Dell E193FPc": {
+
+            },
+            "Engage Wired Optical Mouse": {
+
+            },
+            "Graphics Card for PC": {
+
+            },
+            "Intel Socket 1366": {
+
+            },
+            "Iomega Z100S2": {
+
+            },
+            "Lite-On LightScribe SHM-165H6S": {
+
+            },
+            "Logitech MBJ58 Mouse": {
+
+            },
+            "Oculus Rift": {
+
+            }
+        },
+        "PC Desktop": {
+            "Dell Desktop": {
+                "Dell 4300S": {
+
+                },
+                "Dell 4500S": {
+
+                },
+                "Dell Dimension 4600": {
+
+                },
+                "Dell Inspiron 530": {
+
+                },
+                "Dell Inspiron 531s": {
+
+                },
+                "Dell Inspiron Zino HD": {
+
+                },
+                "Dell OptiPlex GX260": {
+
+                },
+                "Dell Optiplex SX280": {
+
+                }
+            },
+            "eMachines Desktop": {
+                "eMachines 2220": {
+
+                }
+            },
+            "HP Desktop": {
+                "HP Compaq dx2000MT": {
+
+                },
+                "HP Pavilion 700": {
+
+                },
+                "HP Z1": {
+
+                }
+            },
+            "Sony VAIO Desktop": {
+                "Sony Vaio PCV-RZ14G": {
+
+                }
+            }
+        },
+        "PC Laptop": {
+            "Acer Laptop": {
+                "Acer Aspire 3050": {
+
+                },
+                "Acer Aspire 4730": {
+
+                },
+                "Acer Aspire 5100": {
+
+                },
+                "Acer Aspire 8920g": {
+
+                },
+                "Acer Aspire One A0751h": {
+
+                },
+                "Acer Aspire One D150": {
+
+                },
+                "Acer Aspire One ZG5": {
+
+                },
+                "Acer Timeline 4810T": {
+
+                },
+                "Acer Travelmate 220": {
+
+                }
+            },
+            "Asus Laptop": {
+                "ASUS Eee PC 1001PX": {
+
+                },
+                "Asus Eee PC 1005HA": {
+
+                },
+                "ASUS Eee PC 1018P": {
+
+                },
+                "Asus EEEPC 1215B": {
+
+                },
+                "Asus N61J": {
+
+                },
+                "Asus V6800V": {
+
+                },
+                "Asus Zenbook UX32VD": {
+
+                },
+                "Disney Netpal": {
+
+                }
+            },
+            "Compaq Laptop": {
+                "Compaq Evo N1000v": {
+
+                },
+                "Compaq Mini 110": {
+
+                },
+                "Compaq Presario v2000": {
+
+                }
+            },
+            "Dell Laptop": {
+                "Alienware M11x": {
+
+                },
+                "Alienware M11xR2": {
+
+                },
+                "Dell Adamo": {
+
+                },
+                "Dell Inspiron 1100": {
+
+                },
+                "Dell Inspiron 1150": {
+
+                },
+                "Dell Inspiron 1420": {
+
+                },
+                "Dell Inspiron 1500": {
+
+                },
+                "Dell Inspiron 1521": {
+
+                },
+                "Dell Inspiron 1525": {
+
+                },
+                "Dell Inspiron 1526": {
+
+                },
+                "Dell Inspiron 6000": {
+
+                },
+                "Dell Inspiron 600m": {
+
+                },
+                "Dell Inspiron 6400": {
+
+                },
+                "Dell Inspiron 8600": {
+
+                },
+                "Dell Inspiron 910": {
+
+                },
+                "Dell Inspiron 9100": {
+
+                },
+                "Dell Inspiron Duo": {
+
+                },
+                "Dell Inspiron E1705": {
+
+                },
+                "Dell Inspiron PP1150": {
+
+                },
+                "Dell Latitude CS": {
+
+                },
+                "Dell Latitude D520": {
+
+                },
+                "Dell Latitude D610": {
+
+                },
+                "Dell Latitude D620": {
+
+                },
+                "Dell Latitude E6400": {
+
+                },
+                "Dell Latitude E6500": {
+
+                },
+                "Dell Latitude X300": {
+
+                },
+                "Dell PP07L": {
+
+                },
+                "Dell Precision M20": {
+
+                },
+                "Dell Studio 15": {
+
+                },
+                "Dell XPS M1210": {
+
+                },
+                "Dell XPS M1530": {
+
+                }
+            },
+            "Fujitsu Laptop": {
+                "Fujitsu LifeBook N3510": {
+
+                },
+                "Fujitsu LIFEBOOK P7010D": {
+
+                }
+            },
+            "Gateway Laptop": {
+                "Gateway 600YG2": {
+
+                },
+                "Gateway MD2614u": {
+
+                },
+                "Gateway MT3707 Laptop": {
+
+                },
+                "Gateway SA1": {
+
+                }
+            },
+            "HP Laptop": {
+                "HP EliteBook 8530w": {
+
+                },
+                "HP G60 LAPTOP": {
+
+                },
+                "HP G60-230US": {
+
+                },
+                "HP G60-535DX": {
+
+                },
+                "HP G71": {
+
+                },
+                "HP Pavilion dv1000": {
+
+                },
+                "HP Pavilion dv2000": {
+
+                },
+                "HP Pavilion dv2601tx": {
+
+                },
+                "HP Pavilion dv4t": {
+
+                },
+                "HP Pavilion dv5000": {
+
+                },
+                "HP Pavilion dv6000": {
+
+                },
+                "HP Pavilion dv9000": {
+
+                },
+                "HP Pavilion ZD7000": {
+
+                },
+                "HP Pavilion zd8000": {
+
+                }
+            },
+            "IBM Laptop": {
+                "IBM ThinkPad 560z": {
+
+                },
+                "IBM ThinkPad A30": {
+
+                },
+                "IBM ThinkPad T30": {
+
+                },
+                "IBM ThinkPad T41": {
+
+                },
+                "IBM ThinkPad T42": {
+
+                },
+                "IBM Thinkpad T60": {
+
+                }
+            },
+            "Medion Laptop": {
+                "Medion Akoya MD 96420": {
+
+                }
+            },
+            "OLPC": {
+                "OLPC XO-1": {
+
+                }
+            },
+            "Panasonic Laptop": {
+                "Panasonic Toughbook CF-29": {
+
+                }
+            },
+            "Samsung Laptop": {
+                "Samsung Series 5 3G Chromebook": {
+
+                }
+            },
+            "Sony Laptop": {
+                "Sony VAIO P": {
+
+                },
+                "Sony Vaio PCG-4K1L": {
+
+                },
+                "Sony VAIO PCG-6J2L": {
+
+                },
+                "Sony VAIO PCG-7A2L": {
+
+                },
+                "Sony VAIO PCG-91111M": {
+
+                },
+                "Sony VAIO PCG-933A": {
+
+                },
+                "Sony VAIO PCG-981L": {
+
+                },
+                "Sony VAIO PCG-F360": {
+
+                },
+                "Sony VAIO PCG-F420": {
+
+                },
+                "Sony VAIO VGN T140P": {
+
+                },
+                "Sony VAIO VGN-FE880E": {
+
+                },
+                "Sony VAIO VGN-FW 590": {
+
+                },
+                "Sony VAIO VGN-FZ290": {
+
+                },
+                "Sony VAIO VGN-S260": {
+
+                },
+                "Sony VAIO VGN-UX27GN": {
+
+                },
+                "Sony VAIO VPC-EB33FM": {
+
+                }
+            },
+            "Toshiba Laptop": {
+                "Toshiba Equium A210": {
+
+                },
+                "Toshiba Satellite A75-S226": {
+
+                },
+                "Toshiba Satellite E105-S1602": {
+
+                },
+                "Toshiba Satellite L300 Laptop": {
+
+                },
+                "Toshiba Satellite L305-S5875": {
+
+                },
+                "Toshiba Satellite L655D-S5095": {
+
+                },
+                "Toshiba Satellite M305D-S4829": {
+
+                },
+                "Toshiba Satellite M45": {
+
+                },
+                "Toshiba Satellite M55-S135": {
+
+                },
+                "Toshiba Satellite U405D-S2902": {
+
+                },
+                "Toshiba Tecra M3": {
+
+                }
+            },
+            "Averatec 3200 Laptop": {
+
+            },
+            "ThinkPad W500": {
+
+            }
+        },
+        "PC Netbook": {
+            "HP Netbook": {
+                "HP Mini 1000": {
+
+                },
+                "HP Mini 210": {
+
+                },
+                "HP Mini 210-2070NR": {
+
+                },
+                "HP Mini 311": {
+
+                },
+                "HP Mini 311 1000NR": {
+
+                }
+            },
+            "Asus Eee PC 900 Laptop": {
+
+            }
+        }
+    },
+    "Phone": {
+        "Asus Phone": {
+            "Garmin - Asus Nuvifone G60": {
+
+            }
+        },
+        "Audiovox Phone": {
+            "Audiovox CDM-8900": {
+
+            },
+            "Audiovox CDM-8910": {
+
+            }
+        },
+        "BlackBerry Phone": {
+            "BlackBerry 7100g": {
+
+            },
+            "BlackBerry 7105t": {
+
+            },
+            "BlackBerry 7130e": {
+
+            },
+            "BlackBerry 7290": {
+
+            },
+            "BlackBerry 7510": {
+
+            },
+            "BlackBerry 7520": {
+
+            },
+            "BlackBerry 8700c": {
+
+            },
+            "BlackBerry 8703e": {
+
+            },
+            "BlackBerry 8830": {
+
+            },
+            "Blackberry Bold 9000": {
+
+            },
+            "Blackberry Bold 9650": {
+
+            },
+            "BlackBerry Bold 9700": {
+
+            },
+            "BlackBerry Curve 8310": {
+
+            },
+            "Blackberry Curve 8320": {
+
+            },
+            "Blackberry Curve 8330": {
+
+            },
+            "BlackBerry Curve 8520": {
+
+            },
+            "BlackBerry Curve 8530": {
+
+            },
+            "BlackBerry Curve 8900": {
+
+            },
+            "BlackBerry Pearl 8100": {
+
+            },
+            "BlackBerry Storm": {
+
+            },
+            "BlackBerry Tour 9630": {
+
+            },
+            "BlackBerry World Edition 8830": {
+
+            },
+            "BlackBerry Z10": {
+
+            }
+        },
+        "HTC Phone": {
+            "HTC Aria": {
+
+            },
+            "HTC Desire": {
+
+            },
+            "HTC Desire HD": {
+
+            },
+            "HTC Droid Incredible": {
+
+            },
+            "HTC Evo 3D": {
+
+            },
+            "HTC Evo 4G": {
+
+            },
+            "HTC Evo 4G LTE": {
+
+            },
+            "HTC Excalibur": {
+
+            },
+            "HTC Fuze": {
+
+            },
+            "HTC HD2 PB81120": {
+
+            },
+            "HTC HD7": {
+
+            },
+            "HTC Hero 200": {
+
+            },
+            "HTC Magic": {
+
+            },
+            "HTC Maple 100": {
+
+            },
+            "HTC myTouch 3G": {
+
+            },
+            "HTC One": {
+
+            },
+            "HTC SMT 6175": {
+
+            },
+            "HTC Surround": {
+
+            },
+            "HTC Thunderbolt": {
+
+            },
+            "HTC Touch": {
+
+            },
+            "HTC Touch Pro 2": {
+
+            },
+            "HTC Touch Pro CDMA": {
+
+            },
+            "HTC Touch Pro CDMA Verizon": {
+
+            },
+            "HTC TouchPro MP6950": {
+
+            },
+            "HTC Warhawk": {
+
+            },
+            "HTC Wizard 100": {
+
+            },
+            "HTC Wizard 200": {
+
+            },
+            "Nexus One": {
+
+            },
+            "T-Mobile G1": {
+
+            },
+            "T-Mobile G2": {
+
+            },
+            "T-Mobile SDA (HTC Tornado)": {
+
+            }
+        },
+        "Huawei Phone": {
+            "Huawei u8150": {
+
+            }
+        },
+        "iPhone": {
+            "iPhone 1st Generation": {
+
+            },
+            "iPhone 3G": {
+
+            },
+            "iPhone 3GS": {
+
+            },
+            "iPhone 4": {
+
+            },
+            "iPhone 4 Verizon": {
+
+            },
+            "iPhone 4S": {
+
+            },
+            "iPhone 5": {
+
+            }
+        },
+        "Kyocera Phone": {
+            "KDDI Kyocera A5521K": {
+
+            },
+            "Kyocera Opal S14": {
+
+            },
+            "Kyocera Oystr": {
+
+            }
+        },
+        "LG Phone": {
+            "LG 1010": {
+
+            },
+            "LG CG180": {
+
+            },
+            "LG Chocolate": {
+
+            },
+            "LG Chocolate Touch VX-8575": {
+
+            },
+            "LG Dare": {
+
+            },
+            "LG EnV VX9900": {
+
+            },
+            "LG env2 vx9100": {
+
+            },
+            "LG GT505": {
+
+            },
+            "LG kg 195": {
+
+            },
+            "LG KP100": {
+
+            },
+            "LG KP500 Cookie": {
+
+            },
+            "LG L1200": {
+
+            },
+            "LG Lotus (LX600)": {
+
+            },
+            "LG LX150": {
+
+            },
+            "LG LX160": {
+
+            },
+            "LG Muziq LX570": {
+
+            },
+            "LG Rumor (LX260)": {
+
+            },
+            "LG TP 1100": {
+
+            },
+            "LG Versa": {
+
+            },
+            "LG Voyager": {
+
+            },
+            "LG Voyager (VX10000)": {
+
+            },
+            "LG Voyager VX10000": {
+
+            },
+            "LG VX3100": {
+
+            },
+            "LG VX3200": {
+
+            },
+            "LG VX4400": {
+
+            },
+            "LG VX4500": {
+
+            },
+            "LG VX5200": {
+
+            },
+            "LG VX5400": {
+
+            },
+            "LG VX5500": {
+
+            },
+            "LG VX6000": {
+
+            },
+            "LG VX6100": {
+
+            },
+            "LG VX7000": {
+
+            },
+            "LG VX8550": {
+
+            },
+            "LG VX8700": {
+
+            },
+            "LG VX9800": {
+
+            },
+            "LG Xenon": {
+
+            },
+            "Nexus 4": {
+
+            }
+        },
+        "Motorola Phone": {
+            "Motorola 120c": {
+
+            },
+            "Motorola Atrix 4G": {
+
+            },
+            "Motorola C139 Phone": {
+
+            },
+            "Motorola C168": {
+
+            },
+            "Motorola C290": {
+
+            },
+            "Motorola California Mobile Phone": {
+
+            },
+            "Motorola Clutch i465": {
+
+            },
+            "Motorola Droid": {
+
+            },
+            "Motorola Droid 2": {
+
+            },
+            "Motorola Droid 3": {
+
+            },
+            "Motorola Droid 4": {
+
+            },
+            "Motorola Droid Bionic": {
+
+            },
+            "Motorola Droid RAZR": {
+
+            },
+            "Motorola Droid RAZR Maxx": {
+
+            },
+            "Motorola Droid X (MB810)": {
+
+            },
+            "Motorola E815": {
+
+            },
+            "Motorola Flipside": {
+
+            },
+            "Motorola i265": {
+
+            },
+            "Motorola i450 Boost Mobile": {
+
+            },
+            "Motorola i710": {
+
+            },
+            "Motorola i850": {
+
+            },
+            "Motorola Krzr K1m": {
+
+            },
+            "Motorola Moto Q": {
+
+            },
+            "Motorola MOTO W755 Cell Phone": {
+
+            },
+            "Motorola Q Global": {
+
+            },
+            "Motorola Razr V3c": {
+
+            },
+            "Motorola RIZR Z3": {
+
+            },
+            "Motorola SLVR L7": {
+
+            },
+            "Motorola V180": {
+
+            },
+            "Motorola V188": {
+
+            },
+            "Motorola V276": {
+
+            },
+            "Motorola V325": {
+
+            },
+            "Motorola V3i": {
+
+            },
+            "Motorola V551": {
+
+            },
+            "Motorola V557": {
+
+            },
+            "Motorola V60c": {
+
+            },
+            "Motorola V60i": {
+
+            },
+            "Motorola V60s": {
+
+            },
+            "Motorola V710": {
+
+            },
+            "Motorola W385": {
+
+            },
+            "Motorola W490": {
+
+            }
+        },
+        "Nokia Phone": {
+            "Nokia 1110": {
+
+            },
+            "Nokia 2115i": {
+
+            },
+            "Nokia 2128i": {
+
+            },
+            "Nokia 2366i": {
+
+            },
+            "Nokia 2610": {
+
+            },
+            "Nokia 2630b": {
+
+            },
+            "Nokia 3300B": {
+
+            },
+            "Nokia 3360": {
+
+            },
+            "Nokia 3395": {
+
+            },
+            "Nokia 3560": {
+
+            },
+            "Nokia 5130 XpressMusic": {
+
+            },
+            "Nokia 5310b XpressMusic": {
+
+            },
+            "Nokia 6010": {
+
+            },
+            "Nokia 6030": {
+
+            },
+            "Nokia 6085h": {
+
+            },
+            "Nokia 6086": {
+
+            },
+            "Nokia 6102i": {
+
+            },
+            "Nokia 6133": {
+
+            },
+            "Nokia 6230b": {
+
+            },
+            "Nokia 6236i": {
+
+            },
+            "Nokia 6300": {
+
+            },
+            "Nokia 6310i": {
+
+            },
+            "Nokia 6560": {
+
+            },
+            "Nokia 6590i": {
+
+            },
+            "Nokia 6760 slide": {
+
+            },
+            "Nokia 8260": {
+
+            },
+            "Nokia 8265 Cell Phone": {
+
+            },
+            "Nokia 8290": {
+
+            },
+            "Nokia C5-03": {
+
+            },
+            "Nokia E61i": {
+
+            },
+            "Nokia E62": {
+
+            },
+            "Nokia E63": {
+
+            },
+            "Nokia E71": {
+
+            },
+            "Nokia E71x": {
+
+            },
+            "Nokia E72": {
+
+            },
+            "Nokia E90": {
+
+            },
+            "Nokia N70": {
+
+            },
+            "Nokia N73": {
+
+            },
+            "Nokia N8": {
+
+            },
+            "Nokia N800": {
+
+            },
+            "Nokia N9": {
+
+            },
+            "Nokia N900": {
+
+            },
+            "Nokia N95 ": {
+
+            },
+            "Nokia N95 8GB": {
+
+            },
+            "Nokia Phone 2690": {
+
+            }
+        },
+        "Palm Phone": {
+            "Palm Centro": {
+
+            },
+            "Palm Pre": {
+
+            },
+            "Palm Treo 600": {
+
+            },
+            "Palm Treo 650": {
+
+            },
+            "Palm Treo 680": {
+
+            },
+            "Palm Treo 700w": {
+
+            },
+            "Palm Treo 755p": {
+
+            },
+            "PalmOne Zire 72": {
+
+            }
+        },
+        "Panasonic Phone": {
+            "Panasonic EB TX320ASW": {
+
+            },
+            "Panasonic GU87": {
+
+            }
+        },
+        "Samsung Phone": {
+            "Nexus S": {
+
+            },
+            "Samsung Ace SPH-i325": {
+
+            },
+            "Samsung Alias 2": {
+
+            },
+            "Samsung BlackJack II": {
+
+            },
+            "Samsung Blackjack SGH-i607": {
+
+            },
+            "Samsung Brightside": {
+
+            },
+            "Samsung Captivate": {
+
+            },
+            "Samsung Droid Charge": {
+
+            },
+            "Samsung Epic 4G": {
+
+            },
+            "Samsung Epic 4G Touch": {
+
+            },
+            "Samsung Epix": {
+
+            },
+            "Samsung Eternity": {
+
+            },
+            "Samsung Galaxy Nexus": {
+
+            },
+            "Samsung Galaxy S 4G": {
+
+            },
+            "Samsung Galaxy S II": {
+
+            },
+            "Samsung Galaxy S III": {
+
+            },
+            "Samsung Galaxy S Vibrant": {
+
+            },
+            "Samsung Galaxy S4": {
+
+            },
+            "Samsung Glyde": {
+
+            },
+            "Samsung GT-C3300K champ": {
+
+            },
+            "Samsung GT-E2120": {
+
+            },
+            "Samsung Impression": {
+
+            },
+            "Samsung Instinct": {
+
+            },
+            "Samsung Intercept": {
+
+            },
+            "Samsung Jack": {
+
+            },
+            "Samsung Juke": {
+
+            },
+            "Samsung Propel": {
+
+            },
+            "Samsung Rant": {
+
+            },
+            "Samsung Rogue SCH-u960": {
+
+            },
+            "Samsung SCH-3500": {
+
+            },
+            "Samsung SCH-8500": {
+
+            },
+            "Samsung SCH-A310": {
+
+            },
+            "Samsung SCH-A670": {
+
+            },
+            "Samsung SCH-A890": {
+
+            },
+            "Samsung SCH-A950": {
+
+            },
+            "Samsung SCH-U340": {
+
+            },
+            "Samsung SGH A707": {
+
+            },
+            "Samsung SGH-A237": {
+
+            },
+            "Samsung SGH-C417": {
+
+            },
+            "Samsung SGH-E317": {
+
+            },
+            "Samsung SGH-E880": {
+
+            },
+            "Samsung SGH-M620": {
+
+            },
+            "Samsung SGH-X105": {
+
+            },
+            "Samsung SGH-X495": {
+
+            },
+            "Samsung SPH-A500": {
+
+            },
+            "Samsung SPH-A660": {
+
+            },
+            "Samsung SPH-A760": {
+
+            },
+            "Samsung Star": {
+
+            }
+        },
+        "Sharp Phone": {
+            "Microsoft Kin Two": {
+
+            },
+            "Sharp FX": {
+
+            }
+        },
+        "Sidekick Phone": {
+            "Sidekick II": {
+
+            }
+        },
+        "Sony Ericsson Phone": {
+            "Sony Ericsson  Vivaz (U5)": {
+
+            },
+            "Sony Ericsson 760a": {
+
+            },
+            "Sony Ericsson J22Oi": {
+
+            },
+            "Sony Ericsson K750i": {
+
+            },
+            "Sony Ericsson K810i": {
+
+            },
+            "Sony Ericsson s710a": {
+
+            },
+            "Sony Ericsson T68i": {
+
+            },
+            "Sony Ericsson TM506": {
+
+            },
+            "Sony Ericsson W200i": {
+
+            },
+            "Sony Ericsson W350a": {
+
+            },
+            "Sony Ericsson W518a": {
+
+            },
+            "Sony Ericsson W580i": {
+
+            },
+            "Sony Ericsson w600i": {
+
+            },
+            "Sony Ericsson W810I": {
+
+            },
+            "Sony Ericsson XPERIA X1": {
+
+            },
+            "Sony Ericsson Xperia X10": {
+
+            },
+            "Sony Ericsson Xperia X10 Mini E10i": {
+
+            },
+            "Sony Ericsson z300": {
+
+            },
+            "Sony Ericsson Z500a": {
+
+            },
+            "Sony W910i": {
+
+            },
+            "Sony Xperia Play": {
+
+            },
+            "W810i": {
+
+            }
+        },
+        "Toshiba Phone": {
+            "Toshiba A1304T": {
+
+            }
+        },
+        "UTStarcom Phone": {
+            "UTStarcom CDM8945vw": {
+
+            },
+            "Verizon Wireless CDM 7075": {
+
+            }
+        },
+        "General Electric Telephone 2-9710A": {
+
+        }
+    },
+    "Skills": {
+        "Soldering": {
+            "Through-Hole Soldering": {
+
+            }
+        }
+    },
+    "Sporting Goods": {
+        "Alpine Skis": {
+
+        },
+        "SG 552-1 Commando": {
+
+        },
+        "Skateboards": {
+
+        },
+        "SolaDyne LED Lantern": {
+
+        },
+        "Zeal Optics iON": {
+
+        }
+    },
+    "Tablet": {
+        "Dell Tablet": {
+            "Dell Streak": {
+
+            },
+            "Dell XPS 10": {
+
+            }
+        },
+        "HP Tablet": {
+            "HP TouchPad": {
+
+            }
+        },
+        "iPad": {
+            "iPad 2 CDMA": {
+
+            },
+            "iPad 2 GSM": {
+
+            },
+            "iPad 2 Smart Cover": {
+
+            },
+            "iPad 2 Wi-Fi EMC 2415": {
+
+            },
+            "iPad 2 Wi-Fi EMC 2560": {
+
+            },
+            "iPad 3 4G": {
+
+            },
+            "iPad 3 Wi-Fi": {
+
+            },
+            "iPad 3G": {
+
+            },
+            "iPad 4 CDMA": {
+
+            },
+            "iPad 4 GSM": {
+
+            },
+            "iPad 4 Wi-Fi": {
+
+            },
+            "iPad Mini": {
+
+            },
+            "iPad Mini CDMA": {
+
+            },
+            "iPad Wi-Fi": {
+
+            }
+        },
+        "Kindle Tablet": {
+            "Kindle 2": {
+
+            },
+            "Kindle DX": {
+
+            },
+            "Kindle Fire": {
+
+            },
+            "Kindle Fire HD": {
+
+            },
+            "Kindle Fire HD 8.9": {
+
+            },
+            "Kindle Fire HD 8.9\"": {
+
+            },
+            "Kindle First Generation": {
+
+            },
+            "Kindle Paperwhite": {
+
+            }
+        },
+        "Motorola Tablet": {
+            "Motorola Xoom": {
+
+            }
+        },
+        "RIM Tablet": {
+            "BlackBerry PlayBook": {
+
+            }
+        },
+        "Samsung Tablet": {
+            "Samsung E60 eReader": {
+
+            },
+            "Samsung Galaxy Note 10.1": {
+
+            },
+            "Samsung Galaxy Tab": {
+
+            },
+            "Samsung Galaxy Tab 2 7.0": {
+
+            }
+        },
+        "Microsoft Surface": {
+
+        },
+        "Microsoft Surface Pro": {
+
+        },
+        "Motion Computing LE1600": {
+
+        },
+        "Nexus 10": {
+
+        },
+        "Nexus 7": {
+
+        },
+        "Nook Simple Touch with GlowLight": {
+
+        },
+        "Nook Tablet": {
+
+        }
+    },
+    "Toy": {
+        "ArduCopter": {
+
+        },
+        "Beanie Baby": {
+
+        },
+        "Big Trak": {
+
+        },
+        "Big Wheel": {
+
+        },
+        "Cabbage Patch Kid": {
+
+        },
+        "Care Bear": {
+
+        },
+        "Easy-Bake Oven": {
+
+        },
+        "Etch A Sketch": {
+
+        },
+        "Furby": {
+
+        },
+        "Inline Skates": {
+
+        },
+        "Jack-In-The-Box": {
+
+        },
+        "Kite": {
+
+        },
+        "Lionel Train": {
+
+        },
+        "Lite-Brite": {
+
+        },
+        "Mr. Potato Head": {
+
+        },
+        "My Little Pony": {
+
+        },
+        "Nerf Blaster": {
+
+        },
+        "Nerf N-Strike Maverick": {
+
+        },
+        "Parrot AR.Drone": {
+
+        },
+        "Pet Rock": {
+
+        },
+        "Pleo": {
+
+        },
+        "Pogo Stick": {
+
+        },
+        "Radio Flyer Wagon": {
+
+        },
+        "Raggedy Ann": {
+
+        },
+        "Razor Scooter": {
+
+        },
+        "RCX 1.0": {
+
+        },
+        "Red Ryder BB Gun": {
+
+        },
+        "Rubik's Cube": {
+
+        },
+        "Skateboard": {
+
+        },
+        "Slinky": {
+
+        },
+        "Speak And Spell": {
+
+        },
+        "Tamagotchi": {
+
+        },
+        "Teddy Ruxpin": {
+
+        },
+        "Tonka Truck": {
+
+        },
+        "TRON Legacy Identity Disk": {
+
+        },
+        "View-Master": {
+
+        },
+        "Water Gun": {
+
+        },
+        "Wooden Toy": {
+
+        },
+        "Yo-Yo": {
+
+        }
+    },
+    "Vehicle": {
+        "Aircraft Part": {
+            "Bendix Magneto": {
+
+            }
+        },
+        "Bicycle": {
+            "Mountain Bike": {
+                "Specialized Expedition": {
+
+                }
+            },
+            "Cruiser Bike": {
+
+            },
+            "Giant Reign 2": {
+
+            },
+            "Raleigh M20 Mountain Bike": {
+
+            },
+            "Road Bike": {
+
+            },
+            "Trek 820": {
+
+            }
+        },
+        "Motorcycle": {
+            "1977 Columbia Commuter": {
+
+            },
+            "1987-1993 Kawasaki Ninja 500": {
+
+            },
+            "1994-2009 Kawasaki Ninja 500": {
+
+            },
+            "1999-2002 Suzuki SV650": {
+
+            },
+            "2004-2009 Yamaha Vino 125": {
+
+            },
+            "49 CC Gas Scooter": {
+
+            },
+            "Harley-Davidson Sportster Evolution": {
+
+            },
+            "Piaggio X9 500": {
+
+            },
+            "Suzuki FA50 Moped": {
+
+            },
+            "Vespa Large Frame": {
+
+            }
+        },
+        "Tractor": {
+            "John Deere 870": {
+
+            }
+        },
+        "Razor A": {
+
+        }
+    }
+}

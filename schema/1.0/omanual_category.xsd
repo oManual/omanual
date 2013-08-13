@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com" targetNamespace="http://omanual.com">
+
+   <xs:annotation>
+      <xs:documentation xml:lang="en">
+         This document describes category metadata. A category can be anything you
+         would write step-by-step procedures about, such as a manufactured
+         object or device.
+      </xs:documentation>
+   </xs:annotation>
+
+   <xs:include schemaLocation="omanual_simplifiedhtml_0.4.xsd" />
+
+   <xs:element name="category">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="title" />
+            <xs:element ref="category_info" />
+            <xs:element ref="image" />
+            <xs:element ref="description" />
+            <xs:element ref="flags" />
+            <xs:element ref="categories" />
+            <xs:element ref="solutions" />
+            <xs:element ref="contents" />
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="title" type="xs:string" />
+
+   <xs:element name="category_info">
+      <xs:complexType mixed="true">
+         <xs:attribute name="discontinued" use="optional" type="xs:integer" />
+         <xs:attribute name="introduced" use="optional" type="xs:integer" />
+         <xs:attribute name="manufacturer" use="optional" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="image" type="xs:string" />
+
+   <xs:element name="description">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flags">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flag">
+      <xs:complexType mixed="true">
+         <xs:attribute name="id" use="optional" type="xs:string" />
+         <xs:attribute name="title" use="required" type="xs:string" />
+         <xs:attribute name="image" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="categories">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="category" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="category" type="xs:string" />
+
+   <xs:element name="solutions">
+      <xs:complexType>
+         <xs:attribute name="count" use="required" type="xs:integer" />
+         <xs:attribute name="url" use="required" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="contents">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
