@@ -144,9 +144,9 @@ may be expanded in the future to enable additional types of documents.
 
    <a name="guide"></a>
    <h3>
-      guide: <span class="greytxt">XML Schema</span>
-      <a href="omanual_procedure.xsd" class="downloadbtn">Download XSD</a>
-      <a href="omanual_procedure_example.xml" class="downloadbtn">Download Example</a>
+      Guide: <span class="greytxt">XML Schema</span>
+      <a href="omanual_guide.xsd" class="downloadbtn">Download XSD</a>
+      <a href="omanual_guide_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
