@@ -19,8 +19,11 @@
             <xs:element ref="image" />
             <xs:element ref="description" />
             <xs:element ref="flags" />
-            <xs:element ref="categories" />
+            <xs:element ref="ancestors" />
+            <xs:element ref="children" />
             <xs:element ref="solutions" />
+            <xs:element ref="parts" />
+            <xs:element ref="tools" />
             <xs:element ref="contents" />
          </xs:all>
          <xs:attribute name="locale" use="required" type="xs:string" />
