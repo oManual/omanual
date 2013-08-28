@@ -95,7 +95,7 @@
    <xs:element name="tool">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+            <xs:element ref="external_sources" />
          </xs:sequence>
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
@@ -117,7 +117,7 @@
    <xs:element name="part">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+            <xs:element ref="external_sources" />
          </xs:sequence>
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
@@ -125,6 +125,14 @@
          <xs:attribute name="quantity" use="optional" type="xs:string" />
          <xs:attribute name="type" use="optional" type="xs:string" />
          <xs:attribute name="url" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="external_sources">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+         </xs:sequence>
       </xs:complexType>
    </xs:element>
 
