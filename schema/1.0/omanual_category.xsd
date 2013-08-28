@@ -6,6 +6,13 @@
          This document describes category metadata. A category can be anything you
          would write step-by-step procedures about, such as a manufactured
          object or device.
+
+         This includes the structured category hierarchy, list of
+         procedures, and list of attached documents in the /media folder of the
+         .omanual package.
+
+         Note: This is not a complete listing of package contents since each
+         subfile may additionally reference its own media.
       </xs:documentation>
    </xs:annotation>
 
@@ -25,6 +32,8 @@
             <xs:element ref="parts" />
             <xs:element ref="tools" />
             <xs:element ref="contents" />
+            <xs:element ref="procedures" />
+            <xs:element ref="documents" />
          </xs:all>
          <xs:attribute name="locale" use="required" type="xs:string" />
       </xs:complexType>
@@ -88,6 +97,99 @@
          <xs:sequence>
             <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tools">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tool">
+      <xs:complexType mixed="true">
+         <xs:attribute name="sku" use="optional" type="xs:string" />
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
+         <xs:attribute name="notes" use="optional" type="xs:string" />
+         <xs:attribute name="quantity" use="optional" type="xs:string" />
+         <xs:attribute name="type" use="optional" type="xs:string" />
+         <xs:attribute name="url" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="parts">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="part" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="part">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+         </xs:sequence>
+         <xs:attribute name="sku" use="optional" type="xs:string" />
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
+         <xs:attribute name="notes" use="optional" type="xs:string" />
+         <xs:attribute name="quantity" use="optional" type="xs:string" />
+         <xs:attribute name="type" use="optional" type="xs:string" />
+         <xs:attribute name="url" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="procedures">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="procedure" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="procedure">
+      <xs:complexType>
+         <xs:all minOccurs="0">
+            <xs:element ref="procedure.title" />
+            <xs:element ref="url" />
+            <xs:element ref="path" />
+            <xs:element ref="thumbnail" />
+            <xs:element ref="image_url" />
+         </xs:all>
+         <xs:attribute name="id" use="required" type="xs:integer" />
+         <xs:attribute name="subject" use="required" type="xs:string" />
+         <xs:attribute name="type" use="required" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="procedure.title" type="xs:anyURI" />
+
+   <xs:element name="url" type="xs:anyURI" />
+
+   <xs:element name="path" type="xs:string" />
+
+   <xs:element name="image_url" type="xs:anyURI" />
+
+   <xs:element name="thumbnail" type="xs:anyURI" />
+
+   <xs:element name="documents">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="document" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="document">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="id" use="required" type="xs:integer" />
+               <xs:attribute name="type" use="required" type="xs:string" />
+            </xs:extension>
+         </xs:simpleContent>
       </xs:complexType>
    </xs:element>
 </xs:schema>
