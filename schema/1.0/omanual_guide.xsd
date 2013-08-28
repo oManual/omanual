@@ -204,10 +204,10 @@
 
    <xs:element name="step">
       <xs:complexType>
-         <xs:all>
-            <xs:element ref="lines" minOccurs="1" maxOccurs="8" />
+         <xs:sequence>
+            <xs:element ref="lines" maxOccurs="8" />
             <xs:element ref="media" minOccurs="0" maxOccurs="1" />
-         </xs:all>
+         </xs:sequence>
          <xs:attribute name="number" use="required" type="xs:integer" />
          <xs:attribute name="title" use="optional" type="xs:string" />
       </xs:complexType>
