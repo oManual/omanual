@@ -287,7 +287,7 @@
                        <div class="tag">
                           <h4><a href="#guide-1">guide </a></h4>
                           <p class="desc">
-                          Individual guide element.  A short description of the guide that's contained within the oManual package.  The corresponding file in the package has the filename <i>guide-{id}.xml</i>. 
+                          Individual guide element.  A short description of the guide that's contained within the oManual package.  The corresponding file in the package has the filename <i>guide-{id}.xml</i>.
                           </p>
                           <div>
                              <ul class="attr">
@@ -313,9 +313,9 @@
                           </div>
 
                           <div class="tag req" id="path">
-                             <h4><a href="#path">path </a></h4>
+                             <h4><a href="#path">path</a></h4>
                              <p class="desc">
-                             Path to the guide&#39;s XML file.
+                             Path to the guide.
                              </p>
                              <div>
                                 <ul class="attr">

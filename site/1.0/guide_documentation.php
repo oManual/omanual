@@ -79,7 +79,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req" id="image-1">
             <h4><a href="#image-1">image</a></h4>
             <p class="desc">
-            The path to the image introducing the guide. Image is required, so if you do not have an additional primary image, duplicate the first image of the guide. The path is relative to the directory containing this XML file.
+            The path to the image introducing the guide. Image is required, so if you do not have an additional primary image, duplicate the first image of the guide.
             </p>
             <div>
                <ul class="attr">
@@ -499,7 +499,7 @@ images or one rich media object, as well as no more than eight lines of text.
                      <li class="attr-intro">Attributes:</li>
                      <li><strong class="req">id</strong> <em>required</em> An id for the associated prerequisite guide.</li>
                      <li><strong class="req">locale</strong> <em>required</em> The language the guide is written in.</li>
-                     <li><strong class="req">path</strong> <em>required</em> The absolute path to the prerequisite guide XML file in the oManual package.</li>
+                     <li><strong class="req">path</strong> <em>required</em> The path to the prerequisite guide.</li>
                   </ul>
                </div>
             </div>
