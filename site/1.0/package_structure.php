@@ -1,8 +1,7 @@
 <div class="fileList">
    <h4>ZIP compressed .omanual archive:</h4>
    <ul>
-      <li><a href="#manifest">manifest.xml</a></li>
-      <li><a href="#category">MacBook-Core-Duo.xml</a></li>
+      <li><a href="#category">category.xml</a></li>
       <li><span>guide-a/</span>
          <ul>
             <li><a href="#guide">guide.xml</a></li>

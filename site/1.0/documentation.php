@@ -35,9 +35,6 @@ over a web API using mobile-friendly JSON.
          <ol>
             <li>
                <a href="#package">.oManual File Package</a>
-               <ol>
-                  <li><a href="#manifest">Manifest Documentation</a></li>
-               </ol>
             </li>
             <li><a href="#api-specification">API Specification</a></li>
          </ol>
@@ -79,14 +76,6 @@ over a web API using mobile-friendly JSON.
    </h3>
 
    <? include 'package_documentation.php'; ?>
-
-   <h3 id="manifest">
-      Manifest Documentation
-      <a href="omanual_manifest.xsd" class="downloadbtn">XML Schema Definition</a>
-      <a href="omanual_manifest_example.xml" class="downloadbtn">Example Manifest XML</a>
-   </h3>
-
-   <? include 'manifest_documentation.php'; ?>
 
    <h3 id="api-specification">API Specification</h3>
 

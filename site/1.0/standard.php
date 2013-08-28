@@ -69,8 +69,8 @@ information between services while maintaining usability on mobile devices.
 
    <p>
 This specification describes the oManual data model, web services API, and 
-bundle file format (a collection of structured files containing a file manifest 
-XML format, a category XML format and a guide XML format). The specification 
+bundle file format (a collection of structured files containing a
+category and guide XML files). The specification
 may be expanded in the future to enable additional types of documents.
    </p>
 
@@ -85,13 +85,11 @@ may be expanded in the future to enable additional types of documents.
    <div class="schemas">
       <h3>XML Schemas</h3>
 
-      <p>There are currently three defined oManual XML schemas.</p>
+      <p>There are two defined oManual XML schemas.</p>
 
       <ul>
-         <li><a href="#manifest">Manifest</a> <em>Required</em>
-         <br />Listing of oManual package contents. One per package.</li>
          <li><a href="#category">Category</a> <em>Optional</em>
-         <br />Description of the category for which the guide describe manipulating. One per package.</li>
+         <br />Description of the category, which can contain a collection of procedures and media about a specific category. One per package. Named category.xml.</li>
          <li><a href="#guide">Guide</a> <em>Optional</em>
          <br />Structured list of step-by-step, procedural instructions with referenced media.</li>
       </ul>
@@ -108,26 +106,13 @@ may be expanded in the future to enable additional types of documents.
          <li><a href="#guide"><span class="method">GET</span> /guides/{guideid}</a>
          <br />Returns detailed information and procedural steps from a specific guide.</li>
          <li><a href="#category-list"><span class="method">GET</span> /categories</a>
-         <br />Returns detailed category hierarchy which is the structured relationship between categories listed in the manifest.xml file.</li>
+         <br />Returns detailed category hierarchy which is the structured relationship between categories listed in the category.xml file.</li>
          <li><a href="#category"><span class="method">GET</span> /categories/{categoryname}</a>
          <br />Returns detailed category information including category specific media and the list of guides.</li>
       </ul>
    </div>
 
    <br style="clear:both;" />
-
-   <a name="manifest"></a>
-   <h3>
-       Manifest: <span class="greytxt">XML Schema</span>
-       <a href="schema/omanual_manifest.xsd" class="downloadbtn">Download XSD</a>
-       <a href="schema/omanual_manifest_example.xml" class="downloadbtn">Download Example</a>
-   </h3>
-
-   <div class="codeview">
-      <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/manifest_ex.html') ?>
-      <!-- END CODE -->
-   </div>
 
    <a name="category"></a>
    <h3>
