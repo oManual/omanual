@@ -102,6 +102,9 @@
 
    <xs:element name="tool">
       <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_source" />
+         </xs:sequence>
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />

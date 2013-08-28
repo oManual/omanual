@@ -321,6 +321,35 @@ images or one rich media object, as well as no more than eight lines of text.
                   </ul>
                </div>
             </div>
+            <div class="subtag" id="external-sources">
+               <div class="tag">
+                  <h4><a href="#external-sources">external_sources</a></h4>
+                  <p class="desc">
+                  A list of all the sources for aquiring this tool.
+                  </p>
+                  <div>
+                     <ul class="attr">
+                        <li class="attr-intro">Attributes: None</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="subtag" id="external-source">
+                  <div class="tag">
+                     <h4><a href="#external-sources">external_source</a></h4>
+                     <p class="desc">
+                         External source used for sourcing and aquiring this tool.  Could be an e-commerce site, brick and mortar store, guide or full oManual.
+                     </p>
+                     <div>
+                        <ul class="attr">
+                           <li class="attr-intro">Attributes:</li>
+                           <li><strong>id</strong> <em>optional</em> String identifier for the tool at the external source.  If the external source is a guide, the id would be the guide name.</li>
+                           <li><strong>url</strong> <em>optional</em> Path to an external site that sells or distributes this tool.  Alternatively, it could be a relative path to a different guide that produces this tool.</li>
+                           <li><strong>notes</strong> <em>optional</em> Any important information about this source.  For example, if the source is notorious for slow shipping times or poor quality, this would be the place to note that.</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
 
          <div class="tag req" id="parts">
