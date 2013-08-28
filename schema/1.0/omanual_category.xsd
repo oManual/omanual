@@ -4,11 +4,11 @@
    <xs:annotation>
       <xs:documentation xml:lang="en">
          This document describes category metadata. A category can be anything you
-         would write step-by-step procedures about, such as a manufactured
+         would write step-by-step guides about, such as a manufactured
          object or device.
 
          This includes the structured category hierarchy, list of
-         procedures, and list of attached documents in the /media folder of the
+         guides, and list of attached documents in the /media folder of the
          .omanual package.
 
          Note: This is not a complete listing of package contents since each
@@ -16,7 +16,7 @@
       </xs:documentation>
    </xs:annotation>
 
-   <xs:include schemaLocation="omanual_simplifiedhtml_0.4.xsd" />
+   <xs:include schemaLocation="omanual_simplifiedhtml.xsd" />
 
    <xs:element name="category">
       <xs:complexType>
@@ -32,7 +32,7 @@
             <xs:element ref="parts" />
             <xs:element ref="tools" />
             <xs:element ref="contents" />
-            <xs:element ref="procedures" />
+            <xs:element ref="guides" />
             <xs:element ref="documents" />
          </xs:all>
          <xs:attribute name="locale" use="required" type="xs:string" />
@@ -75,15 +75,25 @@
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="categories">
+   <xs:element name="ancestors">
       <xs:complexType>
          <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="unbounded" ref="category" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="ancestor" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="category" type="xs:string" />
+   <xs:element name="ancestor" type="xs:string" />
+
+   <xs:element name="children">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="child" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="child" type="xs:string" />
 
    <xs:element name="solutions">
       <xs:complexType>
@@ -141,18 +151,18 @@
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="procedures">
+   <xs:element name="guides">
       <xs:complexType>
          <xs:sequence>
-            <xs:element maxOccurs="unbounded" ref="procedure" />
+            <xs:element maxOccurs="unbounded" ref="guide" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="procedure">
+   <xs:element name="guide">
       <xs:complexType>
          <xs:all minOccurs="0">
-            <xs:element ref="procedure.title" />
+            <xs:element ref="guide.title" />
             <xs:element ref="url" />
             <xs:element ref="path" />
             <xs:element ref="thumbnail" />
@@ -164,7 +174,7 @@
       </xs:complexType>
    </xs:element>
 
-   <xs:element name="procedure.title" type="xs:anyURI" />
+   <xs:element name="guide.title" type="xs:anyURI" />
 
    <xs:element name="url" type="xs:anyURI" />
 

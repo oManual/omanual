@@ -118,7 +118,7 @@ images or one rich media object, as well as no more than eight lines of text.
             </div>
          </div>
 
-         <div class="tag" id ="difficulty">
+         <div class="tag" id="difficulty">
             <h4><a href="#difficulty">difficulty</a></h4>
             <p class="desc">
             A determination of the difficulty of the guide for your target audience. Please choose from one of these five options:
@@ -136,6 +136,19 @@ images or one rich media object, as well as no more than eight lines of text.
                </ul>
             </div>
          </div>
+
+         <div class="tag" id="category">
+            <h4><a href="#category">category</a></h4>
+            <p class="desc">
+            The name of the category that this guide belongs to.
+            </p>
+            <div>
+               <ul class="attr">
+                  <li class="attr-intro">Attributes: None</li>
+               </ul>
+            </div>
+         </div>
+
 
          <div class="tag req" id="introduction">
             <h4><a href="#introduction">introduction</a></h4>

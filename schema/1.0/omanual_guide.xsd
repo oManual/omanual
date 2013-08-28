@@ -13,7 +13,7 @@
       </xs:documentation>
    </xs:annotation>
 
-   <xs:include schemaLocation="omanual_simplifiedhtml_0.4.xsd" />
+   <xs:include schemaLocation="omanual_simplifiedhtml.xsd" />
 
    <xs:element name="guide">
       <xs:complexType>
@@ -24,7 +24,7 @@
             <xs:element ref="author" />
             <xs:element ref="time_required" />
             <xs:element ref="difficulty" />
-            <xs:element ref="categories" />
+            <xs:element ref="category" />
             <xs:element ref="introduction" />
             <xs:element ref="modified_date" />
             <xs:element ref="created_date" />
@@ -72,14 +72,6 @@
    <xs:element name="time_required" type="xs:string" />
 
    <xs:element name="difficulty" type="xs:string" />
-
-   <xs:element name="categories">
-      <xs:complexType>
-         <xs:sequence>
-            <xs:element ref="category" minOccurs="0" maxOccurs="unbounded" />
-         </xs:sequence>
-      </xs:complexType>
-   </xs:element>
 
    <xs:element name="category" type="xs:string" />
 

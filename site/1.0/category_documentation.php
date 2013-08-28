@@ -200,6 +200,66 @@
                         </div>
                      </div>
 
+                     <div class="tag req" id="tools">
+                        <h4><a href="#tools">tools</a></h4>
+                        <p class="desc"></p>
+                        <div>
+                           <ul class="attr">
+                              <li class="attr-intro">Attributes: None</li>
+                           </ul>
+                        </div>
+                     </div>
+
+                     <div class="subtag" id="tool">
+                        <div class="tag">
+                           <h4><a href="#tool">tool</a></h4>
+                           <p class="desc">
+                           A required or suggested tool/implement. Use a name common to all of your guides and specify variations using the type attribute.
+                           </p>
+                           <div>
+                              <ul class="attr">
+                                 <li class="attr-intro">Attributes:</li>
+                                 <li><strong>type</strong> <em>optional</em> The type of tool. Specifying type can be a useful way of consolidating tool names, for example an 8mm socket could be specified as name: socket, type: 8mm.</li>
+                                 <li><strong>quantity</strong> <em>optional</em> Integer quantity of tool required. If omitted, this is assumed to be 1.</li>
+                                 <li><strong>notes</strong> <em>optional</em> Information specific to using this tool for this guide.</li>
+                                 <li><strong>thumbnail</strong> <em>optional</em> Path to an image to go along with the tool.</li>
+                                 <li><strong>url</strong> <em>optional</em> A URL for an external reference describing the tool.</li>
+                                 <li><strong>sku</strong> <em>optional</em> The manufacturer SKU / part number.</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tag req" id="parts">
+                        <h4><a href="#parts">parts</a></h4>
+                        <p class="desc"></p>
+                        <div>
+                           <ul class="attr">
+                              <li class="attr-intro">Attributes: None</li>
+                           </ul>
+                        </div>
+                     </div>
+
+                     <div class="subtag" id="part">
+                        <div class="tag">
+                           <h4><a href="#part">part</a></h4>
+                           <p class="desc">
+                           A part, material, or ingredient used in this category.
+                           </p>
+                           <div>
+                              <ul class="attr">
+                                 <li class="attr-intro">Attributes:</li>
+                                 <li><strong>sku</strong> <em>optional</em> A global string identifier for the part.</li>
+                                 <li><strong>type</strong> <em>optional</em> The type of part. Specifying type can be a useful way of consolidating names, for example a 5Ω resistor could be specified as name: resistor, type: 5Ω.</li>
+                                 <li><strong>quantity</strong> <em>optional</em> How many of this part are required.</li>
+                                 <li><strong>thumbnail</strong> <em>optional</em> URI of an image to go along with the part.</li>
+                                 <li><strong>url</strong> <em>optional</em> A URL for a page describing the part.</li>
+                                 <li><strong>notes</strong> <em>optional</em> Information specific to using this part for this guide.</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
                      <div class="tag" id="content">
                         <h4><a href="#content">contents</a></h4>
                         <p class="desc">
