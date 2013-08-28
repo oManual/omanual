@@ -63,14 +63,14 @@ oManual is a standard for storing and transmitting procedural manuals.
 oManual's common data format can be used as an offline file package or via 
 online RESTful API endpoints, using XML or JSON. This format is useful for 
 documenting and describing repairs, how-to, work instructions, or any other 
-step-by-step procedures. oManual makes it easy to exchange procedural 
+step-by-step guides. oManual makes it easy to exchange procedural 
 information between services while maintaining usability on mobile devices.
    </p>
 
    <p>
 This specification describes the oManual data model, web services API, and 
 bundle file format (a collection of structured files containing a file manifest 
-XML format, a category XML format and a procedure XML format). The specification 
+XML format, a category XML format and a guide XML format). The specification 
 may be expanded in the future to enable additional types of documents.
    </p>
 
@@ -91,8 +91,8 @@ may be expanded in the future to enable additional types of documents.
          <li><a href="#manifest">Manifest</a> <em>Required</em>
          <br />Listing of oManual package contents. One per package.</li>
          <li><a href="#category">Category</a> <em>Optional</em>
-         <br />Description of the category for which the procedures describe manipulating. One per package.</li>
-         <li><a href="#procedure">Procedure</a> <em>Optional</em>
+         <br />Description of the category for which the guide describe manipulating. One per package.</li>
+         <li><a href="#guide">Guide</a> <em>Optional</em>
          <br />Structured list of step-by-step, procedural instructions with referenced media.</li>
       </ul>
    </div>
@@ -103,14 +103,14 @@ may be expanded in the future to enable additional types of documents.
       <p>The four endpoints listed below are all that is necessary to access your oManual data through a REST API. For an example API implementation, take a look at the <a href="https://www.ifixit.com/api/2.0/doc">iFixit API</a>.</p>
 
       <ul>
-         <li><a href="#procedures"><span class="method">GET</span> /procedures</a>
-         <br />List all procedures</li>
-         <li><a href="#procedure"><span class="method">GET</span> /procedures/{procedureid}</a>
-         <br />Returns detailed information and procedural steps from a specific procedure.</li>
+         <li><a href="#guides"><span class="method">GET</span> /guides</a>
+         <br />List all guides</li>
+         <li><a href="#guide"><span class="method">GET</span> /guides/{guideid}</a>
+         <br />Returns detailed information and procedural steps from a specific guide.</li>
          <li><a href="#category-list"><span class="method">GET</span> /categories</a>
          <br />Returns detailed category hierarchy which is the structured relationship between categories listed in the manifest.xml file.</li>
          <li><a href="#category"><span class="method">GET</span> /categories/{categoryname}</a>
-         <br />Returns detailed category information including category specific media and the list of procedures.</li>
+         <br />Returns detailed category information including category specific media and the list of guides.</li>
       </ul>
    </div>
 
@@ -142,16 +142,16 @@ may be expanded in the future to enable additional types of documents.
       <!-- END CODE -->
    </div>
 
-   <a name="procedure"></a>
+   <a name="guide"></a>
    <h3>
-      Procedure: <span class="greytxt">XML Schema</span>
+      guide: <span class="greytxt">XML Schema</span>
       <a href="omanual_procedure.xsd" class="downloadbtn">Download XSD</a>
       <a href="omanual_procedure_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/procedure_ex.html') ?>
+      <?php require_once('schema/examples/guide_ex.html') ?>
       <!-- END CODE -->
    </div>
 
@@ -159,16 +159,16 @@ may be expanded in the future to enable additional types of documents.
 
    <ul class="responses">
       <li>
-         <a name="procedures"></a>
+         <a name="guides"></a>
          <h3>
-            GET /procedures
+            GET /guides
             <a href="https://ifixit.com/api/2.0/guides?limit=1000" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>
       <li>
-         <a name="procedure"></a>
+         <a name="guide"></a>
          <h3>
-            GET /procedures/{procedureid}
+            GET /guides/{guideid}
             <a href="https://ifixit.com/api/2.0/guides/123" target="_blank" class="downloadbtn">Example </a>
          </h3>
       </li>

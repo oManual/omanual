@@ -1,7 +1,7 @@
 
 <p>
 The package manifest is an XML description of the oManual package contents.
-This includes the list of procedures and a list
+This includes the list of guides and a list
 of attached documents in the /media folder of the .omanual package.
 </p>
 <p>
@@ -42,7 +42,7 @@ may additionally reference its own media.
      </div>
 
      <div class="tag" id="description-1">
-        <h4><a href="#description-1">description </a></h4>
+        <h4><a href="#description-1">description</a></h4>
         <p class="desc">
         A brief, simple HTML formatted description of the manual.
         </p>
@@ -53,10 +53,10 @@ may additionally reference its own media.
         </div>
      </div>
 
-     <div class="tag req" id="procedures">
-        <h4><a href="#procedures">procedures </a></h4>
+     <div class="tag req" id="guides">
+        <h4><a href="#guides">guides</a></h4>
         <p class="desc">
-        List of procedures within the oManual package.
+        List of guides within the oManual package.
         </p>
         <div>
            <ul class="attr">
@@ -65,18 +65,18 @@ may additionally reference its own media.
         </div>
      </div>
 
-     <div class="subtag" id="procedure-1">
+     <div class="subtag" id="guide-1">
         <div class="tag">
-           <h4><a href="#procedure-1">procedure </a></h4>
+           <h4><a href="#guide-1">guide </a></h4>
            <p class="desc">
-           Individual procedure element.  A short description of the procedure that's contained within the oManual package.  The corresponding file in the package has the filename <i>procedure-{id}.xml</i>. 
+           Individual guide element.  A short description of the guide that's contained within the oManual package.  The corresponding file in the package has the filename <i>guide-{id}.xml</i>. 
            </p>
            <div>
               <ul class="attr">
                  <li class="attr-intro">Attributes:</li>
-                 <li><strong>id</strong> - <em>required</em> An integer identifier for the procedure.</li>
-                 <li><strong>subject</strong> - <em>required</em> The subcomponent the procedure will be operating on.</li>
-                 <li><strong>type</strong> - <em>required</em> The type of procedure to perform. Suggested options: installation, maintenance, repair, disassembly, technique.</li>
+                 <li><strong>id</strong> - <em>required</em> An integer identifier for the guide.</li>
+                 <li><strong>subject</strong> - <em>required</em> The subcomponent the guide will be operating on.</li>
+                 <li><strong>type</strong> - <em>required</em> The type of guide to perform. Suggested options: installation, maintenance, repair, disassembly, technique.</li>
               </ul>
            </div>
         </div>
@@ -85,7 +85,7 @@ may additionally reference its own media.
            <div class="tag">
               <h4><a href="#title-2">title </a></h4>
               <p class="desc">
-              The title of the procedure.
+              The title of the guide.
               </p>
               <div>
                  <ul class="attr">
@@ -97,7 +97,7 @@ may additionally reference its own media.
            <div class="tag req" id="path">
               <h4><a href="#path">path </a></h4>
               <p class="desc">
-              Path to the procedure&#39;s XML file.
+              Path to the guide&#39;s XML file.
               </p>
               <div>
                  <ul class="attr">
@@ -109,7 +109,7 @@ may additionally reference its own media.
            <div class="tag" id="url">
               <h4><a href="#url">url </a></h4>
               <p class="desc">
-              URL to the canonical online source for this procedure.
+              URL to the canonical online source for this guide.
               </p>
               <div>
                  <ul class="attr">
@@ -121,7 +121,7 @@ may additionally reference its own media.
            <div class="tag" id="thumbnail">
               <h4><a href="#thumbnail">thumbnail </a></h4>
               <p class="desc">
-              Path to the procedures thumbnail image.
+              Path to the guides thumbnail image.
               </p>
               <div>
                  <ul class="attr">
@@ -133,7 +133,7 @@ may additionally reference its own media.
            <div class="tag" id="image_url">
               <h4><a href="#image_url">image_url</a></h4>
               <p class="desc">
-              Path to the full size main procedure image.
+              Path to the full size main guide image.
               </p>
               <div>
                  <ul class="attr">

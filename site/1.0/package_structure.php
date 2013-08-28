@@ -3,9 +3,9 @@
    <ul>
       <li><a href="#manifest">manifest.xml</a></li>
       <li><a href="#category">MacBook-Core-Duo.xml</a></li>
-      <li><span>procedure-a/</span>
+      <li><span>guide-a/</span>
          <ul>
-            <li><a href="#procedure">procedure.xml</a></li>
+            <li><a href="#guide">guide.xml</a></li>
             <li><span>media/</span>
                <ul>
                   <li><span>step-1.jpg</span></li>
@@ -14,7 +14,7 @@
            </li>
          </ul>
       </li>
-      <li><span>procedure-n/</span>
+      <li><span>guide-n/</span>
          <ul>
             <li><span>...</span></li>
          </ul>

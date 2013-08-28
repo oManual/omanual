@@ -1,6 +1,6 @@
 
 <p>
-  A procedure is a structured collection of steps. Each must include text and 
+  A guide is a structured collection of steps. Each must include text and 
 media. For consistency of display, we recommend each step consist of 1-3 
 images or one rich media object, as well as no more than eight lines of text.
 </p>
@@ -10,16 +10,16 @@ images or one rich media object, as well as no more than eight lines of text.
    <div class="opt"><span class="box"></span> optional</div>
 </div>
 
-<div class="tagListing" id="procedure">
+<div class="tagListing" id="guide">
       <div class="tag req">
-         <h4><a href="#procedure">procedure</a></h4>
+         <h4><a href="#guide">guide</a></h4>
          <p class="desc">
-         The root of an oManual procedure.
+         The root of an oManual guide.
          </p>
          <div>
             <ul class="attr">
                <li class="attr-intro">Attributes:</li>
-               <li><strong class="req">locale</strong> <em>required</em> The language the procedure is written in.</li>
+               <li><strong class="req">locale</strong> <em>required</em> The language the guide is written in.</li>
             </ul>
          </div>
       </div>
@@ -29,7 +29,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">modified_date</a></h4>
             <p class="desc">
-               Format (YYYY-MM-DDThh:mm:ss) - Date and time this procedure was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
+               Format (YYYY-MM-DDThh:mm:ss) - Date and time this guide was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
             </p>
             <div>
                <ul class="attr">
@@ -41,7 +41,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">created_date</a></h4>
             <p class="desc">
-               Format (YYYY-MM-DDThh:mm:ss) - Date and time when this procedure was first created.
+               Format (YYYY-MM-DDThh:mm:ss) - Date and time when this guide was first created.
             </p>
             <div>
                <ul class="attr">
@@ -53,13 +53,13 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">title</a></h4>
             <p class="desc">
-            Contains the title of the procedure.
+            Contains the title of the guide.
             </p>
             <div>
                <ul class="attr">
                   <li class="attr-intro">Attributes:</li>
-                  <li><strong>subject</strong> <em>optional</em> The subject of the procedure. ex: Bottom Bezel Bracket</li>
-                  <li><strong>type</strong> <em>optional</em> What the procedure explains in relation to the subject. ex: Installation</li>
+                  <li><strong>subject</strong> <em>optional</em> The subject of the guide. ex: Bottom Bezel Bracket</li>
+                  <li><strong>type</strong> <em>optional</em> What the guide explains in relation to the subject. ex: Installation</li>
                </ul>
             </div>
          </div>
@@ -67,7 +67,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag" id="summary">
             <h4><a href="#summary">summary</a></h4>
             <p class="desc">
-            A text field that contains less than or equal to 255 characters describing the procedure.
+            A text field that contains less than or equal to 255 characters describing the guide.
             </p>
             <div>
                <ul class="attr">
@@ -79,7 +79,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req" id="image-1">
             <h4><a href="#image-1">image</a></h4>
             <p class="desc">
-            The path to the image introducing the procedure. Image is required, so if you do not have an additional primary image, duplicate the first image of the procedure. The path is relative to the directory containing this XML file.
+            The path to the image introducing the guide. Image is required, so if you do not have an additional primary image, duplicate the first image of the guide. The path is relative to the directory containing this XML file.
             </p>
             <div>
                <ul class="attr">
@@ -96,7 +96,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#author">author</a></h4>
             <p class="desc">
-               Author of the procedure.  In the case of multiple authors, this would be the primary author or maintainer of the procedure.
+               Author of the guide.  In the case of multiple authors, this would be the primary author or maintainer of the guide.
             </p>
             <div>
                <ul class="attr">
@@ -109,7 +109,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag" id="time-required">
             <h4><a href="#time-required">time_required</a></h4>
             <p class="desc">
-            A human readable description of how long the procedure takes. ex: 15 minutes
+            A human readable description of how long the guide takes. ex: 15 minutes
             </p>
             <div>
                <ul class="attr">
@@ -121,7 +121,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag" id ="difficulty">
             <h4><a href="#difficulty">difficulty</a></h4>
             <p class="desc">
-            A determination of the difficulty of the procedure for your target audience. Please choose from one of these five options:
+            A determination of the difficulty of the guide for your target audience. Please choose from one of these five options:
             </p>
             <ul>
                <li>Very easy</li>
@@ -140,7 +140,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req" id="introduction">
             <h4><a href="#introduction">introduction</a></h4>
             <p class="desc">
-            <a href="#simpleHTML">Simplified HTML</a> formatted text introducing the procedure. This could describe anything from how to set up for the procedure to an introduction of the procedures subject matter. There is no length limit, but we suggest limiting this to no more than 2-3 paragraphs.
+            <a href="#simpleHTML">Simplified HTML</a> formatted text introducing the guide. This could describe anything from how to set up for the guide to an introduction of the guides subject matter. There is no length limit, but we suggest limiting this to no more than 2-3 paragraphs.
             </p>
             <div>
                <ul class="attr">
@@ -307,14 +307,14 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <h4><a href="#tool">tool</a></h4>
                <p class="desc">
-               A required or suggested tool or implement. Use a name common to all of your procedures and specify variations using the type attribute.
+               A required or suggested tool or implement. Use a name common to all of your guides and specify variations using the type attribute.
                </p>
                <div>
                   <ul class="attr">
                      <li class="attr-intro">Attributes:</li>
                      <li><strong>type</strong> <em>optional</em> The type of tool. Specifying type can be a useful way of consolidating tool names, for example an 8mm socket could be specified as name: socket, type: 8mm.</li>
                      <li><strong>quantity</strong> <em>optional</em> Integer quantity of tool required. If omitted, this is assumed to be 1.</li>
-                     <li><strong>notes</strong> <em>optional</em> Information specific to using this tool for this procedure.</li>
+                     <li><strong>notes</strong> <em>optional</em> Information specific to using this tool for this guide.</li>
                      <li><strong>thumbnail</strong> <em>optional</em> Path to an image to go along with the tool.</li>
                      <li><strong>url</strong> <em>optional</em> A URL for an external reference describing the tool.</li>
                      <li><strong>sku</strong> <em>optional</em> The manufacturer SKU / part number.</li>
@@ -337,7 +337,7 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <h4><a href="#part">part</a></h4>
                <p class="desc">
-               A part, material, or ingredient used in the procedure. Use a name common to all of your procedures and specify variations using the type attribute.
+               A part, material, or ingredient used in the guide. Use a name common to all of your guides and specify variations using the type attribute.
                </p>
                <div>
                   <ul class="attr">
@@ -347,7 +347,7 @@ images or one rich media object, as well as no more than eight lines of text.
                      <li><strong>quantity</strong> <em>optional</em> How many of this part are required.</li>
                      <li><strong>thumbnail</strong> <em>optional</em> URI of an image to go along with the part.</li>
                      <li><strong>url</strong> <em>optional</em> A URL for a page describing the part.</li>
-                     <li><strong>notes</strong> <em>optional</em> Information specific to using this part for this procedure.</li>
+                     <li><strong>notes</strong> <em>optional</em> Information specific to using this part for this guide.</li>
                   </ul>
                </div>
             </div>
@@ -367,13 +367,13 @@ images or one rich media object, as well as no more than eight lines of text.
                   <div class="tag">
                      <h4><a href="#external-sources">external_source</a></h4>
                      <p class="desc">
-                         External source used for sourcing and aquiring this part.  Could be an e-commerce site, brick and mortar store, procedure or full oManual.
+                         External source used for sourcing and aquiring this part.  Could be an e-commerce site, brick and mortar store, guide or full oManual.
                      </p>
                      <div>
                         <ul class="attr">
                            <li class="attr-intro">Attributes:</li>
-                           <li><strong>id</strong> <em>optional</em> String identifier for the part at the external source.  If the external source is a procedure, the id would be the procedure name.</li>
-                           <li><strong>url</strong> <em>optional</em> Path to an external site that sells or distributes this part.  Alternatively, it could be a relative path to a different procedure that produces this part.</li>
+                           <li><strong>id</strong> <em>optional</em> String identifier for the part at the external source.  If the external source is a guide, the id would be the guide name.</li>
+                           <li><strong>url</strong> <em>optional</em> Path to an external site that sells or distributes this part.  Alternatively, it could be a relative path to a different guide that produces this part.</li>
                            <li><strong>notes</strong> <em>optional</em> Any important information about this source.  For example, if the source is notorious for slow shipping times or poor quality, this would be the place to note that.</li>
                         </ul>
                      </div>
@@ -396,7 +396,7 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <a href="#flag"><h4>flag</h4> </a>
                <p class="desc">
-               A flag or informational note about the procedure. The text field contains a full text notice of what this flag means to the user.
+               A flag or informational note about the guide. The text field contains a full text notice of what this flag means to the user.
                </p>
                <div>
                   <ul class="attr">
@@ -423,7 +423,7 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <h4><a href="#document">document</a></h4>
                <p class="desc">
-               A document attached to the procedure. The text for this element should be the filename of the attached document.
+               A document attached to the guide. The text for this element should be the filename of the attached document.
                </p>
                <div>
                   <ul class="attr">
@@ -437,7 +437,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req" id="prerequisites">
             <h4><a href="#prerequisites">prerequisites</a></h4>
             <p class="desc">
-               A collection of procedures that must be completed prior to starting this procedure.
+               A collection of guides that must be completed prior to starting this guide.
             </p>
             <div>
                <ul class="attr">
@@ -450,14 +450,14 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <h4><a href="#prerequisite">prerequisite</a></h4>
                <p class="desc">
-                  The title of a prerequisite procedure. Prerequisite procedures should be written such that steps can be <em>inlined</em> directly into this procedure. You can see an example of this with the <a href="http://www.ifixit.com/Guide/Installing-MacBook-Core-2-Duo-RAM/512/1">prerequisite implementation on iFixit</a>.
+                  The title of a prerequisite guide. Prerequisite guides should be written such that steps can be <em>inlined</em> directly into this guide. You can see an example of this with the <a href="http://www.ifixit.com/Guide/Installing-MacBook-Core-2-Duo-RAM/512/1">prerequisite implementation on iFixit</a>.
                </p>
                <div>
                   <ul class="attr">
                      <li class="attr-intro">Attributes:</li>
-                     <li><strong class="req">id</strong> <em>required</em> An id for the associated prerequisite procedure.</li>
-                     <li><strong class="req">locale</strong> <em>required</em> The language the procedure is written in.</li>
-                     <li><strong class="req">path</strong> <em>required</em> The absolute path to the prerequisite procedure XML file in the oManual package.</li>
+                     <li><strong class="req">id</strong> <em>required</em> An id for the associated prerequisite guide.</li>
+                     <li><strong class="req">locale</strong> <em>required</em> The language the guide is written in.</li>
+                     <li><strong class="req">path</strong> <em>required</em> The absolute path to the prerequisite guide XML file in the oManual package.</li>
                   </ul>
                </div>
             </div>

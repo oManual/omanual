@@ -33,7 +33,7 @@
                "method": "GET",
                "endpoint": "/categories/{categoryname}",
                "short_description": "Get a specific category.",
-               "detailed_description": "Returns a comprehensive list of attributes about a category, including the full text of the main category page and a list of all procedures. The category name must be URL encoded.",
+               "detailed_description": "Returns a comprehensive list of attributes about a category, including the full text of the main category page and a list of all guides. The category name must be URL encoded.",
                "query_parameters": {
                   "type": {
                      "required": false,
@@ -52,19 +52,19 @@
       },
       "Guides": 
          {
-         "url": "/procedures",
-         "description": "List available procedures.",
+         "url": "/guides",
+         "description": "List available guides.",
          "public": [
             {
             "method": "GET",
-            "endpoint": "/procedures",
-            "short_description": "Get a list of all procedures",
-            "detailed_description": "Returns a list of all procedures sorted by procedureid.",
+            "endpoint": "/guides",
+            "short_description": "Get a list of all guides",
+            "detailed_description": "Returns a list of all guides sorted by guideid.",
             "query_parameters": {
                "guideids": {
                   "required": false,
                   "type": "array",
-                  "description": "Comma-delimited list of procedureids identifying the procedures to return."
+                  "description": "Comma-delimited list of guideids identifying the guides to return."
                },
                "filter": {
                   "required": false,
@@ -81,12 +81,12 @@
                "offset": {
                   "required": false,
                   "type": "integer",
-                  "description": "The number of procedures to skip from the beginning. Range: [0, infinity). Defaults to 0."
+                  "description": "The number of guides to skip from the beginning. Range: [0, infinity). Defaults to 0."
                },
                "limit": {
                   "required": false,
                   "type": "integer",
-                  "description": "The maximum number of procedures to include in the response. Range: [1, 200]. Defaults to 20."
+                  "description": "The maximum number of guides to include in the response. Range: [1, 200]. Defaults to 20."
                }
             },
             "response": [ 
@@ -98,19 +98,19 @@
          },
          {
             "method": "GET",
-            "endpoint": "/procedures/{procedureid}",
-            "short_description": "Get a procedure",
-            "detailed_description": "Returns a comprehensive list of attributes about a procedure.",
+            "endpoint": "/guides/{guideid}",
+            "short_description": "Get a guide",
+            "detailed_description": "Returns a comprehensive list of attributes about a guide.",
             "query_parameters": {
                "excludePrerequisiteSteps": {
                   "required": false,
                   "type": "boolean",
-                  "description": "If set, the response will not include steps from prerequisite procedures. By default prerequisite procedure steps are inlined with the current procedure's steps."
+                  "description": "If set, the response will not include steps from prerequisite guides. By default prerequisite guide steps are inlined with the current guide's steps."
                },
                "unpatrolled": {
                   "required": false,
                   "type": "boolean",
-                  "description": "If set, the procedure will include unpatrolled edits if any exist.  Edits must be performed using this version of the procedure.  Defaults to false."
+                  "description": "If set, the guide will include unpatrolled edits if any exist.  Edits must be performed using this version of the guide.  Defaults to false."
                },
                "type": {
                   "required": false,

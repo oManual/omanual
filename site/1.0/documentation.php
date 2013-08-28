@@ -11,8 +11,8 @@
    <h2>Documentation</h2>
 
    <p>
-A manual can describe a collection of procedures, or just a single procedure.
-An example service manual for a Dell laptop might include a dozen procedures,
+A manual can describe a collection of guides, or just a single guide.
+An example service manual for a Dell laptop might include a dozen guides,
 technical descriptions of the device, or hundreds of photos and videos.
 The manual could be accessed by reading a .omanual file on a desktop computer,
 or on a tablet or smartphone via a web service.
@@ -27,8 +27,8 @@ over a web API using mobile-friendly JSON.
    <ul class="tblcontents">
       <li><a href="#data-specification">Data Specification</a>
          <ol>
-            <li><a href="#category">category Documentation</a></li>
-            <li><a href="#procedure">Procedure Documentation</a></li>
+            <li><a href="#category">Category Documentation</a></li>
+            <li><a href="#guide">Guide Documentation</a></li>
          </ol>
       </li>
       <li><a href="#transmission-formats">Transmission Formats</a>
@@ -54,7 +54,7 @@ over a web API using mobile-friendly JSON.
    <h2 id="data-specification">Data Specification</h2>
 
    <h3 id="category">
-      category Documentation
+      Category Documentation
       <a href="omanual_category.xsd" class="downloadbtn">XML Schema Definition</a>
       <a href="omanual_category_example.xml" class="downloadbtn">Example XML</a>
       <a href="https://www.ifixit.com/api/2.0/categories/iPhone%205?pretty" class="downloadbtn">Example JSON</a>
@@ -62,14 +62,14 @@ over a web API using mobile-friendly JSON.
 
    <? include 'category_documentation.php'; ?>
 
-   <h3 id="procedure">
-      Procedure Documentation
-      <a href="omanual_procedure.xsd" class="downloadbtn">XML Schema Definition</a>
-      <a href="omanual_procedure_example.xml" class="downloadbtn">Example XML</a>
+   <h3 id="guide">
+      Guide Documentation
+      <a href="omanual_guide.xsd" class="downloadbtn">XML Schema Definition</a>
+      <a href="omanual_guide_example.xml" class="downloadbtn">Example XML</a>
       <a href="https://www.ifixit.com/api/2.0/guides/10525?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
-   <? include 'procedure_documentation.php'; ?>
+   <? include 'guide_documentation.php'; ?>
 
    <h2 id="transmission-formats">Transmission Formats</h2>
 

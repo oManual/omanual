@@ -6,7 +6,7 @@
 
    <xs:annotation>
       <xs:documentation xml:lang="en">
-         A procedure is a structured collection of steps. Each must include
+         A guide is a structured collection of steps. Each must include
          text and media. For consistency of display, we recommend each step
          consist of 1-3 images or one rich media object, as well as no
          more than eight lines of text.
@@ -15,7 +15,7 @@
 
    <xs:include schemaLocation="omanual_simplifiedhtml_0.4.xsd" />
 
-   <xs:element name="procedure">
+   <xs:element name="guide">
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="title" />
