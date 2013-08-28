@@ -118,7 +118,7 @@ may be expanded in the future to enable additional types of documents.
    <h3>
        Category: <span class="greytxt">XML Schema</span>
        <a href="schema/omanual_category.xsd" class="downloadbtn">Download XSD</a>
-       <a href="schema/omanual_category_example.xml" class="downloadbtn">Download Example</a>
+       <a href="schema/examples/omanual_category_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
@@ -130,8 +130,8 @@ may be expanded in the future to enable additional types of documents.
    <a name="guide"></a>
    <h3>
       Guide: <span class="greytxt">XML Schema</span>
-      <a href="omanual_guide.xsd" class="downloadbtn">Download XSD</a>
-      <a href="omanual_guide_example.xml" class="downloadbtn">Download Example</a>
+      <a href="schema/omanual_guide.xsd" class="downloadbtn">Download XSD</a>
+      <a href="schema/examples/omanual_guide_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
