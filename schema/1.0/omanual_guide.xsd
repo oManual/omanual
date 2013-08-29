@@ -26,8 +26,6 @@
             <xs:element ref="difficulty" />
             <xs:element ref="category" />
             <xs:element ref="introduction" />
-            <xs:element ref="modified_date" />
-            <xs:element ref="created_date" />
             <xs:element ref="tools" />
             <xs:element ref="parts" />
             <xs:element ref="flags" />
@@ -35,14 +33,12 @@
             <xs:element ref="prerequisites"/>
             <xs:element ref="steps"/>
             <xs:element ref="conclusion"/>
+            <xs:element ref="modified_date" />
+            <xs:element ref="created_date" />
          </xs:sequence>
          <xs:attribute name="locale" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
-
-   <xs:element name="modified_date" type="xs:dateTime"></xs:element>
-
-   <xs:element name="created_date" type="xs:dateTime"></xs:element>
 
    <xs:element name="title">
       <xs:complexType>
@@ -81,6 +77,10 @@
          </xs:sequence>
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="modified_date" type="xs:dateTime"></xs:element>
+
+   <xs:element name="created_date" type="xs:dateTime"></xs:element>
 
    <xs:element name="tools">
       <xs:complexType>
@@ -186,11 +186,22 @@
 
    <xs:element name="prerequisite">
       <xs:complexType mixed="true">
+         <xs:all minOccurs="0">
+            <xs:element ref="title" />
+            <xs:element ref="url" />
+            <xs:element ref="path" />
+            <xs:element ref="image" />
+         </xs:all>
          <xs:attribute name="id" use="required" type="xs:integer" />
          <xs:attribute name="locale" use="required" type="xs:string" />
-         <xs:attribute name="path" use="required" type="xs:anyURI" />
+         <xs:attribute name="subject" use="required" type="xs:string" />
+         <xs:attribute name="type" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="url" type="xs:anyURI" />
+
+   <xs:element name="path" type="xs:string" />
 
    <xs:element name="steps">
       <xs:complexType>
