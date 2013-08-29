@@ -325,6 +325,7 @@ images or one rich media object, as well as no more than eight lines of text.
                <div>
                   <ul class="attr">
                      <li class="attr-intro">Attributes:</li>
+                     <li><strong>name</strong> <em>required</em> Tool name.</li>
                      <li><strong>type</strong> <em>optional</em> The type of tool. Specifying type can be a useful way of consolidating tool names, for example an 8mm socket could be specified as name: socket, type: 8mm.</li>
                      <li><strong>quantity</strong> <em>optional</em> Integer quantity of tool required. If omitted, this is assumed to be 1.</li>
                      <li><strong>notes</strong> <em>optional</em> Information specific to using this tool for this guide.</li>
@@ -384,9 +385,10 @@ images or one rich media object, as well as no more than eight lines of text.
                <div>
                   <ul class="attr">
                      <li class="attr-intro">Attributes:</li>
+                     <li><strong>name</strong> <em>required</em> Part name</li>
                      <li><strong>sku</strong> <em>optional</em> A global string identifier for the part.</li>
                      <li><strong>type</strong> <em>optional</em> The type of part. Specifying type can be a useful way of consolidating names, for example a 5Ω resistor could be specified as name: resistor, type: 5Ω.</li>
-                     <li><strong>quantity</strong> <em>optional</em> How many of this part are required.</li>
+                     <li><strong>quantity</strong> <em>required</em> How many of this part are required.</li>
                      <li><strong>thumbnail</strong> <em>optional</em> URI of an image to go along with the part.</li>
                      <li><strong>url</strong> <em>optional</em> A URL for a page describing the part.</li>
                      <li><strong>notes</strong> <em>optional</em> Information specific to using this part for this guide.</li>

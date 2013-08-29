@@ -95,10 +95,11 @@
          <xs:sequence>
             <xs:element ref="external_sources" />
          </xs:sequence>
+         <xs:attribute name="name" use="required" type="xs:string" />
+         <xs:attribute name="quantity" use="optional" type="xs:string" />
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />
-         <xs:attribute name="quantity" use="optional" type="xs:string" />
          <xs:attribute name="type" use="optional" type="xs:string" />
          <xs:attribute name="url" use="optional" type="xs:anyURI" />
       </xs:complexType>
@@ -117,10 +118,11 @@
          <xs:sequence>
             <xs:element ref="external_sources" />
          </xs:sequence>
+         <xs:attribute name="name" use="required" type="xs:string" />
+         <xs:attribute name="quantity" use="required" type="xs:string" />
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />
-         <xs:attribute name="quantity" use="optional" type="xs:string" />
          <xs:attribute name="type" use="optional" type="xs:string" />
          <xs:attribute name="url" use="optional" type="xs:anyURI" />
       </xs:complexType>
