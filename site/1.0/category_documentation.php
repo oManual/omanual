@@ -181,6 +181,7 @@
                                 <li class="attr-intro">Attributes:</li>
                                 <li><strong>id</strong> - <em>optional</em> Integer identifier for the document.</li>
                                 <li><strong class="req">type</strong> - <em>required</em> Type must be 'category' if the file is an oManual category. Otherwise, specify the MIME type of the file.</li>
+                                <li><strong class="req">date</strong> - <em>required</em> Last modified date of the document.</li>
                              </ul>
                           </div>
                        </div>
@@ -325,7 +326,7 @@
                           </div>
 
                           <div class="tag" id="url">
-                             <h4><a href="#url">url </a></h4>
+                             <h4><a href="#url">url</a></h4>
                              <p class="desc">
                              URL to the canonical online source for this guide.
                              </p>
@@ -336,26 +337,19 @@
                              </div>
                           </div>
 
-                          <div class="tag" id="thumbnail">
-                             <h4><a href="#thumbnail">thumbnail </a></h4>
+                          <div class="tag" id="image">
+                             <h4><a href="#image">image</a></h4>
                              <p class="desc">
-                             Path to the guides thumbnail image.
+                             Path to the main category image.
                              </p>
                              <div>
                                 <ul class="attr">
-                                   <li class="attr-intro">Attributes: None</li>
-                                </ul>
-                             </div>
-                          </div>
-
-                          <div class="tag" id="image_url">
-                             <h4><a href="#image_url">image_url</a></h4>
-                             <p class="desc">
-                             Path to the full size main guide image.
-                             </p>
-                             <div>
-                                <ul class="attr">
-                                   <li class="attr-intro">Attributes: None</li>
+                                    <li class="attr-intro">Attributes:</li>
+                                    <li><strong>mini</strong> <em>optional</em> Path to a thumbnail of the image no larger than 56x42.</li>
+                                    <li><strong>thumbnail</strong> <em>optional</em> Path to a thumbnail of the image no larger than 96x72.</li>
+                                    <li><strong>standard</strong> <em>optional</em> Path to a thumbnail of the image no larger than 300x225.</li>
+                                    <li><strong>medium</strong> <em>optional</em> Path to a thumbnail of the image no larger than 592x444.</li>
+                                    <li><strong>large</strong> <em>optional</em> Path to a thumbnail of the image no larger than 800x600.</li>
                                 </ul>
                              </div>
                           </div>
