@@ -17,7 +17,7 @@
 
    <xs:element name="guide">
       <xs:complexType>
-         <xs:sequence>
+         <xs:all>
             <xs:element ref="title" />
             <xs:element ref="summary" />
             <xs:element ref="image" />
@@ -35,7 +35,7 @@
             <xs:element ref="conclusion"/>
             <xs:element ref="modified_date" />
             <xs:element ref="created_date" />
-         </xs:sequence>
+         </xs:all>
          <xs:attribute name="locale" use="required" type="xs:string" />
       </xs:complexType>
    </xs:element>
