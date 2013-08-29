@@ -29,7 +29,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">modified_date</a></h4>
             <p class="desc">
-               Format (YYYY-MM-DDThh:mm:ss) - Date and time this guide was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
+               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ - Date and time this guide was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
             </p>
             <div>
                <ul class="attr">
@@ -41,7 +41,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">created_date</a></h4>
             <p class="desc">
-               Format (YYYY-MM-DDThh:mm:ss) - Date and time when this guide was first created.
+               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ - Date and time when this guide was first created.
             </p>
             <div>
                <ul class="attr">
@@ -385,10 +385,10 @@ images or one rich media object, as well as no more than eight lines of text.
                <div>
                   <ul class="attr">
                      <li class="attr-intro">Attributes:</li>
-                     <li><strong>name</strong> <em>required</em> Part name</li>
+                     <li><strong class="req">name</strong> <em>required</em> Part name</li>
                      <li><strong>sku</strong> <em>optional</em> A global string identifier for the part.</li>
                      <li><strong>type</strong> <em>optional</em> The type of part. Specifying type can be a useful way of consolidating names, for example a 5Ω resistor could be specified as name: resistor, type: 5Ω.</li>
-                     <li><strong>quantity</strong> <em>required</em> How many of this part are required.</li>
+                     <li><strong class="req">quantity</strong> <em>required</em> How many of this part are required.</li>
                      <li><strong>thumbnail</strong> <em>optional</em> URI of an image to go along with the part.</li>
                      <li><strong>url</strong> <em>optional</em> A URL for a page describing the part.</li>
                      <li><strong>notes</strong> <em>optional</em> Information specific to using this part for this guide.</li>

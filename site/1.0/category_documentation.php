@@ -49,8 +49,8 @@
                            <ul class="attr">
                               <li class="attr-intro">Attributes:</li>
                               <li><strong class="optional">manufacturer</strong> - <em>optional</em> Only relevant for devices. The canonical name of the device&#39;s manufacturer.</li>
-                              <li><strong class="optional">introduced</strong> - <em>optional</em> Only relevant for devices. The UNIX epoch date that the device was first sold.</li>
-                              <li><strong class="optional">discontinued</strong> - <em>optional</em> Only relevant for devices. The UNIX epoch date that the device was discontinued. If the device is still available, leave the attribute empty.</li>
+                              <li><strong class="optional">introduced</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ) that the device was first sold.</li>
+                              <li><strong class="optional">discontinued</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ) that the device was discontinued. If the device is still available, leave the attribute empty.</li>
                            </ul>
                         </div>
                      </div>
@@ -110,7 +110,7 @@
                      <div class="tag req" id="categories-1">
                         <h4><a href="#categories-1">ancestors</a></h4>
                         <p class="desc">
-                        List of categories, in decending ascending order, in which the category belongs under.
+                          List of categories, in descending order, to which the category belongs.
                         </p>
                         <div>
                            <ul class="attr">
@@ -174,14 +174,14 @@
                        <div class="tag">
                           <h4><a href="#document-1">document </a></h4>
                           <p class="desc">
-                          A document included in the package. The text for this element should be the absolute path to the document.
+                          A document included in the package. The text for this element should be the path to the document.
                           </p>
                           <div>
                              <ul class="attr">
                                 <li class="attr-intro">Attributes:</li>
                                 <li><strong>id</strong> - <em>optional</em> Integer identifier for the document.</li>
-                                <li><strong class="req">type</strong> - <em>required</em> Type must be 'category' if the file is an oManual category. Otherwise, specify the MIME type of the file.</li>
-                                <li><strong class="req">date</strong> - <em>required</em> Last modified date of the document.</li>
+                                <li><strong>type</strong> - <em>optional</em> The MIME type of the file.</li>
+                                <li><strong>date</strong> - <em>optional</em> ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ. Last modified date of the document.</li>
                              </ul>
                           </div>
                        </div>
@@ -264,7 +264,7 @@
                      <div class="tag" id="content">
                         <h4><a href="#content">contents</a></h4>
                         <p class="desc">
-                        HTML-formatted text of the document. This is not required, but is an opportunity to provide additional unstructured information about the category.
+                        Simple HTML-formatted text of the document. This is not required, but is an opportunity to provide additional unstructured information about the category.
                         </p>
                         <div>
                            <ul class="attr">
@@ -275,7 +275,7 @@
                     <div class="tag req" id="guides">
                        <h4><a href="#guides">guides</a></h4>
                        <p class="desc">
-                       List of guides about the category
+                       List of guides about the category.
                        </p>
                        <div>
                           <ul class="attr">
