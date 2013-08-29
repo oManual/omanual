@@ -49,8 +49,8 @@
                            <ul class="attr">
                               <li class="attr-intro">Attributes:</li>
                               <li><strong class="optional">manufacturer</strong> - <em>optional</em> Only relevant for devices. The canonical name of the device&#39;s manufacturer.</li>
-                              <li><strong class="optional">introduced</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ) that the device was first sold.</li>
-                              <li><strong class="optional">discontinued</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ) that the device was discontinued. If the device is still available, leave the attribute empty.</li>
+                              <li><strong class="optional">introduced</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssTZD) that the device was first sold.</li>
+                              <li><strong class="optional">discontinued</strong> - <em>optional</em> Only relevant for devices. The date (ISO 8601 date in the format YYYY-MM-DDThh:mm:ssTZD) that the device was discontinued. If the device is still available, leave the attribute empty.</li>
                            </ul>
                         </div>
                      </div>
@@ -181,7 +181,7 @@
                                 <li class="attr-intro">Attributes:</li>
                                 <li><strong>id</strong> - <em>optional</em> Integer identifier for the document.</li>
                                 <li><strong>type</strong> - <em>optional</em> The MIME type of the file.</li>
-                                <li><strong>date</strong> - <em>optional</em> ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ. Last modified date of the document.</li>
+                                <li><strong>date</strong> - <em>optional</em> ISO 8601 date in the format YYYY-MM-DDThh:mm:ssTZD. Last modified date of the document.</li>
                              </ul>
                           </div>
                        </div>

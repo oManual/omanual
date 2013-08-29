@@ -29,7 +29,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">modified_date</a></h4>
             <p class="desc">
-               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ - Date and time this guide was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
+               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssTZD - Date and time this guide was last updated. This element can be useful for checking if there are updates to the guide.  The modified_date is the same as the created_on date in a new guide.
             </p>
             <div>
                <ul class="attr">
@@ -41,7 +41,7 @@ images or one rich media object, as well as no more than eight lines of text.
          <div class="tag req">
             <h4><a href="#title">created_date</a></h4>
             <p class="desc">
-               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssZ - Date and time when this guide was first created.
+               ISO 8601 date in the format YYYY-MM-DDThh:mm:ssTZD - Date and time when this guide was first created.
             </p>
             <div>
                <ul class="attr">
