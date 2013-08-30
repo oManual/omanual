@@ -31,7 +31,7 @@ endpoints.  API endpoints should be relative to a base server address (eg. <a hr
             $example = idx($param, 'example', ''); ?>
 
          <? if ($name != 'unpatrolled' && $name != 'requireGuides'): ?>
-         <dt><span class="name"><?= $name == 'guideids' ? 'procedureids': $name ?></span> &mdash; <?= $required ?> &mdash; <?= $type ?></dt>
+         <dt><span class="name"><?= $name ?></span> &mdash; <?= $required ?> &mdash; <?= $type ?></dt>
          <dd class="description">
             <p><?= $description ?></p>
             <? if (count($descriptionList) != 0): ?>

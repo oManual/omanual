@@ -90,7 +90,7 @@ over a web API using mobile-friendly JSON.
    <pre class="codeview"><code>id, class, href, style, rel, title, target</code></pre>
 
    <h3 id="paths">Allowed Paths</h3>
-   <p>Paths can be either either an URI to a web resource or a local path, absolute from the base of the package. Local paths are only allowed for offline packages. Fully qualified URIs are always allowed.</p>
+   <p>Paths can be either an URI to a web resource or a local path, absolute from the base of the package. Local paths are only allowed for offline packages. Fully qualified URIs are always allowed.</p>
 
    <h3 id="design-paradigms">Design Paradigms</h3>
    <p>Design content for display. Yes, you can stuff really long paragraphs into a single step. But it won't look good!</p>
