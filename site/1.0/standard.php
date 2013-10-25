@@ -123,7 +123,7 @@ may be expanded in the future to enable additional types of documents.
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/category_ex.html') ?>
+      <?php require_once('schema/examples/omanual_category_example.html') ?>
       <!-- END CODE -->
    </div>
 
@@ -136,7 +136,7 @@ may be expanded in the future to enable additional types of documents.
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/guide_ex.html') ?>
+      <?php require_once('schema/examples/omanual_guide_example.html') ?>
       <!-- END CODE -->
    </div>
 

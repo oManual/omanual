@@ -1,0 +1,465 @@
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232</pre></div></td><td class="code"><div class="highlight"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;category</span> <span class="na">locale=</span><span class="s">&quot;en&quot;</span> <span class="na">xmlns=</span><span class="s">&quot;http://omanual.com/&quot;</span> <span class="na">xmlns:xs=</span><span class="s">&quot;http://www.w3.org/2001/XMLSchema&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;category_info</span> <span class="na">discontinued=</span><span class="s">&quot;&quot;</span> <span class="na">introduced=</span><span class="s">&quot;&quot;</span> <span class="na">manufacturer=</span><span class="s">&quot;Apple&quot;</span><span class="nt">&gt;</span>iPhone 4<span class="nt">&lt;/category_info&gt;</span>
+   <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/qV2UinVhSchxgPGo.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/qV2UinVhSchxgPGo.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/qV2UinVhSchxgPGo.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/qV2UinVhSchxgPGo.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/qV2UinVhSchxgPGo.thumbnail&quot;</span><span class="nt">&gt;</span>media/main.jpg<span class="nt">&lt;/image&gt;</span>
+   <span class="nt">&lt;description&gt;</span>Fourth generation iPhone. Repair is straightforward, but the front glass and LCD must be replaced as a unit. GSM / 16 or 32 GB capacity / Model A1332 / Black and White.<span class="nt">&lt;/description&gt;</span>
+   <span class="nt">&lt;flags</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;solutions</span> <span class="na">count=</span><span class="s">&quot;1961&quot;</span> <span class="na">url=</span><span class="s">&quot;http://tasp.cominor.com/Answers/Device/iPhone+4&quot;</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;parts</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;tools</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;ancestors&gt;</span>
+      <span class="nt">&lt;ancestor&gt;</span>iPhone<span class="nt">&lt;/ancestor&gt;</span>
+      <span class="nt">&lt;ancestor&gt;</span>Phone<span class="nt">&lt;/ancestor&gt;</span>
+      <span class="nt">&lt;ancestor&gt;</span>Root<span class="nt">&lt;/ancestor&gt;</span>
+   <span class="nt">&lt;/ancestors&gt;</span>
+   <span class="nt">&lt;children</span> <span class="nt">/&gt;</span>
+   <span class="nt">&lt;guides&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3130&quot;</span> <span class="na">subject=</span><span class="s">&quot;&quot;</span> <span class="na">type=</span><span class="s">&quot;teardown&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Teardown/iPhone+4+Teardown/3130/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>iPhone 4 Teardown<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/2JwqKBrKPSFxseNf.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/2JwqKBrKPSFxseNf.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/2JwqKBrKPSFxseNf.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/2JwqKBrKPSFxseNf.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/2JwqKBrKPSFxseNf.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/2JwqKBrKPSFxseNf<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>iPhone-4-Teardown-3130/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3156&quot;</span> <span class="na">subject=</span><span class="s">&quot;&quot;</span> <span class="na">type=</span><span class="s">&quot;teardown&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Teardown/iPhone+4+Gyroscope+Teardown/3156/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>iPhone 4 Gyroscope Teardown<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/5jLMGpxXnvX3CEXn<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>iPhone-4-Gyroscope-Teardown-3156/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3473&quot;</span> <span class="na">subject=</span><span class="s">&quot;&quot;</span> <span class="na">type=</span><span class="s">&quot;teardown&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Teardown/iPhone+4+Microphone+Teardown/3473/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>iPhone 4 Microphone Teardown<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/WGbMBnDJlWerTSNY.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/WGbMBnDJlWerTSNY.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/WGbMBnDJlWerTSNY.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/WGbMBnDJlWerTSNY.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/WGbMBnDJlWerTSNY.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/WGbMBnDJlWerTSNY<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>iPhone-4-Microphone-Teardown-3473/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4493&quot;</span> <span class="na">subject=</span><span class="s">&quot;5-Point Pentalobe Screws&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/iPhone+4+5-Point+Pentalobe+Screws+Replacement/4493/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>iPhone 4 5-Point Pentalobe Screws Replacement<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/L4OpHHhElbI2SPsq.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/L4OpHHhElbI2SPsq.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/L4OpHHhElbI2SPsq.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/L4OpHHhElbI2SPsq.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/L4OpHHhElbI2SPsq.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/L4OpHHhElbI2SPsq<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>iPhone-4-5-Point-Pentalobe-Screws-Replacement-4493/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3141&quot;</span> <span class="na">subject=</span><span class="s">&quot;Battery&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/iPhone+4+Battery+Replacement/3141/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>iPhone 4 Battery Replacement<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/2duZfGtv2FSF1BtJ<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>iPhone-4-Battery-Replacement-3141/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4359&quot;</span> <span class="na">subject=</span><span class="s">&quot;Cellular Antenna&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Cellular+Antenna/4359/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Cellular Antenna<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/LcuqfoHDh5pxKqat.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/LcuqfoHDh5pxKqat.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/LcuqfoHDh5pxKqat.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/LcuqfoHDh5pxKqat.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/LcuqfoHDh5pxKqat.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/LcuqfoHDh5pxKqat<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Cellular-Antenna-4359/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;6727&quot;</span> <span class="na">subject=</span><span class="s">&quot;Contact Clip&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Contact+Clip/6727/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Contact Clip<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/ccJYRJJvaQOE1SGc<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Contact-Clip-6727/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;11755&quot;</span> <span class="na">subject=</span><span class="s">&quot;Display Assembly&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Display+Assembly/11755/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Display Assembly<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/aNBl6IvZDvcCPqG1<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Display-Assembly-11755/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3147&quot;</span> <span class="na">subject=</span><span class="s">&quot;Dock Connector&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Dock+Connector/3147/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Dock Connector<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/iABgn5EvVnCTXOTB.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/iABgn5EvVnCTXOTB.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/iABgn5EvVnCTXOTB.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/iABgn5EvVnCTXOTB.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/iABgn5EvVnCTXOTB.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/iABgn5EvVnCTXOTB<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Dock-Connector-3147/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;8268&quot;</span> <span class="na">subject=</span><span class="s">&quot;dust mesh&quot;</span> <span class="na">type=</span><span class="s">&quot;repair&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Repairing+iPhone+4+dust+mesh/8268/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Repairing iPhone 4 dust mesh<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/g5JD4t2DJVwd3qWU<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Repairing-iPhone-4-dust-mesh-8268/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4333&quot;</span> <span class="na">subject=</span><span class="s">&quot;Earpiece Speaker&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Earpiece+Speaker/4333/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Earpiece Speaker<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/qV35fCGFMYeHrhYe.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/qV35fCGFMYeHrhYe.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/qV35fCGFMYeHrhYe.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/qV35fCGFMYeHrhYe.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/qV35fCGFMYeHrhYe.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/qV35fCGFMYeHrhYe<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Earpiece-Speaker-4333/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3146&quot;</span> <span class="na">subject=</span><span class="s">&quot;Front Facing Camera&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Front+Facing+Camera/3146/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Front Facing Camera<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/aIH6JyP2XsAIcOqC<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Front-Facing-Camera-3146/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4337&quot;</span> <span class="na">subject=</span><span class="s">&quot;Headphone Jack &amp;amp; Volume Control Cable&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Headphone+Jack+%26+Volume+Control+Cable/4337/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Headphone Jack <span class="ni">&amp;amp;</span>amp; Volume Control Cable<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/RBJmAlCy2cc5abhw.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/RBJmAlCy2cc5abhw.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/RBJmAlCy2cc5abhw.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/RBJmAlCy2cc5abhw.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/RBJmAlCy2cc5abhw.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/RBJmAlCy2cc5abhw<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Headphone-Jack--Volume-Control-Cable-4337/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;17111&quot;</span> <span class="na">subject=</span><span class="s">&quot;Home button&quot;</span> <span class="na">type=</span><span class="s">&quot;repair&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Repairing+iPhone+4+Home+button/17111/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Repairing iPhone 4 Home button<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/PnTfYP4BawrolrqD.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/PnTfYP4BawrolrqD.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/PnTfYP4BawrolrqD.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/PnTfYP4BawrolrqD.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/PnTfYP4BawrolrqD.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/PnTfYP4BawrolrqD<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Repairing-iPhone-4-Home-button-17111/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3144&quot;</span> <span class="na">subject=</span><span class="s">&quot;Home Button&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Home+Button/3144/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Home Button<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/q6Vr5RGaYemBLj1J<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Home-Button-3144/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;10241&quot;</span> <span class="na">subject=</span><span class="s">&quot;LCD Backlight Dim spot issue&quot;</span> <span class="na">type=</span><span class="s">&quot;repair&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Repairing+iPhone+4+LCD+Backlight+Dim+spot+issue/10241/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Repairing iPhone 4 LCD Backlight Dim spot issue<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/m2fEkVyBATIKefZZ.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/m2fEkVyBATIKefZZ.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/m2fEkVyBATIKefZZ.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/m2fEkVyBATIKefZZ.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/m2fEkVyBATIKefZZ.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/m2fEkVyBATIKefZZ<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Repairing-iPhone-4-LCD-Backlight-Dim-spot-issue-10241/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3143&quot;</span> <span class="na">subject=</span><span class="s">&quot;Logic Board&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Logic+Board/3143/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Logic Board<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/d1q6haylDHiMPXfw.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/d1q6haylDHiMPXfw.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/d1q6haylDHiMPXfw.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/d1q6haylDHiMPXfw.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/d1q6haylDHiMPXfw.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/d1q6haylDHiMPXfw<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Logic-Board-3143/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4332&quot;</span> <span class="na">subject=</span><span class="s">&quot;Power &amp;amp; Lock Button&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Power+%26+Lock+Button/4332/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Power <span class="ni">&amp;amp;</span>amp; Lock Button<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/HjbUaVU4hUwLfAHj<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Power--Lock-Button-4332/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4336&quot;</span> <span class="na">subject=</span><span class="s">&quot;Power &amp;amp; Sensor Cable&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Power+%26+Sensor+Cable/4336/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Power <span class="ni">&amp;amp;</span>amp; Sensor Cable<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/Dgv4llDRNdsEaNka.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/Dgv4llDRNdsEaNka.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/Dgv4llDRNdsEaNka.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/Dgv4llDRNdsEaNka.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/Dgv4llDRNdsEaNka.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/Dgv4llDRNdsEaNka<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Power--Sensor-Cable-4336/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3142&quot;</span> <span class="na">subject=</span><span class="s">&quot;Rear Camera&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Rear+Camera/3142/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Rear Camera<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/2BOiWWDxsATNPXIW.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/2BOiWWDxsATNPXIW.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/2BOiWWDxsATNPXIW.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/2BOiWWDxsATNPXIW.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/2BOiWWDxsATNPXIW.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/2BOiWWDxsATNPXIW<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Rear-Camera-3142/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3140&quot;</span> <span class="na">subject=</span><span class="s">&quot;Rear Panel&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Rear+Panel/3140/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Rear Panel<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/BJdD5veOHITij2Jx.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/BJdD5veOHITij2Jx.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/BJdD5veOHITij2Jx.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/BJdD5veOHITij2Jx.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/BJdD5veOHITij2Jx.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/BJdD5veOHITij2Jx<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Rear-Panel-3140/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4360&quot;</span> <span class="na">subject=</span><span class="s">&quot;Speaker Enclosure&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Speaker+Enclosure/4360/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Speaker Enclosure<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/1xgKUlYmOLBtoQPb<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Speaker-Enclosure-4360/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4334&quot;</span> <span class="na">subject=</span><span class="s">&quot;Vibrate Ring Switch&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Vibrate+Ring+Switch/4334/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Vibrate Ring Switch<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Vibrate-Ring-Switch-4334/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;3145&quot;</span> <span class="na">subject=</span><span class="s">&quot;Vibrator&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Vibrator/3145/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Vibrator<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/ax34pDXKMnJSBoPe.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/ax34pDXKMnJSBoPe.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/ax34pDXKMnJSBoPe.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/ax34pDXKMnJSBoPe.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/ax34pDXKMnJSBoPe.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/ax34pDXKMnJSBoPe<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Vibrator-3145/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;4335&quot;</span> <span class="na">subject=</span><span class="s">&quot;Volume Button&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Volume+Button/4335/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Volume Button<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/tDNVsW6v3vxgfp5O<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Volume-Button-4335/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+      <span class="nt">&lt;guide</span> <span class="na">id=</span><span class="s">&quot;6846&quot;</span> <span class="na">subject=</span><span class="s">&quot;Wi-Fi Antenna&quot;</span> <span class="na">type=</span><span class="s">&quot;replacement&quot;</span><span class="nt">&gt;</span>
+         <span class="nt">&lt;url&gt;</span>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Wi-Fi+Antenna/6846/1<span class="nt">&lt;/url&gt;</span>
+         <span class="nt">&lt;title&gt;</span>Replacing iPhone 4 Wi-Fi Antenna<span class="nt">&lt;/title&gt;</span>
+         <span class="nt">&lt;image</span> <span class="na">large=</span><span class="s">&quot;http://www.cominor.com/igi/diPxJJbPrKTKJUSq.large&quot;</span> <span class="na">medium=</span><span class="s">&quot;http://www.cominor.com/igi/diPxJJbPrKTKJUSq.medium&quot;</span> <span class="na">mini=</span><span class="s">&quot;http://www.cominor.com/igi/diPxJJbPrKTKJUSq.mini&quot;</span> <span class="na">standard=</span><span class="s">&quot;http://www.cominor.com/igi/diPxJJbPrKTKJUSq.standard&quot;</span> <span class="na">thumbnail=</span><span class="s">&quot;http://www.cominor.com/igi/diPxJJbPrKTKJUSq.thumbnail&quot;</span><span class="nt">&gt;</span>http://www.cominor.com/igi/diPxJJbPrKTKJUSq<span class="nt">&lt;/image&gt;</span>
+         <span class="nt">&lt;path&gt;</span>Replacing-iPhone-4-Wi-Fi-Antenna-6846/guide.xml<span class="nt">&lt;/path&gt;</span>
+      <span class="nt">&lt;/guide&gt;</span>
+   <span class="nt">&lt;/guides&gt;</span>
+   <span class="nt">&lt;documents&gt;</span>
+      <span class="nt">&lt;document</span> <span class="na">date=</span><span class="s">&quot;2012-03-03T20:46:12-07:00&quot;</span> <span class="na">id=</span><span class="s">&quot;762&quot;</span> <span class="na">type=</span><span class="s">&quot;pdf&quot;</span><span class="nt">&gt;</span>media/iphone4gsmscrewtemp.pdf<span class="nt">&lt;/document&gt;</span>
+      <span class="nt">&lt;document</span> <span class="na">date=</span><span class="s">&quot;2012-05-14T18:25:19-07:00&quot;</span> <span class="na">id=</span><span class="s">&quot;777&quot;</span> <span class="na">type=</span><span class="s">&quot;pdf&quot;</span><span class="nt">&gt;</span>media/iPhone_4_Schematics.pdf<span class="nt">&lt;/document&gt;</span>
+   <span class="nt">&lt;/documents&gt;</span>
+   <span class="nt">&lt;title&gt;</span>iPhone 4<span class="nt">&lt;/title&gt;</span>
+   <span class="nt">&lt;contents&gt;&lt;h2</span> <span class="na">id=</span><span class="s">&quot;Section_Identification_and_Background&quot;</span><span class="nt">&gt;</span>Identification and Background<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;anchor&quot;</span> <span class="na">href=</span><span class="s">&quot;#Section_Identification_and_Background&quot;</span> <span class="na">title=</span><span class="s">&quot;Link to this section&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;amp;</span>#160;<span class="ni">&amp;amp;</span>#182;<span class="ni">&amp;amp;</span>#160;<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>The iPhone 4 is the fourth iteration of Apple&#39;s cellphone line. Announced on June 7th, it is differentiated from earlier generations by having a squarish physical appearance, glass for both front and back panels, and a steel frame that doubles as reception antennas.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Difficulty with repairing the iPhone 4 depends on which part of the phone fails. The front panel glass is fused to the LCD and digitizer, which means that the glass can no longer be repaired or replaced individually. Users who accidentally shatter the iPhone 4&#39;s front panel will have to replace all three (as a single unit) in order to successfully repair their iPhone 4. The back panel, however, is replaceable by unscrewing two screws and sliding up the panel.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Replacing the battery, on the other hand, is easily accomplished -- even though Apple ascertains that no parts within the iPhone 4 are user-serviceable. To replace the battery, the user can follow iFixit&#39;s <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/Guide/iPhone+4+Battery+Replacement/3141/1&quot;</span><span class="nt">&gt;</span>battery replacement guide<span class="nt">&lt;/a&gt;</span> to remove the back panel and disconnect the battery.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://ifixit-dev-documents.s3.amazonaws.com/TtSBvZeFdrgPZSTM.pdf&quot;</span><span class="nt">&gt;</span>iPhone_4_Schematics.pdf<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;h2</span> <span class="na">id=</span><span class="s">&quot;Section_Free_Screw_Mat&quot;</span><span class="nt">&gt;</span>Free Screw Mat<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;anchor&quot;</span> <span class="na">href=</span><span class="s">&quot;#Section_Free_Screw_Mat&quot;</span> <span class="na">title=</span><span class="s">&quot;Link to this section&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;amp;</span>#160;<span class="ni">&amp;amp;</span>#182;<span class="ni">&amp;amp;</span>#160;<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Thanks to Nathan Henderson for this great screw mat for the display repair.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://ifixit-dev-documents.s3.amazonaws.com/GoGoGOWORRLn3s2d.pdf&quot;</span><span class="nt">&gt;</span>iphone4gsmscrewtemp.pdf<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;h2</span> <span class="na">id=</span><span class="s">&quot;Section_Specifications&quot;</span><span class="nt">&gt;</span>Specifications<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;anchor&quot;</span> <span class="na">href=</span><span class="s">&quot;#Section_Specifications&quot;</span> <span class="na">title=</span><span class="s">&quot;Link to this section&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;amp;</span>#160;<span class="ni">&amp;amp;</span>#182;<span class="ni">&amp;amp;</span>#160;<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Announce date<span class="nt">&lt;/strong&gt;</span>: June 07, 2010<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Developer<span class="nt">&lt;/strong&gt;</span>: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.apple.com/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>http://www.apple.com<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Operating System<span class="nt">&lt;/strong&gt;</span>: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/IPhone_OS_version_history#current&quot;</span><span class="nt">&gt;</span>iOS 4.3.2<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Display<span class="nt">&lt;/strong&gt;</span> (<span class="nt">&lt;em&gt;</span>Retina Display<span class="nt">&lt;/em&gt;</span>):<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;ul&gt;&lt;li&gt;</span>3.5 in (89 mm)<span class="nt">&lt;/li&gt;&lt;li&gt;</span>3:2 aspect ratio<span class="nt">&lt;/li&gt;&lt;li&gt;</span>960 x 640 px at 326 ppi <span class="nt">&lt;/li&gt;&lt;li&gt;</span>800:1 contrast ratio<span class="nt">&lt;/li&gt;&lt;li&gt;</span>Scratch-Resistant glossy glass covered IPS LCD screen<span class="nt">&lt;/li&gt;&lt;/ul&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Camera<span class="nt">&lt;/strong&gt;</span>: Contains both front and rear facing cameras.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;ul&gt;&lt;li&gt;</span>Front Camera<span class="nt">&lt;ul&gt;&lt;li&gt;</span>.3 MP<span class="nt">&lt;/li&gt;&lt;li&gt;</span>SD Video (480p) at 30fps<span class="nt">&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;</span>Rear Camera<span class="nt">&lt;ul&gt;&lt;li&gt;</span>5MP<span class="nt">&lt;/li&gt;&lt;li&gt;</span>HD Video (720p) at 30fps<span class="nt">&lt;/li&gt;&lt;li&gt;</span>LED Flash<span class="nt">&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Processor<span class="nt">&lt;/strong&gt;</span>: Apple A4 system-on-a-chip<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>RAM<span class="nt">&lt;/strong&gt;</span>: 512MB eDRAM<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Storage<span class="nt">&lt;/strong&gt;</span>: 16 or 32 GB Flash Memory<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Wireless Connectivity<span class="nt">&lt;/strong&gt;</span>:<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;ul&gt;&lt;li&gt;</span>Integrated 802.11n (2,4 GHz only) <span class="nt">&lt;/li&gt;&lt;li&gt;</span>Bluepoint 2.1 + EDR<span class="nt">&lt;/li&gt;&lt;li&gt;</span>Quad-band UMTS/HSDPA (850, 900, 1900, 2100 MHz)<span class="nt">&lt;/li&gt;&lt;li&gt;</span>5.76 Mbit/s HSUPA<span class="nt">&lt;/li&gt;&lt;/ul&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Dimensions<span class="nt">&lt;/strong&gt;</span>:  4.5 Ã 2.31 Ã 0.37 in (115.2 Ã 58.6 Ã 9.3 mm)<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>Weight<span class="nt">&lt;/strong&gt;</span>: 137 g (4.8 oz)<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;h2</span> <span class="na">id=</span><span class="s">&quot;Section_Troubleshooting&quot;</span><span class="nt">&gt;</span>Troubleshooting<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;anchor&quot;</span> <span class="na">href=</span><span class="s">&quot;#Section_Troubleshooting&quot;</span> <span class="na">title=</span><span class="s">&quot;Link to this section&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;amp;</span>#160;<span class="ni">&amp;amp;</span>#182;<span class="ni">&amp;amp;</span>#160;<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Diagnose any issues you may be having with your iPhone 4 using our <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/Wiki/iPhone_4_Troubleshooting&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iPhone 4 Troubleshooting Guide<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;h2</span> <span class="na">id=</span><span class="s">&quot;Section_Additional_Information&quot;</span><span class="nt">&gt;</span>Additional Information<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;anchor&quot;</span> <span class="na">href=</span><span class="s">&quot;#Section_Additional_Information&quot;</span> <span class="na">title=</span><span class="s">&quot;Link to this section&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;amp;</span>#160;<span class="ni">&amp;amp;</span>#182;<span class="ni">&amp;amp;</span>#160;<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="nt">&lt;ul&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/Wiki/Troubleshoot&quot;</span><span class="nt">&gt;</span>iFixit: List of Troubleshooting Guides<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/iPhone&quot;</span><span class="nt">&gt;</span>Wikipedia: iPhone<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.everyipod.com/iphone-specs/index-iphone.html&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>EveryMac: iPhone Specs<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.apple.com/iphone/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>Apple: iPhone Products<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/blog/2010/06/iphone-4-repair-guides/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iFixit Blog: iPhone 4 Repair Guides<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/blog/2010/06/iphone-4-wallpapers-gyro-and-internals/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iFixit Blog: iPhone 4 Wallpapers Gyros and Internals<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/blog/2010/06/iphone-4-teardown/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iFixit Blog: iPhone 4 Teardown<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/blog/2010/06/iphone-4-specs-revealed/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iFixit Blog: iPhone 4 Specs Revealed<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.ifixit.com/blog/2010/05/iphone-4g-processor-revealed/&quot;</span> <span class="na">rel=</span><span class="s">&quot;nofollow&quot;</span><span class="nt">&gt;</span>iFixit Blog: iPhone 4G Processor Revealed<span class="nt">&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/contents&gt;</span>
+<span class="nt">&lt;/category&gt;</span>
+</pre></div>
+</td></tr></table>

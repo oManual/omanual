@@ -638,16 +638,24 @@ a.downloadbtn:active {
 .codeview {
 	margin: 30px auto 60px;
 	border-radius: 4px;
-	width: 880px;
-	padding: 20px 40px;
-	overflow: hidden;
+	width: 946px;
+	padding: 0;
+	overflow: scroll;
 	background: #f4f4f4;
 	font: 13px Monaco, "Courier New", Courier, mono;
-	box-shadow: inset 0 2px 5px #b2b2b2;
-	-moz-box-shadow: inset 0 2px 5px #b2b2b2;
-	-webkit-box-shadow: inset 0 2px 5px #b2b2b2;
 	line-height: 21px;
 	word-wrap: break-word;
+   border: 1px solid #ddd;
+}
+
+.linenos {
+   padding: 0 8px;
+   background-color: white;
+   border-right: 1px solid #DDD;
+}
+
+.code {
+   padding-left: 8px;
 }
 
 pre.codeview {
