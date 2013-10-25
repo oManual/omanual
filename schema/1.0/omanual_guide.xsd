@@ -93,7 +93,7 @@
    <xs:element name="tool">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:element ref="external_sources" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_sources" />
          </xs:sequence>
          <xs:attribute name="name" use="required" type="xs:string" />
          <xs:attribute name="quantity" use="optional" type="xs:string" />
@@ -116,7 +116,7 @@
    <xs:element name="part">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:element ref="external_sources" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="external_sources" />
          </xs:sequence>
          <xs:attribute name="name" use="required" type="xs:string" />
          <xs:attribute name="quantity" use="required" type="xs:string" />

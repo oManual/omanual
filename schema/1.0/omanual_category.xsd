@@ -159,7 +159,7 @@
    <xs:element name="guides">
       <xs:complexType>
          <xs:sequence>
-            <xs:element maxOccurs="unbounded" ref="guide" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="guide" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
