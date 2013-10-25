@@ -235,7 +235,7 @@
    <xs:element name="line">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:any minOccurs="0" />
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
          <xs:attribute name="bullet" use="required" type="xs:string" />
          <xs:attribute name="level" use="required" type="xs:integer" />
