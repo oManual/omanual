@@ -2,6 +2,7 @@
 $thisPage = 'standard'; //Short name for page.
 $pageTitle = 'Proposed Standard'; //Used in the <title> area.
 $color = 'red'; //Color choices: red, blue, aqua, yellow.
+$version = '1.0';
 ?>
 
 <?php require_once('header.php') ?>
@@ -14,7 +15,7 @@ $color = 'red'; //Color choices: red, blue, aqua, yellow.
 
       <div class="license">
 
-         <h3>Version <strong class="red">1.0</strong></h3>
+         <h3>Version <strong class="red"><?= $version ?></strong></h3>
 
          <p>Approved by the IEEE Standards Association. <br /><strong>IEEE 1874 - Standard for Documentation Schema for Repair of Electronic Devices.</strong></p>
 
@@ -117,26 +118,26 @@ may be expanded in the future to enable additional types of documents.
    <a name="category"></a>
    <h3>
        Category: <span class="greytxt">XML Schema</span>
-       <a href="schema/omanual_category.xsd" class="downloadbtn">Download XSD</a>
-       <a href="schema/examples/omanual_category_example.xml" class="downloadbtn">Download Example</a>
+       <a href="schema/<?= $version ?>/omanual_category.xsd" class="downloadbtn">Download XSD</a>
+       <a href="schema/<?= $version ?>/examples/omanual_category_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/omanual_category_example.html') ?>
+      <?php require_once("schema/$version/examples/omanual_category_example.html") ?>
       <!-- END CODE -->
    </div>
 
    <a name="guide"></a>
    <h3>
       Guide: <span class="greytxt">XML Schema</span>
-      <a href="schema/omanual_guide.xsd" class="downloadbtn">Download XSD</a>
-      <a href="schema/examples/omanual_guide_example.xml" class="downloadbtn">Download Example</a>
+      <a href="schema/<?= $version ?>/omanual_guide.xsd" class="downloadbtn">Download XSD</a>
+      <a href="schema/<?= $version ?>/examples/omanual_guide_example.xml" class="downloadbtn">Download Example</a>
    </h3>
 
    <div class="codeview">
       <!-- BEGIN CODE -->
-      <?php require_once('schema/examples/omanual_guide_example.html') ?>
+      <?php require_once("schema/$version/examples/omanual_guide_example.html") ?>
       <!-- END CODE -->
    </div>
 

@@ -2,6 +2,7 @@
    $thisPage = 'documentation'; //Short name for page.
    $pageTitle = 'Documentation'; //Used in the <title> area.
    $color = 'yellow'; //Color choices: red, blue, aqua, yellow.
+   $version = '1.0';
 ?>
 
 <?php require_once('header.php') ?>
@@ -52,8 +53,8 @@ over a web API using mobile-friendly JSON.
 
    <h3 id="category">
       Category Documentation
-      <a href="schema/omanual_category.xsd" class="downloadbtn">XML Schema Definition</a>
-      <a href="schema/examples/omanual_category_example.xml" class="downloadbtn">Example XML</a>
+      <a href="schema/<?= $version ?>/omanual_category.xsd" class="downloadbtn">XML Schema Definition</a>
+      <a href="schema/<?= $version ?>/examples/omanual_category_example.xml" class="downloadbtn">Example XML</a>
       <a href="https://www.ifixit.com/api/2.0/categories/iPhone%205?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
@@ -61,8 +62,8 @@ over a web API using mobile-friendly JSON.
 
    <h3 id="guide">
       Guide Documentation
-      <a href="schema/omanual_guide.xsd" class="downloadbtn">XML Schema Definition</a>
-      <a href="schema/examples/omanual_guide_example.xml" class="downloadbtn">Example XML</a>
+      <a href="schema/<?= $version ?>/omanual_guide.xsd" class="downloadbtn">XML Schema Definition</a>
+      <a href="schema/<?= $version ?>/examples/omanual_guide_example.xml" class="downloadbtn">Example XML</a>
       <a href="https://www.ifixit.com/api/2.0/guides/10525?pretty" class="downloadbtn">Example JSON</a>
    </h3>
 
