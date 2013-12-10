@@ -32,6 +32,13 @@ $version = '1.0';
             <li><a href="https://plus.google.com/109228109284798290109/posts">Daniel Beardsley</a>, iFixit + Dozuki</li>
          </ul>
 
+         <h3>Evangelists</h3>
+
+         <ul>
+            <li><a href="scottabel@mac.com">Scott Abel</a>, The Content Wrangler</li>
+            <li><a href="xillia@yahoo.com">William Lumpkins</a>, Wi2Wi</li>
+         </ul>
+
          <h3>IEEE Balloting Group</h3>
 
          <ul>
@@ -51,7 +58,6 @@ $version = '1.0';
             <li>Wi2Wi</li>
             <li>iFixit</li>
             <li>Dozuki</li>
-            <li>Huawei</li>
          </ul>
 
       </div>
