@@ -17,7 +17,7 @@ $version = '1.0';
 
          <h3>Version <strong class="red"><?= $version ?></strong></h3>
 
-         <p>Approved by the IEEE Standards Association. <br /><strong>IEEE 1874 - Standard for Documentation Schema for Repair of Electronic Devices.</strong></p>
+         <p>Approved by the IEEE Standards Association. <br /><strong>IEEE 1874 - Standard for Documentation Schema for Repair and Assembly of Electronic Devices</strong></p>
 
          <h3>License</h3>
 
