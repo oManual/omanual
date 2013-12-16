@@ -35,8 +35,8 @@ $version = '1.0';
          <h3>Evangelists</h3>
 
          <ul>
-            <li><a href="scottabel@mac.com">Scott Abel</a>, The Content Wrangler</li>
-            <li><a href="xillia@yahoo.com">William Lumpkins</a>, Wi2Wi</li>
+            <li><a href="mailto:scottabel@mac.com">Scott Abel</a>, The Content Wrangler</li>
+            <li><a href="mailto:xillia@yahoo.com">William Lumpkins</a>, Wi2Wi</li>
          </ul>
 
          <h3>IEEE Balloting Group</h3>
