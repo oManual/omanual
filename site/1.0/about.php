@@ -55,6 +55,13 @@
 			<h3>Is oManual compatible with DITA?</h3>
 			
 			<p>oManual is not a subset of <a href="http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">DITA</a>, but it would be straightforward to convert from oManual to DITA, or from DITA to oManual. We are looking for volunteers to help us write some conversion utilties. One note of caution: 'round&mdash;tripping' content from DITA to oManual and back again is not recommended, because oManual does not fully support all of DITA. This simplicity of oManual is a feature, not a bug.</p>
+
+         <h3>What software supports oManual?</h3>
+
+         <p>
+           As of right now, <a href="http://www.dozuki.com">Dozuki</a> is the only software platform that can read and write oManual packages.
+           We are working with a number of companies to get this standard implemented as part of their software platforms.
+         </p>
 			
 			<h3>Can I help?</h3>
 			
