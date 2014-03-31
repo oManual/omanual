@@ -281,6 +281,7 @@
          <xs:attribute name="title" type="xs:string" />
          <xs:attribute name="height" type="xs:integer" />
          <xs:attribute name="width" type="xs:integer" />
+         <xs:attribute name="url" type="xs:anyURI" />
          <xs:attribute name="html" type="xs:string" />
       </xs:complexType>
    </xs:element>
