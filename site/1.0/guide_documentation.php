@@ -698,6 +698,7 @@ images or one rich media object, as well as no more than eight lines of text.
                         <li><strong class="req">type</strong> <em>required</em> The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="http://oembed.com/#section2" target="_blank">oembed spec</a> to learn more.</li>
                         <li><strong class="req">version</strong> <em>required</em> The <a href="http://oembed.com/#section2" target="_blank">oEmbed</a> version number. This must be <code>1.0</code>.</li>
                         <li><strong>html</strong> <em>optional</em> The body of the embed object, could be an iframe embeded content or a block of html depending on the type.</li>
+                        <li><strong>url</strong> <em>optional</em> URL to the source of the embedded media.</li>
                         <li><strong>height</strong> <em>optional</em> The height of the embedded object.</li>
                         <li><strong>width</strong> <em>optional</em> The width of the embedded object.</li>
                         <li><strong>title</strong> <em>optional</em> A text title, describing the resource.</li>
