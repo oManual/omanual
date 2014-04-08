@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <category locale="en" xmlns="http://omanual.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <category_info discontinued="" introduced="" manufacturer="Apple">iPhone 4</category_info>
-   <image large="http://www.cominor.com/igi/qV2UinVhSchxgPGo.large" medium="http://www.cominor.com/igi/qV2UinVhSchxgPGo.medium" mini="http://www.cominor.com/igi/qV2UinVhSchxgPGo.mini" standard="http://www.cominor.com/igi/qV2UinVhSchxgPGo.standard" thumbnail="http://www.cominor.com/igi/qV2UinVhSchxgPGo.thumbnail">media/main.jpg</image>
+   <image large="http://www.ifixit.com/igi/qV2UinVhSchxgPGo.large" medium="http://www.ifixit.com/igi/qV2UinVhSchxgPGo.medium" mini="http://www.ifixit.com/igi/qV2UinVhSchxgPGo.mini" standard="http://www.ifixit.com/igi/qV2UinVhSchxgPGo.standard" thumbnail="http://www.ifixit.com/igi/qV2UinVhSchxgPGo.thumbnail">media/main.jpg</image>
    <description>Fourth generation iPhone. Repair is straightforward, but the front glass and LCD must be replaced as a unit. GSM / 16 or 32 GB capacity / Model A1332 / Black and White.</description>
    <flags />
-   <solutions count="1961" url="http://tasp.cominor.com/Answers/Device/iPhone+4" />
+   <solutions count="1961" url="http://ifixit.com/Answers/Device/iPhone+4" />
    <parts />
    <tools />
    <ancestors>
@@ -15,159 +15,159 @@
    <children />
    <guides>
       <guide id="3130" subject="" type="teardown">
-         <url>http://tasp.cominor.com/Teardown/iPhone+4+Teardown/3130/1</url>
+         <url>http://ifixit.com/Teardown/iPhone+4+Teardown/3130/1</url>
          <title>iPhone 4 Teardown</title>
-         <image large="http://www.cominor.com/igi/2JwqKBrKPSFxseNf.large" medium="http://www.cominor.com/igi/2JwqKBrKPSFxseNf.medium" mini="http://www.cominor.com/igi/2JwqKBrKPSFxseNf.mini" standard="http://www.cominor.com/igi/2JwqKBrKPSFxseNf.standard" thumbnail="http://www.cominor.com/igi/2JwqKBrKPSFxseNf.thumbnail">http://www.cominor.com/igi/2JwqKBrKPSFxseNf</image>
+         <image large="http://www.ifixit.com/igi/2JwqKBrKPSFxseNf.large" medium="http://www.ifixit.com/igi/2JwqKBrKPSFxseNf.medium" mini="http://www.ifixit.com/igi/2JwqKBrKPSFxseNf.mini" standard="http://www.ifixit.com/igi/2JwqKBrKPSFxseNf.standard" thumbnail="http://www.ifixit.com/igi/2JwqKBrKPSFxseNf.thumbnail">http://www.ifixit.com/igi/2JwqKBrKPSFxseNf</image>
          <path>iPhone-4-Teardown-3130/guide.xml</path>
       </guide>
       <guide id="3156" subject="" type="teardown">
-         <url>http://tasp.cominor.com/Teardown/iPhone+4+Gyroscope+Teardown/3156/1</url>
+         <url>http://ifixit.com/Teardown/iPhone+4+Gyroscope+Teardown/3156/1</url>
          <title>iPhone 4 Gyroscope Teardown</title>
-         <image large="http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.large" medium="http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.medium" mini="http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.mini" standard="http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.standard" thumbnail="http://www.cominor.com/igi/5jLMGpxXnvX3CEXn.thumbnail">http://www.cominor.com/igi/5jLMGpxXnvX3CEXn</image>
+         <image large="http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn.large" medium="http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn.medium" mini="http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn.mini" standard="http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn.standard" thumbnail="http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn.thumbnail">http://www.ifixit.com/igi/5jLMGpxXnvX3CEXn</image>
          <path>iPhone-4-Gyroscope-Teardown-3156/guide.xml</path>
       </guide>
       <guide id="3473" subject="" type="teardown">
-         <url>http://tasp.cominor.com/Teardown/iPhone+4+Microphone+Teardown/3473/1</url>
+         <url>http://ifixit.com/Teardown/iPhone+4+Microphone+Teardown/3473/1</url>
          <title>iPhone 4 Microphone Teardown</title>
-         <image large="http://www.cominor.com/igi/WGbMBnDJlWerTSNY.large" medium="http://www.cominor.com/igi/WGbMBnDJlWerTSNY.medium" mini="http://www.cominor.com/igi/WGbMBnDJlWerTSNY.mini" standard="http://www.cominor.com/igi/WGbMBnDJlWerTSNY.standard" thumbnail="http://www.cominor.com/igi/WGbMBnDJlWerTSNY.thumbnail">http://www.cominor.com/igi/WGbMBnDJlWerTSNY</image>
+         <image large="http://www.ifixit.com/igi/WGbMBnDJlWerTSNY.large" medium="http://www.ifixit.com/igi/WGbMBnDJlWerTSNY.medium" mini="http://www.ifixit.com/igi/WGbMBnDJlWerTSNY.mini" standard="http://www.ifixit.com/igi/WGbMBnDJlWerTSNY.standard" thumbnail="http://www.ifixit.com/igi/WGbMBnDJlWerTSNY.thumbnail">http://www.ifixit.com/igi/WGbMBnDJlWerTSNY</image>
          <path>iPhone-4-Microphone-Teardown-3473/guide.xml</path>
       </guide>
       <guide id="4493" subject="5-Point Pentalobe Screws" type="replacement">
-         <url>http://tasp.cominor.com/Guide/iPhone+4+5-Point+Pentalobe+Screws+Replacement/4493/1</url>
+         <url>http://ifixit.com/Guide/iPhone+4+5-Point+Pentalobe+Screws+Replacement/4493/1</url>
          <title>iPhone 4 5-Point Pentalobe Screws Replacement</title>
-         <image large="http://www.cominor.com/igi/L4OpHHhElbI2SPsq.large" medium="http://www.cominor.com/igi/L4OpHHhElbI2SPsq.medium" mini="http://www.cominor.com/igi/L4OpHHhElbI2SPsq.mini" standard="http://www.cominor.com/igi/L4OpHHhElbI2SPsq.standard" thumbnail="http://www.cominor.com/igi/L4OpHHhElbI2SPsq.thumbnail">http://www.cominor.com/igi/L4OpHHhElbI2SPsq</image>
+         <image large="http://www.ifixit.com/igi/L4OpHHhElbI2SPsq.large" medium="http://www.ifixit.com/igi/L4OpHHhElbI2SPsq.medium" mini="http://www.ifixit.com/igi/L4OpHHhElbI2SPsq.mini" standard="http://www.ifixit.com/igi/L4OpHHhElbI2SPsq.standard" thumbnail="http://www.ifixit.com/igi/L4OpHHhElbI2SPsq.thumbnail">http://www.ifixit.com/igi/L4OpHHhElbI2SPsq</image>
          <path>iPhone-4-5-Point-Pentalobe-Screws-Replacement-4493/guide.xml</path>
       </guide>
       <guide id="3141" subject="Battery" type="replacement">
-         <url>http://tasp.cominor.com/Guide/iPhone+4+Battery+Replacement/3141/1</url>
+         <url>http://ifixit.com/Guide/iPhone+4+Battery+Replacement/3141/1</url>
          <title>iPhone 4 Battery Replacement</title>
-         <image large="http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.large" medium="http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.medium" mini="http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.mini" standard="http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.standard" thumbnail="http://www.cominor.com/igi/2duZfGtv2FSF1BtJ.thumbnail">http://www.cominor.com/igi/2duZfGtv2FSF1BtJ</image>
+         <image large="http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ.large" medium="http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ.medium" mini="http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ.mini" standard="http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ.standard" thumbnail="http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ.thumbnail">http://www.ifixit.com/igi/2duZfGtv2FSF1BtJ</image>
          <path>iPhone-4-Battery-Replacement-3141/guide.xml</path>
       </guide>
       <guide id="4359" subject="Cellular Antenna" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Cellular+Antenna/4359/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Cellular+Antenna/4359/1</url>
          <title>Replacing iPhone 4 Cellular Antenna</title>
-         <image large="http://www.cominor.com/igi/LcuqfoHDh5pxKqat.large" medium="http://www.cominor.com/igi/LcuqfoHDh5pxKqat.medium" mini="http://www.cominor.com/igi/LcuqfoHDh5pxKqat.mini" standard="http://www.cominor.com/igi/LcuqfoHDh5pxKqat.standard" thumbnail="http://www.cominor.com/igi/LcuqfoHDh5pxKqat.thumbnail">http://www.cominor.com/igi/LcuqfoHDh5pxKqat</image>
+         <image large="http://www.ifixit.com/igi/LcuqfoHDh5pxKqat.large" medium="http://www.ifixit.com/igi/LcuqfoHDh5pxKqat.medium" mini="http://www.ifixit.com/igi/LcuqfoHDh5pxKqat.mini" standard="http://www.ifixit.com/igi/LcuqfoHDh5pxKqat.standard" thumbnail="http://www.ifixit.com/igi/LcuqfoHDh5pxKqat.thumbnail">http://www.ifixit.com/igi/LcuqfoHDh5pxKqat</image>
          <path>Replacing-iPhone-4-Cellular-Antenna-4359/guide.xml</path>
       </guide>
       <guide id="6727" subject="Contact Clip" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Contact+Clip/6727/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Contact+Clip/6727/1</url>
          <title>Replacing iPhone 4 Contact Clip</title>
-         <image large="http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.large" medium="http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.medium" mini="http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.mini" standard="http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.standard" thumbnail="http://www.cominor.com/igi/ccJYRJJvaQOE1SGc.thumbnail">http://www.cominor.com/igi/ccJYRJJvaQOE1SGc</image>
+         <image large="http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc.large" medium="http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc.medium" mini="http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc.mini" standard="http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc.standard" thumbnail="http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc.thumbnail">http://www.ifixit.com/igi/ccJYRJJvaQOE1SGc</image>
          <path>Replacing-iPhone-4-Contact-Clip-6727/guide.xml</path>
       </guide>
       <guide id="11755" subject="Display Assembly" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Display+Assembly/11755/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Display+Assembly/11755/1</url>
          <title>Replacing iPhone 4 Display Assembly</title>
-         <image large="http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.large" medium="http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.medium" mini="http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.mini" standard="http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.standard" thumbnail="http://www.cominor.com/igi/aNBl6IvZDvcCPqG1.thumbnail">http://www.cominor.com/igi/aNBl6IvZDvcCPqG1</image>
+         <image large="http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1.large" medium="http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1.medium" mini="http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1.mini" standard="http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1.standard" thumbnail="http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1.thumbnail">http://www.ifixit.com/igi/aNBl6IvZDvcCPqG1</image>
          <path>Replacing-iPhone-4-Display-Assembly-11755/guide.xml</path>
       </guide>
       <guide id="3147" subject="Dock Connector" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Dock+Connector/3147/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Dock+Connector/3147/1</url>
          <title>Replacing iPhone 4 Dock Connector</title>
-         <image large="http://www.cominor.com/igi/iABgn5EvVnCTXOTB.large" medium="http://www.cominor.com/igi/iABgn5EvVnCTXOTB.medium" mini="http://www.cominor.com/igi/iABgn5EvVnCTXOTB.mini" standard="http://www.cominor.com/igi/iABgn5EvVnCTXOTB.standard" thumbnail="http://www.cominor.com/igi/iABgn5EvVnCTXOTB.thumbnail">http://www.cominor.com/igi/iABgn5EvVnCTXOTB</image>
+         <image large="http://www.ifixit.com/igi/iABgn5EvVnCTXOTB.large" medium="http://www.ifixit.com/igi/iABgn5EvVnCTXOTB.medium" mini="http://www.ifixit.com/igi/iABgn5EvVnCTXOTB.mini" standard="http://www.ifixit.com/igi/iABgn5EvVnCTXOTB.standard" thumbnail="http://www.ifixit.com/igi/iABgn5EvVnCTXOTB.thumbnail">http://www.ifixit.com/igi/iABgn5EvVnCTXOTB</image>
          <path>Replacing-iPhone-4-Dock-Connector-3147/guide.xml</path>
       </guide>
       <guide id="8268" subject="dust mesh" type="repair">
-         <url>http://tasp.cominor.com/Guide/Repairing+iPhone+4+dust+mesh/8268/1</url>
+         <url>http://ifixit.com/Guide/Repairing+iPhone+4+dust+mesh/8268/1</url>
          <title>Repairing iPhone 4 dust mesh</title>
-         <image large="http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.large" medium="http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.medium" mini="http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.mini" standard="http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.standard" thumbnail="http://www.cominor.com/igi/g5JD4t2DJVwd3qWU.thumbnail">http://www.cominor.com/igi/g5JD4t2DJVwd3qWU</image>
+         <image large="http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU.large" medium="http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU.medium" mini="http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU.mini" standard="http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU.standard" thumbnail="http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU.thumbnail">http://www.ifixit.com/igi/g5JD4t2DJVwd3qWU</image>
          <path>Repairing-iPhone-4-dust-mesh-8268/guide.xml</path>
       </guide>
       <guide id="4333" subject="Earpiece Speaker" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Earpiece+Speaker/4333/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Earpiece+Speaker/4333/1</url>
          <title>Replacing iPhone 4 Earpiece Speaker</title>
-         <image large="http://www.cominor.com/igi/qV35fCGFMYeHrhYe.large" medium="http://www.cominor.com/igi/qV35fCGFMYeHrhYe.medium" mini="http://www.cominor.com/igi/qV35fCGFMYeHrhYe.mini" standard="http://www.cominor.com/igi/qV35fCGFMYeHrhYe.standard" thumbnail="http://www.cominor.com/igi/qV35fCGFMYeHrhYe.thumbnail">http://www.cominor.com/igi/qV35fCGFMYeHrhYe</image>
+         <image large="http://www.ifixit.com/igi/qV35fCGFMYeHrhYe.large" medium="http://www.ifixit.com/igi/qV35fCGFMYeHrhYe.medium" mini="http://www.ifixit.com/igi/qV35fCGFMYeHrhYe.mini" standard="http://www.ifixit.com/igi/qV35fCGFMYeHrhYe.standard" thumbnail="http://www.ifixit.com/igi/qV35fCGFMYeHrhYe.thumbnail">http://www.ifixit.com/igi/qV35fCGFMYeHrhYe</image>
          <path>Replacing-iPhone-4-Earpiece-Speaker-4333/guide.xml</path>
       </guide>
       <guide id="3146" subject="Front Facing Camera" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Front+Facing+Camera/3146/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Front+Facing+Camera/3146/1</url>
          <title>Replacing iPhone 4 Front Facing Camera</title>
-         <image large="http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.large" medium="http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.medium" mini="http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.mini" standard="http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.standard" thumbnail="http://www.cominor.com/igi/aIH6JyP2XsAIcOqC.thumbnail">http://www.cominor.com/igi/aIH6JyP2XsAIcOqC</image>
+         <image large="http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC.large" medium="http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC.medium" mini="http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC.mini" standard="http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC.standard" thumbnail="http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC.thumbnail">http://www.ifixit.com/igi/aIH6JyP2XsAIcOqC</image>
          <path>Replacing-iPhone-4-Front-Facing-Camera-3146/guide.xml</path>
       </guide>
       <guide id="4337" subject="Headphone Jack &amp; Volume Control Cable" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Headphone+Jack+%26+Volume+Control+Cable/4337/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Headphone+Jack+%26+Volume+Control+Cable/4337/1</url>
          <title>Replacing iPhone 4 Headphone Jack &amp;amp; Volume Control Cable</title>
-         <image large="http://www.cominor.com/igi/RBJmAlCy2cc5abhw.large" medium="http://www.cominor.com/igi/RBJmAlCy2cc5abhw.medium" mini="http://www.cominor.com/igi/RBJmAlCy2cc5abhw.mini" standard="http://www.cominor.com/igi/RBJmAlCy2cc5abhw.standard" thumbnail="http://www.cominor.com/igi/RBJmAlCy2cc5abhw.thumbnail">http://www.cominor.com/igi/RBJmAlCy2cc5abhw</image>
+         <image large="http://www.ifixit.com/igi/RBJmAlCy2cc5abhw.large" medium="http://www.ifixit.com/igi/RBJmAlCy2cc5abhw.medium" mini="http://www.ifixit.com/igi/RBJmAlCy2cc5abhw.mini" standard="http://www.ifixit.com/igi/RBJmAlCy2cc5abhw.standard" thumbnail="http://www.ifixit.com/igi/RBJmAlCy2cc5abhw.thumbnail">http://www.ifixit.com/igi/RBJmAlCy2cc5abhw</image>
          <path>Replacing-iPhone-4-Headphone-Jack--Volume-Control-Cable-4337/guide.xml</path>
       </guide>
       <guide id="17111" subject="Home button" type="repair">
-         <url>http://tasp.cominor.com/Guide/Repairing+iPhone+4+Home+button/17111/1</url>
+         <url>http://ifixit.com/Guide/Repairing+iPhone+4+Home+button/17111/1</url>
          <title>Repairing iPhone 4 Home button</title>
-         <image large="http://www.cominor.com/igi/PnTfYP4BawrolrqD.large" medium="http://www.cominor.com/igi/PnTfYP4BawrolrqD.medium" mini="http://www.cominor.com/igi/PnTfYP4BawrolrqD.mini" standard="http://www.cominor.com/igi/PnTfYP4BawrolrqD.standard" thumbnail="http://www.cominor.com/igi/PnTfYP4BawrolrqD.thumbnail">http://www.cominor.com/igi/PnTfYP4BawrolrqD</image>
+         <image large="http://www.ifixit.com/igi/PnTfYP4BawrolrqD.large" medium="http://www.ifixit.com/igi/PnTfYP4BawrolrqD.medium" mini="http://www.ifixit.com/igi/PnTfYP4BawrolrqD.mini" standard="http://www.ifixit.com/igi/PnTfYP4BawrolrqD.standard" thumbnail="http://www.ifixit.com/igi/PnTfYP4BawrolrqD.thumbnail">http://www.ifixit.com/igi/PnTfYP4BawrolrqD</image>
          <path>Repairing-iPhone-4-Home-button-17111/guide.xml</path>
       </guide>
       <guide id="3144" subject="Home Button" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Home+Button/3144/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Home+Button/3144/1</url>
          <title>Replacing iPhone 4 Home Button</title>
-         <image large="http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.large" medium="http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.medium" mini="http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.mini" standard="http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.standard" thumbnail="http://www.cominor.com/igi/q6Vr5RGaYemBLj1J.thumbnail">http://www.cominor.com/igi/q6Vr5RGaYemBLj1J</image>
+         <image large="http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J.large" medium="http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J.medium" mini="http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J.mini" standard="http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J.standard" thumbnail="http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J.thumbnail">http://www.ifixit.com/igi/q6Vr5RGaYemBLj1J</image>
          <path>Replacing-iPhone-4-Home-Button-3144/guide.xml</path>
       </guide>
       <guide id="10241" subject="LCD Backlight Dim spot issue" type="repair">
-         <url>http://tasp.cominor.com/Guide/Repairing+iPhone+4+LCD+Backlight+Dim+spot+issue/10241/1</url>
+         <url>http://ifixit.com/Guide/Repairing+iPhone+4+LCD+Backlight+Dim+spot+issue/10241/1</url>
          <title>Repairing iPhone 4 LCD Backlight Dim spot issue</title>
-         <image large="http://www.cominor.com/igi/m2fEkVyBATIKefZZ.large" medium="http://www.cominor.com/igi/m2fEkVyBATIKefZZ.medium" mini="http://www.cominor.com/igi/m2fEkVyBATIKefZZ.mini" standard="http://www.cominor.com/igi/m2fEkVyBATIKefZZ.standard" thumbnail="http://www.cominor.com/igi/m2fEkVyBATIKefZZ.thumbnail">http://www.cominor.com/igi/m2fEkVyBATIKefZZ</image>
+         <image large="http://www.ifixit.com/igi/m2fEkVyBATIKefZZ.large" medium="http://www.ifixit.com/igi/m2fEkVyBATIKefZZ.medium" mini="http://www.ifixit.com/igi/m2fEkVyBATIKefZZ.mini" standard="http://www.ifixit.com/igi/m2fEkVyBATIKefZZ.standard" thumbnail="http://www.ifixit.com/igi/m2fEkVyBATIKefZZ.thumbnail">http://www.ifixit.com/igi/m2fEkVyBATIKefZZ</image>
          <path>Repairing-iPhone-4-LCD-Backlight-Dim-spot-issue-10241/guide.xml</path>
       </guide>
       <guide id="3143" subject="Logic Board" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Logic+Board/3143/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Logic+Board/3143/1</url>
          <title>Replacing iPhone 4 Logic Board</title>
-         <image large="http://www.cominor.com/igi/d1q6haylDHiMPXfw.large" medium="http://www.cominor.com/igi/d1q6haylDHiMPXfw.medium" mini="http://www.cominor.com/igi/d1q6haylDHiMPXfw.mini" standard="http://www.cominor.com/igi/d1q6haylDHiMPXfw.standard" thumbnail="http://www.cominor.com/igi/d1q6haylDHiMPXfw.thumbnail">http://www.cominor.com/igi/d1q6haylDHiMPXfw</image>
+         <image large="http://www.ifixit.com/igi/d1q6haylDHiMPXfw.large" medium="http://www.ifixit.com/igi/d1q6haylDHiMPXfw.medium" mini="http://www.ifixit.com/igi/d1q6haylDHiMPXfw.mini" standard="http://www.ifixit.com/igi/d1q6haylDHiMPXfw.standard" thumbnail="http://www.ifixit.com/igi/d1q6haylDHiMPXfw.thumbnail">http://www.ifixit.com/igi/d1q6haylDHiMPXfw</image>
          <path>Replacing-iPhone-4-Logic-Board-3143/guide.xml</path>
       </guide>
       <guide id="4332" subject="Power &amp; Lock Button" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Power+%26+Lock+Button/4332/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Power+%26+Lock+Button/4332/1</url>
          <title>Replacing iPhone 4 Power &amp;amp; Lock Button</title>
-         <image large="http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.large" medium="http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.medium" mini="http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.mini" standard="http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.standard" thumbnail="http://www.cominor.com/igi/HjbUaVU4hUwLfAHj.thumbnail">http://www.cominor.com/igi/HjbUaVU4hUwLfAHj</image>
+         <image large="http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj.large" medium="http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj.medium" mini="http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj.mini" standard="http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj.standard" thumbnail="http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj.thumbnail">http://www.ifixit.com/igi/HjbUaVU4hUwLfAHj</image>
          <path>Replacing-iPhone-4-Power--Lock-Button-4332/guide.xml</path>
       </guide>
       <guide id="4336" subject="Power &amp; Sensor Cable" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Power+%26+Sensor+Cable/4336/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Power+%26+Sensor+Cable/4336/1</url>
          <title>Replacing iPhone 4 Power &amp;amp; Sensor Cable</title>
-         <image large="http://www.cominor.com/igi/Dgv4llDRNdsEaNka.large" medium="http://www.cominor.com/igi/Dgv4llDRNdsEaNka.medium" mini="http://www.cominor.com/igi/Dgv4llDRNdsEaNka.mini" standard="http://www.cominor.com/igi/Dgv4llDRNdsEaNka.standard" thumbnail="http://www.cominor.com/igi/Dgv4llDRNdsEaNka.thumbnail">http://www.cominor.com/igi/Dgv4llDRNdsEaNka</image>
+         <image large="http://www.ifixit.com/igi/Dgv4llDRNdsEaNka.large" medium="http://www.ifixit.com/igi/Dgv4llDRNdsEaNka.medium" mini="http://www.ifixit.com/igi/Dgv4llDRNdsEaNka.mini" standard="http://www.ifixit.com/igi/Dgv4llDRNdsEaNka.standard" thumbnail="http://www.ifixit.com/igi/Dgv4llDRNdsEaNka.thumbnail">http://www.ifixit.com/igi/Dgv4llDRNdsEaNka</image>
          <path>Replacing-iPhone-4-Power--Sensor-Cable-4336/guide.xml</path>
       </guide>
       <guide id="3142" subject="Rear Camera" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Rear+Camera/3142/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Rear+Camera/3142/1</url>
          <title>Replacing iPhone 4 Rear Camera</title>
-         <image large="http://www.cominor.com/igi/2BOiWWDxsATNPXIW.large" medium="http://www.cominor.com/igi/2BOiWWDxsATNPXIW.medium" mini="http://www.cominor.com/igi/2BOiWWDxsATNPXIW.mini" standard="http://www.cominor.com/igi/2BOiWWDxsATNPXIW.standard" thumbnail="http://www.cominor.com/igi/2BOiWWDxsATNPXIW.thumbnail">http://www.cominor.com/igi/2BOiWWDxsATNPXIW</image>
+         <image large="http://www.ifixit.com/igi/2BOiWWDxsATNPXIW.large" medium="http://www.ifixit.com/igi/2BOiWWDxsATNPXIW.medium" mini="http://www.ifixit.com/igi/2BOiWWDxsATNPXIW.mini" standard="http://www.ifixit.com/igi/2BOiWWDxsATNPXIW.standard" thumbnail="http://www.ifixit.com/igi/2BOiWWDxsATNPXIW.thumbnail">http://www.ifixit.com/igi/2BOiWWDxsATNPXIW</image>
          <path>Replacing-iPhone-4-Rear-Camera-3142/guide.xml</path>
       </guide>
       <guide id="3140" subject="Rear Panel" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Rear+Panel/3140/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Rear+Panel/3140/1</url>
          <title>Replacing iPhone 4 Rear Panel</title>
-         <image large="http://www.cominor.com/igi/BJdD5veOHITij2Jx.large" medium="http://www.cominor.com/igi/BJdD5veOHITij2Jx.medium" mini="http://www.cominor.com/igi/BJdD5veOHITij2Jx.mini" standard="http://www.cominor.com/igi/BJdD5veOHITij2Jx.standard" thumbnail="http://www.cominor.com/igi/BJdD5veOHITij2Jx.thumbnail">http://www.cominor.com/igi/BJdD5veOHITij2Jx</image>
+         <image large="http://www.ifixit.com/igi/BJdD5veOHITij2Jx.large" medium="http://www.ifixit.com/igi/BJdD5veOHITij2Jx.medium" mini="http://www.ifixit.com/igi/BJdD5veOHITij2Jx.mini" standard="http://www.ifixit.com/igi/BJdD5veOHITij2Jx.standard" thumbnail="http://www.ifixit.com/igi/BJdD5veOHITij2Jx.thumbnail">http://www.ifixit.com/igi/BJdD5veOHITij2Jx</image>
          <path>Replacing-iPhone-4-Rear-Panel-3140/guide.xml</path>
       </guide>
       <guide id="4360" subject="Speaker Enclosure" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Speaker+Enclosure/4360/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Speaker+Enclosure/4360/1</url>
          <title>Replacing iPhone 4 Speaker Enclosure</title>
-         <image large="http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.large" medium="http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.medium" mini="http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.mini" standard="http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.standard" thumbnail="http://www.cominor.com/igi/1xgKUlYmOLBtoQPb.thumbnail">http://www.cominor.com/igi/1xgKUlYmOLBtoQPb</image>
+         <image large="http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb.large" medium="http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb.medium" mini="http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb.mini" standard="http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb.standard" thumbnail="http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb.thumbnail">http://www.ifixit.com/igi/1xgKUlYmOLBtoQPb</image>
          <path>Replacing-iPhone-4-Speaker-Enclosure-4360/guide.xml</path>
       </guide>
       <guide id="4334" subject="Vibrate Ring Switch" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Vibrate+Ring+Switch/4334/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Vibrate+Ring+Switch/4334/1</url>
          <title>Replacing iPhone 4 Vibrate Ring Switch</title>
-         <image large="http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.large" medium="http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.medium" mini="http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.mini" standard="http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.standard" thumbnail="http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI.thumbnail">http://www.cominor.com/igi/yXo4ERHLQ6xbSlqI</image>
+         <image large="http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI.large" medium="http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI.medium" mini="http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI.mini" standard="http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI.standard" thumbnail="http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI.thumbnail">http://www.ifixit.com/igi/yXo4ERHLQ6xbSlqI</image>
          <path>Replacing-iPhone-4-Vibrate-Ring-Switch-4334/guide.xml</path>
       </guide>
       <guide id="3145" subject="Vibrator" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Vibrator/3145/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Vibrator/3145/1</url>
          <title>Replacing iPhone 4 Vibrator</title>
-         <image large="http://www.cominor.com/igi/ax34pDXKMnJSBoPe.large" medium="http://www.cominor.com/igi/ax34pDXKMnJSBoPe.medium" mini="http://www.cominor.com/igi/ax34pDXKMnJSBoPe.mini" standard="http://www.cominor.com/igi/ax34pDXKMnJSBoPe.standard" thumbnail="http://www.cominor.com/igi/ax34pDXKMnJSBoPe.thumbnail">http://www.cominor.com/igi/ax34pDXKMnJSBoPe</image>
+         <image large="http://www.ifixit.com/igi/ax34pDXKMnJSBoPe.large" medium="http://www.ifixit.com/igi/ax34pDXKMnJSBoPe.medium" mini="http://www.ifixit.com/igi/ax34pDXKMnJSBoPe.mini" standard="http://www.ifixit.com/igi/ax34pDXKMnJSBoPe.standard" thumbnail="http://www.ifixit.com/igi/ax34pDXKMnJSBoPe.thumbnail">http://www.ifixit.com/igi/ax34pDXKMnJSBoPe</image>
          <path>Replacing-iPhone-4-Vibrator-3145/guide.xml</path>
       </guide>
       <guide id="4335" subject="Volume Button" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Volume+Button/4335/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Volume+Button/4335/1</url>
          <title>Replacing iPhone 4 Volume Button</title>
-         <image large="http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.large" medium="http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.medium" mini="http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.mini" standard="http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.standard" thumbnail="http://www.cominor.com/igi/tDNVsW6v3vxgfp5O.thumbnail">http://www.cominor.com/igi/tDNVsW6v3vxgfp5O</image>
+         <image large="http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O.large" medium="http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O.medium" mini="http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O.mini" standard="http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O.standard" thumbnail="http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O.thumbnail">http://www.ifixit.com/igi/tDNVsW6v3vxgfp5O</image>
          <path>Replacing-iPhone-4-Volume-Button-4335/guide.xml</path>
       </guide>
       <guide id="6846" subject="Wi-Fi Antenna" type="replacement">
-         <url>http://tasp.cominor.com/Guide/Replacing+iPhone+4+Wi-Fi+Antenna/6846/1</url>
+         <url>http://ifixit.com/Guide/Replacing+iPhone+4+Wi-Fi+Antenna/6846/1</url>
          <title>Replacing iPhone 4 Wi-Fi Antenna</title>
-         <image large="http://www.cominor.com/igi/diPxJJbPrKTKJUSq.large" medium="http://www.cominor.com/igi/diPxJJbPrKTKJUSq.medium" mini="http://www.cominor.com/igi/diPxJJbPrKTKJUSq.mini" standard="http://www.cominor.com/igi/diPxJJbPrKTKJUSq.standard" thumbnail="http://www.cominor.com/igi/diPxJJbPrKTKJUSq.thumbnail">http://www.cominor.com/igi/diPxJJbPrKTKJUSq</image>
+         <image large="http://www.ifixit.com/igi/diPxJJbPrKTKJUSq.large" medium="http://www.ifixit.com/igi/diPxJJbPrKTKJUSq.medium" mini="http://www.ifixit.com/igi/diPxJJbPrKTKJUSq.mini" standard="http://www.ifixit.com/igi/diPxJJbPrKTKJUSq.standard" thumbnail="http://www.ifixit.com/igi/diPxJJbPrKTKJUSq.thumbnail">http://www.ifixit.com/igi/diPxJJbPrKTKJUSq</image>
          <path>Replacing-iPhone-4-Wi-Fi-Antenna-6846/guide.xml</path>
       </guide>
    </guides>
