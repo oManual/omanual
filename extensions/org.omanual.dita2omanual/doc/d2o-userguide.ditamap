@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="bookmap-userguide">
+    <title>oManual plug-in User's Guide For DITA Open Toolkit</title>
+    <bookmeta>
+        <audience/>
+        <!-- topicmeta:
+        		owner name:
+        		copyright date:
+        		full title:
+        		whatever else...
+        		-->
+    </bookmeta>
+    <frontmatter>
+        <preface href="d2o-preface.dita"/>
+        <booklists>
+            <toc/>
+            <figurelist/>
+            <tablelist/>
+        </booklists>
+    </frontmatter>
+    <chapter href="d2o-install.dita" navtitle="Plug-in Installation">
+        <topicref href="d2o-plugparms.dita" navtitle="Plug-in And Stylesheet Parameters"/>
+    </chapter>
+    <chapter href="d2o-clparms.dita" navtitle="Command-line Format And Parameter"/>
+    <chapter href="d2o-procflow.dita" navtitle="Plug-in process flow"/>
+    <chapter href="d2o-stylestruc.dita" navtitle="Stylesheet Structure"/>
+    <chapter href="d2o-customss.dita" navtitle="Customizing Stylesheet"/>
+    <chapter href="d2o-messages.dita" navtitle="Stylesheet Messages"/>
+    <!-- backmatter may be placed here  -->
+    <appendix href="d2o-pop.dita" navtitle="Principles of Operation"/>
+    <appendix href="d2o-lists.dita" navtitle="Mappings"/>
+    <appendix href="d2o-project.dita" navtitle="Helping the Community"/>
+    <appendix href="d2o-writing-dita-tasks.dita" navtitle="Writing DITA Tasks for oManual"/>
+</bookmap>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="http://omanual.com/" targetNamespace="http://omanual.com/">
+
+   <xs:annotation>
+      <xs:documentation xml:lang="en">
+         This document describes category metadata. A category can be anything you
+         would write step-by-step guides about, such as a manufactured
+         object or device.
+
+         This includes the structured category hierarchy, list of
+         guides, and list of attached documents in the /media folder of the
+         .omanual package.
+
+         Note: This is not a complete listing of package contents since each
+         subfile may additionally reference its own media.
+      </xs:documentation>
+   </xs:annotation>
+
+   <xs:include schemaLocation="omanual_simplifiedhtml.xsd" />
+
+   <xs:element name="category">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="title" />
+            <xs:element ref="category_info" />
+            <xs:element ref="image" />
+            <xs:element ref="description" />
+            <xs:element ref="flags" />
+            <xs:element ref="ancestors" />
+            <xs:element ref="children" />
+            <xs:element ref="solutions" />
+            <xs:element ref="parts" />
+            <xs:element ref="tools" />
+            <xs:element ref="contents" />
+            <xs:element ref="guides" />
+            <xs:element ref="documents" />
+         </xs:all>
+         <xs:attribute name="locale" use="required" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="title" type="xs:string" />
+
+   <xs:element name="category_info">
+      <xs:complexType mixed="true">
+         <xs:attribute name="discontinued" use="optional" type="xs:integer" />
+         <xs:attribute name="introduced" use="optional" type="xs:integer" />
+         <xs:attribute name="manufacturer" use="optional" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="image">
+      <xs:complexType mixed="true">
+         <xs:attribute name="large" use="optional" type="xs:string" />
+         <xs:attribute name="medium" use="optional" type="xs:string" />
+         <xs:attribute name="standard" use="optional" type="xs:string" />
+         <xs:attribute name="thumbnail" use="optional" type="xs:string" />
+         <xs:attribute name="mini" use="optional" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="description">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flags">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="flag" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="flag">
+      <xs:complexType mixed="true">
+         <xs:attribute name="id" use="optional" type="xs:string" />
+         <xs:attribute name="title" use="required" type="xs:string" />
+         <xs:attribute name="image" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="ancestors">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="ancestor" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="ancestor" type="xs:string" />
+
+   <xs:element name="children">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="child" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="child" type="xs:string" />
+
+   <xs:element name="solutions">
+      <xs:complexType>
+         <xs:attribute name="count" use="required" type="xs:integer" />
+         <xs:attribute name="url" use="required" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="contents">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tools">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tool" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="tool">
+      <xs:complexType mixed="true">
+         <xs:attribute name="sku" use="optional" type="xs:string" />
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
+         <xs:attribute name="notes" use="optional" type="xs:string" />
+         <xs:attribute name="quantity" use="optional" type="xs:string" />
+         <xs:attribute name="type" use="optional" type="xs:string" />
+         <xs:attribute name="url" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="parts">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="part" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="part">
+      <xs:complexType mixed="true">
+         <xs:attribute name="sku" use="optional" type="xs:string" />
+         <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
+         <xs:attribute name="notes" use="optional" type="xs:string" />
+         <xs:attribute name="quantity" use="optional" type="xs:string" />
+         <xs:attribute name="type" use="optional" type="xs:string" />
+         <xs:attribute name="url" use="optional" type="xs:anyURI" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="guides">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="guide" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="guide">
+      <xs:complexType>
+         <xs:all minOccurs="0">
+            <xs:element ref="title" />
+            <xs:element ref="url" />
+            <xs:element ref="path" />
+            <xs:element ref="image" />
+         </xs:all>
+         <xs:attribute name="id" use="required" type="xs:integer" />
+         <xs:attribute name="subject" use="required" type="xs:string" />
+         <xs:attribute name="type" use="required" type="xs:string" />
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="url" type="xs:anyURI" />
+
+   <xs:element name="path" type="xs:string" />
+
+   <xs:element name="documents">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="document" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="document">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute name="id" use="optional" type="xs:integer" />
+               <xs:attribute name="type" use="optional" type="xs:string" />
+               <xs:attribute name="date" use="optional" type="xs:dateTime" />
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

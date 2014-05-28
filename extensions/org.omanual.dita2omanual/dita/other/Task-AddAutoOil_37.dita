@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task id="add_auto_oil">
+  <title>Adding oil to an auto engine </title>
+  <taskbody>
+    <prereq>Oil container with optional opener</prereq>
+    <context>Dashboard oil light on or set amount of mileage elapsed</context>
+    <steps>
+      <step id="open_hood">
+        <cmd>Locate &apos;Open hood&apos; lever.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Operate &apos;Open hood&apos; lever.</cmd>
+          </substep>
+          <substep>
+            <cmd>Raise and retain hood in open position.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="open_oil_reserve">
+        <cmd>Locate oil reserve cap.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Twist open oil reserve cap over oil reserve opening </cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="fill_oil_reserve">
+        <cmd>Locate oil container</cmd>
+        <substeps>
+          <substep>
+            <cmd>Open oil container</cmd>
+          </substep>
+          <substep>
+            <cmd>Place oil container spout over oil reserve opening </cmd>
+          </substep>
+          <substep>
+            <cmd>Remove oil container when empty</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="close_oil_reserve">
+        <cmd>Locate oil reserve cap.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Twist close oil reserve cap over oil reserve opening </cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step id="close_hood">
+        <cmd>Close and lock hood</cmd>
+      </step>
+    </steps>
+    <result>Dashboard light off or engine running quietly</result>
+  </taskbody>
+</task>

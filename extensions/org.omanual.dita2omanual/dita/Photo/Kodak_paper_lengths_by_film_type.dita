@@ -1,0 +1,164 @@
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="asdfsadfq">
+  <title>Kodak paper lengths by film type</title>
+<conbody>
+<p>Here are some typical lengths of paper backings for popular
+Kodak films, with number of exposures based on the longest frame sizes
+typical for each film size. 616 has the same measurements as 116, and
+the same for 620/120--only the spools were different. Across the years,
+the lead-in and lead-out values changed. I have based these somewhat
+flexible measures on later rolls. You can have as much additional
+lead-out as you wish, really. The film lengths are based on actual
+films from these rolls (except for 126, which I based on its close
+relative 122 and a presumed 7" cut negative length). The lead-in
+distance is from the tip of a tongue to where the film is taped to the
+paper. The lead-out distance includes length for a trailing tongue.</p>
+<table>
+  <tgroup cols="7">
+        <colspec colnum="1" colname="c1" colwidth="1*"/>
+        <colspec colnum="2" colname="c2" colwidth="1.51*"/>
+        <colspec colnum="3" colname="c3" colwidth="1.71*"/>
+        <colspec colnum="4" colname="c4" colwidth="1.16*"/>
+        <colspec colnum="5" colname="c5" colwidth="1.14*"/>
+        <colspec colnum="6" colname="c6" colwidth="1.16*"/>
+        <colspec colnum="7" colname="c7" colwidth="1.2*"/>
+<thead>
+    <row>
+      <entry>Film type</entry>
+      <entry>Kodak camera type</entry>
+      <entry>exposures</entry>
+      <entry>lead-in length</entry>
+      <entry>film length</entry>
+      <entry>lead-out length</entry>
+      <entry>total paper length</entry>
+    </row>
+  </thead>
+   <tbody>
+      <row>
+      <entry>126</entry>
+      <entry>4A</entry>
+      <entry>6</entry>
+      <entry>17"</entry>
+      <entry>45"</entry>
+      <entry>15"</entry>
+      <entry>74"</entry>
+    </row>
+    <row>
+      <entry>122</entry>
+      <entry>3A</entry>
+      <entry>6</entry>
+      <entry>17"</entry>
+      <entry>38"</entry>
+      <entry>15"</entry>
+      <entry>70"</entry>
+    </row>
+    <row>
+      <entry>130</entry>
+      <entry>2C</entry>
+      <entry>6</entry>
+      <entry>17"</entry>
+      <entry>34"</entry>
+      <entry>17"</entry>
+      <entry>68"</entry>
+    </row>
+    <row>
+      <entry>130</entry>
+      <entry>2C</entry>
+      <entry>8</entry>
+      <entry>17"</entry>
+      <entry>45"</entry>
+      <entry>15"</entry>
+      <entry>77"</entry>
+    </row>
+    <row>
+      <entry>118</entry>
+      <entry>3</entry>
+      <entry>6</entry>
+      <entry>17"</entry>
+      <entry>30"</entry>
+      <entry>17"</entry>
+      <entry>64"</entry>
+    </row>
+    <row>
+      <entry>118</entry>
+      <entry>3</entry>
+      <entry>8</entry>
+      <entry>17"</entry>
+      <entry>39"</entry>
+      <entry>15"</entry>
+      <entry>71"</entry>
+    </row>
+    <row>
+      <entry>116</entry>
+      <entry>1A</entry>
+      <entry>8</entry>
+      <entry>17"</entry>
+      <entry>39"</entry>
+      <entry>13"</entry>
+      <entry>69"</entry>
+    </row>
+    <row>
+      <entry>120</entry>
+      <entry>1</entry>
+      <entry>8</entry>
+      <entry>17"</entry>
+      <entry>32"</entry>
+      <entry>12"</entry>
+      <entry>61"</entry>
+    </row>
+    <row>
+      <entry>127</entry>
+      <entry>0</entry>
+      <entry>8</entry>
+      <entry>11"</entry>
+      <entry>25"</entry>
+      <entry>8"</entry>
+      <entry>44"</entry>
+    </row>
+    <row>
+      <entry>828</entry>
+      <entry>0</entry>
+      <entry>8</entry>
+      <entry>8"</entry>
+      <entry>19"</entry>
+      <entry>7"</entry>
+      <entry>34"</entry>
+    </row>
+    <row>
+      <entry>828</entry>
+      <entry>_</entry>
+      <entry>14</entry>
+      <entry>8"</entry>
+      <entry>28"</entry>
+      <entry>8"</entry>
+      <entry>44"</entry>
+    </row>
+  </tbody>
+  </tgroup>
+</table>
+<note type="other" othertype="Notes">
+<ol>
+<li>118 and 130 rolls came in both 6 and 8 exposure lengths in
+their
+heyday.</li>
+<li>The first 828 measure happens to also fit the rare Kodak 00
+Premo
+camera. The second 828 measure is what you end up with if you do the
+usual "120 to 828 cut-down" method (most instructions lop 4" of film
+off a 120 roll, then take off half the remaining paper on each end for
+a 14 exp roll). The film spacings for these lengths are based on 120
+6x4.5 numbering--slightly wider than original 828 frame spacings, but
+matching the "cut-down" measurements you are more likely to see.</li>
+</ol>
+</note>
+<section>
+<title>Related Topics:</title>
+<ul>
+<li><xref href="http://www.realtime.net/~donday/photo/film-reloads-116.html" format="htmtl" scope="external">116/616 film independence</xref></li>
+  <li><xref href="http://www.realtime.net/~donday/photo/paper-marking-116.html" format="htmtl" scope="external">Marking a 116/616 backing paper without a pattern</xref></li>
+  <li><xref href="http://www.realtime.net/~donday/photo/patterson-70mm.html" format="htmtl" scope="external">Adapting a
+Patterson-type reel for large-format films</xref></li>
+</ul>
+</section>
+</conbody>
+</concept>

@@ -1,0 +1,116 @@
+﻿<procedure xmlns="http://omanual.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" locale="en">
+<!-- http://www.ifixit.com/Guide/Installing+Kenmore+110+Series+Washing+Machine+Lid+Switch/11026/1 -->
+<title subject="Lid Switch" type="Replacement">
+Installing Kenmore 110 Series Washing Machine Lid Switch
+</title>
+<summary>
+Use this guide to replace a faulty lid switch on your Kenmore 110 series washing machine.
+</summary>
+<image large="http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA.mini" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/lhCyEDZlXfJ16wZA
+</image>
+<author id="513490">Robert Trout</author>
+<time_required>15 to30 minutes</time_required>
+<difficulty>Moderate</difficulty>
+<categories>
+<category>Kenmore 110 Series Washing Machine</category>
+</categories>
+<introduction introduction_raw=""/>
+<modified_date>2013-08-21T16:46:31-07:00</modified_date>
+<created_date>2012-10-18T17:59:33-07:00</created_date>
+<tools>
+<tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Item/5_16%22_socket_wrench">5/16" socket wrench</tool>
+<tool notes="" quantity="1" thumbnail="" type="" url="http://www.ifixit.com/Item/Adjustable_Wrench">Adjustable Wrench</tool>
+<tool notes="" quantity="1" thumbnail="http://da2lh5cs8ikqj.cloudfront.net/cart-products/AAUU1AUQWqsruAyp.mini" type="" url="http://www.ifixit.com/Tools/Phillips-1-Screwdriver/IF145-021-3">Phillips #1 Screwdriver</tool>
+</tools>
+<parts/>
+<flags>
+<flag id="GUIDE_IMPROPER_ACTION" title="Action Shots">
+Be an action hero! This guide needs images that better demonstrate how to perform specific actions.
+</flag>
+<flag id="GUIDE_LOUSY_PICTURES" title="Needs Better Images">
+Better photos will improve this guide. Help out by taking, editing, or uploading new ones!
+</flag>
+<flag id="GUIDE_MISSING_IMAGES" title="Needs More Images">
+A few more images would make this guide's procedures crystal clear.
+</flag>
+<flag id="GUIDE_MISSING_STEPS" title="Missed a Step">
+Oops! This guide is currently missing some important steps.
+</flag>
+<flag id="GUIDE_USER_CONTRIBUTED" title="User-Contributed Guide">
+An awesome member of our community made this guide. It is not managed by iFixit staff.
+</flag>
+<flag id="INTRODUCTION_ISSUES" title="Better Introduction">
+Improve this guide by completing or revising its introduction.
+</flag>
+</flags>
+<documents/>
+<prerequisites/>
+<steps>
+<step number="0" title="">
+<lines>
+<line bullet="icon_caution" level="0" text_raw="Unplug the washing machine!">Unplug the washing machine!</line>
+<line bullet="black" level="0" text_raw="Using a 5/16in socket wrench or an adjustable wrench, remove the three screws from the top rear of the washer.">
+Using a 5/16&quot; socket wrench or an adjustable wrench, remove the three screws from the top rear of the washer.
+</line>
+<line bullet="black" level="0" text_raw="Lifting from the rear, remove the top panel.">Lifting from the rear, remove the top panel.</line>
+<line bullet="icon_note" level="0" text_raw="The top panel will still be connected by wires and hoses. It will help if you have a flat raised surface to set the top panel on.">
+The top panel will still be connected by wires and hoses. It will help if you have a flat raised surface to set the top panel on.
+</line>
+</lines>
+<media type="image">
+<image imageid="194986" large="http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev.mini" orderby="1" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/BantEpN3IlR62iev
+</image>
+</media>
+</step>
+<step number="1" title="">
+<lines>
+<line bullet="black" level="0" text_raw="Using a 5/16in socket wrench or a hand wrench, remove the two screws from the component cover.">
+Using a 5/16&quot; socket wrench or a hand wrench, remove the two screws from the component cover.
+</line>
+<line bullet="black" level="0" text_raw="From the bottom, pull out and remove the component cover.">
+From the bottom, pull out and remove the component cover.
+</line>
+</lines>
+<media type="image">
+<image imageid="194987" large="http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm.mini" orderby="1" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/MGBkFwLkQAsgZghm
+</image>
+<image imageid="194602" large="http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG.mini" orderby="2" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/NXZIUnMCgGy1IwSG
+</image>
+</media>
+</step>
+<step number="2" title="">
+<lines>
+<line bullet="black" level="0" text_raw="Carefully unplug the two wires connected to the lid switch.">
+Carefully unplug the two wires connected to the lid switch.
+</line>
+<line bullet="black" level="0" text_raw="With a screwdriver, remove the two screws connecting the bracket.">
+With a screwdriver, remove the two screws connecting the bracket.
+</line>
+<line bullet="black" level="0" text_raw="Remove the ground line.">Remove the ground line.</line>
+<line bullet="black" level="0" text_raw="With a screwdriver, remove the screw connecting the lid switch to the bracket.">
+With a screwdriver, remove the screw connecting the lid switch to the bracket.
+</line>
+</lines>
+<media type="image">
+<image imageid="194605" large="http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn.mini" orderby="1" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/edW5eZQpOPNEIhLn
+</image>
+<image imageid="194607" large="http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU.mini" orderby="2" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/YR1qEdIGyW44RhnU
+</image>
+<image imageid="194609" large="http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm.large" medium="http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm.medium" mini="http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm.mini" orderby="3" standard="http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm.standard" thumbnail="http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm.thumbnail">
+http://d3nevzfk7ii3be.cloudfront.net/igi/BXP1BvYdsJRYfhLm
+</image>
+</media>
+</step>
+</steps>
+<conclusion conclusion_raw="To reassemble your device, follow these instructions in reverse order.">
+<p>
+To reassemble your device, follow these instructions in reverse order.
+</p>
+</conclusion>
+</procedure>

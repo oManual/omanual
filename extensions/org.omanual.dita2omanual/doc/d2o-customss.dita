@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_someid">
+    <title>Customizing the Transforms</title>
+    <shortdesc>Any DITA topic type may be processed by these transforms, but only tasks produce sensible results as oManual guides. As this project evolves, we expect contributions that will improve on the content mapping from both arbitrary and specialized DITA resources. </shortdesc>
+    <conbody>
+        <p>This plugin is based on standard DITA-aware match patterns, therefore it can be extended by conventional overrides for specialized DITA content.</p>
+<p>References to existing override how-to guides:</p>
+<ul>
+<li>From DITA-OT docs...</li>
+<li>From bloggers...</li>
+<li>Books: Leigh and Kimber citations</li>
+</ul>
+    </conbody>
+</concept>

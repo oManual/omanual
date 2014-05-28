@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="topic-clparms">
+<title>Plug-in And Stylesheet Parameters</title>
+<body>
+<p>This plug-in has plug-in general and plug-in specific command-line parameters.</p>
+<section>
+<title>General Plug-in Parameters</title>
+<p>Following table describes DITA-OT general plug-in parameters.</p>
+<fig id="plugparms">
+<title>General plug-in parameters</title>
+<simpletable>
+	<sthead>
+		<stentry>Property name in build file
+<p>Name in the stylesheet</p></stentry>
+		<stentry>Default value</stentry>
+		<stentry>Notes</stentry>
+	</sthead>
+	<strow>
+		<stentry>args.input</stentry>
+		<stentry></stentry>
+		<stentry>Specify input map file path.</stentry>
+	</strow>
+	<strow>
+		<stentry>dita.temp.dir</stentry>
+		<stentry></stentry>
+		<stentry>Specify the folder path where DITA-OT will create temporary files generated during the transformation process.</stentry>
+	</strow>
+	<strow>
+		<stentry>clean.temp</stentry>
+		<stentry>yes</stentry>
+		<stentry>Specifies whether to clean up temporary folder.</stentry>
+	</strow>
+	<strow>
+		<stentry>dita.input.valfile</stentry>
+		<stentry></stentry>
+		<stentry>Specifies .ditaval file for filtering.</stentry>
+	</strow>
+	<strow>
+		<stentry>output.dir</stentry>
+		<stentry></stentry>
+		<stentry>Specifies the folder path where DITA-OT outputs the results.</stentry>
+	</strow>
+	<strow>
+		<stentry>transtype</stentry>
+		<stentry></stentry>
+		<stentry>Specify "pdf5" to invoke this plug-in.</stentry>
+	</strow>
+</simpletable>
+</fig>
+</section>
+<section>
+<title>Plug-in Specific Parameters</title>
+<p>This plug-in and stylesheet has the following parameters. The plug-in parameter are defined
+in the org.omanual.dita2omanual\build.xml as property. 
+The stylesheet parameters are defined as xsl:param in org.omanual.dita2omanual\xsl\dita2fo_param.xsl.</p>
+<fig id="plugparms">
+<title>Plug-in specific parameters</title>
+<simpletable>
+	<sthead>
+		<stentry>Property name in build file
+<p>Name in the stylesheet</p></stentry>
+		<stentry>Default value</stentry>
+		<stentry>Notes</stentry>
+	</sthead>
+	<strow>
+		<stentry>output.pdf</stentry>
+		<stentry>[map file name].pdf</stentry>
+		<stentry>Specifies output PDF file name with extension.</stentry>
+	</strow>
+	<strow>
+		<stentry>xsl.file</stentry>
+		<stentry>org.omanual.dita2omanual\</stentry>
+		<stentry></stentry>
+	</strow>
+	<strow>
+		<stentry>xsl\dita2fo_shell.xsl</stentry>
+		<stentry></stentry>
+		<stentry>Specifies main stylesheet file path.</stentry>
+	</strow>
+	<strow>
+		<stentry>style.def.file</stentry>
+		<stentry>PRM_STYLE_DEF_FI LE</stentry>
+		<stentry></stentry>
+	</strow>
+	<strow>
+		<stentry>..\config</stentry>
+		<stentry>\default_style.xml</stentry>
+		<stentry>Specifies default style definition file.</stentry>
+	</strow>
+	<strow>
+		<stentry>alt.style.def.file</stentry>
+		<stentry>PRM_ALT_STYLE_D EF_FILE</stentry>
+		<stentry></stentry>
+	</strow>
+	<strow>
+		<stentry>..\config\[language- code]_style.xml</stentry>
+		<stentry></stentry>
+		<stentry>Specifies the alternate style definition file path. By default the file name is automatically made from xml:lang attribute value of the map top element.</stentry>
+	</strow>
+	<strow>
+		<stentry>no</stentry>
+		<stentry></stentry>
+		<stentry>This parameter is only used with I18n Index Library when making zh-CN manual.</stentry>
+	</strow>
+	<strow>
+		<stentry>yes</stentry>
+		<stentry></stentry>
+		<stentry>Specifies whether to make link for "See" and "See Also" entry in the index page. If this parameter is 'yes', the author must make corresponding indexterm for "See" and "See Also".</stentry>
+	</strow>
+	<strow>
+		<stentry>xml.lang</stentry>
+		<stentry>PRM_LANG</stentry>
+		<stentry>The xml:lang attribute value of the map top element. Specifies different xml:lang value for the map.</stentry>
+	</strow>
+	<strow>
+		<stentry>output.draft.comment</stentry>
+		<stentry>PRM_OUTPUT_DRAF T_COMMENT</stentry>
+		<stentry></stentry>
+	</strow>
+	<strow>
+		<stentry>output.required.cleanup</stentry>
+		<stentry>PRM_OUTPUT_REQU IRED_CLEANUP</stentry>
+		<stentry></stentry>
+	</strow>
+	<strow>
+		<stentry>no</stentry>
+		<stentry></stentry>
+		<stentry>Specifies whether to output &lt;draftcomment> element content.</stentry>
+	</strow>
+	<strow>
+		<stentry>no</stentry>
+		<stentry></stentry>
+		<stentry>Specifies whether to output &lt;required-cleanup> element content.</stentry>
+	</strow>
+	<strow>
+		<stentry>yes</stentry>
+		<stentry></stentry>
+		<stentry>Specifies whether to format &lt;dl> as block. If this parameter is 'no', &lt;dl> is formatted using table.<fn>Traditionally &lt;dl> is formatted as block. However DITA introduced title element &lt;dlhead>. If you use dl/dlhead element, it is better to format it using table.</fn></stentry>
+	</strow>
+	<strow>
+		<stentry>yes</stentry>
+		<stentry></stentry>
+		<stentry>Specifies whether to honor toc='no' attribute or not. <fn>In the DITA Version 1.1 Architectural Specification p.25, the toc attribute is described to control navigation output. This will be applied for HTML or other output. However current other DITA to XSL-FO stylesheet honors this attribute. This parameter controls that stylesheet should honor toc attribute or not.</fn></stentry>
+	</strow>
+	<strow>
+		<stentry>yes</stentry>
+		<stentry></stentry>
+		<stentry>If this parameter is "yes", plug-in outputs the start message using &lt;xsl:message>.</stentry>
+	</strow>
+	<strow>
+		<stentry>user.input.dir.url</stentry>
+		<stentry>PRM_MAP_DIR_URL</stentry>
+		<stentry>URL of the input map folder.
+<p>Specify input map (bookmap) folder URL.</p>
+		</stentry>
+	</strow>
+</simpletable>
+</fig>
+</section>
+</body>
+</topic>

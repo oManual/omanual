@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-clparms">
+    <title>Command-line Format And Parameters</title>
+    <body>
+        <p>After starting command window with [DITA-OT]\startcmd.bat, you can enter the following commands to invoke this plug-in.</p>
+        <p>Note that this plugin currently runs as a file-to-file transformation process, so it is not sensitive to preprocessing for a particular set of ditaval conditions, for example. For content that needs to be filtered prior to conversion into oManual format, we recommend using the eclipsecontent transtype. This transtype produces normalized DITA files with all indicated conditionality applied, ready for use as the input to that particular new set of oManual output.</p>
+        <section>
+            <title>Java command-line formats</title>
+            <p>Without reference to an XML catalog for DITA:</p>
+            <pre>C:\DITA-OT1.8.M2>java -jar lib\saxon\saxon9.jar -s:plugins/org.omanual.dita2omanual/dita/taskbook-omanual.ditamap -xsl:plugins/org.omanual.dita2omanual/xsl/dita2omanual.xsl > _temp/test.xml</pre>
+            <p>Properly referencing the DITA Open Toolkit's provided XML catalog for DITA:</p>
+            <pre>java -Dxml.catalog.files=catalog-dita.xml -Dxml.catalog.verbosity=1 net.sf.saxon.Transform -r org.apache.xml.resolver.tools.CatalogResolver -x org.apache.xml.resolver.tools.ResolvingXMLReader -y org.apache.xml.resolver.tools.ResolvingXMLReader -s:plugins/org.omanual.dita2omanual/dita/taskbook-omanual.ditamap -xsl:plugins/org.omanual.dita2omanual/xsl/dita2omanual.xsl > _temp/test.xml</pre>
+            <note>Saxon-based transforms from the command line can make use of the DITA Open Toolkit's embedded XML catalogs for validation. However, the catalog is not implicitly available even in the enhanced "startcmd" shell environment, hence the need for the added command line parameters. For future work, these parameters can be added to a run-time Ant target, which at that time will be documented in the next section.
+			<p>See the Sourceforge reference, <xref href="http://sourceforge.net/apps/mediawiki/saxon/index.php?title=XML_Catalogs" scope="external">XML Catalogs</xref>, for more background on using XML Catalogs in the Saxon command line environment.</p>
+        </note>
+    </section>
+    <section>
+        <title>Ant command-line formats</title>
+        <p>Pattern:</p>
+        <pre>ant -l [logfile path] -Dtranstype=dita2omanual -D[property]=[value] ...</pre>
+        <p>Run the sample build task:</p>
+        <pre>ant -f plugins\org.omanual.dita2omanual\run-sample.xml</pre>
+        </section>
+        <p>Summary of provided Ant tasks in this plugin: </p>
+        <dl>
+	        <dlentry>
+		        <dt><tt>ant -f plugins\org.omanual.dita2omanual\docs_pdf.xml</tt></dt>
+		        <dd>Generate this documentation as a PDF using the default FOP processor.</dd>
+	        </dlentry>
+	        <dlentry>
+		        <dt><tt>ant -f plugins\org.omanual.dita2omanual\sample_omanual.xml</tt></dt>
+		        <dd>Generate oManual output from the Toolkit's default Taskbook sample (no oManual enhancements).</dd>
+	        </dlentry>
+	        <dlentry>
+		        <dt><tt>ant -f plugins\org.omanual.dita2omanual\run-sample.xml</tt></dt>
+		        <dd>Generate oManual output from the provided Taskbook sample in this plugin (enhanced to exercise some oManual features).</dd>
+	        </dlentry>
+        </dl>
+    </body>
+</topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tasksforomanual">
+    <title>Writing DITA Tasks for oManual</title>
+    <conbody>
+        <p>Background</p>
+        <ul>
+            <li>Differences between DITA tasks and oManual guides</li>
+            <li>General DITA best practices (for example, <xref href="http://svdig.ditamap.com/2010/09/meeting-writing-effective-task-topics-in-dita/" scope="external">Writing Effective Task Topics in DITA"</xref>
+        </li>
+        <li>Best practices for writing DITA repair procedures
+                <ul>
+        <li>oManual content is strongly media oriented. DITA procedure writers should follow oManual guidelines for how to represent engaging repair content.</li>
+<li>DITA content writers should not use source markup that an oManual content author would not use.</li>
+    </ul>
+</li>
+</ul>
+</conbody>
+</concept>

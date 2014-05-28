@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd" []>
+<map id="map-userguide">
+	<title>oManual plug-in User&apos;s Guide For DITA Open Toolkit</title>
+	<topicmeta>
+		<audience/>
+		<!-- topicmeta:
+		Antenna House, Inc. Japan 02 10 2013
+		PDF5-001 1
+		2009 2013 Antenna House, Inc.
+		-->
+	</topicmeta>
+	<topicgroup>
+		<topicref href="preface.dita"/>
+	</topicgroup>
+	<topicref href="install.dita" navtitle="Plug-in Installation"/>
+	<topicref href="plugparms.dita" navtitle="Plug-in And Stylesheet Parameters"/>
+	<topicref href="clparms.dita" navtitle="Command-line Format And Parameter"/>
+	<topicref href="procflow.dita" navtitle="Plug-in process flow"/>
+	<topicref href="stylestruc.dita" navtitle="Stylesheet Structure"/>
+	<topicref href="styledef.dita" navtitle="Style Definition File"/>
+	<topicref href="customss.dita" navtitle="Customizing Stylesheet"/>
+	<topicref href="messages.dita" navtitle="Stylesheet Messages"/>
+</map>

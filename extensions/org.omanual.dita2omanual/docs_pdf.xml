@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file is part of the DITA to oManual project hosted on Github. -->
+<project name="userguide_pdf" default="userguide.pdf" basedir=".">
+  
+  <property name="dita.dir" location="${basedir}/../.."/>
+  
+  <target name="userguide.pdf" description="build the userguide as PDF" depends="clean.userguide.pdf">
+    <ant antfile="${dita.dir}/build.xml">
+      <property name="args.input" location="${dita.dir}/plugins/org.omanual.dita2omanual/doc/d2o-userguide.ditamap"/>
+      <property name="args.chapter.layout" value="BASIC"/>
+      <property name="output.dir" location="${dita.dir}/out/pdf"/>
+      <property name="transtype" value="pdf"/>
+    </ant>
+  </target>
+  
+  <target name="clean.userguide.pdf" description="remove the userguide PDF output">
+    <delete dir="${dita.dir}/out/pdf"/>
+  </target>
+  
+</project>

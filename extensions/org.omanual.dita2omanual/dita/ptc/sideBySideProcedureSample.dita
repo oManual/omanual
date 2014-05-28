@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<procedure id="EngineTuneUp1" xml:lang="en"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:ptc:names:arbortext:dita:xsd:techinfo.xsd">
+<title><?Pub Caret?>Engine Tune Up</title>
+<shortdesc>The purpose of an engine tune up is to restore power and
+performance that has been lost through wear, corrosion, or deterioration
+of one or more parts or units. In the normal operation of an engine,
+these changes take place gradually at quite a number of points so
+that it is seldom advisable to attempt an improvement in performance
+by correction of one or two items only. Time will be saved and more
+lasting results will be assured by following a definite and thorough
+procedure of analysis and correction of all items affecting power
+and performance. Because of federal laws limiting exhaust emissions,
+it is even more important that the engine tune-up be done accurately,
+using the specifications listed on the tune-up sticker found in each
+engine compartment. Economical, trouble-free operation can better
+be assured if a complete tune-up is performed each 12,000 miles.</shortdesc>
+<prolog>
+<metadata><keywords><indexterm>tune up</indexterm></keywords></metadata>
+</prolog>
+<procbody>
+<procsteps>
+<procstep>
+<procinfo>
+<fig><image href="mechanic.gif"></image></fig>
+</procinfo>
+<p>Check cylinder head lists to 65-70 ft. lbs. torque.</p></procstep>
+<procstep><p>Check valve lash and adjust as necessary (not required
+with hydraulic lifters).</p></procstep>
+<procstep>
+<procinfo>
+<fig><image href="hosecover.gif"></image></fig>
+</procinfo>
+<p>Remove all spark plugs and test compression pressure in all cylinders,
+using a reliable pressure gauge as follows:</p>
+<procsubsteps>
+<procsubstep><p>Connect jumper wire between primary terminal of distributor
+and ground on engine to avoid high tension sparking while cranking
+engine. Turn ignition switch “ON”.</p></procsubstep>
+<procsubstep><p>Insert rubber fitting of compression gauge into a
+spark plug port and hold gauge tightly in position.</p></procsubstep>
+<procsubstep><p>Push throttle wide open and crank engine until compression
+gauge reaches its highest reading, which should require only a few
+revolutions of engine.</p></procsubstep>
+<procsubstep><p>Repeat this test on all cylinders, making sure to
+fully release pressure in gauge after each test. Make record of readings.</p>
+</procsubstep>
+<procsubstep><p>The compression gauge hand should jump to about 75
+pounds on the first compression stroke, with a few more strokes giving
+maximum pressure. If the pressure is built up in the gauge in jerky
+steps of 10 to 20 pounds at a time, it indicates leakage of pressure
+at some point such as head gasket, valves or piston rings.</p>
+</procsubstep>
+</procsubsteps>
+</procstep>
+<procstep>
+<procinfo>
+<fig><image href="jumpstarter.gif"></image></fig>
+</procinfo>
+<p>Clean, inspect and install spark plugs.</p></procstep>
+<procstep><p>Inspect battery and cables; fill battery to proper level.</p>
+</procstep>
+<procstep><p>Testing cranking motor circuit if battery is in good
+condition but cranking speed is low.</p></procstep>
+<procstep><p>Adjust fan belt and inspect generator. If difficulty
+is experienced in keeping battery charged, test generator regulator.</p>
+</procstep>
+<procstep><p>Inspect entire ignition system and make indicated corrections.</p>
+</procstep>
+<procstep><p>Inspect and test fuel pump.</p></procstep>
+<procstep><p>Clean gasoline filter in fuel pump and at carburetor
+inlet.</p></procstep>
+<procstep><p>Free up and lubricate manifold heat valve.</p></procstep>
+<procstep>
+<procinfo>
+<fig><image href="aircleaner.gif"></image></fig>
+</procinfo>
+<p>Clean and refill air cleaner.</p></procstep>
+<procstep><p>Check operation of choke valve and setting of choke thermostat.</p>
+</procstep>
+<procstep><p>Check adjustment of fast idle cam and choke unloader.</p>
+</procstep>
+<procstep><p>Adjust carburetor.</p></procstep>
+<procstep>
+<procinfo>
+<fig><image href="hosecover.gif"></image></fig>
+</procinfo>
+<p>Inspect all water hose connections and tighten clamps.</p></procstep>
+<procstep><p>Road test car for power and overall performance.</p>
+</procstep>
+</procsteps>
+</procbody>
+</procedure>

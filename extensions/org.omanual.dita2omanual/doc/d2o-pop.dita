@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_someid">
+    <title>Principles of Operation</title>
+    <shortdesc>Notes for Developers about the conversion tool's architecture and algorithms. As you learn things that other developers and contributors should know, please log those observations here.</shortdesc>
+    <conbody>
+        <p>{paragraph content}</p>
+        <section>
+            <title>General</title>
+            <p>The goal for this conversion is getting as much information from the DITA document 
+                        into the oManual format (input for the Dozuki publishing system) as easily as possible.
+                        Therefore this transform uses pull templates to model the full schema.
+                        When using pull-based transforms, some elements in the result tree could end up empty,
+                        but this has the advantage of faithfully enforcing the required structure of the result.</p>
+        </section>
+        <section>
+            <title>Comments</title>
+            <ol>
+                <li>The image field of a category represents the banner image.  
+                Dozuki import will do the size generation as part of the import process, 
+                so authoring best practice is to cite the largest image size available. 
+            </li>
+<li>Tables and definition lists in DITA currently have no equivalent markup in oManual for conversion to. Currently, a definition list will be turned into a series of paragraphs with the terms in bold markup. Tables are skipped at present for need of a better idea on how to handle their conversion into existing oManual semantics.</li>
+            <li>new</li>
+        </ol>
+    </section>
+</conbody>
+</concept>

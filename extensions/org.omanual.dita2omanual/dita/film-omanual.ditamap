@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"  "../dtd/map.dtd">
+<map id="taskbook">
+	<title>Making roll film for antique cameras</title>
+	<topicref href="Photo/Kodak_paper_lengths_by_film_type.dita">
+		<topicref href="Photo/Trimming_Exeter_paper.dita"></topicref>
+	</topicref>
+	<topicref href="Photo/Marking_116_616_no_pattern.dita"></topicref>
+</map>

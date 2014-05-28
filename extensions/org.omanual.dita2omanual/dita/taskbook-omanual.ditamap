@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "../dtd/map.dtd">
+<!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
+<map id="taskbook">
+	<title>Product tasks: Tasks and what they can do</title>
+	<topicgroup outputclass="frontmatter">
+		<topicgroup outputclass="booklists"><topicgroup outputclass="toc"/></topicgroup> 
+		<topicref outputclass="bookabstract" href="taskbook/taskbook-abstract.dita"/>
+		<topicref outputclass="notices" href="taskbook/notices.dita">
+			<topicref href="taskbook/trademarks.dita"></topicref>
+		</topicref>
+		<topicref outputclass="preface" href="taskbook/task_preface.dita"/>
+	</topicgroup>
+	<topicref outputclass="chapter" href="taskbook/installing.dita">
+		<topicref href="taskbook/installstorage.dita">
+			<topicref href="taskbook/unscrewcover.dita"></topicref>
+			<topicref href="taskbook/insertdrive.dita"></topicref>
+			<topicref href="taskbook/replacecover.dita"></topicref>
+		</topicref>
+		<topicref href="taskbook/installwebserver.dita">
+			<topicref href="taskbook/closeprograms.dita"></topicref>
+			<topicref href="taskbook/runsetup.dita"></topicref>
+			<topicref href="taskbook/restart.dita"></topicref>
+		</topicref>
+		<topicref href="taskbook/installdb.dita"></topicref>
+	</topicref>
+	<topicref outputclass="chapter" href="taskbook/configuring.dita">
+		<topicref href="taskbook/configurestorage.dita"></topicref>
+		<topicref href="taskbook/configurewebserver.dita"></topicref>
+		<topicref href="taskbook/configuredatabase.dita"></topicref>
+	</topicref>
+	<topicref outputclass="chapter" href="taskbook/maintaining.dita">
+		<topicref href="taskbook/maintainstorage.dita"></topicref>
+		<topicref href="taskbook/maintainserver.dita"></topicref>
+		<topicref href="taskbook/maintaindatabase.dita"></topicref>
+	</topicref>
+	<topicref outputclass="chapter" href="taskbook/troubleshooting.dita">
+		<topicref href="taskbook/drivetrouble.dita"></topicref>
+		<topicref href="taskbook/webtrouble.dita"></topicref>
+		<topicref href="taskbook/databasetrouble.dita"></topicref>
+	</topicref>
+	<topicref outputclass="appendix" href="taskbook/task_appendix.dita"></topicref>
+		<!--
+	<topicgroup outputclass="backmatter">
+		<topicgroup outputclass="booklists">
+	        <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/>
+	        <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/>
+	        <topicref href="taskbook/Glossary.dita navtitle="Glossary"/>
+			<indexlist/>
+		</topicgroup>
+	</topicgroup> 
+		      -->
+</map>

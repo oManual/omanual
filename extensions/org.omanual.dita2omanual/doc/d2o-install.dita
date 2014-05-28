@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" []>
+<topic id="topic-install">
+  <title>Plug-in Installation</title>
+  <body>
+    <p>This section describes the plug-in installation for the DITA Open Toolkit.</p>
+    <section>
+      <title>The plug-in zip file</title>
+      <p>The plug-in zip file contains the following files and folders.</p>
+      <pre>
++---com.omanual.dita2omanual
+|    |
+|    +--- dita (sample DITA source content for testing)
+|    |     |
+|    |     +--- other
+|    |     |
+|    |     +--- ptc
+|    |     |
+|    |     +--- taskbook
+|    |           |
+|    |           +--- DITA instances and image files
+|    |
+|    +--- doc
+|    |
+|    +--- omanual (sample oManual source content for testing)
+|    |     |
+|    |     +--- xsd
+|    |     |
+|    |     +--- examples
+|    |
+|    +--- xsl
+|    |     |
+|    |     +--- dita2omanual.xsl (and child stylesheet files)
+|    |
+|    +--- build.xml, integrator.xml, plugin.xml, revision.txt
+|
++--- plugin.xml, integrator.xml, build_dita2omanual.xml
+</pre>
+      <p>To install the plug-in into DITA Open Toolkit, follow the next instructions.</p>
+    </section>
+    <section>
+      <title>Downloading DITA Open Toolkit</title>
+      <p>You can download DITA Open Toolkit from the following URL: <xref href="https://sourceforge.net/projects/dita-ot/files/" scope="external">https://sourceforge.net/projects/dita-ot/files/</xref>. There are many kind of archives. The &quot;full_easy_install&quot; version is handy because it contains all needed jar files.</p>
+      <p>After downloading archive file, unzip it into the appropriate folder. From now this folder is called simply [DITA-OT] for convenience.</p>
+      <p>This plug-in works with DITA-OT 1.6.3 or later.</p>
+    </section>
+    <section>
+      <title>Installing dita2omanual Plug-in</title>
+      <p>Follow the next instructions.</p>
+      <ol>
+        <li>Copy org.omanual.dita2omanual folder to [DITA-OT]\plugins folder.</li>
+        <li>*Copy index-data folder to [DITA-OT]\samples folder.</li>
+        <li>*Copy all of the batch file in the root folder to [DITA-OT] folder.</li>
+        <li>Make [DITA-OT]\out folder.</li>
+        <li>(Assuming Windows!) From the file explorer, click [DITA-OT]\startcmd.bat file. The command window titled &quot;DITA-OT&quot; opens.</li>
+        <li>From command window enter the following command. This command integrates PDF5 plug-in into DITA Open Toolkit. <fig>
+            <title>Integrating new plug-ins into DITA Open Toolkit</title>
+            <pre>
+ant -f integrator.xml
+</pre>
+          </fig></li>
+        <li>Close the command window.</li>
+      </ol>
+    </section>
+    <section>
+      <title>Testing the plug-in</title>
+      <p>This plug-in contains test data. Follow the next instructions.</p>
+      <ol>
+		<li>If the DITA-OT command window is already open, skip the next step.</li>
+        <li>(Assuming Windows!) From the file explorer, click [DITA-OT]\startcmd.bat file. The command window titled &quot;DITA-OT&quot; opens.</li>
+		<li>This converter may be run as either a java command line application or as an Ant build script.</li>
+        <li>You can test run_en.bat batch files from this window. This batch file has no parameter. <fig>
+            <title>Example of running a batch file in DITA Open Toolkit</title>
+            <p>sample command</p>
+          </fig><p>The target oManual files and log file will be generated in the [DITA-OT]\out folder.</p></li>
+        <li>Discuss how to stage this output for the next step, importing into iFixit.</li>
+      </ol>
+    </section>
+  </body>
+</topic>
