@@ -72,7 +72,6 @@
    <xs:element name="introduction">
       <xs:complexType mixed="true">
          <xs:sequence>
-            <xs:element minOccurs="0" maxOccurs="1" ref="media" />
             <xs:any minOccurs="0" maxOccurs="unbounded" />
          </xs:sequence>
       </xs:complexType>
