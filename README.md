@@ -1,4 +1,4 @@
-![omanual logo](https://raw.github.com/iFixit/omanual/master/site/1.0/assets/images/omanual_ieee_logo.png)
+![omanual logo](https://raw.github.com/oManual/omanual/master/site/1.0/assets/images/omanual_ieee_logo.png)
 
 ## License
 
