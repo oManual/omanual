@@ -46,3 +46,9 @@ License
 -------
 ASL 2.0
 
+
+Author
+------
+
+Don Day (donrday@contelligencegroup.com)
+
