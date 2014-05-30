@@ -128,6 +128,7 @@
 
    <xs:element name="tool">
       <xs:complexType mixed="true">
+         <xs:attribute name="name" use="required" type="xs:string" />
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />
@@ -147,6 +148,7 @@
 
    <xs:element name="part">
       <xs:complexType mixed="true">
+         <xs:attribute name="name" use="required" type="xs:string" />
          <xs:attribute name="sku" use="optional" type="xs:string" />
          <xs:attribute name="thumbnail" use="optional" type="xs:anyURI" />
          <xs:attribute name="notes" use="optional" type="xs:string" />
