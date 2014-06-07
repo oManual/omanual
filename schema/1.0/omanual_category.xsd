@@ -168,7 +168,7 @@
 
    <xs:element name="guide">
       <xs:complexType>
-         <xs:all minOccurs="0">
+         <xs:all minOccurs="1">
             <xs:element ref="title" />
             <xs:element ref="url" />
             <xs:element ref="path" />
