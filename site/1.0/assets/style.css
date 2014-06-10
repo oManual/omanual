@@ -616,6 +616,11 @@ a.downloadbtn {
 	font-size: 13px;
 }
 
+a.downloadbtn.fl {
+   float: left !important;
+   margin-left: 0;
+}
+
 a.downloadbtn:hover {
 	text-decoration: none;
 	background: #ea5236;

@@ -81,6 +81,8 @@ category and guide XML files). The specification
 may be expanded in the future to enable additional types of documents.
    </p>
 
+   <a class="downloadbtn fl" href="schema/<?= $version?>/omanual_<?= $version ?>.zip">Download Schema Packagage</a>
+
    <div class="clearfix"></div>
 
    <div class="sidebar">
