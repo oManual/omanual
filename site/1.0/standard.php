@@ -9,7 +9,7 @@ $version = '1.0';
 
 <div class="intcontent">
 
-   <h2>Draft Standard</h2>
+   <h2>Standard</h2>
 
    <div class="sidebar">
 
@@ -81,7 +81,7 @@ category and guide XML files). The specification
 may be expanded in the future to enable additional types of documents.
    </p>
 
-   <a class="downloadbtn fl" href="schema/<?= $version?>/omanual_<?= $version ?>.zip">Download Schema Packagage</a>
+   <a class="downloadbtn fl" href="schema/<?= $version?>/omanual_<?= $version ?>.zip">Download Schema Package</a>
 
    <div class="clearfix"></div>
 
