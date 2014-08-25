@@ -39,7 +39,7 @@
 				</a>
 				<ul class="navbar">
 					<li><a href="documentation.php" <?php if ($thisPage == 'documentation') echo('class="active"') ?>>Documentation</a></li>
-					<li><a href="standard.php" <?php if ($thisPage == 'standard') echo('class="active"') ?>>Proposed Standard</a></li>
+					<li><a href="standard.php" <?php if ($thisPage == 'standard') echo('class="active"') ?>>Standard</a></li>
 					<li><a href="about.php" <?php if ($thisPage == 'about') echo('class="active"') ?>>About</a></li>
 				</ul>
 			</div>
