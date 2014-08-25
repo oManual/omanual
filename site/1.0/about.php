@@ -76,7 +76,7 @@ $color = 'blue'; //Color choices: red, blue, aqua, yellow.
          </ol>
 
          <p>
-         To get involved, join our <a href="https://github.com/oManual">Github Project page</a>.  There you can submit bugs, discuss features and submit code.  If you have an oManual integration or module or want to know how you can help, <a href="mailto:kyle@ifixit.com">drop us an email!</a>
+         To get involved, join our <a href="https://github.com/oManual">Github Project page</a>.  From there you can submit bugs, discuss features and submit code.  If you have an oManual integration or module or want to know how you can help, <a href="mailto:kyle@ifixit.com">drop us an email!</a>
          </p>
 
       </div>
