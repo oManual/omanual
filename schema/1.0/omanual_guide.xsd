@@ -19,20 +19,20 @@
       <xs:complexType>
          <xs:all>
             <xs:element ref="title" />
-            <xs:element ref="summary" />
+            <xs:element ref="summary" minOccurs="0" maxOccurs="1" />
             <xs:element ref="image" />
             <xs:element ref="author" />
-            <xs:element ref="time_required" />
-            <xs:element ref="difficulty" />
-            <xs:element ref="category" />
+            <xs:element ref="time_required" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="difficulty" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="category" minOccurs="0" maxOccurs="1" />
             <xs:element ref="introduction" />
             <xs:element ref="tools" />
             <xs:element ref="parts" />
             <xs:element ref="flags" />
             <xs:element ref="documents" />
-            <xs:element ref="prerequisites"/>
-            <xs:element ref="steps"/>
-            <xs:element ref="conclusion"/>
+            <xs:element ref="prerequisites" />
+            <xs:element ref="steps" />
+            <xs:element ref="conclusion" minOccurs="0" maxOccurs="1" />
             <xs:element ref="modified_date" />
             <xs:element ref="created_date" />
          </xs:all>
