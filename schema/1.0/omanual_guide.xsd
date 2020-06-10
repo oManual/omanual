@@ -168,14 +168,21 @@
    </xs:element>
 
    <xs:element name="document">
-      <xs:complexType>
-         <xs:simpleContent>
-            <xs:extension base="xs:string">
-               <xs:attribute name="url" use="optional" type="xs:anyURI" />
-            </xs:extension>
-         </xs:simpleContent>
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" ref="download_url" />
+            <xs:element minOccurs="0" ref="icon" />
+            <xs:element minOccurs="0" ref="extension" />
+         </xs:sequence>
+         <xs:attribute name="url" use="optional" type="xs:anyURI" />
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="download_url" type="xs:string" />
+
+   <xs:element name="icon" type="xs:string" />
+
+   <xs:element name="extension" type="xs:string" />
 
    <xs:element name="prerequisites">
       <xs:complexType>
@@ -191,7 +198,7 @@
             <xs:element ref="title" />
             <xs:element ref="url" />
             <xs:element ref="path" />
-            <xs:element ref="image" />
+            <xs:element ref="image" minOccurs="0" />
          </xs:all>
          <xs:attribute name="id" use="required" type="xs:integer" />
          <xs:attribute name="locale" use="required" type="xs:string" />
@@ -267,33 +274,51 @@
 
    <xs:element name="embed">
       <xs:complexType mixed="true">
-         <xs:attribute name="type" type="xs:string" />
+         <xs:sequence>
+            <xs:element minOccurs="0" ref="url" />
+            <xs:element minOccurs="0" ref="title" />
+            <xs:element minOccurs="0" ref="type" />
+            <xs:element minOccurs="0" ref="provider_url" />
+            <xs:element minOccurs="0" ref="html" />
+            <xs:element minOccurs="0" ref="provider_name" />
+            <xs:element minOccurs="0" ref="author_url" />
+            <xs:element minOccurs="0" ref="author_name" />
+            <xs:element minOccurs="0" ref="objectid" />
+         </xs:sequence>
          <xs:attribute name="cache_age" type="xs:integer" />
          <xs:attribute name="thumbnail_url" type="xs:anyURI" />
          <xs:attribute name="thumbnail_height" type="xs:integer" />
          <xs:attribute name="thumbnail_width" type="xs:integer" />
-         <xs:attribute name="provider_url" type="xs:anyURI" />
-         <xs:attribute name="provider_name" type="xs:string" />
-         <xs:attribute name="author_url" type="xs:anyURI" />
-         <xs:attribute name="author_name" type="xs:string" />
          <xs:attribute name="version" type="xs:decimal" />
-         <xs:attribute name="title" type="xs:string" />
          <xs:attribute name="height" type="xs:integer" />
          <xs:attribute name="width" type="xs:integer" />
-         <xs:attribute name="url" type="xs:anyURI" />
-         <xs:attribute name="html" type="xs:string" />
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="type" type="xs:string" />
+
+   <xs:element name="provider_url" type="xs:string" />
+
+   <xs:element name="provider_name" type="xs:string" />
+
+   <xs:element name="html" type="xs:string" />
+
+   <xs:element name="author_url" type="xs:string" />
+
+   <xs:element name="author_name" type="xs:string" />
 
    <xs:element name="video">
       <xs:complexType mixed="true">
          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="unbounded" ref="objectid" />
             <xs:element minOccurs="1" maxOccurs="unbounded" ref="encoding" />
             <xs:element minOccurs="1" maxOccurs="1" ref="source" />
             <xs:element minOccurs="1" maxOccurs="1" ref="poster" />
          </xs:sequence>
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="objectid" type="xs:string" />
 
    <xs:element name="poster">
       <xs:complexType mixed="true">
@@ -306,18 +331,32 @@
       </xs:complexType>
    </xs:element>
 
+   <xs:simpleType name="empty">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="empty-integer">
+      <xs:union memberTypes="xs:integer empty" />
+   </xs:simpleType>
+
+   <xs:simpleType name="empty-string">
+      <xs:union memberTypes="xs:string empty" />
+   </xs:simpleType>
+
    <xs:element name="source">
       <xs:complexType>
          <xs:attribute name="duration_in_ms" use="optional" type="xs:long" />
-         <xs:attribute name="audio_bitrate_in_kbps" use="optional" type="xs:integer" />
-         <xs:attribute name="audio_sample_rate" use="optional" type="xs:integer" />
+         <xs:attribute name="audio_bitrate_in_kbps" use="optional" type="empty-integer" />
+         <xs:attribute name="audio_sample_rate" use="optional" type="empty-integer" />
          <xs:attribute name="video_bitrate_in_kbps" use="optional" type="xs:integer" />
-         <xs:attribute name="total_bitrate_in_kbps" use="optional" type="xs:integer" />
+         <xs:attribute name="total_bitrate_in_kbps" use="optional" type="empty-integer" />
          <xs:attribute name="video_codec" use="optional" type="xs:string" />
-         <xs:attribute name="audio_codec" use="optional" type="xs:string" />
+         <xs:attribute name="audio_codec" use="optional" type="empty-string"/>
          <xs:attribute name="frame_rate" use="optional" type="xs:decimal" />
          <xs:attribute name="format" use="optional" type="xs:string" />
-         <xs:attribute name="channels" use="optional" type="xs:integer" />
+         <xs:attribute name="channels" use="optional" type="empty-integer"/>
          <xs:attribute name="file_size_in_bytes" use="optional" type="xs:long" />
          <xs:attribute name="width" use="optional" type="xs:integer" />
          <xs:attribute name="height" use="optional" type="xs:integer" />
@@ -326,13 +365,24 @@
 
    <xs:element name="encoding">
       <xs:complexType mixed="true">
-         <xs:attribute name="width" use="required" type="xs:integer" />
-         <xs:attribute name="height" use="required" type="xs:integer" />
-         <xs:attribute name="codecs" use="required" type="xs:string" />
-         <xs:attribute name="format" use="required" type="xs:string" />
-         <xs:attribute name="mime" use="required" type="xs:string" />
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="column" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="label" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="always_generate" />
+         </xs:sequence>
+         <xs:attribute name="width" use="optional" type="xs:integer" />
+         <xs:attribute name="height" use="optional" type="xs:integer" />
+         <xs:attribute name="codecs" use="optional" type="xs:string" />
+         <xs:attribute name="format" use="optional" type="xs:string" />
+         <xs:attribute name="mime" use="optional" type="xs:string" />
       </xs:complexType>
    </xs:element>
+
+   <xs:element name="column" type="xs:string" />
+
+   <xs:element name="label" type="xs:string" />
+
+   <xs:element name="always_generate" type="xs:integer" />
 
    <xs:element name="conclusion">
       <xs:complexType mixed="true">
