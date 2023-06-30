@@ -11,7 +11,7 @@
 <p>
 The API specification is designed to provide a simple way to
 expose your oManual resources to other services or devices through simple REST API
-endpoints.  API endpoints should be relative to a base server address (eg. <a href="http://www.ifixit.com/api/">http://www.ifixit.com/api</a>).
+endpoints.  API endpoints should be relative to a base server address (eg. <a href="https://www.ifixit.com/api/">https://www.ifixit.com/api</a>).
 </p>
 
 <div class="endpoints">

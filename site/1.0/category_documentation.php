@@ -190,7 +190,7 @@
                      <div class="tag" id="solutions">
                         <h4><a href="#categories-1">solutions</a></h4>
                         <p class="desc">
-                           A reference to an external mailing list, Q&amp;A site, message board - anywhere your audience can find additional troubleshooting information. For example, <a href="http://ifixit.com/Answers" title="iFixit Answers" target="_blank">iFixit Answers</a> and <a href="http://stackoverflow.com">Stack Overflow</a> are two examples of solution providers.
+                           A reference to an external mailing list, Q&amp;A site, message board - anywhere your audience can find additional troubleshooting information. For example, <a href="https://ifixit.com/Answers" title="iFixit Answers" target="_blank">iFixit Answers</a> and <a href="https://stackoverflow.com">Stack Overflow</a> are two examples of solution providers.
                         </p>
                         <div>
                            <ul class="attr">

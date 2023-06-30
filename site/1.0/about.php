@@ -28,7 +28,7 @@ $color = 'blue'; //Color choices: red, blue, aqua, yellow.
          <h3>How did oManual get started?</h3>
 
          <p>
-         oManual started when <a href="http://oreilly.com">O'Reilly Media</a> (a leading publisher of technical books) and <a href="http://www.ifixit.com">iFixit</a>  (the free online repair manual) started searching for a data format to exchange their procedural manuals. Existing XML specifications were overly broad and convoluted, ill&mdash;suited for procedural manuals. So we created a specialized format to fill the gap.
+         oManual started when <a href="https://oreilly.com">O'Reilly Media</a> (a leading publisher of technical books) and <a href="https://www.ifixit.com">iFixit</a>  (the free online repair manual) started searching for a data format to exchange their procedural manuals. Existing XML specifications were overly broad and convoluted, ill&mdash;suited for procedural manuals. So we created a specialized format to fill the gap.
          </p>
 
          <h3>Who is it for?</h3>
@@ -54,12 +54,12 @@ $color = 'blue'; //Color choices: red, blue, aqua, yellow.
 
          <h3>Is oManual compatible with DITA?</h3>
 
-         <p>oManual is not a subset of <a href="http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">DITA</a>, but it is straightforward to convert from oManual to DITA, or from DITA to oManual.</p> 
+         <p>oManual is not a subset of <a href="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">DITA</a>, but it is straightforward to convert from oManual to DITA, or from DITA to oManual.</p>
          <p>Don Day, the Founding Char of the DITA Technical Committee and DITA Expert, wrote a <a href="https://github.com/oManual/dita-to-omanual">dita-to-omanual converter</a> to bring your DITA documents over to oManual.  One note of caution: 'round&mdash;tripping' content from DITA to oManual and back again is not recommended, because oManual does not fully support all of DITA. This simplicity of oManual is a feature, not a bug.</p>
 
          <h3>What software supports oManual?</h3>
 
-         <p>As of right now, Dozuki is the only software platform that can read and write oManual packages. We are working with a number of companies to get this standard implemented as part of their software platforms, such as <a href="http://xmetal.com/content-xmetal-author/">XMetaL</a> and <a href="http://www.oxygenxml.com/">Oxygen XML</a>.</p>
+         <p>As of right now, Dozuki is the only software platform that can read and write oManual packages. We are working with a number of companies to get this standard implemented as part of their software platforms, such as <a href="https://xmetal.com/content-xmetal-author/">XMetaL</a> and <a href="https://www.oxygenxml.com/">Oxygen XML</a>.</p>
 
          <p>iFixit has released open source apps that implement oManual's JSON API for <a href="https://github.com/iFixit/iFixitAndroid">Android</a>, <a href="https://github.com/iFixit/iFixit-iOS">iOS</a>, as well as <a href="https://github.com/iFixit/ifixit-microsoft">Windows 8 and Phone 8</a>.</p>
 

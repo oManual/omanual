@@ -73,7 +73,7 @@ over a web API using mobile-friendly JSON.
 
    <h3 id="package">
       .oManual File Package
-      <a href="http://www.ifixit.com/Misc/iMac-G5-20-Model-A1145.omanual" class="downloadbtn">Example oManual Package</a>
+      <a href="https://www.ifixit.com/Misc/iMac-G5-20-Model-A1145.omanual" class="downloadbtn">Example oManual Package</a>
    </h3>
 
    <? include 'package_documentation.php'; ?>

@@ -166,7 +166,7 @@ images or one rich media object, as well as no more than eight lines of text.
                <div class="tag" id="media-2">
                   <h4><a href="#media-2">media</a></h4>
                   <p class="desc">
-                  A container for the introduction's media. It can contain one of these: 1-3 images OR a video OR a remote <a href="http://oembed.com/#section2" target="_blank">oEmbed object</a>.
+                  A container for the introduction's media. It can contain one of these: 1-3 images OR a video OR a remote <a href="https://oembed.com/#section2" target="_blank">oEmbed object</a>.
                   </p>
                   <div>
                      <ul class="attr">
@@ -286,8 +286,8 @@ images or one rich media object, as well as no more than eight lines of text.
                   <div>
                      <ul class="attr">
                         <li class="attr-intro">Attributes:</li>
-                        <li><strong class="req">type</strong> <em>required</em> The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="http://oembed.com/#section2" target="_blank">oEmbed spec</a> to learn more.</li>
-                        <li><strong class="req">version</strong> <em>required</em> The <a href="http://oembed.com/#section2" target="_blank">oEmbed</a> version number. This must be <code>1.0</code>.</li>
+                        <li><strong class="req">type</strong> <em>required</em> The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="https://oembed.com/#section2" target="_blank">oEmbed spec</a> to learn more.</li>
+                        <li><strong class="req">version</strong> <em>required</em> The <a href="https://oembed.com/#section2" target="_blank">oEmbed</a> version number. This must be <code>1.0</code>.</li>
                         <li><strong>html</strong> <em>optional</em> The body of the embed object, could be an iframe embedded content or a block of html depending on the type.</li>
                         <li><strong>height</strong> <em>optional</em> The height of the embedded object.</li>
                         <li><strong>width</strong> <em>optional</em> The width of the embedded object.</li>
@@ -494,7 +494,7 @@ images or one rich media object, as well as no more than eight lines of text.
             <div class="tag">
                <h4><a href="#prerequisite">prerequisite</a></h4>
                <p class="desc">
-                  The title of a prerequisite guide. Prerequisite guides should be written such that steps can be <em>inlined</em> directly into this guide. You can see an example of this with the <a href="http://www.ifixit.com/Guide/Installing-MacBook-Core-2-Duo-RAM/512/1">prerequisite implementation on iFixit</a>.
+                  The title of a prerequisite guide. Prerequisite guides should be written such that steps can be <em>inlined</em> directly into this guide. You can see an example of this with the <a href="https://www.ifixit.com/Guide/Installing-MacBook-Core-2-Duo-RAM/512">prerequisite implementation on iFixit</a>.
                </p>
                <div>
                   <ul class="attr">
@@ -580,7 +580,7 @@ images or one rich media object, as well as no more than eight lines of text.
                <div class="tag req" id="media">
                   <h4><a href="#media">media</a></h4>
                   <p class="desc">
-                  A container for the step media. Each step can have one of these: 1-3 images OR a video OR a remote <a href="http://oembed.com/#section2" target="_blank">oEmbed object</a>.
+                  A container for the step media. Each step can have one of these: 1-3 images OR a video OR a remote <a href="https://oembed.com/#section2" target="_blank">oEmbed object</a>.
                   </p>
                   <div>
                      <ul class="attr">
@@ -690,13 +690,13 @@ images or one rich media object, as well as no more than eight lines of text.
                <div class="tag" id="embed">
                   <h4><a href="#embed">embed</a></h4>
                   <p class="desc">
-                  Remote embed to include with this step. Each embed can include the same fields specified by the <a href="http://oembed.com/#section2" target="_blank" title="Open oEmbed spec in seperate window">oEmbed spec</a>.
+                  Remote embed to include with this step. Each embed can include the same fields specified by the <a href="https://oembed.com/#section2" target="_blank" title="Open oEmbed spec in seperate window">oEmbed spec</a>.
                   </p>
                   <div>
                      <ul class="attr">
                         <li class="attr-intro">Attributes:</li>
-                        <li><strong class="req">type</strong> <em>required</em> The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="http://oembed.com/#section2" target="_blank">oembed spec</a> to learn more.</li>
-                        <li><strong class="req">version</strong> <em>required</em> The <a href="http://oembed.com/#section2" target="_blank">oEmbed</a> version number. This must be <code>1.0</code>.</li>
+                        <li><strong class="req">type</strong> <em>required</em> The resource type. Valid values are [photo, video, link, rich].  Visit the section on these types in the <a href="https://oembed.com/#section2" target="_blank">oembed spec</a> to learn more.</li>
+                        <li><strong class="req">version</strong> <em>required</em> The <a href="https://oembed.com/#section2" target="_blank">oEmbed</a> version number. This must be <code>1.0</code>.</li>
                         <li><strong>html</strong> <em>optional</em> The body of the embed object, could be an iframe embeded content or a block of html depending on the type.</li>
                         <li><strong>url</strong> <em>optional</em> URL to the source of the embedded media.</li>
                         <li><strong>height</strong> <em>optional</em> The height of the embedded object.</li>
